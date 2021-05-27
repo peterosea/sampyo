@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Out library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- swiper.js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- bootstrap  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- user custom css -->
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body class="page-home">
+  <div class="gnb container-fluid">
+    <div class="logo">
+      <img src="./assets/img/46.png" srcset="./assets/img/46@2x.png 2x, ./assets/img/46@3x.png 3x">
+    </div>
+    <ul class="menu menu-gnb">
+      <li>삼표그룹</li>
+      <li>사업분야</li>
+      <li>삼표소식</li>
+      <li>인재채용</li>
+      <li>고객센터</li>
+    </ul>
+    <div class="menu menu-search">
+      <span>Search</span>
+    </div>
+  </div>
+  <main>
+    <div class="section hero">
+      <div class="swiper-container hero-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="hero-img-wrap">
+              <div class="hero-img-readmore">
+                <img src="./assets/img/readmore.png"
+                  srcset="./assets/img/readmore@2x.png 2x, ./assets/img/readmore@3x.png 3x">
+              </div>
+              <img src="./assets/img/hero-slider-bg1.png"
+                srcset="./assets/img/hero-slider-bg1@2x.png 2x, ./assets/img/hero-slider-bg1@3x.png 3x">
+            </div>
+            <div class="hero-content hero-content-wrap">
+              <h1 class="hero-content-title-1">
+                미래의 새로운 삶을 위한<br />
+                기초를 만들다
+              </h1>
+              <p class="hero-content-title-2">
+                삼표그룹은 지금보다 더 나은 미래를 현실로 만들기 위해<br />
+                지난 반세기 동안 한결같은 마음으로 노력해오고 있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="hero-img-wrap">
+              <div class="hero-img-readmore">
+                <img src="./assets/img/readmore.png"
+                  srcset="./assets/img/readmore@2x.png 2x, ./assets/img/readmore@3x.png 3x">
+              </div>
+              <img src="./assets/img/hero-slider-bg2.png"
+                srcset="./assets/img/hero-slider-bg2@2x.png 2x, ./assets/img/hero-slider-bg2@3x.png 3x">
+            </div>
+            <div class="hero-content hero-content-wrap">
+              <h1 class="hero-content-title-1">
+                해양·항만 분야<br />
+                특수시멘트 개발 기술제휴
+              </h1>
+              <p class="hero-content-title-2">
+                삼표그룹은 소파블록에 특화된 조강 시멘트 개발에 나선다. <br />
+                소파블록은 파도 피해를 줄이기 위해 해안이나 방파제에 설치되는 블록이다.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="hero-img-wrap">
+              <div class="hero-img-readmore">
+                <img src="./assets/img/readmore.png"
+                  srcset="./assets/img/readmore@2x.png 2x, ./assets/img/readmore@3x.png 3x">
+              </div>
+              <img src="./assets/img/hero-slider-bg3.png"
+                srcset="./assets/img/hero-slider-bg3@2x.png 2x, ./assets/img/hero-slider-bg3@3x.png 3x">
+            </div>
+            <div class="hero-content hero-content-wrap">
+              <h1 class="hero-content-title-1">
+                삼표시멘트<br />
+                업계 선도 ESG <br /> 경영체계 구축
+              </h1>
+              <p class="hero-content-title-2">
+                삼표시멘트, 제30기 정기주주총회서 환경 관련 내용 사업 목적 추가<br />
+                환경 개선 설비 등 투자 확대, 자원순환 통해 친환경 기업 거듭날 것
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-slide-pagination swiper-pagination"></div>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
