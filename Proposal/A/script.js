@@ -97,8 +97,8 @@ ScrollTrigger.batch(card, {
     });
     tl.to(batch, {
       autoAlpha: 1,
-      stagger: 0.4,
-      duration: 2,
+      stagger: 0.2,
+      duration: 0.8,
       y: 0,
     });
   },
@@ -139,8 +139,8 @@ ScrollTrigger.batch(s3_items, {
     tl.to(batch, {
       autoAlpha: 1,
       y: 0,
-      stagger: 0.4,
-      duration: 0.5,
+      stagger: 0.2,
+      duration: 0.3,
     });
   },
   onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
@@ -162,9 +162,9 @@ ScrollTrigger.batch(s3_items2, {
     tl.to(batch, {
       autoAlpha: 1,
       delay: 0.5,
-      stagger: 0.4,
+      stagger: 0.2,
       y: 0,
-      duration: 0.6,
+      duration: 0.3,
     });
   },
   onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
@@ -184,9 +184,9 @@ ScrollTrigger.batch(s3_items4, {
     tl.to(batch, {
       autoAlpha: 1,
       delay: 0.5,
-      stagger: 0.4,
+      stagger: 0.2,
       y: 0,
-      duration: 1,
+      duration: 0.8,
     });
   },
   onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
