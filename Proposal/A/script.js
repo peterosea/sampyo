@@ -125,7 +125,7 @@ fadeAnimation.forEach((fa) => {
 // 책임경영
 // img
 const s3_items = document.querySelectorAll(
-  "[data-scroll-animation-item] img:nth-child(1)"
+  "[data-scroll-animation-item='3'] img:nth-child(1)"
 );
 ScrollTrigger.batch(s3_items, {
   onEnter: (batch) => {
@@ -137,7 +137,7 @@ ScrollTrigger.batch(s3_items, {
     tl.to(batch, {
       autoAlpha: 1,
       y: 0,
-      duration: 1,
+      duration: 0.5,
     });
   },
   onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
@@ -146,7 +146,7 @@ ScrollTrigger.batch(s3_items, {
 
 // content
 const s3_items2 = document.querySelectorAll(
-  "[data-scroll-animation-item] img:nth-child(2)"
+  "[data-scroll-animation-item='3'] img:nth-child(2)"
 );
 ScrollTrigger.batch(s3_items2, {
   onEnter: (batch) => {
@@ -159,7 +159,28 @@ ScrollTrigger.batch(s3_items2, {
       autoAlpha: 1,
       delay: 0.3,
       y: 0,
-      duration: 1,
+      duration: 0.5,
+    });
+  },
+  onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
+  scrub: true,
+});
+
+// 인재채용
+const s3_items4 = document.querySelectorAll("[data-scroll-animation-item='4']");
+ScrollTrigger.batch(s3_items4, {
+  onEnter: (batch) => {
+    const tl = gsap.timeline();
+    tl.to(batch, {
+      autoAlpha: 0,
+      y: 10,
+    });
+    tl.to(batch, {
+      autoAlpha: 1,
+      delay: 0.3,
+      stagger: 0.2,
+      y: 0,
+      duration: 0.5,
     });
   },
   onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
