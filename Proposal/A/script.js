@@ -93,6 +93,7 @@ ScrollTrigger.batch(card, {
     tl.to(batch, {
       autoAlpha: 0,
       y: batch[0].dataset.y,
+      duration: 0,
     });
     tl.to(batch, {
       autoAlpha: 1,
