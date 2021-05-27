@@ -83,3 +83,40 @@ class Slideshow {
 }
 
 const slideshow = new Slideshow(document.querySelector(".hero-slide"));
+
+// 사업영역 animation
+const card = document.querySelectorAll("[data-scroll-animation]");
+ScrollTrigger.batch(card, {
+  onEnter: (batch) => {
+    const tl = gsap.timeline();
+    tl.to(batch, {
+      autoAlpha: 0,
+      y: batch[0].dataset.y,
+    });
+    tl.to(batch, {
+      autoAlpha: 1,
+      stagger: 0.4,
+      duration: 1,
+      y: 0,
+    });
+  },
+  onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
+  scrub: true,
+});
+
+const fadeAnimation = [];
+fadeAnimation.push(document.querySelector(".bgLayer .a"));
+fadeAnimation.push(document.querySelector(".bgLayer .b"));
+fadeAnimation.forEach((fa) => {
+  gsap.from(fa, {
+    scrollTrigger: {
+      onEnter: () => {
+        gsap.to(fa, {
+          autoAlpha: 1,
+        });
+      },
+      trigger: fa,
+      scrub: true,
+    },
+  });
+});

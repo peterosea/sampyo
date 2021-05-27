@@ -62,12 +62,14 @@
 }
 
 .page-home .section {
-  margin-bottom: 130px;
+  padding-bottom: 130px;
 }
 
 .page-home .hero {
   position: relative;
   overflow: hidden;
+  margin-bottom: 130px;
+  padding-bottom: 0;
 }
 
 .page-home .hero:before {
@@ -83,7 +85,7 @@
 }
 
 .page-home .hero-slide {
-  max-width: calc(50vw + 690px);
+  max-width: calc(50vw + 840px);
   position: relative;
   margin: 0;
 }
@@ -160,7 +162,7 @@
   position: absolute;
   top: 50%;
   width: 100%;
-  max-width: 1390px;
+  max-width: 1680px;
   right: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -179,4 +181,87 @@
   font-size: 18px;
   font-weight: 300;
   opacity: 0;
+}
+
+.page-home .section1 {
+  position: relative;
+}
+
+.page-home .section1 .container {
+  position: relative;
+}
+
+.page-home .section1-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.page-home .section1 .bgLayer img {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.page-home .section1 .bgLayer .a {
+  top: 140px;
+  left: 0;
+}
+
+.page-home .section1 .bgLayer .b {
+  right: 0;
+  bottom: 230px;
+}
+
+.page-home .section1 .img-col img, .page-home .section1 .img-col-1 img, .page-home .section1 .img-col-2 img, .page-home .section1 .img-col-3 img {
+  opacity: 0;
+}
+
+.page-home .section1 .img-col img:nth-child(1), .page-home .section1 .img-col-1 img:nth-child(1), .page-home .section1 .img-col-2 img:nth-child(1), .page-home .section1 .img-col-3 img:nth-child(1) {
+  margin-bottom: 35px;
+}
+
+.page-home .section1 .img-col-1 {
+  padding-top: 500px;
+}
+
+.page-home .section1 .img-col-2 {
+  padding-top: 180px;
+}
+
+.page-home .section1 .img-col-3 {
+  padding-top: 40px;
+}
+
+.page-home .section2 {
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
+.page-home .section2 .container {
+  position: relative;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.page-home .section2 .container:after {
+  content: "";
+  display: block;
+  width: calc(50vw + 50% + 110px);
+  height: 100%;
+  position: absolute;
+  left: -110px;
+  top: 0;
+  z-index: -1;
+  background-color: #e9eaee;
+}
+
+.page-home .section3-header {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-bottom: 200px;
+}
+
+.page-home .section3-content-header {
+  text-align: center;
 }
