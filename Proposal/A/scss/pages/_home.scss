@@ -184,6 +184,35 @@
       z-index: -1;
       background-color: #e9eaee;
     }
+    &-content {
+      display: flex;
+    }
+    &-header {
+      margin-right: 240px;
+    }
+    &-body {
+      position: relative;
+      width: 100%;
+      &-inner {
+        overflow-x: scroll;
+        position: absolute;
+        width: calc(100% + 300px);
+        height: 100%;
+
+        &::-webkit-scrollbar {
+          background-color: transparent;
+          width: 4px;
+          height: 4px;
+        }
+        &::-webkit-scrollbar-track {
+          background-color: transparent;
+        }
+        &::-webkit-scrollbar-thumb {
+          background-color: #707070;
+          border-radius: 999px;
+        }
+      }
+    }
   }
   .section3 {
     &-header {

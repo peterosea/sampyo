@@ -281,6 +281,43 @@
   background-color: #e9eaee;
 }
 
+.page-home .section2-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-home .section2-header {
+  margin-right: 240px;
+}
+
+.page-home .section2-body {
+  position: relative;
+  width: 100%;
+}
+
+.page-home .section2-body-inner {
+  overflow-x: scroll;
+  position: absolute;
+  width: calc(100% + 300px);
+  height: 100%;
+}
+
+.page-home .section2-body-inner::-webkit-scrollbar {
+  background-color: transparent;
+  width: 4px;
+  height: 4px;
+}
+
+.page-home .section2-body-inner::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.page-home .section2-body-inner::-webkit-scrollbar-thumb {
+  background-color: #707070;
+  border-radius: 999px;
+}
+
 .page-home .section3-header {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
