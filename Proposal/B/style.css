@@ -1,0 +1,124 @@
+.mt_100 {
+  margin-top: 100px;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+}
+.slide_main {
+  max-width: 1920px;
+  width: 100%;
+}
+section.business {
+  background-image: url(img/sec02.png);
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: center;
+  height: 938px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-top: 356px;
+}
+.slide_business {
+  width: 1920px;
+}
+.business .overflow {
+  width: 1600px;
+  overflow: hidden;
+}
+.sideNavi {
+  position: fixed;
+  left: 0;
+  top: calc(50% - 66px);
+}
+.newsroom {
+  padding: 150px 0 160px;
+  background-color: #ecedf0;
+}
+.newsroom .container {
+  max-width: 1280px;
+}
+.video {
+  position: relative;
+  overflow: hidden;
+  padding: 160px 0 200px !important;
+}
+.film {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url(img/film_video.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: initial;
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+.video ._content {
+  z-index: 9;
+}
+.recruit {
+  padding: 130px 0 140px;
+}
+
+/* 서브페이지 */
+.page_header {
+  position: relative;
+}
+.page_header ul {
+  display: flex;
+  position: absolute;
+  bottom: -50px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1280px;
+}
+ul li {
+  list-style: none;
+  display: flex;
+  height: 100px;
+  width: 20%;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-right: 1px solid #f3f3f3;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+ul li._active,
+ul li:hover {
+  background-color: #1a5ca9;
+  color: #fff;
+}
+ul li:last-child {
+  border-right: none;
+}
+.issue {
+  padding: 180px 0 140px;
+}
+.inside {
+  background-color: #ecedf0;
+  padding: 140px 0 160px;
+}
