@@ -321,9 +321,23 @@
 .page-home .section3-header {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  margin-bottom: 200px;
+  margin-bottom: calc(195px - 90px);
 }
 
 .page-home .section3-content-header {
   text-align: center;
+  margin-bottom: 96px;
+}
+
+.page-home .section3-content-body {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.page-home .section3-content-body .item img {
+  opacity: 0;
+}
+
+.page-home .section3-content-body .item img:nth-child(1) {
+  margin-bottom: 48px;
 }

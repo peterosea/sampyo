@@ -217,11 +217,24 @@
   .section3 {
     &-header {
       transform: translateY(-50%);
-      margin-bottom: 200px;
+      margin-bottom: calc(195px - 90px);
     }
     &-content {
       &-header {
         text-align: center;
+        margin-bottom: 96px;
+      }
+      &-body {
+        text-align: center;
+        margin-bottom: 50px;
+        .item {
+          img {
+            opacity: 0;
+          }
+          img:nth-child(1) {
+            margin-bottom: 48px;
+          }
+        }
       }
     }
   }

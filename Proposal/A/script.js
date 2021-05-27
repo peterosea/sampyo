@@ -121,3 +121,47 @@ fadeAnimation.forEach((fa) => {
     },
   });
 });
+
+// 책임경영
+// img
+const s3_items = document.querySelectorAll(
+  "[data-scroll-animation-item] img:nth-child(1)"
+);
+ScrollTrigger.batch(s3_items, {
+  onEnter: (batch) => {
+    const tl = gsap.timeline();
+    tl.to(batch, {
+      autoAlpha: 0,
+      y: 10,
+    });
+    tl.to(batch, {
+      autoAlpha: 1,
+      y: 0,
+      duration: 1,
+    });
+  },
+  onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
+  scrub: true,
+});
+
+// content
+const s3_items2 = document.querySelectorAll(
+  "[data-scroll-animation-item] img:nth-child(2)"
+);
+ScrollTrigger.batch(s3_items2, {
+  onEnter: (batch) => {
+    const tl = gsap.timeline();
+    tl.to(batch, {
+      autoAlpha: 0,
+      y: 10,
+    });
+    tl.to(batch, {
+      autoAlpha: 1,
+      delay: 0.3,
+      y: 0,
+      duration: 1,
+    });
+  },
+  onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
+  scrub: true,
+});
