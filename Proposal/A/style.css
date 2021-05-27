@@ -116,10 +116,15 @@
   margin: 0;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
+  color: #fff;
+  font-weight: bold;
+  opacity: 1;
 }
 
 .page-home .hero-slide-pagination .swiper-pagination-bullet-active {
   background-color: #fff !important;
+  color: var(--primary);
+  font-weight: bold;
 }
 
 .page-home .hero-slide-pagination .swiper-pagination-bullet:nth-child(1) {
@@ -130,7 +135,7 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.page-home .hero-slide-pagination .swiper-pagination-bullet:nth-child(2) {
+.page-home .hero-slide-pagination .swiper-pagination-bullet:nth-child(3) {
   background-color: rgba(255, 255, 255, 0.3);
 }
 

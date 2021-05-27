@@ -53,27 +53,28 @@ class Slideshow {
     );
 
     // reset animation
-    if (this.DOM.tl) this.DOM.tl.kill();
+    if (this.DOM.t1) this.DOM.t1.kill();
+    if (this.DOM.t2) this.DOM.t2.kill();
     this.DOM.el.querySelectorAll(".swiper-slide").forEach((element) => {
       element.querySelector(".hero-content-title-1").removeAttribute("style");
       element.querySelector(".hero-content-title-2").removeAttribute("style");
     });
 
     // .title1 애니메이션
-    this.DOM.tl = gsap.timeline();
-    this.DOM.tl.to(this.DOM.activeSlideTitle1, { x: 10, y: 10, duration: 0.5 });
-    this.DOM.tl.to(this.DOM.activeSlideTitle1, {
+    this.DOM.t1 = gsap.timeline();
+    this.DOM.t1.to(this.DOM.activeSlideTitle1, { y: 10, duration: 0.5 });
+    this.DOM.t1.to(this.DOM.activeSlideTitle1, {
       opacity: 1,
-      x: 0,
       y: 0,
       duration: 1,
     });
-    this.DOM.tl.to(this.DOM.activeSlideTitle2, { x: 10, y: 10, duration: 0.3 });
-    this.DOM.tl.to(this.DOM.activeSlideTitle2, {
+    this.DOM.t2 = gsap.timeline();
+    this.DOM.t2.to(this.DOM.activeSlideTitle2, { y: 10, duration: 0.3 });
+    this.DOM.t2.to(this.DOM.activeSlideTitle2, {
       opacity: 1,
-      x: 0,
       y: 0,
-      duration: 1,
+      delay: 0.3,
+      duration: 2,
     });
   }
   initEvents() {
@@ -95,7 +96,7 @@ ScrollTrigger.batch(card, {
     });
     tl.to(batch, {
       autoAlpha: 1,
-      stagger: 0.4,
+      stagger: 0.2,
       duration: 1,
       y: 0,
     });
