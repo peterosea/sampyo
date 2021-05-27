@@ -133,7 +133,7 @@ ScrollTrigger.batch(s3_items, {
     const tl = gsap.timeline();
     tl.to(batch, {
       autoAlpha: 0,
-      y: 10,
+      y: 40,
     });
     tl.to(batch, {
       autoAlpha: 1,
@@ -154,7 +154,8 @@ ScrollTrigger.batch(s3_items2, {
     const tl = gsap.timeline();
     tl.to(batch, {
       autoAlpha: 0,
-      y: 10,
+      y: 40,
+      duration: 0,
     });
     tl.to(batch, {
       autoAlpha: 1,
@@ -174,7 +175,8 @@ ScrollTrigger.batch(s3_items4, {
     const tl = gsap.timeline();
     tl.to(batch, {
       autoAlpha: 0,
-      y: 10,
+      y: 40,
+      duration: 0,
     });
     tl.to(batch, {
       autoAlpha: 1,

@@ -270,8 +270,9 @@
         transform: translateX(110px);
         li {
           position: relative;
+          opacity: 0;
           &:nth-child(1) {
-            transform: translateY(65%);
+            transform: translateY(65%) !important;
           }
           &:hover {
             img:nth-child(2) {

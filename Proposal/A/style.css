@@ -635,11 +635,12 @@
 
 .page-home .s4-content-body li {
   position: relative;
+  opacity: 0;
 }
 
 .page-home .s4-content-body li:nth-child(1) {
-  -webkit-transform: translateY(65%);
-          transform: translateY(65%);
+  -webkit-transform: translateY(65%) !important;
+          transform: translateY(65%) !important;
 }
 
 .page-home .s4-content-body li:hover img:nth-child(2) {
