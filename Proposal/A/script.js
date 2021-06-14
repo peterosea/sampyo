@@ -147,30 +147,6 @@ ScrollTrigger.batch(s3_items, {
   scrub: true,
 });
 
-// content
-const s3_items2 = document.querySelectorAll(
-  "[data-scroll-animation-item='3'] img:nth-child(2)"
-);
-ScrollTrigger.batch(s3_items2, {
-  onEnter: (batch) => {
-    const tl = gsap.timeline();
-    tl.to(batch, {
-      autoAlpha: 0,
-      y: 40,
-      duration: 0,
-    });
-    tl.to(batch, {
-      autoAlpha: 1,
-      delay: 0.5,
-      stagger: 0.2,
-      y: 0,
-      duration: 0.3,
-    });
-  },
-  onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
-  scrub: true,
-});
-
 // 인재채용
 const s3_items4 = document.querySelectorAll("[data-scroll-animation-item='4']");
 ScrollTrigger.batch(s3_items4, {
@@ -192,3 +168,56 @@ ScrollTrigger.batch(s3_items4, {
   onLeaveBack: (batch) => gsap.to(batch, { autoAlpha: 0, duration: 0 }),
   scrub: true,
 });
+
+// 블로그 뉴스 공지
+{
+  const targetList = document.querySelectorAll("[data-target].list");
+  const targetImgs = document.querySelectorAll("[data-target].img");
+  targetList.forEach((t) => {
+    t.addEventListener("mouseenter", () => {
+      t.classList.add("enter");
+      targetList.forEach((tt) => {
+        if (tt.dataset.target !== t.dataset.target) {
+          tt.classList.add("disable");
+        }
+      });
+      targetImgs.forEach((timg) => {
+        if (timg.dataset.target !== t.dataset.target) {
+          timg.classList.add("disable");
+        } else {
+          timg.classList.add("enter");
+        }
+      });
+    });
+    t.addEventListener("mouseleave", () => {
+      t.classList.remove("enter");
+      targetList.forEach((tt) => {
+        if (tt.dataset.target !== t.dataset.target) {
+          tt.classList.remove("disable");
+        }
+      });
+      targetImgs.forEach((timg) => {
+        if (timg.dataset.target !== t.dataset.target) {
+          timg.classList.remove("disable");
+        } else {
+          timg.classList.remove("enter");
+        }
+      });
+    });
+    t.addEventListener("click", () => {
+      t.classList.add("click");
+      targetList.forEach((tt) => {
+        if (tt.dataset.target !== t.dataset.target) {
+          tt.classList.remove("click");
+        }
+      });
+      targetImgs.forEach((timg) => {
+        if (timg.dataset.target === t.dataset.target) {
+          timg.classList.add("active");
+        } else {
+          timg.classList.remove("active");
+        }
+      });
+    });
+  });
+}
