@@ -1,3 +1,18 @@
 * {
   font-family: "Noto Sans KR", sans-serif;
 }
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  margin-top: 20vh;
+  border-radius: 16px 16px 0 0;
+  position: relative;
+  &:before {
+    content: "넓이 1920px 고정";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -110%);
+  }
+}
