@@ -33,7 +33,7 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: var(--primary);
+  background-color: var(--primary, #009ddf);
   position: absolute;
 }
 
@@ -359,6 +359,16 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: -1;
+}
+
+.page-home .hero-slide-wrap:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 180px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
 }
 
 .page-home .hero-slide-wrap img {
