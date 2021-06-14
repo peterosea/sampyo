@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Out library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- swiper.js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- bootstrap  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- user custom css -->
+  <link rel="stylesheet" href="./style.css">
+  <title>삼표그룹 - 디자인시안 A</title>
+</head>
+
+<body class="page-home">
+  <div class="gnb container-fluid">
+    <div class="logo">
+      <img src="./assets/img/logo.png">
+    </div>
+    <ul class="menu menu-gnb">
+      <li>삼표그룹</li>
+      <li>사업분야</li>
+      <li>삼표소식</li>
+      <li>인재채용</li>
+      <li>고객센터</li>
+    </ul>
+    <div class="menu menu-search">
+      <span>Search</span>
+    </div>
+  </div>
+  <main>
+    <div class="section hero">
+      <div class="swiper-container hero-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="hero-img-wrap">
+              <div class="hero-img-readmore">
+                <img src="./assets/img/readmore.png"
+                  srcset="./assets/img/readmore@2x.png 2x, ./assets/img/readmore@3x.png 3x">
+              </div>
+            </div>
+            <div class="hero-content hero-content-wrap">
+              <h1 class="hero-content-title-1">
+                미래의 새로운 삶을 위한<br />
+                기초를 만들다
+              </h1>
+              <p class="hero-content-title-2">
+                삼표그룹은 지금보다 더 나은 미래를 현실로 만들기 위해<br />
+                지난 반세기 동안 한결같은 마음으로 노력해오고 있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="hero-img-wrap">
+              <div class="hero-img-readmore">
+                <img src="./assets/img/readmore.png"
+                  srcset="./assets/img/readmore@2x.png 2x, ./assets/img/readmore@3x.png 3x">
+              </div>
+            </div>
+            <div class="hero-content hero-content-wrap">
+              <h1 class="hero-content-title-1">
+                해양·항만 분야<br />
+                특수시멘트 개발 기술제휴
+              </h1>
+              <p class="hero-content-title-2">
+                삼표그룹은 소파블록에 특화된 조강 시멘트 개발에 나선다. <br />
+                소파블록은 파도 피해를 줄이기 위해 해안이나 방파제에 설치되는 블록이다.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="hero-img-wrap">
+              <div class="hero-img-readmore">
+                <img src="./assets/img/readmore.png"
+                  srcset="./assets/img/readmore@2x.png 2x, ./assets/img/readmore@3x.png 3x">
+              </div>
+            </div>
+            <div class="hero-content hero-content-wrap">
+              <h1 class="hero-content-title-1">
+                삼표시멘트<br />
+                업계 선도 ESG 경영체계 구축
+              </h1>
+              <p class="hero-content-title-2">
+                삼표시멘트, 제30기 정기주주총회서 환경 관련 내용 사업 목적 추가<br />
+                환경 개선 설비 등 투자 확대, 자원순환 통해 친환경 기업 거듭날 것
+              </p>
+            </div>
+          </div>
+          <div class="hero-slide-wrap">
+            <video src="./assets/video/홍보영상편집본.mp4" autoplay muted loop></video>
+          </div>
+        </div>
+        <div class="hero-slide-pagination swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="section section1">
+      <div class="container">
+        <div class="section1-header">
+          <img src="./assets/img/tit-business.png"
+            srcset="./assets/img/tit-business@2x.png 2x, ./assets/img/tit-business@3x.png 3x">
+        </div>
+        <div class="row section1-content">
+          <div class="img-col-1 col-4">
+            <a href="./business.html" data-scroll-animation data-y='40' class="img-wrap">
+              <img src="./assets/img/business-01.jpg"
+                srcset="./assets/img/business-01@2x.jpg 2x, ./assets/img/business-01@3x.jpg 3x">
+              <img src="./assets/img/business-01-hover.png"
+                srcset="./assets/img/business-01-hover@2x.png 2x, ./assets/img/business-01-hover@3x.png 3x">
+            </a>
+          </div>
+          <div class="img-col-2 col-4">
+            <a href="./business.html" class="img-wrap" data-scroll-animation data-y="60">
+              <img src="./assets/img/business-02.jpg"
+                srcset="./assets/img/business-02@2x.jpg 2x, ./assets/img/business-02@3x.jpg 3x">
+              <img src="./assets/img/business-02-hover.jpg"
+                srcset="./assets/img/business-02-hover@2x.jpg 2x, ./assets/img/business-02-hover@3x.jpg 3x">
+            </a>
+            <a href="./business.html" class="img-wrap" data-scroll-animation data-y="80">
+              <img src="./assets/img/business-03.jpg"
+                srcset="./assets/img/business-03@2x.jpg 2x, ./assets/img/business-03@3x.jpg 3x">
+              <img src="./assets/img/business-03-hover.jpg"
+                srcset="./assets/img/business-03-hover@2x.jpg 2x, ./assets/img/business-03-hover@3x.jpg 3x">
+            </a>
+          </div>
+          <div class="img-col-3 col-4">
+            <a href="./business.html" class="img-wrap" data-scroll-animation data-y="20">
+              <img src="./assets/img/business-04.jpg"
+                srcset="./assets/img/business-04@2x.jpg 2x, ./assets/img/business-04@3x.jpg 3x">
+              <img src="./assets/img/business-04-hover.jpg"
+                srcset="./assets/img/business-04-hover@2x.jpg 2x, ./assets/img/business-04-hover@3x.jpg 3x">
+            </a>
+            <a href="./business.html" class="img-wrap" data-scroll-animation data-y="60">
+              <img src="./assets/img/business-05.jpg"
+                srcset="./assets/img/business-05@2x.jpg 2x, ./assets/img/business-05@3x.jpg 3x">
+              <img src="./assets/img/business-05-hover.jpg"
+                srcset="./assets/img/business-05-hover@2x.jpg 2x, ./assets/img/business-05-hover@3x.jpg 3x">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="s234-wrap">
+      <div class="section section2 s2">
+        <div class="bgLayer">
+          <img src="./assets/img/bg-newsroom.png"
+            srcset="./assets/img/bg-newsroom@2x.png 2x, ./assets/img/bg-newsroom@3x.png 3x">
+        </div>
+        <div class="container">
+          <div class="row s2-row" style="height: 680px">
+            <div class="col-8">
+              <div class="s2-img">
+                <img class="img active" data-target="1" src="./assets/img/3113.png"
+                  srcset="./assets/img/3113@2x.png 2x, ./assets/img/3113@3x.png 3x">
+                <img class="img" data-target="2" src="./assets/img/3114.png"
+                  srcset="./assets/img/3114@2x.png 2x, ./assets/img/3114@3x.png 3x">
+                <img src="./assets/img/btn-newsroom.png"
+                  srcset="./assets/img/btn-newsroom@2x.png 2x, ./assets/img/btn-newsroom@3x.png 3x">
+              </div>
+            </div>
+            <div class="col-4 ">
+              <div class="s2-card">
+                <img src="./assets/img/tab-newsroom.png"
+                  srcset="./assets/img/tab-newsroom@2x.png 2x, ./assets/img/tab-newsroom@3x.png 3x">
+                <ul id="slideControl">
+                  <li data-target="1" class="list click">
+                    <img src="./assets/img/article-newsroom-02.png"
+                      srcset="./assets/img/article-newsroom-02@2x.png 2x, ./assets/img/article-newsroom-02@3x.png 3x">
+                    <img class="hover" src="./assets/img/3221.png"
+                      srcset="./assets/img/3221@2x.png 2x, ./assets/img/3221@3x.png 3x">
+                  </li>
+                  <li data-target="2" class="list">
+                    <img src="./assets/img/article-newsroom-02.png"
+                      srcset="./assets/img/article-newsroom-02@2x.png 2x, ./assets/img/article-newsroom-02@3x.png 3x">
+                    <img class="hover" src="./assets/img/3221.png"
+                      srcset="./assets/img/3221@2x.png 2x, ./assets/img/3221@3x.png 3x">
+                  </li>
+                  <li>
+                    <img src="./assets/img/article-newsroom-03.png"
+                      srcset="./assets/img/article-newsroom-03@2x.png 2x, ./assets/img/article-newsroom-03@3x.png 3x">
+                  </li>
+                  <li>
+                    <img src="./assets/img/article-newsroom-04.png"
+                      srcset="./assets/img/article-newsroom-04@2x.png 2x, ./assets/img/article-newsroom-04@3x.png 3x">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section3">
+        <div class="container section3-content">
+          <div class="section3-content-header">
+            <img style="max-width: 100%" src="./assets/img/section3-content-header.png"
+              srcset="./assets/img/section3-content-header@2x.png 2x, ./assets/img/section3-content-header@3x.png 3x">
+          </div>
+          <div class="section3-content-body">
+            <div class="row">
+              <div class="col-4">
+                <div data-scroll-animation-item='3' class="item">
+                  <img style="max-width: 100%" src="./assets/img/img-responsible-01.png"
+                    srcset="./assets/img/img-responsible-01@2x.png 2x, ./assets/img/img-responsible-01@3x.png 3x">
+                </div>
+              </div>
+              <div class="col-4">
+                <div data-scroll-animation-item='3' class="item">
+                  <img style="max-width: 100%" src="./assets/img/img-responsible-02.png"
+                    srcset="./assets/img/img-responsible-02@2x.png 2x, ./assets/img/img-responsible-02@3x.png 3x">
+                </div>
+              </div>
+              <div class="col-4">
+                <div data-scroll-animation-item='3' class="item">
+                  <img style="max-width: 100%" src="./assets/img/img-responsible-03.png"
+                    srcset="./assets/img/img-responsible-03@2x.png 2x, ./assets/img/img-responsible-03@3x.png 3x">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section s4">
+      <div class="bgLayer">
+        <img src="./assets/img/bg-recruit.png"
+          srcset="./assets/img/bg-recruit@2x.png 2x, ./assets/img/bg-recruit@3x.png 3x">
+      </div>
+      <div class="container s4-content">
+        <ul class="s4-content-body">
+          <li data-scroll-animation-item='4'>
+            <img style="max-width: 100%" src="./assets/img/s4-item-1.png"
+              srcset="./assets/img/s4-item-1@2x.png 2x, ./assets/img/s4-item-1@3x.png 3x">
+            <img style="max-width: 100%" src="./assets/img/s4-item-1-hover.png"
+              srcset="./assets/img/s4-item-1-hover@2x.png 2x, ./assets/img/s4-item-1-hover@3x.png 3x">
+          </li>
+          <li data-scroll-animation-item='4'>
+            <img style="max-width: 100%" src="./assets/img/s4-item-2.png"
+              srcset="./assets/img/s4-item-2@2x.png 2x, ./assets/img/s4-item-2@3x.png 3x">
+            <img style="max-width: 100%" src="./assets/img/s4-item-2-hover.png"
+              srcset="./assets/img/s4-item-2-hover@2x.png 2x, ./assets/img/s4-item-2-hover@3x.png 3x">
+          </li>
+          <li data-scroll-animation-item='4'>
+            <img style="max-width: 100%" src="./assets/img/s4-item-3.png"
+              srcset="./assets/img/s4-item-3@2x.png 2x, ./assets/img/s4-item-3@3x.png 3x">
+            <img style="max-width: 100%" src="./assets/img/s4-item-3-hover.png"
+              srcset="./assets/img/s4-item-3-hover@2x.png 2x, ./assets/img/s4-item-3-hover@3x.png 3x">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section s5" style="text-align: center;">
+      <img style="margin: auto" src="./assets/img/section-bottom.png"
+        srcset="./assets/img/section-bottom@2x.png 2x, ./assets/img/section-bottom@3x.png 3x">
+      <div class="symbol">
+        <img src="./assets/img/2773.png" srcset="./assets/img/2773@2x.png 2x, ./assets/img/2773@3x.png 3x">
+      </div>
+    </div>
+  </main>
+  <div class="fnb">
+    <img style="max-width: 100%" src="./assets/img/footer.png"
+      srcset="./assets/img/footer@2x.png 2x, ./assets/img/footer@3x.png 3x">
+  </div>
+  <div class="loader">
+    <div class="loaderWrap">
+      <div class="loader-5 center"><span></span></div>
+    </div>
+    <div class="loader-bg"></div>
+  </div>
+</body>
+<script src="./script.js"></script>
+<script src="./loader.js"></script>
+
+</html>
