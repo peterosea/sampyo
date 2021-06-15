@@ -583,6 +583,26 @@ body {
   overflow: hidden;
 }
 
+.page-home .s2 .bgLayer img {
+  opacity: 0;
+}
+
+.page-home .s2 .bgLayer img.enter, .page-home .s2 .bgLayer img.active {
+  opacity: 1;
+}
+
+.page-home .s2 .bgLayer img.disable {
+  opacity: 0;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.page-home .s2 .bgLayer img[data-target="2"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .page-home .s2-row {
   position: relative;
 }
@@ -592,17 +612,31 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 100%;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-bottom: 6px;
+  position: relative;
+}
+
+.page-home .s2-img .nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.page-home .s2-img .imgWrap {
+  position: relative;
+  height: 500px;
+}
+
+.page-home .s2-img .imgWrap > img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .page-home .s2-img .img {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
   opacity: 0;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
