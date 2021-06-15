@@ -85,11 +85,10 @@
         &:before {
           content: "";
           position: absolute;
-          width: 100%;
+          width: calc(100% + 2px);
           height: 100%;
           top: 0;
           left: 0;
-          height: 100%;
           display: block;
           z-index: 3;
           background-color: rgba(0, 0, 0, 0.5);
