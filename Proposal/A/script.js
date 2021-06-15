@@ -173,6 +173,7 @@ ScrollTrigger.batch(s3_items4, {
 {
   const targetList = document.querySelectorAll("[data-target].list");
   const targetImgs = document.querySelectorAll("[data-target].img");
+  const targetBg = document.querySelectorAll(".bgLayer [data-target]");
   targetList.forEach((t) => {
     t.addEventListener("mouseenter", () => {
       t.classList.add("enter");
@@ -186,6 +187,13 @@ ScrollTrigger.batch(s3_items4, {
           timg.classList.add("disable");
         } else {
           timg.classList.add("enter");
+        }
+      });
+      targetBg.forEach((tbg) => {
+        if (tbg.dataset.target !== t.dataset.target) {
+          tbg.classList.add("disable");
+        } else {
+          tbg.classList.add("enter");
         }
       });
     });
@@ -203,6 +211,13 @@ ScrollTrigger.batch(s3_items4, {
           timg.classList.remove("enter");
         }
       });
+      targetBg.forEach((tbg) => {
+        if (tbg.dataset.target !== t.dataset.target) {
+          tbg.classList.remove("disable");
+        } else {
+          tbg.classList.remove("enter");
+        }
+      });
     });
     t.addEventListener("click", () => {
       t.classList.add("click");
@@ -216,6 +231,13 @@ ScrollTrigger.batch(s3_items4, {
           timg.classList.add("active");
         } else {
           timg.classList.remove("active");
+        }
+      });
+      targetBg.forEach((tbg) => {
+        if (tbg.dataset.target === t.dataset.target) {
+          tbg.classList.add("active");
+        } else {
+          tbg.classList.remove("active");
         }
       });
     });
