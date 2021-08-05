@@ -1,5 +1,12 @@
+@at-root {
+  :root {
+    --bar-global-height: 100px;
+  }
+}
+
 @import 'headroom';
 
 .header {
   @import 'global';
+  @import 'archive';
 }

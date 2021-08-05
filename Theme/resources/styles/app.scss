@@ -1,11 +1,18 @@
 @import 'tailwindcss/base';
 
+@import 'functions/*';
+@import 'common/var';
 @import 'common/global';
 
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
 @import 'components/modules/*';
+@import 'layout/*';
 
 // components
 @import 'components/header';
+@import 'components/items';
+@import 'components/card';
+
+@import 'page/newsroom';
