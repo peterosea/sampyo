@@ -1,5 +1,13 @@
 {
   "css.customData": [
     ".vscode/css_custom_data.json"
-  ]
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "Proposal": true,
+  }
 }
