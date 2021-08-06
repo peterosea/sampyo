@@ -15,6 +15,7 @@ class Newsroom extends Composer
         'partials.content-newsroom',
         'partials.content-single-blog',
         'partials.header-archive-newsroom',
+        'partials.nav-fixed',
         'taxonomy-blog*'
     ];
 

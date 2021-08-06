@@ -2,6 +2,7 @@
 
 @section('content')
   @include('partials.header-archive-newsroom')
+  @include('partials.nav-fixed')
   <main>
     <div class="container lg:max-w-screen-lg mx-auto">
       @if (!have_posts())

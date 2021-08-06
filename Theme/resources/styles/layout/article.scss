@@ -22,4 +22,11 @@ article {
   footer {
     margin-top: 100px;
   }
+
+  iframe[src*='https://www.youtube.com/embed']
+  {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+  }
 }
