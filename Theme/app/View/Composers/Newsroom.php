@@ -23,11 +23,31 @@ class Newsroom extends Composer
     public function override()
     {
         return [
-          'pin_blog' => $this->get_pin_post("blog")
+          'pin_blog' => $this->get_pin_post("blog"),
         ];
     }
 
-    private function get_pin_post($postType)
+    public function set_post_data($post, $postType)
+    {
+        $post->permalink = get_the_permalink($post->ID);
+        $post->thumbnail = get_the_post_thumbnail_url($post->ID);
+        $post->excerpt = get_the_excerpt($post->ID);
+        $post->post_content = "";
+        // 카테고리 추가
+        $cats = get_the_terms($post->ID, $postType."_category");
+        if ($cats = get_the_terms($post->ID, $postType."_category")) {
+            $post->category = array_map(function ($cat) use ($postType) {
+                $cat->link = "/{$postType}/category/".$cat->slug;
+                return $cat;
+            }, $cats);
+        } else {
+            $post->category = [];
+        }
+
+        return $post;
+    }
+
+    public function get_pin_post($postType)
     {
         $pintpost = get_posts(
             array(
@@ -50,16 +70,7 @@ class Newsroom extends Composer
             );
         }
 
-        $post = $pintpost[0];
-        $post->permalink = get_the_permalink($post->ID);
-        $post->thumbnail = get_the_post_thumbnail_url($post->ID);
-        $post->excerpt = get_the_excerpt($post->ID);
-        // 카테고리 추가
-        $cats = get_the_terms($post->ID, $postType."_category");
-        $post->category = array_map(function ($cat) use ($postType) {
-            $cat->link = "/{$postType}/category/".$cat->slug;
-            return $cat;
-        }, $cats);
+        $post = $this->set_post_data($pintpost[0], $postType);
 
         return $post;
     }
