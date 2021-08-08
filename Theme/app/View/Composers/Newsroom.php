@@ -12,11 +12,7 @@ class Newsroom extends Composer
      * @var array
      */
     protected static $views = [
-        'partials.content-newsroom',
-        'partials.content-single-blog',
-        'partials.header-archive-newsroom',
-        'partials.nav-fixed',
-        'taxonomy-blog*'
+        'template-newsroom',
     ];
 
     /**
@@ -27,27 +23,44 @@ class Newsroom extends Composer
     public function override()
     {
         return [
-            'categories' => $this->categories(),
-            'like' => $this->like(),
-            'category_label' => $this->category_label(),
+          'pin_blog' => $this->get_pin_post("blog")
         ];
     }
 
-    public function categories()
+    private function get_pin_post($postType)
     {
-        return wp_get_post_terms(get_the_ID(), get_post_type(). '_category');
-    }
-
-    public function like()
-    {
-        return do_shortcode('[wp_ulike]');
-    }
-
-    public function category_label()
-    {
-        if (isset(get_queried_object()->taxonomy) && !empty($title = get_queried_object()->taxonomy)) {
-            return $title;
+        $pintpost = get_posts(
+            array(
+              'post_type' => $postType,
+              'numberposts' => 1,
+              'meta_query' => array(
+                  array(
+                      'key' => 'pin',
+                      'value' => true
+                  )
+              )
+          )
+        );
+        if (count($pintpost) === 0) {
+            $pintpost = get_posts(
+                array(
+                'post_type' => $postType,
+                'numberposts' => 1,
+            )
+            );
         }
-        return get_post_type().'_category';
+
+        $post = $pintpost[0];
+        $post->permalink = get_the_permalink($post->ID);
+        $post->thumbnail = get_the_post_thumbnail_url($post->ID);
+        $post->excerpt = get_the_excerpt($post->ID);
+        // 카테고리 추가
+        $cats = get_the_terms($post->ID, $postType."_category");
+        $post->category = array_map(function ($cat) use ($postType) {
+            $cat->link = "/{$postType}/category/".$cat->slug;
+            return $cat;
+        }, $cats);
+
+        return $post;
     }
 }

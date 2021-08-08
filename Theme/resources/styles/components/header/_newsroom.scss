@@ -1,6 +1,5 @@
 &-newsroom {
   overflow: hidden;
-  padding-top: var(--bar-global-height);
 
   &-title {
     font-size: 4.375rem;
@@ -16,7 +15,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 500px;
+    height: calc(500px + var(--bar-global-height, 0));
+    padding-top: var(--bar-global-height);
     position: relative;
   }
 
