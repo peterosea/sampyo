@@ -20,7 +20,9 @@
               <ul class="card-def-cat">
                 @foreach ($pin_blog->category as $item)
                   <li class="card-def-cat-item">
-                    <a href="{{ $item->link }}">{{ $item->name }}</a>
+                    <a href="{{ $item->link }}">
+                      <span>{{ $item->name }}</span>
+                    </a>
                   </li>
                 @endforeach
               </ul>
@@ -46,8 +48,8 @@
       <div class="newsroom__blog-header">
         <div class="newsroom__blog-header-title">블로그</div>
         <div class="newsroom__blog-header-arrow">
-          <div class="btn-arrow prev"></div>
-          <div class="btn-arrow next"></div>
+          <a href="javascript:;" class="btn-arrow prev"></a>
+          <a href="javascript:;" class="btn-arrow next"></a>
         </div>
       </div>
       <div class="newsroom__blog-body">
@@ -65,7 +67,9 @@
                   <ul class="card-col-cat">
                     @foreach ($blog->category as $item)
                       <li class="card-col-cat-item">
-                        <a href="{{ $item->link }}">{{ $item->name }}</a>
+                        <a href="{{ $item->link }}">
+                          <span>{{ $item->name }}</span>
+                        </a>
                       </li>
                     @endforeach
                   </ul>

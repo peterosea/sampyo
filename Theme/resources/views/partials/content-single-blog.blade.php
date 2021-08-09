@@ -6,7 +6,9 @@
         <ul class="card-def-cat">
           @foreach ($categories as $item)
             <li class="card-def-cat-item">
-              <a href="/blog/{{ $item->slug }}">{{ $item->name }}</a>
+              <a href="/blog/{{ $item->slug }}">
+                <span>{{ $item->name }}</span>
+              </a>
             </li>
           @endforeach
         </ul>

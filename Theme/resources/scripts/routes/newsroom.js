@@ -9,8 +9,8 @@ export default {
       slidesPerView: 3,
       spaceBetween: 50,
       navigation: {
-        nextEl: '.btn-arrow.next',
-        prevEl: '.btn-arrow.prev',
+        nextEl: '.newsroom__blog .btn-arrow.next',
+        prevEl: '.newsroom__blog .btn-arrow.prev',
       },
     });
   },

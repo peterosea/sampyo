@@ -9,7 +9,9 @@
           @foreach ($categories as $item)
             @php($permerlink = implode("/", explode("_", $category_label)))
             <li class="card-def-cat-item">
-              <a href="/{{ $permerlink }}/{{ $item->slug }}">{{ $item->name }}</a>
+              <a href="/{{ $permerlink }}/{{ $item->slug }}">
+                <span>{{ $item->name }}</span>
+              </a>
             </li>
           @endforeach
         </ul>
