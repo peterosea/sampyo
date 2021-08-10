@@ -19,6 +19,8 @@
   &-2 {
     background-color: var(--lighthouse);
     overflow-x: hidden;
+    padding-top: 130px;
+    padding-bottom: 150px;
   }
 }
 
@@ -112,7 +114,6 @@
 }
 
 .newsroom__press {
-  padding-top: 130px;
   margin-bottom: 270px;
 
   @include arrowHeader;
@@ -182,6 +183,58 @@
       z-index: 0;
       position: absolute;
       background-color: var(--funnel-cloud);
+    }
+  }
+}
+
+.newsroom__newslater {
+  &-body {
+    @apply gap-4;
+
+    padding-top: 52px;
+    padding-bottom: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 4px solid var(--black-out);
+    border-bottom: 4px solid var(--black-out);
+    margin-bottom: 30px;
+  }
+
+  &-title {
+    font-size: 3.875rem;
+    font-weight: 900;
+    color: var(--black-out);
+  }
+
+  &-form {
+    .input {
+      width: 450px;
+    }
+  }
+
+  &-notice {
+    @apply bg-white;
+
+    height: 80px;
+    overflow: hidden;
+
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 27px 40px;
+    }
+
+    &-label {
+      .icon-wrap {
+        gap: 15px;
+      }
+
+      #{$iconSize} {
+        font-size: 22px;
+      }
     }
   }
 }

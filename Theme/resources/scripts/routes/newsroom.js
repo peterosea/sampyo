@@ -1,7 +1,4 @@
 import Swiper from 'swiper';
-import SwiperCore, { Navigation, Pagination, EffectFade } from 'swiper/core';
-
-SwiperCore.use([Navigation, Pagination, EffectFade]);
 
 export default {
   init() {
@@ -28,6 +25,17 @@ export default {
       navigation: {
         nextEl: '.newsroom__press .btn-arrow.next',
         prevEl: '.newsroom__press .btn-arrow.prev',
+      },
+    });
+
+    // newsroom pin blog
+    new Swiper('.newsroom__newslater-notice', {
+      loop: true,
+      direction: 'vertical',
+      slidesPerView: 1,
+      height: 80,
+      autoplay: {
+        delay: 5000,
       },
     });
   },

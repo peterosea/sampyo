@@ -151,5 +151,36 @@
         </div>
       </div>
     </div>
+    <div class="newsroom__newslater">
+      <div class="container mx-auto xl:max-w-screen-xl">
+        <div class="newsroom__newslater-body">
+          <div class="newsroom__newslater-title">뉴스레터</div>
+          <form class="newsroom__newslater-form flex gap-2" action="">
+            <input class="input" type="text" placeholder="sample@email.com">
+            <div class="flex gap-1">
+              <button type="submit" class="btn btn-dark">구독 신청하기</button>
+              <a href="#" class="btn btn-dark">지난 뉴스레터 보기</a>
+            </div>
+          </form>
+        </div>
+        <div class="newsroom__newslater-notice">
+          <div class="swiper-wrapper">
+            @foreach ($notice_posts as $post)
+              <div class="newsroom__newslater-notice-item swiper-slide">
+                <a href="{!! $post->guid !!}" class="newsroom__newslater-notice-label">
+                  <div class="icon-wrap">
+                    <div class="icon-notice"></div>
+                    <div class="icon-label">{!! $post->post_title !!}</div>
+                  </div>
+                </a>
+                <div class="newsroom__newslater-notice-date">
+                  {!! $post->date !!}
+                </div>
+              </div>
+            @endforeach
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 @endsection
