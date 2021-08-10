@@ -88,4 +88,56 @@
       </div>
     </div>
   </div>
+  <div class="newsroom__section-2">
+    <div class="newsroom__press">
+      <div class="container mx-auto xl:max-w-screen-xl">
+        <div class="newsroom__press-header">
+          <div class="newsroom__press-header-title">프레스</div>
+          <div class="newsroom__press-header-arrow">
+            <a href="javascript:;" class="btn-arrow prev"></a>
+            <a href="javascript:;" class="btn-arrow next"></a>
+          </div>
+        </div>
+        <div class="newsroom__press-swiper">
+          <div class="swiper-wrapper">
+            @foreach ($press_posts as $post)
+              <div class="swiper-slide newsroom__press-body flex">
+                <div class="w-1/2 p-20 newsroom__press-content flex flex-col justify-between">
+                  <div class="card-def-main">
+                    @if (!empty($post->category))
+                      <ul class="card-def-cat">
+                        @foreach ($post->category as $item)
+                          <li class="card-def-cat-item">
+                            <a href="{{ $item->link }}">
+                              <span>{{ $item->name }}</span>
+                            </a>
+                          </li>
+                        @endforeach
+                      </ul>
+                    @endif
+                    <div class="card-def-contentWrap">
+                      <a href="{!! $post->permalink !!}" class="card-def-title">{!! $post->post_title !!}</a>
+                      <div class="card-def-content">
+                        {!! $post->excerpt !!}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-def-footer">
+                    <div class="card-def-readmore">
+                      <a href="{!! $post->permalink !!}" class="btn font-semibold">자세히 보기</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-1/2 newsroom__press-thumbnail-wrap">
+                  <div class="newsroom__press-thumbnail">
+                    <img src="{!! $post->thumbnail !!}" alt="">
+                  </div>
+                </div>
+              </div>
+            @endforeach
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 @endsection
