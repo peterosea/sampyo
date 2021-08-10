@@ -54,18 +54,18 @@
       </div>
       <div class="newsroom__blog-body">
         <div class="swiper-wrapper">
-          @foreach ($blog_posts as $blog)
+          @foreach ($blog_posts as $post)
           <div class="swiper-slide">
             <div class="card-col">
-              @if ($blog->thumbnail)
+              @if ($post->thumbnail)
               <div class="card-col-thumbnail">
-                <img src="{!! $blog->thumbnail !!}" />
+                <img src="{!! $post->thumbnail !!}" />
               </div>
               @endif
               <div class="card-col-main">
-                @if (!empty($blog->category))
+                @if (!empty($post->category))
                   <ul class="card-col-cat">
-                    @foreach ($blog->category as $item)
+                    @foreach ($post->category as $item)
                       <li class="card-col-cat-item">
                         <a href="{{ $item->link }}">
                           <span>{{ $item->name }}</span>
@@ -75,9 +75,9 @@
                   </ul>
                 @endif
                 <div class="card-col-contentWrap">
-                  <a href="{!! $blog->permalink !!}" class="card-col-title">{!! $blog->post_title !!}</a>
-                  <a href="{!! $blog->permalink !!}" class="card-col-content">
-                    {!! $blog->excerpt !!}
+                  <a href="{!! $post->permalink !!}" class="card-col-title">{!! $post->post_title !!}</a>
+                  <a href="{!! $post->permalink !!}" class="card-col-content">
+                    {!! $post->excerpt !!}
                   </a>
                 </div>
               </div>
@@ -85,6 +85,18 @@
           </div>
           @endforeach
         </div>
+      </div>
+      <div class="newsroom__blog-footer">
+        <div class="newsroom__blog-link">
+          <a href="/blog" class="text-point block py-4">블로그 바로가기</a>
+        </div>
+        <ul class="flex">
+          @foreach ($blog_cat as $term)
+            <li>
+              <a class="block px-6 py-4" href="{!! $term->link !!}">{!! $term->name !!}</a>
+            </li>
+          @endforeach
+        </ul>
       </div>
     </div>
   </div>

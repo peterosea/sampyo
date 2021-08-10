@@ -7,7 +7,9 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        point: 'var(--atmosphere, #009ddf)',
+      },
       typography: {
         DEFAULT: {},
       },

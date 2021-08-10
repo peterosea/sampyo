@@ -75,8 +75,39 @@
 .newsroom__blog {
   @include arrowHeader;
 
+  margin-bottom: 130px;
+
   &-body {
     overflow: hidden;
+  }
+
+  &-footer {
+    border-top: solid 1px var(--dugong);
+    padding-top: 18px;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 1.2;
+
+    li {
+      position: relative;
+    }
+
+    ul > li:not(:last-child)::after {
+      content: '';
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 1px;
+      height: 1em;
+      transform: translate(-50%, -50%);
+      background-color: var(--unique-grey);
+    }
+  }
+
+  &-link {
+    margin-right: 35px;
   }
 }
 
