@@ -38,6 +38,28 @@ export default {
         delay: 5000,
       },
     });
+
+    // newsroom press row
+    new Swiper('#press_release', {
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true,
+      },
+      navigation: {
+        nextEl: '#press_release_btn.btn-arrow.next',
+        prevEl: '#press_release_btn.btn-arrow.prev',
+      },
+    });
+    new Swiper('#press_featured', {
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true,
+      },
+      navigation: {
+        nextEl: '#press_featured_btn.btn-arrow.next',
+        prevEl: '#press_featured_btn.btn-arrow.prev',
+      },
+    });
   },
   finalize() {},
 };
