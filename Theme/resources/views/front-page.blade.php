@@ -64,4 +64,30 @@
     </div>
   </div>
 </div>
+<div class="section home__s1">
+  <div class="container xl:max-w-screen-xl mx-auto relative">
+    <div class="home__s1-header">
+      <div class="home__s1-title text-6xl font-black">사업영역</div>
+      <p class="home__s1-header-content">끊임없는 도전과 창조적인 혁신을 통해 Building Materials 분야의 리더로 자리매김합니다.</p>
+    </div>
+    <div class="flex gap-9">
+      <div class="w-1/3 flex flex-col gap-9 home__s1-imgCol-1">
+        @php($cat = $business[0])
+        @include('components.card-flip')
+      </div>
+      <div class="w-1/3 flex flex-col gap-9 home__s1-imgCol-2">
+        @php($cat = $business[1])
+        @include('components.card-flip')
+        @php($cat = $business[2])
+        @include('components.card-flip')
+      </div>
+      <div class="w-1/3 flex flex-col gap-9 home__s1-imgCol-3">
+        @php($cat = $business[3])
+        @include('components.card-flip')
+        @php($cat = $business[4])
+        @include('components.card-flip')
+      </div>
+    </div>
+  </div>
+</div>
 @endsection
