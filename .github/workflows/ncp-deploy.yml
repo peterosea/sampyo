@@ -1,0 +1,54 @@
+name: 🚛 prod server deploy (NCP)
+on:
+  release:
+    types: [published]
+  push:
+    branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.repository.owner.name == 'peterosea' }}
+    name: 📮 Github 소스코드로 업데이트 `git pull origin develop`
+    steps:
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@master
+        with:
+          key: ${{ secrets.DEPLOYSERVER_KEY }}
+          host: ${{ secrets.DEPLOYSERVER_HOST }}
+          username: ${{ secrets.DEPLOYSERVER_USERNAME }}
+          port: ${{ secrets.DEPLOYSERVER_PORT }}
+          script: |
+            cd www
+            git pull origin develop
+
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.repository.owner.name == 'peterosea' }}
+    name: 🗳 Theme source build & rsync
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+          cache: "yarn"
+          cache-dependency-path: Theme/yarn.lock
+      - name: 🔨 yarn install & build
+        run: |
+          cd Theme
+          yarn install
+          yarn build:production
+
+      - name: 📂 Sync files to Server
+        uses: AEnterprise/rsync-deploy@v1.0
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOYSERVER_KEY }}
+          SERVER_PORT: ${{ secrets.DEPLOYSERVER_RSYNC_PORT }}
+          FOLDER: "./Theme/public"
+          ARGS: "-rltgoDzvO --ignore-times"
+          SERVER_IP: ${{ secrets.DEPLOYSERVER_HOST }}
+          USERNAME: ${{ secrets.DEPLOYSERVER_USERNAME }}
+          SERVER_DESTINATION: "/root/www/Theme"
