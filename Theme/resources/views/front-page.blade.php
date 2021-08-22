@@ -72,19 +72,20 @@
     </div>
     <div class="flex gap-9">
       <div class="w-1/3 flex flex-col gap-9 home__s1-imgCol-1">
-        @php($cat = $business[0])
+        
+        @php($cat = array_shift($business))
         @include('partials.card-flip')
       </div>
       <div class="w-1/3 flex flex-col gap-9 home__s1-imgCol-2">
-        @php($cat = $business[1])
+        @php($cat = array_shift($business))
         @include('partials.card-flip')
-        @php($cat = $business[2])
+        @php($cat = array_shift($business))
         @include('partials.card-flip')
       </div>
       <div class="w-1/3 flex flex-col gap-9 home__s1-imgCol-3">
-        @php($cat = $business[3])
+        @php($cat = array_shift($business))
         @include('partials.card-flip')
-        @php($cat = $business[4])
+        @php($cat = array_shift($business))
         @include('partials.card-flip')
       </div>
     </div>

@@ -45,36 +45,40 @@ class FrontPage extends Composer
         return get_theme_file_uri('resources/video/hero-video.mp4');
     }
 
-    public function setBusiness($term)
+    public function sort_terms_hierarchically(array &$posts, array &$into, $parentId = 0)
     {
-        $children = get_terms([
-          'taxonomy' => 'business_category',
-          'parent' => $term->term_id,
-          'hide_empty' => false,
-        ]);
+        foreach ($posts as $i => $post) {
+            // 부모 포스트에서 필요한 정보
+            if ($parentId === 0) {
+                $post->description = get_the_excerpt($post->ID);
+                $post->thumbnail = get_the_post_thumbnail_url($post->ID);
+            }
+            // 전체 포스트에서 필요한 정보
+            $post->permalink = get_the_permalink($post->ID);
 
-        $children = array_map(function ($cat) {
-            $cat->link = "/business/category/".$cat->slug;
-            return $cat;
-        }, $children);
+            if ($post->post_parent == $parentId) {
+                $into[$post->ID] = $post;
+                unset($posts[$i]);
+            }
+        }
 
-        $term->children = $children;
-        $term->thumbnail = get_field('thumbnail', $term->term_id);
-
-        return $term;
+        foreach ($into as $parentPost) {
+            $parentPost->children = array();
+            $this->sort_terms_hierarchically($posts, $parentPost->children, $parentPost->ID);
+        }
     }
 
     public function business()
     {
-        $terms = get_terms([
-          'taxonomy' => 'business_category',
+        $termsHierarchy = array();
+        $posts = get_posts([
+          'post_type' => 'business',
           'hide_empty' => false,
-          "parent" => 0
+          'numberposts' => 99,
         ]);
-        $terms = array_map(function ($term) {
-            return $this->setBusiness($term);
-        }, $terms);
-        return $terms;
+        $this->sort_terms_hierarchically($posts, $termsHierarchy);
+        
+        return $termsHierarchy;
     }
 
     public function setPostData($post, $postType)
