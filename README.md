@@ -1,13 +1,12 @@
 <p align="center" >
-  <img width="560" src="./docs/preview.jpg">
+  <img width="560" src="https://user-images.githubusercontent.com/42893446/130402792-02398eca-847c-438d-a03c-21a0285ea4ce.jpg" alt="테마 섬네일">
 </p>
 
 `삼표그룹` `wordpress` `custom theme` `laravel` `roots/sage`
 
 ---
 
-Theme 개발방법
-
+### Theme 개발방법
 
 1. `.env` 파일 만들기
 
