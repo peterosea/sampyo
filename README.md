@@ -8,7 +8,7 @@
 
 ### Theme 개발방법
 
-1. `.env` 파일 만들기
+1. `.env.example` 파일 `.env` 이름변경
 
     ```
     WORDPRESS_DB_USER=root
