@@ -43,6 +43,8 @@
     &-fixedHeight {
       @extend .coverbox-leftFull;
 
+      padding-bottom: 0;
+
       &::before {
         height: 402px;
       }
