@@ -1,13 +1,18 @@
 .business {
   &__page {
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     overflow-x: hidden;
     font-weight: 300;
 
     &-title {
       font-size: 2.5rem;
       font-weight: 900;
+    }
+
+    &-description {
+      font-size: 1.25rem;
+      font-weight: bold;
     }
   }
 }
@@ -30,9 +35,34 @@
       height: 100%;
       position: absolute;
       right: 0;
-      top: 50%;
-      transform: translate(100px, -50%);
+      top: 0;
+      transform: translateX(100px);
       background-color: var(--lighthouse);
+    }
+
+    &-fixedHeight {
+      @extend .coverbox-leftFull;
+
+      &::before {
+        height: 402px;
+      }
+    }
+  }
+
+  &-label {
+    position: relative;
+
+    .label {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(#000, 0.5);
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      font-weight: bold;
     }
   }
 }
