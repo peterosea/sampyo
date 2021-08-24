@@ -17,6 +17,7 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
+            maxWidth: null,
             color: null,
             a: {
               color: null,
