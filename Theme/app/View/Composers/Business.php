@@ -25,6 +25,7 @@ class Business extends Composer
         return [
           'fixedMenu' => $this->fixedMenu(),
           'acf' => $this->get_business_info(),
+          'slug' => $this->get_slug(),
         ];
     }
 
@@ -66,5 +67,11 @@ class Business extends Composer
           'outlink' => $outlink,
           'area' => $area
         ];
+    }
+
+    public function get_slug()
+    {
+        $slug = get_post_field('post_name', get_the_ID());
+        return $slug;
     }
 }
