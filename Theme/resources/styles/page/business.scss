@@ -1,0 +1,38 @@
+.business {
+  &__page {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    overflow-x: hidden;
+    font-weight: 300;
+
+    &-title {
+      font-size: 2.5rem;
+      font-weight: 900;
+    }
+  }
+}
+
+.coverbox {
+  &-leftFull {
+    padding-top: 100px;
+    padding-bottom: 130px;
+    position: relative;
+
+    > * {
+      position: relative;
+      z-index: 2;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: 100vw;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(100px, -50%);
+      background-color: var(--lighthouse);
+    }
+  }
+}
