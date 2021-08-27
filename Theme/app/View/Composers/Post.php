@@ -31,6 +31,7 @@ class Post extends Composer
             'permalink' => $this->permalink(),
             'excerpt' => $this->excerpt(),
             'pagination' => $this->pagination(),
+            'slug' => $this->getSlug(),
         ];
     }
 
@@ -138,5 +139,11 @@ HTML;
           </div>
 HTML;
         return $dom;
+    }
+
+    public function getSlug()
+    {
+        $slug = get_post_field('post_name', get_the_ID());
+        return $slug;
     }
 }
