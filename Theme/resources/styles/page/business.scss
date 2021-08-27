@@ -74,9 +74,7 @@
 }
 
 .pointUnderLine {
-  --bs: var(--RGB-bermudagrass);
-  --op: 0.4;
-
-  box-shadow: rgba(var(--bs), var(--op)) 0 -8px 0 0 inset;
+  box-shadow: rgba(var(--bs, var(--RGB-bermudagrass)), var(--op, 0.4)) 0
+    var(--h, -8px) 0 0 inset;
   display: inline-block;
 }
