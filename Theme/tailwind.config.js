@@ -13,6 +13,10 @@ module.exports = {
     extend: {
       colors: {
         point: 'var(--atmosphere, #009ddf)',
+        funnelCloud: 'var(--funnel-cloud, #113a66)',
+      },
+      borderColor: {
+        dugong: 'var(--dugong, #707070)',
       },
       typography: {
         DEFAULT: {
