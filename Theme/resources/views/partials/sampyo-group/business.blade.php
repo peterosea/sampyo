@@ -22,7 +22,7 @@
     </h2>
   </div>
   <div class="mb-36"></div>
-  <h2 class="text-point text-2xl mb-6 text-center">
+  <h2 class="text-point text-2xl text-center mb-20">
     자원의 순환을 통해 새로운 가치를 계속 창출함으로써 지속 가능한 세상의 실현을 앞당깁니다.
   </h2>
   <img
