@@ -50,6 +50,21 @@
 
     @include direction();
 
+    &.nonOverWidth {
+      &::before {
+        transform: none;
+      }
+    }
+
+    &.bg {
+      &::before {
+        background-image: var(--bg-image);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+    }
+
     &-fixedHeight {
       @extend .coverbox-full;
 
