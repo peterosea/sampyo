@@ -97,6 +97,13 @@
       font-weight: bold;
     }
   }
+
+  &-bg {
+    background-image: var(--bg-image);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 }
 
 .pointUnderLine {
