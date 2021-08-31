@@ -4,7 +4,7 @@ namespace App\View\Composers;
 
 use Roots\Acorn\View\Composer;
 
-class Press extends Composer
+class media extends Composer
 {
     /**
      * List of views served by this composer.
@@ -12,7 +12,7 @@ class Press extends Composer
      * @var array
      */
     protected static $views = [
-        'partials.content-single-press',
+        'partials.content-single-media',
     ];
 
     /**

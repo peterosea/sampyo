@@ -13,7 +13,7 @@ export default {
     });
 
     // newsroom pin blog
-    new Swiper('.newsroom__press-swiper', {
+    new Swiper('.newsroom__media-swiper', {
       loop: true,
       preloadImages: true,
       updateOnImagesReady: true,
@@ -23,8 +23,8 @@ export default {
         crossFade: true,
       },
       navigation: {
-        nextEl: '.newsroom__press .btn-arrow.next',
-        prevEl: '.newsroom__press .btn-arrow.prev',
+        nextEl: '.newsroom__media .btn-arrow.next',
+        prevEl: '.newsroom__media .btn-arrow.prev',
       },
     });
 
@@ -39,25 +39,25 @@ export default {
       },
     });
 
-    // newsroom press row
-    new Swiper('#press_release', {
+    // newsroom media row
+    new Swiper('#media_release', {
       effect: 'fade',
       fadeEffect: {
         crossFade: true,
       },
       navigation: {
-        nextEl: '#press_release_btn.btn-arrow.next',
-        prevEl: '#press_release_btn.btn-arrow.prev',
+        nextEl: '#media_release_btn.btn-arrow.next',
+        prevEl: '#media_release_btn.btn-arrow.prev',
       },
     });
-    new Swiper('#press_featured', {
+    new Swiper('#media_featured', {
       effect: 'fade',
       fadeEffect: {
         crossFade: true,
       },
       navigation: {
-        nextEl: '#press_featured_btn.btn-arrow.next',
-        prevEl: '#press_featured_btn.btn-arrow.prev',
+        nextEl: '#media_featured_btn.btn-arrow.next',
+        prevEl: '#media_featured_btn.btn-arrow.prev',
       },
     });
   },

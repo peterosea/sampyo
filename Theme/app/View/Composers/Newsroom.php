@@ -26,10 +26,10 @@ class Newsroom extends Composer
           'pin_blog' => $this->get_pin_post("blog"),
           'blog_posts' => $this->get_posts("blog"),
           'blog_cat' => $this->get_category("blog"),
-          'press_posts' => $this->get_banner_posts("press"),
+          'media_posts' => $this->get_banner_posts("media"),
           'notice_posts' => $this->get_def_posts("notice-board"),
-          'press_cat_release' => $this->get_press("release"),
-          'press_cat_featured' => $this->get_press("featured"),
+          'media_cat_release' => $this->get_media("release"),
+          'media_cat_featured' => $this->get_media("featured"),
         ];
     }
 
@@ -142,20 +142,20 @@ class Newsroom extends Composer
         return $posts;
     }
 
-    public function get_press($cat)
+    public function get_media($cat)
     {
         $posts = get_posts(array(
-          "post_type" => "press",
+          "post_type" => "media",
           "numberposts" => 12,
           "tax_query" => array(array(
-            "taxonomy" => "press_category",
+            "taxonomy" => "media_category",
             "field" => "slug",
             "terms" => $cat
           ))
         ));
 
         $posts = array_map(function ($post) {
-            return $this->set_post_data($post, "press");
+            return $this->set_post_data($post, "media");
         }, $posts);
         
         $result = [];

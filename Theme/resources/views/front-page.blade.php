@@ -173,8 +173,8 @@
                 <li data-id="blog" class="tab-item active">
                   <a href="javascript:;">블로그</a>
                 </li>
-                <li data-id="press" class="tab-item">
-                  <a href="javascript:;">프레스</a>
+                <li data-id="media" class="tab-item">
+                  <a href="javascript:;">미디어</a>
                 </li>
                 <li data-id="notice-board" class="tab-item">
                   <a href="javascript:;">공지사항</a>

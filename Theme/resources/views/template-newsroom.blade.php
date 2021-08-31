@@ -101,20 +101,20 @@
     </div>
   </div>
   <div class="newsroom__section-2">
-    <div class="newsroom__press">
+    <div class="newsroom__media">
       <div class="container mx-auto xl:max-w-screen-xl">
-        <div class="newsroom__press-header">
-          <div class="newsroom__press-header-title">프레스</div>
-          <div class="newsroom__press-header-arrow">
+        <div class="newsroom__media-header">
+          <div class="newsroom__media-header-title">프레스</div>
+          <div class="newsroom__media-header-arrow">
             <a href="javascript:;" class="btn-arrow prev"></a>
             <a href="javascript:;" class="btn-arrow next"></a>
           </div>
         </div>
-        <div class="newsroom__press-swiper">
+        <div class="newsroom__media-swiper">
           <div class="swiper-wrapper">
-            @foreach ($press_posts as $post)
-              <div class="swiper-slide newsroom__press-body flex">
-                <div class="w-1/2 p-20 newsroom__press-content flex flex-col justify-between">
+            @foreach ($media_posts as $post)
+              <div class="swiper-slide newsroom__media-body flex">
+                <div class="w-1/2 p-20 newsroom__media-content flex flex-col justify-between">
                   <div class="card-def-main">
                     @if (!empty($post->category))
                       <ul class="card-def-cat">
@@ -140,8 +140,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-1/2 newsroom__press-thumbnail-wrap">
-                  <div class="newsroom__press-thumbnail">
+                <div class="w-1/2 newsroom__media-thumbnail-wrap">
+                  <div class="newsroom__media-thumbnail">
                     <img src="{!! $post->thumbnail !!}" alt="">
                   </div>
                 </div>
@@ -149,21 +149,21 @@
             @endforeach
           </div>
         </div>
-        <div class="newsroom__press-row">
+        <div class="newsroom__media-row">
           <div class="w-1/2">
             <div class="wrap">
-              <div class="newsroom__press-header">
-                <div class="newsroom__press-header-title">보도자료</div>
-                <div class="newsroom__press-header-arrow">
-                  <a href="javascript:;" id="press_release_btn" class="btn-arrow prev"></a>
-                  <a href="javascript:;" id="press_release_btn" class="btn-arrow next"></a>
+              <div class="newsroom__media-header">
+                <div class="newsroom__media-header-title">보도자료</div>
+                <div class="newsroom__media-header-arrow">
+                  <a href="javascript:;" id="media_release_btn" class="btn-arrow prev"></a>
+                  <a href="javascript:;" id="media_release_btn" class="btn-arrow next"></a>
                 </div>
               </div>
-              <div id="press_release" class="newsroom__press-row-body">
+              <div id="media_release" class="newsroom__media-row-body">
                 <div class="swiper-wrapper">
-                  @foreach ($press_cat_release as $press_cat_release_col)
+                  @foreach ($media_cat_release as $media_cat_release_col)
                     <ul class="swiper-slide">
-                      @foreach ($press_cat_release_col as $post)
+                      @foreach ($media_cat_release_col as $post)
                         <li class="mb-16">
                           <div class="card-def">
                             <a href="{!! $post->permalink !!}" class="card-def-thumbnail">
@@ -193,18 +193,18 @@
           </div>
           <div class="w-1/2 flex justify-end">
             <div class="wrap">
-              <div class="newsroom__press-header">
-                <div class="newsroom__press-header-title">언론소개</div>
-                <div class="newsroom__press-header-arrow">
-                  <a href="javascript:;" id="press_featured_btn" class="btn-arrow prev"></a>
-                  <a href="javascript:;" id="press_featured_btn" class="btn-arrow next"></a>
+              <div class="newsroom__media-header">
+                <div class="newsroom__media-header-title">언론소개</div>
+                <div class="newsroom__media-header-arrow">
+                  <a href="javascript:;" id="media_featured_btn" class="btn-arrow prev"></a>
+                  <a href="javascript:;" id="media_featured_btn" class="btn-arrow next"></a>
                 </div>
               </div>
-              <div id="press_featured" class="newsroom__press-row-body">
+              <div id="media_featured" class="newsroom__media-row-body">
                 <div class="swiper-wrapper">
-                  @foreach ($press_cat_featured as $press_cat_featured_col)
+                  @foreach ($media_cat_featured as $media_cat_featured_col)
                     <ul class="swiper-slide">
-                      @foreach ($press_cat_featured_col as $post)
+                      @foreach ($media_cat_featured_col as $post)
                         <li class="mb-16">
                           <div class="card-def">
                             <a href="{!! $post->permalink !!}" class="card-def-thumbnail">

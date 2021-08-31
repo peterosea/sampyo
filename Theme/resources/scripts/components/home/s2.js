@@ -112,7 +112,7 @@ function s2() {
         case 'blog':
           slideId = 0;
           break;
-        case 'press':
+        case 'media':
           slideId = 1;
           break;
         case 'notice-board':

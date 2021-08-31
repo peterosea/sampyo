@@ -118,15 +118,15 @@ class FrontPage extends Composer
         }, $blog);
 
         
-        $press = get_posts([
-          'post_type' => 'press',
+        $media = get_posts([
+          'post_type' => 'media',
           'numberposts' => 4,
           "hide_empty" => false,
         ]);
 
-        $press = array_map(function ($post) {
-            return $this->setPostData($post, 'press');
-        }, $press);
+        $media = array_map(function ($post) {
+            return $this->setPostData($post, 'media');
+        }, $media);
 
         $noticeBoard = get_posts([
           'post_type' => 'notice-board',
@@ -140,7 +140,7 @@ class FrontPage extends Composer
 
         return array(
           'blog' => $blog,
-          'press' => $press,
+          'media' => $media,
           'noticeBoard' => $noticeBoard,
         );
     }
