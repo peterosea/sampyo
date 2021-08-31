@@ -25,6 +25,7 @@ class media extends Composer
         return [
             'outlink' => $this->getOutlink(),
             'attechedFiles' => $this->getAttechedFiles(),
+            'categories' => $this->categories(),
         ];
     }
 
@@ -39,5 +40,10 @@ class media extends Composer
     {
         $attechedFiles = get_field('attached_files');
         return $attechedFiles;
+    }
+
+    public function categories()
+    {
+        return wp_get_post_terms(get_the_ID(), get_post_type(). '_category');
     }
 }

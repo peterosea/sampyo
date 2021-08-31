@@ -5,14 +5,16 @@
     </div>
     <div class="card-def-main">
       @if (!empty($categories))
-        <ul class="card-def-cat">
+        <ul class="card-def-cat mb-0">
           @foreach ($categories as $item)
-            @php($permerlink = implode("/", explode("_", $category_label)))
-            <li class="card-def-cat-item">
-              <a href="/{{ $permerlink }}/{{ $item->slug }}">
-                <span>{{ $item->name }}</span>
-              </a>
-            </li>
+            @if ($item->slug !== get_queried_object()->slug)
+              @php($permerlink = implode("/", explode("_", $category_label)))
+              <li class="card-def-cat-item mb-3.5">
+                <a href="/{{ $permerlink }}/{{ $item->slug }}">
+                  <span>{{ $item->name }}</span>
+                </a>
+              </li>
+            @endif
           @endforeach
         </ul>
       @endif
