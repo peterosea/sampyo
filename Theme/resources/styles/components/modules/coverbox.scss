@@ -1,0 +1,88 @@
+.coverbox {
+  &-full {
+    position: relative;
+
+    > * {
+      position: relative;
+      z-index: 2;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: 100vw;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      background-color: var(--lighthouse);
+    }
+
+    @mixin direction() {
+      &.left::before {
+        right: 0;
+        transform: translateX(100px);
+      }
+
+      &.right::before {
+        left: 0;
+        transform: translateX(-100px);
+      }
+    }
+
+    @include direction();
+
+    &.nonOverWidth {
+      &::before {
+        transform: none;
+      }
+    }
+
+    &.bg {
+      &::before {
+        background-image: var(--bg-image);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &-fixedHeight {
+      @extend .coverbox-full;
+
+      &::before {
+        height: var(--h, 402px);
+      }
+
+      @include direction();
+
+      &.bottom::before {
+        top: auto;
+        bottom: 0;
+      }
+    }
+  }
+
+  &-label {
+    position: relative;
+
+    .label {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(#000, 0.5);
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+  }
+
+  &-bg {
+    background-image: var(--bg-image);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}

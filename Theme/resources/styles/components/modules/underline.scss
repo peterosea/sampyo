@@ -1,0 +1,11 @@
+// 하이라이트 밑줄
+.pointUnderLine {
+  box-shadow: rgba(var(--bs, var(--RGB-bermudagrass)), var(--op, 0.4)) 0
+    var(--h, -8px) 0 0 inset;
+  display: inline-block;
+}
+
+// 페이지 굵은 밑줄
+.underline.power {
+  text-decoration: underline;
+}
