@@ -84,7 +84,7 @@
   </div>
   <div class="mb-16"></div>
   <div class="coverbox-full-fixedHeight left pt-16" style="--h: 291px">
-    <div class="font-bold underline text-2xl">
+    <div class="font-bold underline text-2xl mb-5">
       삼표연수원
     </div>
     <p>
