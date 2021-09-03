@@ -13,6 +13,15 @@
     }
   }
 
+  &.right {
+    clip-path: polygon(0 0, 84% 0, 100% 50%, 84% 100%, 0 100%);
+
+    #{$p}-inner {
+      margin-top: 0;
+      margin-right: calc(16% / 2);
+    }
+  }
+
   &.half {
     clip-path: polygon(
       100% 100%,
