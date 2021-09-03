@@ -20,7 +20,7 @@
             alt=""
           >
         </div>
-        <div class="card__s1-body items-start text-left gap-5">
+        <div class="card__s1-body items-start text-left gap-0.5">
           <div class="card__s1-title text-xl font-bold">
             전사공통 (Basic)
           </div>
@@ -44,7 +44,7 @@
             alt=""
           >
         </div>
-        <div class="card__s1-body items-start text-left gap-5">
+        <div class="card__s1-body items-start text-left gap-0.5">
           <div class="card__s1-title text-xl font-bold">
             리더십  (Leadership) 
           </div>
@@ -68,7 +68,7 @@
             alt=""
           >
         </div>
-        <div class="card__s1-body items-start text-left gap-5">
+        <div class="card__s1-body items-start text-left gap-0.5">
           <div class="card__s1-title text-xl font-bold">
             직무  (Professional) 
           </div>
