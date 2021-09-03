@@ -18,6 +18,7 @@ module.exports = {
       borderColor: {
         dugong: 'var(--dugong, #707070)',
         orochimaru: 'var(--orochimaru, #d9d9d9)',
+        blackout: 'var(--black-out, #222222)',
       },
       backgroundColor: {
         mistyLawn: 'var(--misty-lawn, #DEF7E0)',

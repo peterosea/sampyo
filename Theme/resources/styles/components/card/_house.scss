@@ -4,6 +4,15 @@
   clip-path: polygon(100% 100%, 50% 100%, 0% 100%, 0% 33%, 50% 0%, 100% 33%);
   overflow: hidden;
 
+  &.bottom {
+    clip-path: polygon(100% 75%, 50% 100%, 0% 75%, 0% 25%, 0 0%, 100% 0);
+
+    #{$p}-inner {
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+  }
+
   &.half {
     clip-path: polygon(
       100% 100%,
