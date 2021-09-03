@@ -79,7 +79,7 @@
   <div class="business__page-title mb-14">
     사회공헌 활동
   </div>
-  <div class="text-2xl font-black underline mb-7">인재 육성</div>
+  <div class="text-2xl font-black underline power mb-7">인재 육성</div>
   <div class="flex -mx-6 mb-14">
     <div class="w-1/2 px-6 prose">
       <p>
@@ -138,7 +138,7 @@
       </div>
     </div>
   </div>
-  <div class="font-black underline text-2xl mb-10">지역 나눔</div>
+  <div class="font-black underline power text-2xl mb-10">지역 나눔</div>
   <div class="grid grid-cols-2 gap-x-12 gap-y-4 mb-32">
     <div>
       <img
@@ -170,7 +170,7 @@
       </p>
     </div>
   </div>
-  <div class="font-black underline text-2xl mb-6">환경 보호</div>
+  <div class="font-black underline power text-2xl mb-6">환경 보호</div>
   <p class="mb-12">삼표시멘트는 ‘1사 1하천’ 운동의 일환으로 매년 삼척시 오십천 일대에서 하천 정화활동을 펼칩니다. 오십천 강변의 쓰레기와 생태교란 외래식물을 제거하는 등 자연 보전 활동에 앞장섭니다.</p>
   <img
     src="@php echo get_theme_file_uri('resources/images/sampyo-group-csr-7.jpg') @endphp"

@@ -47,7 +47,7 @@
   <div class="mb-12"></div>
   <div class="flex -mx-6 mb-16">
     <div class="w-1/2 px-6 prose">
-      <div class="text-2xl font-black underline mb-8">
+      <div class="text-2xl font-black underline power mb-8">
         8행
       </div>
       <ol>
@@ -62,7 +62,7 @@
       </ol>
     </div>
     <div class="w-1/2 px-6 prose">
-      <div class="text-2xl font-black underline mb-8">
+      <div class="text-2xl font-black underline power mb-8">
         5금
       </div>
       <ol>

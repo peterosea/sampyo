@@ -8,4 +8,6 @@
 // 페이지 굵은 밑줄
 .underline.power {
   text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: var(--h, 3px);
 }

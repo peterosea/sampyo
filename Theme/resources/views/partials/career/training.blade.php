@@ -84,7 +84,7 @@
   </div>
   <div class="mb-16"></div>
   <div class="coverbox-full-fixedHeight left pt-16" style="--h: 291px">
-    <div class="font-bold underline text-2xl mb-5">
+    <div class="font-bold underline power text-2xl mb-5">
       삼표연수원
     </div>
     <p>
@@ -152,7 +152,7 @@
     </div>
   </div>
   <div class="mb-32"></div>
-  <div class="font-bold underline text-2xl mb-5">
+  <div class="font-bold underline power text-2xl mb-5">
     삼표 사이버 연수원
   </div>
   <p>

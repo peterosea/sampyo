@@ -35,7 +35,7 @@
     <div class="border-t border-orochimaru grid grid-cols-5 pt-20 pb-52 text-xl">
       @foreach ($businessTable as $post)
         <div class="flex justify-center items-center h-72 border-b border-orochimaru">
-          <span class="font-black text-2xl underline">
+          <span class="font-black text-2xl underline power">
             {!!  $post->post_title !!}
           </span>
         </div>
