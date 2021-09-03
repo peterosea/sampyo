@@ -24,6 +24,8 @@ module.exports = {
         mistyLawn: 'var(--misty-lawn, #DEF7E0)',
         hospitalGreen: 'var(--hospital-green, #9AE3A1)',
         bermudagrass: 'var(--bermudagrass, #64CC6E)',
+        lighthouse: 'var(--lighthouse, #F4F4F4)',
+        artificialTurf: 'var(--artificial-turf, #47B951)',
       },
       typography: {
         DEFAULT: {
