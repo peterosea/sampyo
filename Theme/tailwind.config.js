@@ -11,6 +11,9 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        lg: '1050px',
+      },
       colors: {
         point: 'var(--atmosphere, #009ddf)',
         funnelCloud: 'var(--funnel-cloud, #113a66)',
