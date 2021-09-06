@@ -1,3 +1,5 @@
+[![🚛 prod server deploy (NCP)](https://github.com/beeclover/sampyo/actions/workflows/ncp-deploy.yml/badge.svg)](https://github.com/beeclover/sampyo/actions/workflows/ncp-deploy.yml)
+
 <p align="center" >
   <img width="560" src="https://user-images.githubusercontent.com/42893446/130402792-02398eca-847c-438d-a03c-21a0285ea4ce.jpg" alt="테마 섬네일">
 </p>
