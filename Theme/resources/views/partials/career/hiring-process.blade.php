@@ -73,7 +73,7 @@
 내부 채용발생시 DB 검토를 통하여 개별 연락을 드리고 있습니다.
   </p>
   <div class="mb-24"></div>
-  <a href="#" class="inline-block p-16 bg-artificialTurf text-white font-black text-lg">채용공고 바로가기</a>
+  <a href="https://sampyo.recruiter.co.kr" class="inline-block p-16 bg-artificialTurf text-white font-black text-lg">채용공고 바로가기</a>
   <div class="mb-24"></div>
 </div>
 </main>
