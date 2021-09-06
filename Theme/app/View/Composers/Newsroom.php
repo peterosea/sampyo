@@ -28,8 +28,8 @@ class Newsroom extends Composer
           'blog_cat' => $this->get_category("blog"),
           'media_posts' => $this->get_banner_posts("media"),
           'notice_posts' => $this->get_def_posts("notice-board"),
-          'media_cat_release' => $this->get_media("release"),
-          'media_cat_featured' => $this->get_media("featured"),
+          'media_cat_release' => $this->get_media("press-release"),
+          'media_cat_featured' => $this->get_media("media-featured"),
         ];
     }
 
@@ -153,6 +153,8 @@ class Newsroom extends Composer
             "terms" => $cat
           ))
         ));
+
+        var_dump($posts);
 
         $posts = array_map(function ($post) {
             return $this->set_post_data($post, "media");
