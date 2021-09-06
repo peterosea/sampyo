@@ -54,13 +54,7 @@
     <div class="grid grid-cols-2 gap-y-16 gap-x-12">
       @foreach ($benefits as $key => $item)
         <div class="grid grid-flow-col gap-x-7">
-          <img
-            src="{{ get_theme_file_uri('resources/images/career-perks-' . $key . '.png') }}"
-            srcset="
-              {{ get_theme_file_uri('resources/images/career-perks-' . $key . '@2x.png') }} 2x,
-              {{ get_theme_file_uri('resources/images/career-perks-' . $key . '@3x.png') }} 3x"
-            alt=""
-          >
+          @include('partials.img', ['ex' => 'png', 'name' => 'career-perks-' . $key . ''])
           <div class="prose py-1.5">
             <h3 class="text-lg">{{ $item['title'] }}</h3>
             <p>{{ $item['content'] }}</p>

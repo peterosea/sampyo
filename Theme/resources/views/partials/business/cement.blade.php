@@ -22,13 +22,7 @@
       </div>
     </div>
   </div>
-  <img
-    src="@php echo get_theme_file_uri('resources/images/dji-0232-sample.jpg') @endphp"
-    srcset="
-      @php echo get_theme_file_uri('resources/images/dji-0232-sample@2x.jpg') @endphp 2x,
-      @php echo get_theme_file_uri('resources/images/dji-0232-sample@3x.jpg') @endphp 3x"
-    alt=""
-  >
+  @include('partials.img', ['ex' => 'jpg', 'name' => 'dji-0232-sample'])
   <div class="mb-32"></div>
   <div class="coverbox-full left pb-32 pt-24 mb-28">
     <div class="business__page-title mb-11">
@@ -39,13 +33,7 @@
     </div>
     <div class="flex -mx-6">
       <div class="w-1/2 px-6">
-        <img
-        src="@php echo get_theme_file_uri('resources/images/5387.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/5387@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/5387@3x.jpg') @endphp 3x"
-        alt=""
-        >
+        @include('partials.img', ['ex' => 'jpg', 'name' => '5387'])
       </div>
       <div class="w-1/2 px-6 flex items-center">
         <div>
@@ -78,13 +66,7 @@
       </div>
     </div>
   </div>
-  <img
-    src="@php echo get_theme_file_uri('resources/images/tip-249-t-014163-1.jpg') @endphp"
-    srcset="
-      @php echo get_theme_file_uri('resources/images/tip-249-t-014163-1@2x.jpg') @endphp 2x,
-      @php echo get_theme_file_uri('resources/images/tip-249-t-014163-1@3x.jpg') @endphp 3x"
-    alt=""
-  >
+  @include('partials.img', ['ex' => 'jpg', 'name' => 'tip-249-t-014163-1'])
   <div class="mb-20"></div>
   <div class="flex -mx-6">
     <div class="w-1/2 px-6">

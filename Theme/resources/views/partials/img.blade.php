@@ -1,4 +1,7 @@
 <img
+  @if (!empty($class))
+      class="{{ $class }}"
+  @endif
   src="@php echo get_theme_file_uri('resources/images/'.$name.'.'.$ex) @endphp"
   srcset="
     @php echo get_theme_file_uri('resources/images/'.$name.'@2x.'.$ex) @endphp 2x,

@@ -19,13 +19,7 @@
   
   <div class="grid grid-cols-2 gap-x-12 gap-y-28 mb-20">
     <div>
-      <img
-        src="@php echo get_theme_file_uri('resources/images/sampyo-group-sustainability-1.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/sampyo-group-sustainability-1@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/sampyo-group-sustainability-1@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-sustainability-1'])
     </div>
     <div class="prose">
       <div class="font-black text-2xl underline power mb-11">풍요로운 사회의 유지와 발전에 기여</div>
@@ -49,13 +43,7 @@
       </p>
     </div>
     <div class="flex items-center justify-center">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/sampyo-group-sustainability-2.png') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/sampyo-group-sustainability-2@2x.png') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/sampyo-group-sustainability-2@3x.png') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'png', 'name' => 'sampyo-group-sustainability-2'])
     </div>
   </div>
   <div class="mb-24"></div>
@@ -85,13 +73,7 @@
       </p>
     </div>
     <div class="w-1/2 px-6">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/sampyo-group-sustainability-4.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/sampyo-group-sustainability-4@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/sampyo-group-sustainability-4@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-sustainability-4'])
     </div>
   </div>
   <div class="mb-24"></div>

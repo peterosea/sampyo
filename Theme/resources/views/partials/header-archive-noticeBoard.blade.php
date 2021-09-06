@@ -10,14 +10,7 @@
               class="header-archive-img"
             >
           @else
-            <img
-              src="@php echo get_theme_file_uri('resources/images/header-blog.jpg') @endphp"
-              srcset="
-                @php echo get_theme_file_uri('resources/images/header-blog@2x.jpg') @endphp 2x,
-                @php echo get_theme_file_uri('resources/images/header-blog@3x.jpg') @endphp 3x"
-              alt=""
-              class="header-archive-img"
-            >
+            @include('partials.img', ['ex' => 'jpg', 'name' => 'header-blog', 'class' => 'header-archive-img'])
           @endif
         </div>
         <div class="header-archive-content">

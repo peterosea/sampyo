@@ -17,22 +17,10 @@
       </p>
     </div>
     <div>
-      <img
-        src="@php echo get_theme_file_uri('resources/images/chairman_message-1.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/chairman_message-1@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/chairman_message-1@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'chairman_message-1'])
     </div>
     <div>
-      <img
-        src="@php echo get_theme_file_uri('resources/images/chairman_message-2.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/chairman_message-2@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/chairman_message-2@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'chairman_message-2'])
     </div>
     <div class="prose">
       <p class="mb-10">

@@ -21,25 +21,13 @@
     </div>
     <div>
       <div class="coverbox-label">
-        <img
-          src="@php echo get_theme_file_uri('resources/images/ready-mix-1.jpg') @endphp"
-          srcset="
-            @php echo get_theme_file_uri('resources/images/ready-mix-1@2x.jpg') @endphp 2x,
-            @php echo get_theme_file_uri('resources/images/ready-mix-1@3x.jpg') @endphp 3x"
-          alt=""
-        >
+        @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-1'])
         <span class="label text-white">수도권 최고의 생산능력 (2,068만 m3/년)</span>
       </div>
     </div>
     <div>
       <div class="coverbox-label">
-        <img
-          src="@php echo get_theme_file_uri('resources/images/ready-mix-2.jpg') @endphp"
-          srcset="
-            @php echo get_theme_file_uri('resources/images/ready-mix-2@2x.jpg') @endphp 2x,
-            @php echo get_theme_file_uri('resources/images/ready-mix-2@3x.jpg') @endphp 3x"
-          alt=""
-        >
+        @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-2'])
         <span class="label text-white">다양한 기능성 레미콘 브랜드</span>
       </div>
     </div>
@@ -68,13 +56,7 @@
   </div>
   <div class="flex -mx-6">
     <div class="w-1/2 px-6">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/ready-mix-3.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/ready-mix-3@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/ready-mix-3@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-3'])
     </div>
     <div class="w-1/2 px-6">
       <div class="flex flex-col justify-between h-full">
@@ -100,7 +82,7 @@
     <div class="swiper-wrapper">
       @foreach (['바닥 콘크리트', '내한 콘크리트', '조강 콘크리트', '자기충전 콘크리트', '20mm 콘크리트'] as $index => $item)
         <div class="swiper-slide">
-          @include('partials.card__s4')
+          @include('partials.card__s4', ['index' => $index])
         </div>
       @endforeach
     </div>
@@ -141,14 +123,7 @@
         </div>
       </div>
       <div class="w-5/12 px-4 relative">
-        <img
-          class="absolute w-full"
-          src="@php echo get_theme_file_uri('resources/images/ready-mix-4.png') @endphp"
-          srcset="
-            @php echo get_theme_file_uri('resources/images/ready-mix-4@2x.png') @endphp 2x,
-            @php echo get_theme_file_uri('resources/images/ready-mix-4@3x.png') @endphp 3x"
-          alt=""
-        >
+        @include('partials.img', ['ex' => 'png', 'name' => 'ready-mix-4', 'class' => 'absolute w-full'])
       </div>
     </div>
   </div>
@@ -175,36 +150,18 @@
     </p>
   </div>
   <div class="coverbox-label">
-    <img
-      src="@php echo get_theme_file_uri('resources/images/ready-mix-5.jpg') @endphp"
-      srcset="
-        @php echo get_theme_file_uri('resources/images/ready-mix-5@2x.jpg') @endphp 2x,
-        @php echo get_theme_file_uri('resources/images/ready-mix-5@3x.jpg') @endphp 3x"
-      alt=""
-    >
+    @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-5'])
     <span class="label text-white">삼표 콘크리트 시험평가원</span>
   </div>
   <div class="mb-32"></div>
   <div class="flex -mx-6 mb-36">
     <div class="w-1/2 px-6">
       <div class="text-2xl font-black mb-9">환경성적표지 인증서</div>
-      <img
-        src="@php echo get_theme_file_uri('resources/images/ready-mix-6.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/ready-mix-6@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/ready-mix-6@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-6'])
     </div>
     <div class="w-1/2 px-6">
       <div class="text-2xl font-black mb-9">저탄소 제품 인증서</div>
-      <img
-        src="@php echo get_theme_file_uri('resources/images/ready-mix-7.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/ready-mix-7@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/ready-mix-7@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-7'])
     </div>
   </div>
 </div>

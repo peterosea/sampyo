@@ -11,13 +11,7 @@
   </div>
   <div class="flex -mx-6 mb-32 relative pt-24">
     <div class="w-1/2 px-6 absolute left-0 top-0">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/sampyo-group-history-1.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/sampyo-group-history-1@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/sampyo-group-history-1@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-1'])
     </div>
     <div class="w-1/3 px-6">
     </div>
@@ -41,13 +35,7 @@
   </div>
   <div class="flex -mx-6 mb-32 relative pt-24">
     <div class="w-1/2 px-6 absolute right-0 top-0">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/sampyo-group-history-2.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/sampyo-group-history-2@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/sampyo-group-history-2@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-2'])
     </div>
     <div class="w-2/3 px-6 relative z-10 py-12 pr-16 bg-white flex flex-col gap-y-24">
       <div class="historybox">
@@ -71,13 +59,7 @@
   </div>
   <div class="flex -mx-6 mb-32 relative pt-24">
     <div class="w-1/2 px-6 absolute left-0 top-0">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/sampyo-group-history-3.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/sampyo-group-history-3@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/sampyo-group-history-3@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-3'])
     </div>
     <div class="w-1/3 px-6">
     </div>
@@ -101,13 +83,7 @@
   </div>
   <div class="flex -mx-6 mb-32 relative pt-24">
     <div class="w-1/2 px-6 absolute right-0 top-0">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/sampyo-group-history-4.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/sampyo-group-history-4@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/sampyo-group-history-4@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-4'])
     </div>
     <div class="w-2/3 px-6 relative z-10 py-12 pr-16 bg-white flex flex-col gap-y-24">
       <div class="historybox">
@@ -131,13 +107,7 @@
   </div>
   <div class="flex -mx-6 mb-32 relative pt-24">
     <div class="w-1/2 px-6 absolute left-0 top-0">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/sampyo-group-history-5.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/sampyo-group-history-5@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/sampyo-group-history-5@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-5'])
     </div>
     <div class="w-1/3 px-6">
     </div>

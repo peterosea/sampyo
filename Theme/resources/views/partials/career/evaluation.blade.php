@@ -78,13 +78,7 @@
   </div>
   <div class="flex mb-14">
     <div class="w-1/2 relative">
-      <img
-        src="{{ get_theme_file_uri('resources/images/career-evaluation-0.png') }}"
-        srcset="
-          {{ get_theme_file_uri('resources/images/career-evaluation-0@2x.png') }} 2x,
-          {{ get_theme_file_uri('resources/images/career-evaluation-0@3x.png') }} 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'png', 'name' => 'career-evaluation-0'])
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white prose text-center w-full px-4">
         <h3 class="text-lg">업적평가</h3>
         <p>
@@ -93,13 +87,7 @@
       </div>
     </div>
     <div class="w-1/2">
-      <img
-        src="{{ get_theme_file_uri('resources/images/career-evaluation-1.png') }}"
-        srcset="
-          {{ get_theme_file_uri('resources/images/career-evaluation-1@2x.png') }} 2x,
-          {{ get_theme_file_uri('resources/images/career-evaluation-1@3x.png') }} 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'png', 'name' => 'career-evaluation-1'])
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white prose text-center w-full px-4">
         <h3 class="text-lg">역량평가</h3>
         <p>
@@ -113,13 +101,7 @@
       <div class="w-1/3 px-9">
         <div class="card__s1 gap-9">
           <div class="card__s1-thumbnail_ flex items-center justify-center">
-              <img
-              src="{{ get_theme_file_uri('resources/images/career-evaluation-2.png') }}"
-              srcset="
-                {{ get_theme_file_uri('resources/images/career-evaluation-2@2x.png') }} 2x,
-                {{ get_theme_file_uri('resources/images/career-evaluation-2@3x.png') }} 3x"
-              alt=""
-            >
+              @include('partials.img', ['ex' => 'png', 'name' => 'career-evaluation-2'])
           </div>
           <div class="card__s1-body items-center justify-center text-center gap-5">
             <div class="card__s1-title text-xl font-bold">
@@ -134,13 +116,7 @@
       <div class="w-1/3 px-9">
         <div class="card__s1 gap-9">
           <div class="card__s1-thumbnail_ flex items-center justify-center">
-              <img
-              src="{{ get_theme_file_uri('resources/images/career-evaluation-3.png') }}"
-              srcset="
-                {{ get_theme_file_uri('resources/images/career-evaluation-3@2x.png') }} 2x,
-                {{ get_theme_file_uri('resources/images/career-evaluation-3@3x.png') }} 3x"
-              alt=""
-            >
+              @include('partials.img', ['ex' => 'png', 'name' => 'career-evaluation-3'])
           </div>
           <div class="card__s1-body items-center justify-center text-center gap-5">
             <div class="card__s1-title text-xl font-bold">
@@ -155,13 +131,7 @@
       <div class="w-1/3 px-9">
         <div class="card__s1 gap-9">
           <div class="card__s1-thumbnail_ flex items-center justify-center">
-              <img
-              src="{{ get_theme_file_uri('resources/images/career-evaluation-4.png') }}"
-              srcset="
-                {{ get_theme_file_uri('resources/images/career-evaluation-4@2x.png') }} 2x,
-                {{ get_theme_file_uri('resources/images/career-evaluation-4@3x.png') }} 3x"
-              alt=""
-            >
+              @include('partials.img', ['ex' => 'png', 'name' => 'career-evaluation-4'])
           </div>
           <div class="card__s1-body items-center justify-center text-center gap-5">
             <div class="card__s1-title text-xl font-bold">

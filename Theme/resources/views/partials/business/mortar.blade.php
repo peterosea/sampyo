@@ -3,13 +3,7 @@
     24시간 자동출하시스템과 인터넷 주문시스템,<br/>
     최적화된 배합비로 고객 만족을 최우선하겠습니다.
   </div>
-  <img
-    src="{{ get_theme_file_uri('resources/images/business-mortar-0.jpg') }}"
-    srcset="
-      {{ get_theme_file_uri('resources/images/business-mortar-0@2x.jpg') }} 2x,
-      {{ get_theme_file_uri('resources/images/business-mortar-0@3x.jpg') }} 3x"
-    alt=""
-  >
+  @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-0'])
   <div class="grid grid-cols-2 gap-x-12 gap-y-16">
     <div class="prose">
       <p>
@@ -27,23 +21,11 @@
       </p>
     </div>
     <div class="coverbox-label">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/business-mortar-1.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/business-mortar-1@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/business-mortar-1@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-1'])
       <span class="label text-white">전국 공급망 체계 구축</span>
     </div>
     <div class="coverbox-label">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/business-mortar-2.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/business-mortar-2@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/business-mortar-2@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-2'])
       <span class="label text-white">24시간 자동출하시스템</span>
     </div>
   </div>
@@ -58,13 +40,7 @@
         <a href="https://smartstore.naver.com/sampyomortar" target="_blank" rel="noopener noreferrer" class="text-point">SAMPYO MORTAR MALL</a> 을 운영하고 있어, 오프라인 매장 방문 없이 온라인으로 언제 어디서든 주문하고 제품을 수령할 수 있습니다.
       </p>
     </div>
-    <img
-      src="{{ get_theme_file_uri('resources/images/business-mortar-3.jpg') }}"
-      srcset="
-        {{ get_theme_file_uri('resources/images/business-mortar-3@2x.jpg') }} 2x,
-        {{ get_theme_file_uri('resources/images/business-mortar-3@3x.jpg') }} 3x"
-      alt=""
-    >
+    @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-3'])
   </div>
   <div class="business__page-title mb-11">
     몰탈 제품군
@@ -77,23 +53,11 @@
   <div class="flex -mx-6">
     <div class="w-1/2 px-6">
       <h3 class="text-2xl font-black mb-11">일반 제품군</h3>
-      <img
-        src="{{ get_theme_file_uri('resources/images/business-mortar-4.jpg') }}"
-        srcset="
-          {{ get_theme_file_uri('resources/images/business-mortar-4@2x.jpg') }} 2x,
-          {{ get_theme_file_uri('resources/images/business-mortar-4@3x.jpg') }} 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-4'])
     </div>
     <div class="w-1/2 px-6">
       <h3 class="text-2xl font-black mb-11">특수 제품군</h3>
-      <img
-        src="{{ get_theme_file_uri('resources/images/business-mortar-5.jpg') }}"
-        srcset="
-          {{ get_theme_file_uri('resources/images/business-mortar-5@2x.jpg') }} 2x,
-          {{ get_theme_file_uri('resources/images/business-mortar-5@3x.jpg') }} 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-5'])
     </div>
   </div>
   <div class="mb-14"></div>

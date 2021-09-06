@@ -12,13 +12,7 @@
     <div class="w-1/3 px-9">
       <div class="card__s1 gap-9">
         <div class="card__s1-thumbnail_">
-            <img
-            src="@php echo get_theme_file_uri('resources/images/career-training-1.png') @endphp"
-            srcset="
-              @php echo get_theme_file_uri('resources/images/career-training-1@2x.png') @endphp 2x,
-              @php echo get_theme_file_uri('resources/images/career-training-1@3x.png') @endphp 3x"
-            alt=""
-          >
+            @include('partials.img', ['ex' => 'png', 'name' => 'career-training-1'])
         </div>
         <div class="card__s1-body items-start text-left gap-0.5">
           <div class="card__s1-title text-xl font-bold">
@@ -36,13 +30,7 @@
     <div class="w-1/3 px-9">
       <div class="card__s1 gap-9">
         <div class="card__s1-thumbnail_">
-            <img
-            src="@php echo get_theme_file_uri('resources/images/career-training-2.png') @endphp"
-            srcset="
-              @php echo get_theme_file_uri('resources/images/career-training-2@2x.png') @endphp 2x,
-              @php echo get_theme_file_uri('resources/images/career-training-2@3x.png') @endphp 3x"
-            alt=""
-          >
+            @include('partials.img', ['ex' => 'png', 'name' => 'career-training-2'])
         </div>
         <div class="card__s1-body items-start text-left gap-0.5">
           <div class="card__s1-title text-xl font-bold">
@@ -60,13 +48,7 @@
     <div class="w-1/3 px-9">
       <div class="card__s1 gap-9">
         <div class="card__s1-thumbnail_">
-            <img
-            src="@php echo get_theme_file_uri('resources/images/career-training-3.png') @endphp"
-            srcset="
-              @php echo get_theme_file_uri('resources/images/career-training-3@2x.png') @endphp 2x,
-              @php echo get_theme_file_uri('resources/images/career-training-3@3x.png') @endphp 3x"
-            alt=""
-          >
+            @include('partials.img', ['ex' => 'png', 'name' => 'career-training-3'])
         </div>
         <div class="card__s1-body items-start text-left gap-0.5">
           <div class="card__s1-title text-xl font-bold">
@@ -94,13 +76,7 @@
     <div class="grid grid-cols-2 gap-y-2.5 gap-x-12">
       {{-- start col --}}
       <div>
-        <img
-          src="@php echo get_theme_file_uri('resources/images/career-training-4.jpg') @endphp"
-          srcset="
-            @php echo get_theme_file_uri('resources/images/career-training-4@2x.jpg') @endphp 2x,
-            @php echo get_theme_file_uri('resources/images/career-training-4@3x.jpg') @endphp 3x"
-          alt=""
-        >
+        @include('partials.img', ['ex' => 'jpg', 'name' => 'career-training-4'])
       </div>
       <div class="flex flex-col justify-end pb-12 prose">
         <div class="font-bold text-xl">
@@ -113,13 +89,7 @@
       {{-- end col --}}
       {{-- start col --}}
       <div>
-        <img
-          src="@php echo get_theme_file_uri('resources/images/career-training-5.jpg') @endphp"
-          srcset="
-            @php echo get_theme_file_uri('resources/images/career-training-5@2x.jpg') @endphp 2x,
-            @php echo get_theme_file_uri('resources/images/career-training-5@3x.jpg') @endphp 3x"
-          alt=""
-        >
+        @include('partials.img', ['ex' => 'jpg', 'name' => 'career-training-5'])
       </div>
       <div class="flex flex-col justify-end pb-12 prose">
         <div class="font-bold text-xl">
@@ -132,13 +102,7 @@
       {{-- end col --}}
       {{-- start col --}}
       <div>
-        <img
-          src="@php echo get_theme_file_uri('resources/images/career-training-6.jpg') @endphp"
-          srcset="
-            @php echo get_theme_file_uri('resources/images/career-training-6@2x.jpg') @endphp 2x,
-            @php echo get_theme_file_uri('resources/images/career-training-6@3x.jpg') @endphp 3x"
-          alt=""
-        >
+        @include('partials.img', ['ex' => 'jpg', 'name' => 'career-training-6'])
       </div>
       <div class="flex flex-col justify-end pb-12 prose">
         <div class="font-bold text-xl">
@@ -159,13 +123,7 @@
     삼표는 사이버연수원을 통해 시간과 공간의 제약없이 학습할 수 있는 온라인 교육 시스템을 운영하고 있습니다.
   </p>
   <div class="mb-16"></div>
-  <img
-    src="@php echo get_theme_file_uri('resources/images/career-training-7.jpg') @endphp"
-    srcset="
-      @php echo get_theme_file_uri('resources/images/career-training-7@2x.jpg') @endphp 2x,
-      @php echo get_theme_file_uri('resources/images/career-training-7@3x.jpg') @endphp 3x"
-    alt=""
-  >
+  @include('partials.img', ['ex' => 'jpg', 'name' => 'career-training-7'])
   <div class="mb-16"></div>
   <div class="grid grid-cols-2 gap-12">
     {{-- start col --}}

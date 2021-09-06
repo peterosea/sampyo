@@ -11,13 +11,7 @@
     <div class="w-1/3 px-9">
       <div class="card__s1 gap-9">
         <div class="card__s1-thumbnail_">
-            <img
-            src="@php echo get_theme_file_uri('resources/images/career-mindset-1.png') @endphp"
-            srcset="
-              @php echo get_theme_file_uri('resources/images/career-mindset-1@2x.png') @endphp 2x,
-              @php echo get_theme_file_uri('resources/images/career-mindset-1@3x.png') @endphp 3x"
-            alt=""
-          >
+            @include('partials.img', ['ex' => 'png', 'name' => 'career-mindset-1'])
         </div>
         <div class="card__s1-body items-start text-left gap-5">
           <div class="card__s1-title text-xl font-bold">
@@ -33,13 +27,7 @@
     <div class="w-1/3 px-9">
       <div class="card__s1 gap-9">
         <div class="card__s1-thumbnail_">
-            <img
-            src="@php echo get_theme_file_uri('resources/images/career-mindset-2.png') @endphp"
-            srcset="
-              @php echo get_theme_file_uri('resources/images/career-mindset-2@2x.png') @endphp 2x,
-              @php echo get_theme_file_uri('resources/images/career-mindset-2@3x.png') @endphp 3x"
-            alt=""
-          >
+            @include('partials.img', ['ex' => 'png', 'name' => 'career-mindset-2'])
         </div>
         <div class="card__s1-body items-start text-left gap-5">
           <div class="card__s1-title text-xl font-bold">
@@ -55,13 +43,7 @@
     <div class="w-1/3 px-9">
       <div class="card__s1 gap-9">
         <div class="card__s1-thumbnail_">
-            <img
-            src="@php echo get_theme_file_uri('resources/images/career-mindset-3.png') @endphp"
-            srcset="
-              @php echo get_theme_file_uri('resources/images/career-mindset-3@2x.png') @endphp 2x,
-              @php echo get_theme_file_uri('resources/images/career-mindset-3@3x.png') @endphp 3x"
-            alt=""
-          >
+            @include('partials.img', ['ex' => 'png', 'name' => 'career-mindset-3'])
         </div>
         <div class="card__s1-body items-start text-left gap-5">
           <div class="card__s1-title text-xl font-bold">

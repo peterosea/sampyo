@@ -40,6 +40,6 @@ class NoticeBoard extends Composer
     
     public function thumbnail()
     {
-        return !empty(get_the_post_thumbnail()) ? get_the_post_thumbnail() : '';
+        return !empty(get_the_post_thumbnail_url()) ? get_the_post_thumbnail_url() : '';
     }
 }

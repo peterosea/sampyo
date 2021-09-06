@@ -19,13 +19,7 @@
       <div class="w-1/3 px-9">
         <div class="card__s1">
           <div class="card__s1-thumbnail_">
-              <img
-              src="@php echo get_theme_file_uri('resources/images/sampyo-group-csr-1.png') @endphp"
-              srcset="
-                @php echo get_theme_file_uri('resources/images/sampyo-group-csr-1@2x.png') @endphp 2x,
-                @php echo get_theme_file_uri('resources/images/sampyo-group-csr-1@3x.png') @endphp 3x"
-              alt=""
-            >
+              @include('partials.img', ['ex' => 'png', 'name' => 'sampyo-group-csr-1'])
           </div>
           <div class="card__s1-body items-start text-left gap-2.5">
             <div class="card__s1-title text-xl font-bold">인재 육성</div>
@@ -38,13 +32,7 @@
       <div class="w-1/3 px-9">
         <div class="card__s1">
           <div class="card__s1-thumbnail_">
-              <img
-              src="@php echo get_theme_file_uri('resources/images/sampyo-group-csr-2.png') @endphp"
-              srcset="
-                @php echo get_theme_file_uri('resources/images/sampyo-group-csr-2@2x.png') @endphp 2x,
-                @php echo get_theme_file_uri('resources/images/sampyo-group-csr-2@3x.png') @endphp 3x"
-              alt=""
-            >
+              @include('partials.img', ['ex' => 'png', 'name' => 'sampyo-group-csr-2'])
           </div>
           <div class="card__s1-body items-start text-left gap-2.5">
             <div class="card__s1-title text-xl font-bold">지역 나눔</div>
@@ -57,13 +45,7 @@
       <div class="w-1/3 px-9">
         <div class="card__s1">
           <div class="card__s1-thumbnail_">
-              <img
-              src="@php echo get_theme_file_uri('resources/images/sampyo-group-csr-3.png') @endphp"
-              srcset="
-                @php echo get_theme_file_uri('resources/images/sampyo-group-csr-3@2x.png') @endphp 2x,
-                @php echo get_theme_file_uri('resources/images/sampyo-group-csr-3@3x.png') @endphp 3x"
-              alt=""
-            >
+              @include('partials.img', ['ex' => 'png', 'name' => 'sampyo-group-csr-3'])
           </div>
           <div class="card__s1-body items-start text-left gap-2.5">
             <div class="card__s1-title text-xl font-bold">환경 보호</div>
@@ -93,13 +75,7 @@
     </div>
   </div>
   <div class="relative mb-16">
-    <img
-      src="@php echo get_theme_file_uri('resources/images/sampyo-group-csr-4.jpg') @endphp"
-      srcset="
-        @php echo get_theme_file_uri('resources/images/sampyo-group-csr-4@2x.jpg') @endphp 2x,
-        @php echo get_theme_file_uri('resources/images/sampyo-group-csr-4@3x.jpg') @endphp 3x"
-      alt=""
-    >
+    @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-csr-4'])
     <a href="#" class="px-5 py-2.5 font-bold absolute right-0 bottom-0 bg-white transform -translate-x-11 -translate-y-11">학술장학재단 바로가기</a>
   </div>
   <div class="mb-20"></div>
@@ -141,13 +117,7 @@
   <div class="font-black underline power text-2xl mb-10">지역 나눔</div>
   <div class="grid grid-cols-2 gap-x-12 gap-y-4 mb-32">
     <div>
-      <img
-        src="@php echo get_theme_file_uri('resources/images/sampyo-group-csr-5.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/sampyo-group-csr-5@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/sampyo-group-csr-5@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-csr-5'])
     </div>
     <div class="prose">
       <p>
@@ -156,13 +126,7 @@
       </p>
     </div>
     <div>
-      <img
-        src="@php echo get_theme_file_uri('resources/images/sampyo-group-csr-6.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/sampyo-group-csr-6@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/sampyo-group-csr-6@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-csr-6'])
     </div>
     <div class="prose">
       <p>
@@ -172,14 +136,7 @@
   </div>
   <div class="font-black underline power text-2xl mb-6">환경 보호</div>
   <p class="mb-12">삼표시멘트는 ‘1사 1하천’ 운동의 일환으로 매년 삼척시 오십천 일대에서 하천 정화활동을 펼칩니다. 오십천 강변의 쓰레기와 생태교란 외래식물을 제거하는 등 자연 보전 활동에 앞장섭니다.</p>
-  <img
-    src="@php echo get_theme_file_uri('resources/images/sampyo-group-csr-7.jpg') @endphp"
-    srcset="
-      @php echo get_theme_file_uri('resources/images/sampyo-group-csr-7@2x.jpg') @endphp 2x,
-      @php echo get_theme_file_uri('resources/images/sampyo-group-csr-7@3x.jpg') @endphp 3x"
-    alt=""
-    class="mx-auto"
-  >
+  @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-csr-7', 'class' => 'mx-auto'])
   <div class="mb-24"></div>
 </div>
 </main>

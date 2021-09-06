@@ -19,13 +19,7 @@
   <div class="mb-32"></div>
   <div class="flex -mx-6 mb-24">
     <div class="w-1/2 px-6 flex items-center">
-      <img
-        src="@php echo get_theme_file_uri('resources/images/we_are_sampyo-1.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/we_are_sampyo-1@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/we_are_sampyo-1@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'we_are_sampyo-1'])
     </div>
     <div class="w-1/2 px-6 flex items-center">
       <div class="prose">

@@ -16,25 +16,13 @@
     </div>
     <div>
       <div class="coverbox-label">
-        <img
-          src="@php echo get_theme_file_uri('resources/images/11.jpg') @endphp"
-          srcset="
-            @php echo get_theme_file_uri('resources/images/11@2x.jpg') @endphp 2x,
-            @php echo get_theme_file_uri('resources/images/11@3x.jpg') @endphp 3x"
-          alt=""
-        >
+        @include('partials.img', ['ex' => 'jpg', 'name' => '11'])
         <span class="label text-white">국토부 주관 골재채취능력평가 13년 연속 1위</span>
       </div>
     </div>
     <div>
       <div class="coverbox-label">
-        <img
-          src="@php echo get_theme_file_uri('resources/images/invalid-name.jpg') @endphp"
-          srcset="
-            @php echo get_theme_file_uri('resources/images/invalid-name@2x.jpg') @endphp 2x,
-            @php echo get_theme_file_uri('resources/images/invalid-name@3x.jpg') @endphp 3x"
-          alt=""
-        >
+        @include('partials.img', ['ex' => 'jpg', 'name' => 'invalid-name'])
         <span class="label text-white">국토부 주관 골재채취능력평가 13년 연속 1위</span>
       </div>
     </div>
@@ -47,13 +35,7 @@
     <div class="business__page-description mb-16">
       수도권 시장점유율 21%, 전국 10개 골재 사업장
     </div>
-    <img
-      src="@php echo get_theme_file_uri('resources/images/2017-3.jpg') @endphp"
-      srcset="
-        @php echo get_theme_file_uri('resources/images/2017-3@2x.jpg') @endphp 2x,
-        @php echo get_theme_file_uri('resources/images/2017-3@3x.jpg') @endphp 3x"
-      alt=""
-    >
+    @include('partials.img', ['ex' => 'jpg', 'name' => '2017-3'])
   </div>
   <div class="mb-32"></div>
   <div class="business__page-title mb-11">
@@ -72,25 +54,13 @@
     </div>
     <div>
       <div class="coverbox-label">
-        <img
-          src="@php echo get_theme_file_uri('resources/images/433.jpg') @endphp"
-          srcset="
-            @php echo get_theme_file_uri('resources/images/433@2x.jpg') @endphp 2x,
-            @php echo get_theme_file_uri('resources/images/433@3x.jpg') @endphp 3x"
-          alt=""
-        >
+        @include('partials.img', ['ex' => 'jpg', 'name' => '433'])
         <span class="label text-white">석산 양석 채취</span>
       </div>
     </div>
     <div>
       <div class="coverbox-label">
-        <img
-          src="@php echo get_theme_file_uri('resources/images/434.jpg') @endphp"
-          srcset="
-            @php echo get_theme_file_uri('resources/images/434@2x.jpg') @endphp 2x,
-            @php echo get_theme_file_uri('resources/images/434@3x.jpg') @endphp 3x"
-          alt=""
-        >
+        @include('partials.img', ['ex' => 'jpg', 'name' => '434'])
         <span class="label text-white">바다모래 채취</span>
       </div>
     </div>
@@ -111,13 +81,7 @@
       </p>
     </div>
   </div>
-  <img
-    src="@php echo get_theme_file_uri('resources/images/5272.jpg') @endphp"
-    srcset="
-      @php echo get_theme_file_uri('resources/images/5272@2x.jpg') @endphp 2x,
-      @php echo get_theme_file_uri('resources/images/5272@3x.jpg') @endphp 3x"
-    alt=""
-  >
+  @include('partials.img', ['ex' => 'jpg', 'name' => '5272'])
   <div class="mb-32"></div>
   <div class="business__page-title mb-11">
     환경친화적인 자원 개발
@@ -130,14 +94,7 @@
       </p>
     </div>
     <div class="w-1/2 px-6">
-      <img
-        class="transform -translate-x-10"
-        src="@php echo get_theme_file_uri('resources/images/156.jpg') @endphp"
-        srcset="
-          @php echo get_theme_file_uri('resources/images/156@2x.jpg') @endphp 2x,
-          @php echo get_theme_file_uri('resources/images/156@3x.jpg') @endphp 3x"
-        alt=""
-      >
+      @include('partials.img', ['ex' => 'jpg', 'name' => '156', 'class' => 'transform -translate-x-10'])
     </div>
   </div>
 </div>
