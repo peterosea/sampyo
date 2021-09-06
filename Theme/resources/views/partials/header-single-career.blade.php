@@ -58,7 +58,11 @@
         </li>
       @else
         <li class="items-fixed-item">
-          <a href="{!! $item->permalink !!}" @if ($item->ID === get_the_ID()) class="current" @endif>{!! $item->post_title !!}</a>
+          @if ($item->ID === 312)
+            <a href="https://sampyo.recruiter.co.kr/" target="_blank" rel="noopener noreferrer">{!! $item->post_title !!}</a>
+          @else
+            <a href="{!! $item->permalink !!}" @if ($item->ID === get_the_ID()) class="current" @endif>{!! $item->post_title !!}</a>
+          @endif
         </li>
       @endif
     @endforeach

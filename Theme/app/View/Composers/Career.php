@@ -13,8 +13,6 @@ class career extends Composer
      */
     protected static $views = [
         'partials.content-single-career',
-        'archive-job-opportunities',
-        'partials.content-single-job-opportunities',
     ];
 
     /**
@@ -26,7 +24,7 @@ class career extends Composer
     {
         return [
           'queriedCat' => $this->queriedCat(),
-          'fixedMenu' => $this->jobsArchiveSetMenu($this->fixedMenu()),
+          'fixedMenu' => $this->fixedMenu(),
           'selected' => $this->selected(),
       ];
     }
@@ -122,18 +120,5 @@ class career extends Composer
             return $terms[0]->term_id;
         }
         return 0;
-    }
-
-    public function jobsArchiveSetMenu($fixedMenu)
-    {
-        $origin_jobs = get_post_type_object('job-opportunities');
-        $jobs = new \stdClass();
-        $jobs->ID = false;
-        $jobs->term_taxonomy_id = false;
-        $jobs->post_title = $origin_jobs->label;
-        $jobs->permalink = "/{$origin_jobs->has_archive}";
-        array_push($fixedMenu, $jobs);
-
-        return $fixedMenu;
     }
 }
