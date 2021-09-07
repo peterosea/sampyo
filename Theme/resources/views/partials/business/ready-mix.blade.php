@@ -1,3 +1,4 @@
+<main class="business__page">
 <div class="container lg:max-w-screen-lg mx-auto">
   <div class="business__page-title mb-11">
     삼표의 고성능 레미콘은 <br/>
@@ -70,7 +71,7 @@
           </p>
         </div>
         <div>
-          <a href="#" class="inline-flex items-center px-4 py-2 border border-gray-600 shadow-sm font-bold bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2">
+          <a href="/business/blue-con/" class="inline-flex items-center px-4 py-2 border border-gray-600 shadow-sm font-bold bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2">
             블루콘 제품 알아보기
           </a>
         </div>
@@ -165,3 +166,4 @@
     </div>
   </div>
 </div>
+</main>
