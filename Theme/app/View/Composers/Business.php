@@ -26,6 +26,7 @@ class Business extends Composer
           'fixedMenu' => $this->fixedMenu(),
           'selected' => $this->selected(),
           'acf' => $this->get_business_info(),
+          'bluecon' => get_post()->post_name === 'blue-con' ? $this->bluecon() : null,
         ];
     }
 
@@ -122,11 +123,23 @@ class Business extends Composer
         if ($address) {
             $this->filter_addr($address);
         }
-
-        return !is_null($outlink) || !is_null($area) || !is_null($address) ? [
+        return (!empty($outlink) || !empty($area) || !empty($address)) ? [
           'outlink' => $outlink,
           'area' => $area,
           'address' => $address,
         ] : false;
+    }
+
+    public function bluecon()
+    {
+        $bluecon = [];
+        for ($i=0; $i < 5; $i++) {
+            $v = get_field('g'.$i);
+            if ($v['youtube']) {
+                $v['youtube'] = preg_replace("/\s*[a-zA-Z\/\/:\.]*youtu(be.com\/watch\?v=|.be\/)([a-zA-Z0-9\-_]+)([a-zA-Z0-9\/\*\-\_\?\&\;\%\=\.]*)/i", "//www.youtube.com/embed/$2", $v['youtube']);
+            }
+            $bluecon['g'.$i] = $v;
+        }
+        return $bluecon;
     }
 }
