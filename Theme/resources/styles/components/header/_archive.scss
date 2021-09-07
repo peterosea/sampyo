@@ -36,6 +36,10 @@
 
     img {
       max-width: none;
+
+      @media (min-width: 1920px) {
+        max-width: calc(100% + 448px);
+      }
     }
 
     &::after {
