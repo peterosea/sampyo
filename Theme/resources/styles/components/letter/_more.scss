@@ -1,0 +1,14 @@
+&__more {
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--dugong);
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+  }
+}

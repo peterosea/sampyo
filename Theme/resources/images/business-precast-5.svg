@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81.016" height="80.191">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#5ab662;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="그룹_5425" data-name="그룹 5425" transform="translate(1.413 1)">
+        <g id="그룹_5424" data-name="그룹 5424">
+            <path id="패스_10002" data-name="패스 10002" class="cls-1" d="M3301 3902.38v43.976h62.013v-43.976" transform="translate(-3292.911 -3868.165)"/>
+            <path id="패스_10003" data-name="패스 10003" class="cls-1" d="m3295 3920.14 39.1-43.14 39.1 43.14" transform="translate(-3295 -3877)"/>
+        </g>
+        <path id="패스_10004" data-name="패스 10004" class="cls-1" d="M3332.891 3900s-.9 7.849-11.306 12.042c-10.264 4.136-10.264 13.573.521 13.573 0 0-.874 5.393 6.741 5.393 13.481-.001 13.481-20.223 4.044-31.008z" transform="translate(-3288.403 -3868.993)"/>
+        <path id="패스_10005" data-name="패스 10005" class="cls-1" d="M3314 3931.178c0-7.615 7.779-10.873 7.779-10.873s5.7-2.766 5.7-5.3" transform="translate(-3288.386 -3863.772)"/>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#5ab662;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="그룹_5423" data-name="그룹 5423" transform="translate(1.295 .696)">
+        <g id="그룹_5422" data-name="그룹 5422">
+            <circle id="타원_80" data-name="타원 80" class="cls-1" cx="39" cy="39" r="39" transform="translate(-.295 .304)"/>
+            <path id="패스_9996" data-name="패스 9996" class="cls-1" d="M3035 3905.785a10.784 10.784 0 0 1 10.785-10.785" transform="translate(-2986.468 -3873.43)"/>
+            <path id="패스_9997" data-name="패스 9997" class="cls-1" d="M3024.177 3909a13.48 13.48 0 0 1-16.177 0" transform="translate(-2995.867 -3868.556)"/>
+            <path id="패스_9998" data-name="패스 9998" class="cls-1" d="M3032 3916a10.783 10.783 0 0 1 10.785 10.785" transform="translate(-2987.512 -3866.12)"/>
+        </g>
+        <path id="패스_9999" data-name="패스 9999" class="cls-1" d="M3023.7 3895.347a1.348 1.348 0 1 1-1.345-1.348 1.347 1.347 0 0 1 1.345 1.348z" transform="translate(-2991.341 -3873.779)"/>
+        <path id="패스_10000" data-name="패스 10000" class="cls-1" d="M3045.7 3908.347a1.348 1.348 0 1 1-1.345-1.348 1.347 1.347 0 0 1 1.345 1.348z" transform="translate(-2983.683 -3869.253)"/>
+        <path id="패스_10001" data-name="패스 10001" class="cls-1" d="M3023.7 3923.347a1.348 1.348 0 1 1-1.345-1.348 1.347 1.347 0 0 1 1.345 1.348z" transform="translate(-2991.341 -3864.031)"/>
+    </g>
+</svg>
