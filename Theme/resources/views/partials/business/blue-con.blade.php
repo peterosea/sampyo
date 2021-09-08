@@ -19,7 +19,7 @@
       </div>
     </div>
   </section>
-  <section class="mb-32">
+  <section class="mb-32" id="speed">
     <div class="coverbox-full nonOverWidth bg right py-24 pl-20" style="--bg-image: url('@php echo get_theme_file_uri('resources/images/business-bluecon-1.jpg') @endphp')">
       <div class="h-5 mb-5">
         @include('partials.img', ['ex' => 'png"', 'name' => 'business-bluecon-1-1', 'class' => 'max-h-full'])
@@ -61,7 +61,7 @@
       @endif
     @endif
   </section>
-  <section class="mb-32">
+  <section class="mb-32" id="winter">
     <div class="coverbox-full nonOverWidth bg right py-24 pl-20" style="--bg-image: url('@php echo get_theme_file_uri('resources/images/business-bluecon-2.jpg') @endphp')">
       <div class="h-5 mb-5">
         @include('partials.img', ['ex' => 'png"', 'name' => 'business-bluecon-2-1', 'class' => 'max-h-full'])
@@ -97,7 +97,7 @@
       @endif
     @endif
   </section>
-  <section class="mb-32">
+  <section class="mb-32" id="floor">
     <div class="coverbox-full nonOverWidth bg right py-24 pl-20" style="--bg-image: url('@php echo get_theme_file_uri('resources/images/business-bluecon-3.jpg') @endphp')">
       <div class="h-5 mb-5">
         @include('partials.img', ['ex' => 'png"', 'name' => 'business-bluecon-3-1', 'class' => 'max-h-full'])
@@ -133,7 +133,7 @@
       @endif
     @endif
   </section>
-  <section class="mb-32">
+  <section class="mb-32" id="self">
     <div class="coverbox-full nonOverWidth bg right py-24 pl-20" style="--bg-image: url('@php echo get_theme_file_uri('resources/images/business-bluecon-4.jpg') @endphp')">
       <div class="h-5 mb-5">
         @include('partials.img', ['ex' => 'png"', 'name' => 'business-bluecon-4-1', 'class' => 'max-h-full'])
@@ -172,7 +172,7 @@
       @endif
     @endif
   </section>
-  <section class="mb-32">
+  <section class="mb-32" id="easy">
     <div class="coverbox-full nonOverWidth bg right py-24 pl-20" style="--bg-image: url('@php echo get_theme_file_uri('resources/images/business-bluecon-5.jpg') @endphp')">
       <div class="h-5 mb-5">
         @include('partials.img', ['ex' => 'png"', 'name' => 'business-bluecon-5-1', 'class' => 'max-h-full'])
