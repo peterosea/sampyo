@@ -27,6 +27,7 @@ const routes = new Router({
   singleBusiness: business,
   readyMix,
   blueCon: readyMix,
+  distribution: readyMix,
 });
 
 // Load Events
