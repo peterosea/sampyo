@@ -29,6 +29,8 @@ module.exports = {
         bermudagrass: 'var(--bermudagrass, #64CC6E)',
         lighthouse: 'var(--lighthouse, #F4F4F4)',
         artificialTurf: 'var(--artificial-turf, #47B951)',
+        atmosphere: 'var(--atmosphere, #009ddf)',
+        winterWizard: 'var(--winter-wizard, #9de2ff)',
       },
       typography: {
         DEFAULT: {
