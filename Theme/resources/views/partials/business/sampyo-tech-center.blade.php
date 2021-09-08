@@ -24,7 +24,7 @@
       </div>
       <div class="coverbox-label">
         @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-1'])
-        <span class="label text-white">
+        <span class="label text-white tracking-tighter">
           UHPC(SUH 120WF)를 활용한 비정형 파고라 및 대형 화분<br/>
           (UHPC 120㎫, 비정형 거푸집 : ABS 3D 프린터 출력)
         </span>
