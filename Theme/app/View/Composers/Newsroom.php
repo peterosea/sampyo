@@ -154,8 +154,6 @@ class Newsroom extends Composer
           ))
         ));
 
-        var_dump($posts);
-
         $posts = array_map(function ($post) {
             return $this->set_post_data($post, "media");
         }, $posts);
