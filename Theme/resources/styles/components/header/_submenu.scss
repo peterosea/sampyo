@@ -1,0 +1,237 @@
+&-subnav {
+  --py: 48px;
+  @media (max-width: theme('screens.sm')) {
+    --py: 13px;
+
+    gap: 0;
+    width: 100vw;
+  }
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 80px 20px;
+  @media (min-width: theme('screens.sm')) {
+    padding: var(--py) 0;
+  }
+  @media (min-width: theme('screens.lg')) {
+    gap: 80px;
+  }
+
+  &-wrap {
+    @media (max-width: theme('screens.lg')) {
+      &.active {
+        transform: translateY(0);
+        color: var(--black-out);
+      }
+    }
+
+    top: 0;
+    left: 0;
+    margin-top: var(--bar-global-height);
+    position: absolute;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    overflow-y: scroll;
+    max-height: calc(100vh - var(--bar-global-height, 0));
+    background-color: #fff;
+    border-top: 1px solid rgba(#000, 0.1);
+    border-bottom: 1px solid rgba(#000, 0.1);
+    transform: translateY(-1000px);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  // level1
+  > li {
+    @media (max-width: theme('screens.sm')) {
+      margin-bottom: 0;
+      padding: var(--py) var(--px) 0;
+      border-top: 1px solid rgba(#000, 0.1);
+
+      &:first-child {
+        border-top: 0;
+      }
+    }
+
+    min-width: 100%;
+    @media (min-width: theme('screens.sm')) {
+      min-width: 50%;
+    }
+    @media (min-width: theme('screens.md')) {
+      min-width: 33%;
+    }
+    @media (max-width: theme('screens.lg')) {
+      flex: 1 1 0%;
+    }
+    @media (min-width: theme('screens.lg')) {
+      min-width: 150px;
+
+      &:last-child,
+      &:first-child {
+        min-width: auto;
+      }
+    }
+
+    // level 1 title
+    > a {
+      --bs: var(--RGB-stonewall-grey);
+      --op: 0.3;
+      --h: -0.5em;
+
+      display: inline-block;
+
+      @media (max-width: theme('screens.sm')) {
+        font-weight: bold;
+
+        &.active {
+          --bs: var(--RGB-atmosphere);
+          @apply text-point;
+          @include pointUnderLine;
+        }
+      }
+
+      margin-bottom: 13px;
+      @media (min-width: theme('screens.sm')) {
+        @include pointUnderLine;
+
+        margin-bottom: 26px;
+      }
+
+      + ul.sub-menu {
+        @media (max-width: theme('screens.sm')) {
+          margin-left: calc(-1 * var(--px));
+          margin-right: calc(-1 * var(--px));
+          background-color: var(--bleached-silk);
+          gap: 0;
+
+          &::after {
+            content: '';
+            display: block;
+            height: 1px;
+            left: 0;
+            width: 100vw;
+            position: absolute;
+            background-color: rgba(#000, 0.1);
+          }
+
+          // level 2
+          > li {
+            padding: 0 var(--px);
+
+            > a {
+              display: inline-block;
+              padding: var(--py) 0;
+              font-weight: 500;
+            }
+
+            @media (max-width: theme('screens.sm')) {
+              &:not(:last-child)::after {
+                content: '';
+                display: block;
+                height: 1px;
+                left: 0;
+                width: 100vw;
+                position: absolute;
+                background-color: rgba(#000, 0.1);
+              }
+            }
+          }
+        }
+
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+
+        @media (min-width: theme('screens.sm')) {
+          display: flex !important;
+          transform: none !important;
+        }
+      }
+    }
+
+    &.point > a {
+      --bs: var(--RGB-atmosphere);
+    }
+
+    &.is-grid {
+      li {
+        @media (max-width: theme('screens.sm')) {
+          padding: 0 var(--px) !important;
+        }
+      }
+
+      > ul.sub-menu > li {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+
+        &:first-child::after {
+          content: none !important;
+        }
+
+        @media (min-width: theme('screens.sm')) {
+          gap: 1em;
+        }
+        @media (max-width: theme('screens.sm')) {
+          a {
+            display: inline-block;
+            padding: var(--py) 0;
+          }
+
+          // level 3
+          > a {
+            position: relative;
+            padding-left: var(--px);
+          }
+          // level 3 list style
+          > a::after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: calc(var(--py) + 0.7em);
+            transform: translateY(-50%);
+            width: 5px;
+            height: 5px;
+            background-color: var(--squant);
+          }
+
+          // li last child
+          &:last-child::after {
+            content: '';
+            display: block;
+            height: 1px;
+            left: 0;
+            width: 100vw;
+            position: absolute;
+            background-color: rgba(#000, 0.1);
+          }
+        }
+
+        > ul {
+          @media (max-width: theme('screens.sm')) {
+            gap: 0;
+
+            li:not(:last-child)::after {
+              content: '';
+              display: block;
+              height: 1px;
+              left: 0;
+              width: 100vw;
+              position: absolute;
+              background-color: rgba(#000, 0.1);
+            }
+          }
+
+          display: flex;
+          gap: 1em;
+          flex-direction: column;
+          @media (min-width: theme('screens.sm')) {
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
