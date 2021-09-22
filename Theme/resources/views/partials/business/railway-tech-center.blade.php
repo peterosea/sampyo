@@ -1,5 +1,5 @@
 <main class="page__layout">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-32">
     <div class="business__page-title mb-10">
       종합철도엔지니어링의 전문가들이 만드는 미래

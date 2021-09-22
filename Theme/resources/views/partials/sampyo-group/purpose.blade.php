@@ -1,5 +1,5 @@
 <main class="sampyoGroup__page page__layout">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <div class="coverbox-full left pb-20">
     <div class="transform" style="--tw-translate-y: -80px">
       <div class="business__page-title uppercase text-point" style="font-size: 90px">

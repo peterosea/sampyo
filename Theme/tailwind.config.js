@@ -15,8 +15,14 @@ module.exports = {
         current:
           '--tw-placeholder-opacity: 1; color: currentColor; opacity: var(--tw-placeholder-opacity)',
       },
-      screens: {
-        lg: '1050px',
+      container: {
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '7.1875rem',
+        },
       },
       colors: {
         point: 'var(--atmosphere, #009ddf)',

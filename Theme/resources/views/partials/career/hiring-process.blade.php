@@ -1,5 +1,5 @@
 <main class="career__page page__layout">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <div class="business__page-title mb-8">
     신입사원 채용 프로세스
   </div>

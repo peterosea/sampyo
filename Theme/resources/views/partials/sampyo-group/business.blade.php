@@ -1,5 +1,5 @@
 <main class="sampyoGroup__page page__layout pb-0">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <div class="business__page-title mb-16 pb-1.5">
     삼표는 삶을 영위하는 공간 창조에 필요한 <br/>
     기본적인 재료를 공급합니다.

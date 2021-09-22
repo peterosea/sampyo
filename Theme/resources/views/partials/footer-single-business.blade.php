@@ -1,5 +1,5 @@
 <footer class="footer__business">
-  <div class="container lg:max-w-screen-lg mx-auto">
+  <div class="container xl:max-w-screen-xl mx-auto">
     <div class="flex -mx-6 relative z-10">
       @if (!empty($acf['outlink']))
         <div class="w-1/2 px-6">

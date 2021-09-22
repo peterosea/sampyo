@@ -33,18 +33,18 @@
 <div class="section home__s1">
   <div class="container xl:max-w-screen-xl mx-auto relative">
     <div class="home__s1-header">
-      <div class="home__s1-title text-6xl font-black">사업영역</div>
+      <div class="home__s1-title text-6xl font-black">비즈니스</div>
       <p class="home__s1-header-content">끊임없는 도전과 창조적인 혁신을 통해 Building Materials 분야의 리더로 자리매김합니다.</p>
     </div>
-    <div class="flex gap-9">
-      <div class="w-1/3 flex flex-col gap-9 home__s1-imgCol-1">
+    <div class="lg:grid lg:grid-cols-3 lg:gap-9">
+      <div class="flex flex-col gap-9 home__s1-imgCol-1">
         @include('partials.card-flip', ['cat' => array_shift($business)])
       </div>
-      <div class="w-1/3 flex flex-col gap-9 home__s1-imgCol-2">
+      <div class="flex flex-col gap-9 home__s1-imgCol-2">
         @include('partials.card-flip', ['cat' => array_shift($business)])
         @include('partials.card-flip', ['cat' => array_shift($business)])
       </div>
-      <div class="w-1/3 flex flex-col gap-9 home__s1-imgCol-3">
+      <div class="flex flex-col gap-9 home__s1-imgCol-3">
         @include('partials.card-flip', ['cat' => array_shift($business)])
         @include('partials.card-flip', ['cat' => array_shift($business)])
       </div>

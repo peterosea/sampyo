@@ -1,5 +1,5 @@
 <main class="sampyoGroup__page page__layout">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <div class="business__page-title mb-4">
     사회적 임팩트
   </div>

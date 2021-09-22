@@ -1,5 +1,5 @@
 <main class="sampyoGroup__page ">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <div class="coverbox-full right py-32">
     <div class="prose text-xl leading-loose">
       <p>

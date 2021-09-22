@@ -1,5 +1,5 @@
 <main class="page__layout">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <div class="business__page-title mb-11">
     국내 최초 KS인증 골재로 국내 최대 생산량과<br/>
     최고의 품질을 자랑합니다.

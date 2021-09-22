@@ -2,7 +2,7 @@
 @section('content')
   <main class="page__layout">
     <div class="mb-24"></div>
-    <div class="container lg:max-w-screen-lg mx-auto">
+    <div class="container xl:max-w-screen-xl mx-auto">
       <div class="bg-atmosphere text-white mb-16">
         {!! get_search_form(false) !!}
       </div>
@@ -31,7 +31,7 @@
         'prev_text' => __( '이전' ),
         'next_text' => __( '다음' ),
       )))
-        <div class="container lg:max-w-screen-lg mx-auto">
+        <div class="container xl:max-w-screen-xl mx-auto">
           <div class="page-pagination-number">
             {!! $pagination !!}
           </div>

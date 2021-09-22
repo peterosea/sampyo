@@ -1,5 +1,5 @@
 <main class="page__layout">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-32">
     <div class="business__page-title mb-11">
       환경을 품다. 미래를 담다.<br/>

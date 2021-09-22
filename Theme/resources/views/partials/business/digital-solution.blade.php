@@ -1,5 +1,5 @@
 <main class="page__layout">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-32">
     <div class="business__page-title mb-11">
       디지털 신기술을 통한 Operation Excellence 확보로<br/>

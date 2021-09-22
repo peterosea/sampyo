@@ -1,5 +1,5 @@
 <x-HeaderBlog post-type="{{ get_post_type() }}" />
-<div class="container mx-auto lg:max-w-screen-lg">
+<div class="container mx-auto xl:max-w-screen-xl">
   <article @php(post_class())>
     <header>
       @if (!empty($categories))

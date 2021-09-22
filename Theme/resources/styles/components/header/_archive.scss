@@ -8,7 +8,7 @@
   }
 
   @media (min-width: theme('screens.lg')) {
-    .container.lg\:max-w-screen-lg {
+    .container.xl\:max-w-screen-xl {
       transform: translateX(var(--absolute-margin-left));
     }
   }

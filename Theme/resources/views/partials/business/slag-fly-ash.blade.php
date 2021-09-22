@@ -1,5 +1,5 @@
 <main class="page__layout">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <div class="business__page-title mb-11">
     자원을 리사이클하여 환경을 보존하고<br/>
     순환경제를 이끌고 갑니다.

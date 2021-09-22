@@ -1,5 +1,5 @@
 <main class="page__layout pb-0">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <article @php(post_class())>
     <header>
       <h1 class="entry-title">

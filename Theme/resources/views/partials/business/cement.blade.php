@@ -1,5 +1,5 @@
 <main class="page__layout">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <div class="business__page-title mb-11">
     세계 최고 수준의 시멘트 생산/공급 능력을 갖추고, <br/>
     국내 시멘트 산업을 선도하고 있습니다.

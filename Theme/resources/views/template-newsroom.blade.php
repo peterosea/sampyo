@@ -7,7 +7,7 @@
 @section('content')
   @include('partials.header-newsroom')
   <div class="newsroom__pin_blog">
-    <div class="container lg:max-w-screen-lg mx-auto flex">
+    <div class="container xl:max-w-screen-xl mx-auto flex">
       <div class="w-1/2">
         <div class="newsroom__pin_blog-thumbnail">
           <img src="{!! $pin_blog->thumbnail !!}" alt="">

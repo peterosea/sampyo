@@ -1,7 +1,7 @@
 <div class="overflow-hidden header-archive-root2">
   <div class="overflow-hidden header-archive-root">
     <header class="header-archive">
-      <div class="container lg:max-w-screen-lg mx-auto">
+      <div class="container xl:max-w-screen-xl mx-auto">
         <div class="header-archive-imgRow">
           @include('partials.img', ['ex' => 'jpg', 'name' => 'header-blog'])
         </div>

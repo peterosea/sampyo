@@ -1,5 +1,5 @@
 <main class="page__layout">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <div class="business__page-title mb-11">
     삼표의 고성능 레미콘은 <br/>
     현대건축의 다양한 시도를 가능케합니다.

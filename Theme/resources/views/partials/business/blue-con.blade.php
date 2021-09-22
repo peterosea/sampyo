@@ -1,5 +1,5 @@
 <main class="page__layout pb-0">
-<div class="container lg:max-w-screen-lg mx-auto">
+<div class="container xl:max-w-screen-xl mx-auto">
   <section>
     <div class="business__page-title mb-11">
       삼표의 특수 콘크리트 <span class="text-point">블루콘 (BLUECON)</span>
