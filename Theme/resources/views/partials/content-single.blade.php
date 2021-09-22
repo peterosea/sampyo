@@ -1,4 +1,4 @@
-<main class="business__page pb-0">
+<main class="page__layout pb-0">
 <div class="container lg:max-w-screen-lg mx-auto">
   <article @php(post_class())>
     <header>

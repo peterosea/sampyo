@@ -1,4 +1,4 @@
-<main class="business__page">
+<main class="page__layout">
 <div class="container lg:max-w-screen-lg mx-auto">
   <div class="business__page-title mb-11">
     세계 최고 수준의 시멘트 생산/공급 능력을 갖추고, <br/>

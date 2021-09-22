@@ -1,4 +1,4 @@
-<main class="business__page">
+<main class="page__layout">
 <div class="container lg:max-w-screen-lg mx-auto">
   <div class="business__page-title mb-11">
     삼표의 고성능 레미콘은 <br/>

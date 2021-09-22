@@ -1,5 +1,5 @@
 
-<main class="sampyoGroup__page business__page">
+<main class="sampyoGroup__page page__layout">
 <div class="container lg:max-w-screen-lg mx-auto">
   <div class="business__page-title mb-20">
     고객과 사회의 지속가능한 발전에 힘이 되는 기업이 되겠습니다.

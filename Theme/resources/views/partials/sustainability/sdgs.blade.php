@@ -1,4 +1,4 @@
-<main class="sampyoGroup__page business__page">
+<main class="sampyoGroup__page page__layout">
 <div class="container lg:max-w-screen-lg mx-auto">
   <div class="flex -mx-6">
     <div class="w-1/2 px-6 prose">

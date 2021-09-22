@@ -1,4 +1,4 @@
-<main class="business__page pb-0">
+<main class="page__layout pb-0">
 <div class="container lg:max-w-screen-lg mx-auto">
   <section>
     <div class="business__page-title mb-11">

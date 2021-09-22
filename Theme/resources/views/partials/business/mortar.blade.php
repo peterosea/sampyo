@@ -1,4 +1,4 @@
-<main class="business__page">
+<main class="page__layout">
 <div class="container lg:max-w-screen-lg mx-auto">
   <div class="business__page-title mb-16 pb-1.5">
     24시간 자동출하시스템과 인터넷 주문시스템,<br/>

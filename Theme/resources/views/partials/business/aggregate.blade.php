@@ -1,4 +1,4 @@
-<main class="business__page">
+<main class="page__layout">
 <div class="container lg:max-w-screen-lg mx-auto">
   <div class="business__page-title mb-11">
     국내 최초 KS인증 골재로 국내 최대 생산량과<br/>

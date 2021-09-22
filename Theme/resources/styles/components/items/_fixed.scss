@@ -1,9 +1,14 @@
 &-fixed {
+  --po: -400px;
+
   position: fixed;
   z-index: 900;
   top: 270px;
   left: 50%;
-  transform: translate(calc(-100% + -512px));
+  transform: translate(
+    calc(-100% + var(--po) + var(--absolute-margin-left)),
+    0
+  );
 
   &-wrap {
     width: 400px;

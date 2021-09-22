@@ -1,4 +1,4 @@
-<main class="career__page business__page">
+<main class="career__page ">
   <div class="container lg:max-w-screen-lg mx-auto">
     <div class="business__page-title mb-4">
       복리후생

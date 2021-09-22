@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-  <main class="business__page">
+  <main class="page__layout">
     <div class="mb-24"></div>
     <div class="container lg:max-w-screen-lg mx-auto">
       <div class="bg-atmosphere text-white mb-16">

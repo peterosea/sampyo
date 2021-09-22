@@ -7,6 +7,12 @@
     max-width: 1920px;
   }
 
+  @media (min-width: theme('screens.lg')) {
+    .container.lg\:max-w-screen-lg {
+      transform: translateX(var(--absolute-margin-left));
+    }
+  }
+
   &-root {
     margin-top: var(--bar-global-height);
   }
