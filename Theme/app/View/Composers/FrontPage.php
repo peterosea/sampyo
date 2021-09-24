@@ -28,6 +28,8 @@ class FrontPage extends Composer
           'business' => Business::fixedMenu(),
           'newsroom' => $this->getNewsroom(),
           'heroSlide' => $this->heroSlide(),
+          'career' => $this->getCareer(),
+          'sustainability' => $this->getSustainability(),
         ];
     }
 
@@ -153,5 +155,23 @@ class FrontPage extends Composer
           'media' => $media,
           'noticeBoard' => $noticeBoard,
         );
+    }
+
+    public function getCareer()
+    {
+        $posts = Career::fixedMenu();
+        foreach ($posts as $post) {
+            $post->thumbnail = get_the_post_thumbnail($post->ID);
+        }
+
+        return array_filter($posts, function ($a) {
+            return !isset($a->term_taxonomy_id);
+        });
+    }
+    
+    public function getSustainability()
+    {
+        $posts = Sustainability::fixedMenu();
+        return $posts;
     }
 }

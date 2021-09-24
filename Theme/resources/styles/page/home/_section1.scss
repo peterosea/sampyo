@@ -13,19 +13,7 @@
     position: absolute;
     top: 0;
     width: 300px;
-    left: 1rem;
-    @media (min-width: theme('screens.md')) {
-      left: 2rem;
-    }
-    @media (min-width: theme('screens.lg')) {
-      left: 4rem;
-    }
-    @media (min-width: theme('screens.xl')) {
-      left: 5rem;
-    }
-    @media (min-width: theme('screens.2xl')) {
-      left: 7.1875rem;
-    }
+    left: var(--container-px);
 
     &-content {
       word-break: break-all;

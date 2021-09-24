@@ -8,7 +8,7 @@
     display: flex;
     gap: 36px;
     padding-left: 30px;
-    transform: translateX(110px);
+    transform: translateX(calc(110px + var(--container-px)));
 
     > li:first-child {
       transform: translateY(65%) !important;
@@ -34,7 +34,7 @@
 
   &-content {
     position: absolute;
-    left: 0;
+    left: var(--container-px);
     top: var(--pT);
   }
 
