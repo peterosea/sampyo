@@ -26,22 +26,9 @@ $base: (
   winter-wizard: #9de2ff,
   bleached-silk: #f2f2f2,
   squant: #666666,
+  glitter-lake: #4ac1f2,
 );
 
 :root {
   @include generate_colors($base);
-
-  --container-px: 1rem;
-  @media (min-width: theme('screens.md')) {
-    --container-px: 2rem;
-  }
-  @media (min-width: theme('screens.lg')) {
-    --container-px: 4rem;
-  }
-  @media (min-width: theme('screens.xl')) {
-    --container-px: 5rem;
-  }
-  @media (min-width: theme('screens.2xl')) {
-    --container-px: 7.1875rem;
-  }
 }

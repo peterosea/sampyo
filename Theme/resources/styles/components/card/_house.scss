@@ -68,4 +68,17 @@
   &-inner {
     margin-top: 6rem;
   }
+
+  &-banner {
+    padding-left: 56px;
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    width: 100vw;
+    height: calc(100% - 33%);
+    background-color: var(--lighthouse);
+    color: var(--covered-in-platinum);
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
 }

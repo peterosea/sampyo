@@ -1,17 +1,16 @@
 &-fixed {
-  --po: -400px;
-
   position: fixed;
   z-index: 900;
   top: 270px;
   left: 50%;
-  transform: translate(
-    calc(-100% + var(--po) + var(--absolute-margin-left)),
-    0
+  transform: translateX(
+    calc(
+      -50% + (var(--container-width) / 2 * -1) + var(--absolute-margin-left) + var(--container-px)
+    )
   );
 
   &-wrap {
-    width: 400px;
+    width: calc(400px - var(--absolute-margin-left));
     display: flex;
     flex-direction: column;
     gap: 20px;

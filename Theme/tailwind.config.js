@@ -27,6 +27,7 @@ module.exports = {
       colors: {
         point: 'var(--atmosphere, #009ddf)',
         funnelCloud: 'var(--funnel-cloud, #113a66)',
+        squant: `var(--squant)`,
       },
       borderColor: {
         dugong: 'var(--dugong, #707070)',
@@ -42,6 +43,10 @@ module.exports = {
         artificialTurf: 'var(--artificial-turf, #47B951)',
         atmosphere: 'var(--atmosphere, #009ddf)',
         winterWizard: 'var(--winter-wizard, #9de2ff)',
+        glitterLake: 'var(--glitter-lake, #4AC1F2)',
+      },
+      gradientColorStops: {
+        glitterLake: 'var(--glitter-lake, #4AC1F2)',
       },
       typography: {
         DEFAULT: {
