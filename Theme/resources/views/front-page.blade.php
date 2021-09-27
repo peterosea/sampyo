@@ -309,7 +309,7 @@
     <div class="container xl:max-w-screen-xl mx-auto mt-14">
       <div class="-mx-2 flex">
         <div class="w-1/2 px-2">
-          <a href="#">
+          <a href="https://smart.sampyo.co.kr/main/group/introduction" target="_blank" rel="noopener noreferrer">
             <div class="card__s3">
               <div class="card__s3-body">
                 <div class="card__s3-title">사업장 정보</div>
@@ -320,7 +320,7 @@
           </a>
         </div>
         <div class="w-1/2 px-2">
-          <a href="#">
+          <a href="https://smart.sampyo.co.kr/" target="_blank" rel="noopener noreferrer">
             <div class="card__s3">
               <div class="card__s3-body">
                 <div class="card__s3-title">SMART 삼표</div>
