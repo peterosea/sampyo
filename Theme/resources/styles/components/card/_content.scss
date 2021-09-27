@@ -12,10 +12,13 @@
   }
 
   &-title {
-    font-size: 1.75rem;
     font-weight: bold;
     line-height: 1.4;
     margin-bottom: 24px;
+    font-size: 1.25rem;
+    @media (min-width: theme('screens.sm')) {
+      font-size: 1.75rem;
+    }
   }
 
   &-content {

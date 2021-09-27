@@ -89,10 +89,10 @@
                               <div class="card-content-title">
                                 {{ $post->post_title }}
                               </div>
-                              <div class="card-content-content prose">
+                              <div class="card-content-content prose text-sm sm:text-base">
                                 {{ $post->excerpt }}
                               </div>
-                              <div class="card-content-more"> 
+                              <div class="card-content-more text-sm sm:text-base"> 
                                 <a href="{{ $post->permalink }}">더보기</a>
                               </div>
                             </div>
