@@ -73,8 +73,8 @@
       </div>
     </div>
     <div class="container mx-auto">
-      <div class="flex py-32">
-        <div class="w-3/5 text-white">
+      <div class="flex sm:py-32 flex-wrap">
+        <div class="w-full order-2 sm:order-1 sm:w-3/5 text-white">
           <div id="swiperContentRoot" class="h-full">
             <div class="swiper-wrapper">
               @foreach ($newsroom as $id => $pt)
@@ -124,8 +124,8 @@
             </div>
           </div>
         </div>
-        <div class="w-2/5 relative">
-          <div class="box-content py-16 px-20">
+        <div class="w-full order-1 sm:order-2 sm:w-2/5 relative">
+          <div class="box-content py-8 sm:py-16 px-10 sm:px-20 bg-white sm:bg-transparent">
             <div class="box-content-inner">
               <ul id="tab" class="flex tab-wrap">
                 <li data-id="blog" class="tab-item active">
@@ -135,10 +135,10 @@
                   <a href="javascript:;">미디어</a>
                 </li>
                 <li data-id="notice-board" class="tab-item">
-                  <a href="javascript:;">공지사항</a>
+                  <a href="javascript:;">공지</a>
                 </li>
               </ul>
-              <div id="tab-content">
+              <div id="tab-content" class="hidden sm:block">
                 @foreach ($newsroom as $id => $pt)
                   <ul id="postBox" data-id="{{$id}}" @if ($id === "blog") class="active" @endif>
                     @foreach ($pt as $key=>$post)
