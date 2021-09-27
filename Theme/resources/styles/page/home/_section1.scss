@@ -9,6 +9,12 @@
     margin-bottom: 130px;
   }
 
+  #swiper-container [data-scrollreveal] {
+    @media (max-width: theme('screens.sm')) {
+      visibility: visible;
+    }
+  }
+
   &-header {
     position: absolute;
     top: 0;

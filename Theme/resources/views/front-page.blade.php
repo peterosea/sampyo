@@ -30,7 +30,7 @@
     </div>
   </div>
 </div>
-<div class="section home__s1">
+<div class="section home__s1  overflow-hidden">
   <div class="container xl:max-w-screen-xl mx-auto relative">
     <div class="home__s1-header">
       <div class="home__s1-title text-6xl font-black">비즈니스</div>
@@ -38,12 +38,12 @@
     </div>
     <div id="macy-container">
       <div class="home__s1-imgCol-1"></div>
-      @include('partials.card-flip', ['cat' => array_shift($business), 'order' => 0, ])
+      @include('partials.card-flip', ['cat' => array_shift($business) ])
       <div class="home__s1-imgCol-3 hidden xl:block"></div>
-      @include('partials.card-flip', ['cat' => array_shift($business), 'order' => 0, ])
-      @include('partials.card-flip', ['cat' => array_shift($business), 'order' => 0, ])
-      @include('partials.card-flip', ['cat' => array_shift($business), 'order' => 0, ])
-      @include('partials.card-flip', ['cat' => array_shift($business), 'order' => 0, ])
+      @include('partials.card-flip', ['cat' => array_shift($business) ])
+      @include('partials.card-flip', ['cat' => array_shift($business) ])
+      @include('partials.card-flip', ['cat' => array_shift($business) ])
+      @include('partials.card-flip', ['cat' => array_shift($business) ])
     </div>
     <div id="swiper-container">
     </div>
@@ -74,7 +74,7 @@
     </div>
     <div class="container mx-auto">
       <div class="flex py-32">
-        <div class="w-2/3 text-white">
+        <div class="w-3/5 text-white">
           <div id="swiperContentRoot" class="h-full">
             <div class="swiper-wrapper">
               @foreach ($newsroom as $id => $pt)
@@ -124,7 +124,7 @@
             </div>
           </div>
         </div>
-        <div class="w-1/3 relative">
+        <div class="w-2/5 relative">
           <div class="box-content py-16 px-20">
             <div class="box-content-inner">
               <ul id="tab" class="flex tab-wrap">
@@ -191,7 +191,7 @@
           <div class="w-1/3 flex justify-center">
             @php($post = array_shift($sustainability))
             <div class="card__s1">
-              <div data-scroll-animation-item='3' class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/53.svg') }}"></div>
+              <div data-scrollreveal class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/53.svg') }}"></div>
               <div class="card__s1-body">
                 <div class="card__s1-title">{!! $post->post_title !!}</div>
                 <div class="card__s1-content">
@@ -216,7 +216,7 @@
           <div class="w-1/3 flex justify-center">
             @php($post = array_shift($sustainability))
             <div class="card__s1">
-              <div data-scroll-animation-item='3' class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/56.svg') }}"></div>
+              <div data-scrollreveal data-sr-delay="300" class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/56.svg') }}"></div>
               <div class="card__s1-body">
                 <div class="card__s1-title">{!! $post->post_title !!}</div>
                 <div class="card__s1-content">
@@ -241,7 +241,7 @@
           <div class="w-1/3 flex justify-center">
             @php($post = array_shift($sustainability))
             <div class="card__s1">
-              <div data-scroll-animation-item='3' class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/57.svg') }}"></div>
+              <div data-scrollreveal class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/57.svg') }}"></div>
               <div class="card__s1-body">
                 <div class="card__s1-title">{!! $post->post_title !!}</div>
                 <div class="card__s1-content">
@@ -273,7 +273,7 @@
     <div class="container xl:max-w-screen-xl mx-auto">
       <ul class="home__s4-container">
         @foreach ($career as $item)
-          <li data-scroll-animation-item='4' class="w-1/3">
+          <li data-scrollreveal class="w-1/3">
             <div class="card__s2">
               <div class="card__s2-header">
                 <a href="{!! $item->permalink !!}" class="arrow">
