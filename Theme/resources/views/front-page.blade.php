@@ -315,7 +315,9 @@
                 <div class="card__s3-title">사업장 정보</div>
                 <div class="card__s3-content">삼표삼표그룹 계열사들의 사업장 정보를 조회하실 수 있습니다.</div>
               </div>
-              <div class="card__s3-bg"><img src="https://picsum.photos/640?ramdom=1"></div>
+              <div class="card__s3-bg">
+                @include('partials.img', ['ex' => 'jpg', 'name' => '3340'])
+              </div>
             </div>
           </a>
         </div>
@@ -326,7 +328,9 @@
                 <div class="card__s3-title">SMART 삼표</div>
                 <div class="card__s3-content">자체시험성적표/제품 주문 등 다양한 자료와 정보를 제공합니다.</div>
               </div>
-              <div class="card__s3-bg"><img src="https://picsum.photos/640?ramdom=2"></div>
+              <div class="card__s3-bg">
+                @include('partials.img', ['ex' => 'jpg', 'name' => '3341'])
+              </div>
             </div>
           </a>
         </div>

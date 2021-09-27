@@ -2,7 +2,7 @@
 <div class="newsroom__newslater-body">
   <div class="newsroom__newslater-title">뉴스레터</div>
   <form action="https://stibee.com/api/v1.0/lists/f2eqTU7I64dCpLpErO92czVDIsF_nA==/public/subscribers" method="POST" target="_blank" accept-charset="utf-8" class="stb_form newsroom__newslater-form" name="stb_subscribe_form" id="stb_subscribe_form" novalidate="">
-    <div class="grid grid-cols-3 gap-x-2 gap-y-4">
+    <div class="grid grid-cols-2 gap-x-2 gap-y-4">
       <div class="col-span-3 text-right">
         <div class="stb_form_msg_error" id="stb_policy_error"></div>
         <div class="stb_form_msg_error" id="stb_email_error"></div>
@@ -18,9 +18,11 @@
       <div class="col-span-3 flex justify-end">
         <div id="stb_subscribe" style="all: unset;">
           <div class="stb_form_policy" style="padding-bottom: 0">
-            <label>
-              <input type="checkbox" id="stb_policy" value="stb_policy_true">
-              <button id="stb_form_modal_open" data-modal="stb_form_policy_modal" class="stb_form_modal_open_btn" type="button">개인정보 수집 및 이용</button>에 동의합니다.
+            <label class="flex items-center gap-1">
+              <input type="checkbox" id="stb_policy" value="stb_policy_true" class="bg-lighthouse">
+              <div>
+                <button id="stb_form_modal_open" data-modal="stb_form_policy_modal" class="stb_form_modal_open_btn" type="button">개인정보 수집 및 이용</button>에 동의합니다.
+              </div>
             </label>
             <div class="stb_form_modal stb_form_policy_text blind" id="stb_form_policy_modal">
               <div class="stb_form_modal_body">
