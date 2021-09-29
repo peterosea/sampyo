@@ -49,7 +49,7 @@
     </div>
   </div>
 </div>
-<div class="section home__s23">
+<div class="section home__s23 sm:bg-lighthouse">
   <div class="section home__s2">
     <div id="swiperBgRoot" class="swiper-root-bg">
       <div class="swiper-wrapper">
@@ -272,9 +272,9 @@
   </div>
 </div>
 <div class="section home__s45">
-  <div class="section home__s4">
-    <div class="container xl:max-w-screen-xl mx-auto flex flex-wrap sm:block">
-      <ul id="originalS4" class="home__s4-container hidden sm:flex">
+  <div class="section home__s4 sm:mb-32">
+    <div class="container xl:max-w-screen-xl mx-auto flex flex-wrap sm:block mb-px-50">
+      <ul id="originalS4" class="home__s4-container hidden sm:flex relative z-10">
         @foreach ($career as $item)
           <li data-scrollreveal id="cardWrap" class="w-1/3">
             <div class="card__s2">
@@ -294,7 +294,7 @@
           </li>
         @endforeach
       </ul>
-      <div id="swipercontainerS4" class="block sm:hidden order-2 w-full"></div>
+      <div id="swipercontainerS4" class="block sm:hidden order-2 w-full z-10 relative"></div>
       <div class="home__s4-content text-white order-1 static sm:absolute z-50 text-center sm:text-left mb-px-60 sm:mb-0">
         <div class="home__s4-title text-px-36 sm:text-px-56">인재채용</div>
         <div class="home__s4-description text-px-14 sm:text-px-22">

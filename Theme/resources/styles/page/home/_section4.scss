@@ -5,9 +5,6 @@
 
   @media (min-width: theme('screens.sm')) {
     --pT: 160px;
-
-    transform: translateY(-50%);
-    margin-bottom: -120px;
   }
 
   &-container {
@@ -32,12 +29,24 @@
       position: absolute;
       right: 0;
       top: 0;
+      z-index: 2;
       width: 100vw;
       background-color: var(--funnel-cloud);
       height: calc(100% - var(--pT) - 125px);
       @media (min-width: theme('screens.sm')) {
         height: 100%;
       }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 50%;
+      z-index: 1;
+      background: var(--lighthouse);
     }
   }
 

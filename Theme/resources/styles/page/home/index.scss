@@ -5,11 +5,4 @@
   @import 'section3';
   @import 'section4';
   @import 'section5';
-
-  &__s23 {
-    @media (min-width: theme('screens.sm')) {
-      background-color: var(--lighthouse);
-      padding-bottom: 346px;
-    }
-  }
 }
