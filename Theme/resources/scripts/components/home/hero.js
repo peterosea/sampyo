@@ -10,7 +10,7 @@ class Slideshow {
         delay: 3000,
         pagination: {
           duration: 3,
-          el: '.swiper-pagination',
+          el: '.hero-slide-pagination.swiper-pagination',
           clickable: true,
         },
       },
@@ -29,7 +29,7 @@ class Slideshow {
       updateOnImagesReady: true,
       touchEventsTarget: 'wrapper',
       pagination: {
-        el: '.swiper-pagination',
+        el: '.hero-slide-pagination.swiper-pagination',
         clickable: true,
         renderBullet: function (index, className) {
           return '<span class="' + className + '">0' + (index + 1) + '</span>';

@@ -15,7 +15,7 @@ function s3() {
 
   new Swiper('#swipercontainerS3', {
     pagination: {
-      el: '#swipercontainerS3 .swiper-pagination',
+      el: document.querySelector('.swiper-pagination.s3'),
     },
   });
 }
