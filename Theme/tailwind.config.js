@@ -20,6 +20,13 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        mx_2xl: { max: '1535px' },
+        mx_xl: { max: '1279px' },
+        mx_lg: { max: '1023px' },
+        mx_md: { max: '767px' },
+        mx_sm: { max: '639px' },
+      },
       placeholderColor: {
         current:
           '--tw-placeholder-opacity: 1; color: currentColor; opacity: var(--tw-placeholder-opacity)',
@@ -36,6 +43,7 @@ module.exports = {
       height: px(0, 300),
       margin: px(0, 80),
       fontSize: px(0, 120),
+      padding: px(0, 300),
       colors: {
         point: 'var(--atmosphere, #009ddf)',
         funnelCloud: 'var(--funnel-cloud, #113a66)',
