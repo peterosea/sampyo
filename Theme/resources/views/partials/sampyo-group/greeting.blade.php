@@ -1,10 +1,10 @@
 
 <main class="sampyoGroup__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="business__page-title mb-20">
+  <div class="business__page-title mb-8 sm:mb-20">
     고객과 사회의 지속가능한 발전에 힘이 되는 기업이 되겠습니다.
   </div>
-  <div class="grid grid-cols-2 gap-x-12 gap-y-28 mb-20">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-7 sm:gap-y-28 mb-8 sm:mb-20">
     <div class="prose">
       <p class="mb-10">
         삼표그룹은 1966년 창립 이래 ‘개척 정신’을 바탕으로 우리나라 기간 산업의 한 축으로서 굳건히 자리매김해왔습니다. 지난 반세기 이상 지속적인 변화와 도전을 통해 고객과 사회 및 국가 발전에 이바지하며 성장을 이어왔습니다.  
@@ -16,7 +16,7 @@
         인프라 건설의 기초가 되는 건설 소재 사업의 수직 계열화를 완성함으로써, 국내 유일의 건설 소재 종합 솔루션 공급자(Total Solution Provider)로 자리매김했습니다. 나아가 철도 궤도 및 물류 분야에서도 탄탄한 입지를 구축했습니다. 자원 재활용을 통한 자원부족 해결과 환경보존을 실천하는 환경자원 사업을 확대해왔습니다. 
       </p>
     </div>
-    <div>
+    <div class="mx_sm:order-first">
       @include('partials.img', ['ex' => 'jpg', 'name' => 'chairman_message-1'])
     </div>
     <div>
@@ -42,11 +42,10 @@
     </div>
   </div>
   <p class="text-2xl mb-11" style="line-height: 1.67">
-    <span class="pointUnderLine" style="display: inline; --bs: var(--RGB-atmosphere); --h: -0.6em">
+    <span class="pointUnderLine" style="display: inline; --bs: var(--RGB-atmosphere); --h: -0.6em; --op: 0.2">
       삼표그룹은 끝없는 개척과 도전의 정신으로 고객의 성공과 대한민국의 지속가능한 발전에 기여하겠습니다.
-    </span><br/>
+    </span><br/><br class="sm:hidden" />
     <span>
-      감사합니다.
       감사합니다.
     </span>
   </p>
