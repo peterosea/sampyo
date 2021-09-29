@@ -4,6 +4,10 @@ body {
   @media (max-width: theme('screens.sm')) {
     font-size: 14px;
   }
+
+  &.overflow-hidden {
+    touch-action: none;
+  }
 }
 
 [x-cloak] {

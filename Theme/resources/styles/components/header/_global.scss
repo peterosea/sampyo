@@ -73,6 +73,18 @@
     @include dark;
   }
 
+  &.menu-open::after {
+    content: '';
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: var(--black-out);
+    opacity: 0.5;
+  }
+
   &-logo {
     position: absolute;
     z-index: 10;
