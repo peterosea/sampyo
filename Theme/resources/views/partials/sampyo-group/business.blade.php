@@ -39,37 +39,5 @@
     alt=""
     class="mx-auto"
   >
-  <div class="mb-36"></div>
-  <div class="coverbox-full-fixedHeight bottom left" style="--h: 504px">
-    <div class="border-t border-orochimaru grid grid-cols-5 pt-20 pb-52 text-xl">
-      @foreach ($businessTable as $post)
-        <div class="flex justify-center items-center h-72 border-b border-orochimaru">
-          <span class="font-black text-2xl underline power">
-            {!!  $post->post_title !!}
-          </span>
-          @isset($post->name)
-            <span class="font-black text-2xl underline power">
-              {!!  $post->name !!}
-            </span>
-          @endisset
-        </div>
-        @isset($post->children)
-          @foreach ($post->children as $c)
-            <div class="flex justify-center items-center h-72">
-              <a href="{!! $c->permalink !!}" class="card__s4 gap-3">
-                <div class="card__s4-thumbnail"><img src="{!! $c->miniThumbnail !!}"></div>
-                <div class="card__s4-body">
-                  <div class="card__s4-title font-bold">{!! $c->post_title !!}</div>
-                </div>
-              </a>
-            </div>
-          @endforeach
-          @for ($i = 0; $i < 4 - count($post->children); $i++)
-              <div class="flex justify-center items-center h-72"></div>
-          @endfor
-        @endisset
-      @endforeach
-    </div>
-  </div>
 </div>
 </main>
