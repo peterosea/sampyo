@@ -27,6 +27,13 @@ module.exports = {
         'max:md': { max: '767px' },
         'max:sm': { max: '639px' },
       },
+      // pixel token
+      height: px(0, 300),
+      margin: px(0, 80),
+      fontSize: px(0, 120),
+      padding: px(0, 300),
+      gap: px(0, 300),
+      maxWidth: px(0, 1000),
       placeholderColor: {
         current:
           '--tw-placeholder-opacity: 1; color: currentColor; opacity: var(--tw-placeholder-opacity)',
@@ -40,11 +47,6 @@ module.exports = {
           '2xl': '7.1875rem',
         },
       },
-      height: px(0, 300),
-      margin: px(0, 80),
-      fontSize: px(0, 120),
-      padding: px(0, 300),
-      gap: px(0, 300),
       colors: {
         point: 'var(--atmosphere, #009ddf)',
         funnelCloud: 'var(--funnel-cloud, #113a66)',

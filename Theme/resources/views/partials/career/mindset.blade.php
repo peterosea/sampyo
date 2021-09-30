@@ -57,7 +57,7 @@
       </div>
     </div>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="page__level-title mb-4">
     핵심가치
   </div>
@@ -134,6 +134,6 @@
     <div class="w-1/3 px-9">
     </div>
   </div>
-  <div class="mb-24"></div>
+  <div class="mb-px-70 sm:mb-24"></div>
 </div>
 </main>

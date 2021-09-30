@@ -88,7 +88,7 @@
         </div>
       </div>
     </div>
-    <div class="mb-16 sm:mb-32"></div>
+    <div class="mb-px-70 sm:mb-32"></div>
   </section>
   <section>
     <div class="page__level-title mb-7 sm:mb-16 pb-1.5">
@@ -142,7 +142,7 @@
         </div>
       </div>
     </div>
-    <div class="mb-32"></div>
+    <div class="mb-px-70 sm:mb-32"></div>
   </section>
   <section>
     <div class="page__level-title mb-7 sm:mb-16 pb-1.5">
@@ -217,7 +217,7 @@
         </div>
       </div>
     </div>
-    <div class="mb-24"></div>
+    <div class="mb-px-70 sm:mb-24"></div>
   </section>
 </div>
 </main>

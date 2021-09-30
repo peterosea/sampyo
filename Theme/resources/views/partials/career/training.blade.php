@@ -115,7 +115,7 @@
       {{-- end col --}}
     </div>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="font-bold underline power text-2xl mb-5">
     삼표 사이버 연수원
   </div>
@@ -167,6 +167,6 @@
     </div>
     {{-- end col --}}
   </div>
-  <div class="mb-24"></div>
+  <div class="mb-px-70 sm:mb-24"></div>
 </div>
 </main>

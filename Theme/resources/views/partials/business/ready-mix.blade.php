@@ -33,7 +33,7 @@
       </div>
     </div>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="coverbox-full right py-16">
     <div class="pointUnderLine text-2xl font-bold mb-6" style="--bs: var(--RGB-bermudagrass)">
       레미콘이란?
@@ -44,7 +44,7 @@
       </p>
     </div>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="page__level-title mb-11">
     국내 최초 고성능 레미콘 브랜드
   </div>
@@ -88,7 +88,7 @@
       @endforeach
     </div>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="coverbox-full left py-28">
     <div class="flex -mx-4">
       <div class="w-7/12 px-4">
@@ -154,7 +154,7 @@
     @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-5'])
     <span class="label text-white">삼표 콘크리트 시험평가원</span>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="flex -mx-6 mb-36">
     <div class="w-1/2 px-6">
       <div class="text-2xl font-black mb-9">환경성적표지 인증서</div>

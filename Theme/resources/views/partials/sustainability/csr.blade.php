@@ -6,7 +6,7 @@
   <p>
     사업 활동의 모든 측면에 지속가능성이 포함됩니다. 환경 ∙ 사람 ∙ 사회를 배려하고, 더 나은 미래를 만들기 위한 사회적 임팩트를 중시합니다. 사회와 환경에 긍정적인 영향을 미치는 공유 가치를 만들어감으로써 이해 관계자들에게 긍정적인 경험을 제공하고자 합니다.
   </p>
-  <div class="mb-24"></div>
+  <div class="mb-px-70 sm:mb-24"></div>
   <div class="coverbox-full left py-28">
     <div class="page__level-title mb-4">
       사회 공헌활동의 지향점
@@ -14,7 +14,7 @@
     <p>
       사회공헌 활동은 사회적 임팩트(Social Impact)을 만들기 위한 기초입니다. 건설 소재 사업에서 연유하는 환경에 대한 부정적 영향을 최소화하기 위해 노력합니다. 지속 가능한 미래를 만들기 위해 환경 ∙ 사람 ∙ 사회에 대한 책임감으로 지역 사회, 파트너 및 구성원과의 신뢰 구축을 최우선 활동으로 추진합니다.
     </p>
-    <div class="mb-24"></div>
+    <div class="mb-px-70 sm:mb-24"></div>
     <div class="flex -mx-9">
       <div class="w-1/3 px-9">
         <div class="card__s1">
@@ -57,7 +57,7 @@
       </div>
     </div>
   </div>
-  <div class="mb-24"></div>
+  <div class="mb-px-70 sm:mb-24"></div>
   <div class="page__level-title mb-14">
     사회공헌 활동
   </div>
@@ -135,6 +135,6 @@
   <div class="font-black underline power text-2xl mb-6">환경 보호</div>
   <p class="mb-12">삼표시멘트는 ‘1사 1하천’ 운동의 일환으로 매년 삼척시 오십천 일대에서 하천 정화활동을 펼칩니다. 오십천 강변의 쓰레기와 생태교란 외래식물을 제거하는 등 자연 보전 활동에 앞장섭니다.</p>
   @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-csr-7', 'class' => 'mx-auto'])
-  <div class="mb-24"></div>
+  <div class="mb-px-70 sm:mb-24"></div>
 </div>
 </main>

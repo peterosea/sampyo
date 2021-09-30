@@ -30,7 +30,7 @@
       <span class="label text-white">24시간 자동출하시스템</span>
     </div>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="coverbox-full-fixedHeight left pt-24" style="--h: 472px">
     <div class="page__level-title mb-7 sm:mb-16 pb-1.5">
       고객 친화적인 서비스

@@ -33,7 +33,7 @@
       </span>
     </div>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="page__level-title mb-11">
     환경을 보존하는 건설기초소재
   </div>
@@ -65,7 +65,7 @@
       </div>
     </div>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="coverbox-full-fixedHeight left pt-20" style="--h:740px">
     <div class="flex -mx-6">
       <div class="w-1/2 px-6">

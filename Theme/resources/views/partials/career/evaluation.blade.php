@@ -72,7 +72,7 @@
       </div>
     </li>
   </ul>
-  <div class="mb-24"></div>
+  <div class="mb-px-70 sm:mb-24"></div>
   <div class="font-black underline power text-2xl mb-16">
     성과관리 프로세스
   </div>
@@ -145,6 +145,6 @@
       </div>
     </div>
   </div>
-  <div class="mb-24"></div>
+  <div class="mb-px-70 sm:mb-24"></div>
 </div>
 </main>

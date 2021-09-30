@@ -28,7 +28,7 @@
       </div>
     </div>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="coverbox-full-fixedHeight left pt-24">
     <div class="page__level-title mb-4">
       안정적인 골재 공급 능력 보유
@@ -38,7 +38,7 @@
     </div>
     @include('partials.img', ['ex' => 'jpg', 'name' => '2017-3'])
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="page__level-title mb-11">
     골재채취능력평가 시작 이래 13년 연속 1위
   </div>
@@ -66,7 +66,7 @@
       </div>
     </div>
   </div>
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="page__level-title mb-11">
     국내 최초 KS인증의 우수하고 균일한 품질의 골재
   </div>
@@ -83,7 +83,7 @@
     </div>
   </div>
   @include('partials.img', ['ex' => 'jpg', 'name' => '5272'])
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="page__level-title mb-11">
     환경친화적인 자원 개발
   </div>

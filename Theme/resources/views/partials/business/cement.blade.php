@@ -24,7 +24,7 @@
     </div>
   </div>
   @include('partials.img', ['ex' => 'jpg', 'name' => 'dji-0232-sample'])
-  <div class="mb-32"></div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="coverbox-full left pb-32 pt-24 mb-28">
     <div class="page__level-title mb-11">
       사회적, 환경적 책임을 존중합니다.
