@@ -1,7 +1,7 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-32">
-    <div class="business__page-title mb-10">
+    <div class="page__level-title mb-10">
       종합철도엔지니어링의 전문가들이 만드는 미래
     </div>
     <div class="grid grid-cols-2 gap-x-12 mb-16 pb-1.5">
@@ -22,7 +22,7 @@
   </section>
   <section class="mb-32">
     <div class="coverbox-full-fixedHeight left mb-28 pt-24" style="--h: 550px">
-      <div class="business__page-title mb-12">
+      <div class="page__level-title mb-12">
         연구분야
       </div>
       <h3 class="text-2xl font-black underline power mb-8">분기기 부문</h3>
@@ -84,7 +84,7 @@
   </section>
   <section class="mb-32">
     <div class="coverbox-full-fixedHeight right mb-28" style="--h:628px">
-      <div class="business__page-title mb-12">
+      <div class="page__level-title mb-12">
         연구분야
       </div>
       <h3 class="text-2xl font-black underline power mb-8">
@@ -213,7 +213,7 @@
     </div>
   </section>
   <section class="mb-28">
-    <div class="business__page-title mb-10">
+    <div class="page__level-title mb-10">
       신기술 및 인증
     </div>
     <div class="py-28 px-16 coverbox-bg relative mb-16" style="--bg-image: url({{ get_theme_file_uri('resources/images/business-'. get_post()->post_name .'-16.jpg') }})">

@@ -1,7 +1,7 @@
 <main class="page__layout">
   <div class="container xl:max-w-screen-xl mx-auto">
     <section class="mb-32">
-      <div class="business__page-title mb-11">
+      <div class="page__level-title mb-11">
         기초를 바르게 만듭니다.
       </div>
       <div class="prose mb-24 pb-1">
@@ -31,7 +31,7 @@
       </div>
     </section>
     <section class="mb-20">
-      <div class="business__page-title mb-10">
+      <div class="page__level-title mb-10">
         다양한 제품으로 고객의 소리를 듣겠습니다.
       </div>
       <div class="prose mb-20">

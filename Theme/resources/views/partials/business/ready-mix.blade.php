@@ -1,6 +1,6 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="business__page-title mb-11">
+  <div class="page__level-title mb-11">
     삼표의 고성능 레미콘은 <br/>
     현대건축의 다양한 시도를 가능케합니다.
   </div>
@@ -45,7 +45,7 @@
     </div>
   </div>
   <div class="mb-32"></div>
-  <div class="business__page-title mb-11">
+  <div class="page__level-title mb-11">
     국내 최초 고성능 레미콘 브랜드
   </div>
   <div class="mb-16">
@@ -92,7 +92,7 @@
   <div class="coverbox-full left py-28">
     <div class="flex -mx-4">
       <div class="w-7/12 px-4">
-        <div class="business__page-title mb-7">
+        <div class="page__level-title mb-7">
           수도권 최고의 레미콘 생산 능력,<br/>
           전국적 공급망, 스마트한 운송
         </div>
@@ -129,7 +129,7 @@
     </div>
   </div>
   <div class="mb-44"></div>
-  <div class="business__page-title mb-8">
+  <div class="page__level-title mb-8">
     스마트한 운송<br/>
     GPS 및 화물전용 내비게이션 장착 운송
   </div>
@@ -142,7 +142,7 @@
     </ul>
   </div>
   <div class="mb-20"></div>
-  <div class="business__page-title mb-8">
+  <div class="page__level-title mb-8">
     엄격한 품질관리 기준 - SKS (Sampyo KS)
   </div>
   <div class="prose mb-14">

@@ -11,7 +11,7 @@
     </div>
   </div>
   <div class="mb-32"></div>
-  <div class="business__page-title mb-5">
+  <div class="page__level-title mb-5">
     환경안전보건 경영 방침
   </div>
   <p>
@@ -24,7 +24,7 @@
     <p>03. 삼표 및 협력사 모든 임직원들은 지속적인 교육과 훈련을 통해 안전 보건과 환경 보호 방침을 인지하고 실천하여, 안전하고 쾌적한 작업장을 조성하기 위해 스스로 최선을 다합니다.</p>
   </div>
   <div class="mb-32"></div>
-  <div class="business__page-title mb-5">
+  <div class="page__level-title mb-5">
     환경안전보건 경영 시스템
   </div>
   <p>
@@ -33,7 +33,7 @@
   <div class="mb-12"></div>
   <img class="mx-auto" src="@php echo get_theme_file_uri('resources/images/sampyo-group-she-1.jpg') @endphp" alt="" >
   <div class="mb-28"></div>
-  <div class="business__page-title mb-9">
+  <div class="page__level-title mb-9">
     삼표 안전 골든 룰 <br/>
     (SAMPYO Safety Golden Rules)
   </div>

@@ -1,7 +1,7 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-32">
-    <div class="business__page-title mb-10">
+    <div class="page__level-title mb-10">
       No.1 철도궤도 종합엔지니어링 기업
     </div>
     <div class="grid grid-cols-2 gap-x-12 gap-y-16">
@@ -36,7 +36,7 @@
   </section>
   <section class="mb-32">
     <div class="coverbox-full-fixedHeight left pt-24 mb-24" style="--h: 669px">
-      <div class="business__page-title mb-12">
+      <div class="page__level-title mb-12">
         최고의 철도궤도 제품 및 서비스
       </div>
       <h3 class="underline power font-black text-2xl mb-11">철도궤도용품(분기기)</h3>
@@ -131,7 +131,7 @@
     </div>
   </section>
   <section>
-    <div class="business__page-title mb-10">
+    <div class="page__level-title mb-10">
       기술연구소
     </div>
     <div class="grid grid-cols-2 gap-x-12">

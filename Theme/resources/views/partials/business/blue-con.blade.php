@@ -1,7 +1,7 @@
 <main class="page__layout pb-0">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section>
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       삼표의 특수 콘크리트 <span class="text-point">블루콘 (BLUECON)</span>
     </div>
     <div class="prose mb-20">
@@ -24,7 +24,7 @@
       <div class="h-5 mb-5">
         @include('partials.img', ['ex' => 'png"', 'name' => 'business-bluecon-1-1', 'class' => 'max-h-full'])
       </div>
-      <div class="business__page-title">
+      <div class="page__level-title">
         조강 콘크리트 <span class="text-point">블루콘 스피드</span>
       </div>
     </div>
@@ -66,7 +66,7 @@
       <div class="h-5 mb-5">
         @include('partials.img', ['ex' => 'png"', 'name' => 'business-bluecon-2-1', 'class' => 'max-h-full'])
       </div>
-      <div class="business__page-title">
+      <div class="page__level-title">
         내한 콘크리트 <span class="text-point">블루콘 윈터</span>
       </div>
     </div>
@@ -102,7 +102,7 @@
       <div class="h-5 mb-5">
         @include('partials.img', ['ex' => 'png"', 'name' => 'business-bluecon-3-1', 'class' => 'max-h-full'])
       </div>
-      <div class="business__page-title">
+      <div class="page__level-title">
         바닥 콘크리트 <span class="text-point">블루콘 플로어</span>
       </div>
     </div>
@@ -138,7 +138,7 @@
       <div class="h-5 mb-5">
         @include('partials.img', ['ex' => 'png"', 'name' => 'business-bluecon-4-1', 'class' => 'max-h-full'])
       </div>
-      <div class="business__page-title">
+      <div class="page__level-title">
         자기충전 콘크리트 <span class="text-point">블루콘 셀프</span>
       </div>
     </div>
@@ -177,7 +177,7 @@
       <div class="h-5 mb-5">
         @include('partials.img', ['ex' => 'png"', 'name' => 'business-bluecon-5-1', 'class' => 'max-h-full'])
       </div>
-      <div class="business__page-title">
+      <div class="page__level-title">
         20mm 콘크리트 <span class="text-point">블루콘 이지</span>
       </div>
     </div>

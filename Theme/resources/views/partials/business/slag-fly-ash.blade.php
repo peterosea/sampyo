@@ -1,6 +1,6 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="business__page-title mb-11">
+  <div class="page__level-title mb-11">
     자원을 리사이클하여 환경을 보존하고<br/>
     순환경제를 이끌고 갑니다.
   </div>
@@ -34,7 +34,7 @@
     </div>
   </div>
   <div class="mb-32"></div>
-  <div class="business__page-title mb-11">
+  <div class="page__level-title mb-11">
     환경을 보존하는 건설기초소재
   </div>
   <div class="grid grid-cols-2 gap-x-12 gap-y-16">
@@ -69,7 +69,7 @@
   <div class="coverbox-full-fixedHeight left pt-20" style="--h:740px">
     <div class="flex -mx-6">
       <div class="w-1/2 px-6">
-        <div class="business__page-title mb-11">
+        <div class="page__level-title mb-11">
           국내 최대 생산 능력 보유
         </div>
         <div class="prose mb-16 pb-1.5">
@@ -94,7 +94,7 @@
       </div>
     </div>
   </div>
-  <div class="business__page-title mb-11">
+  <div class="page__level-title mb-11">
     우수한 기술력과 노하우
   </div>
   <div class="prose mb-12">

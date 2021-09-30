@@ -1,6 +1,6 @@
 <main class="career__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="business__page-title mb-4">
+  <div class="page__level-title mb-4">
     인재상
   </div>
   <p>
@@ -58,7 +58,7 @@
     </div>
   </div>
   <div class="mb-32"></div>
-  <div class="business__page-title mb-4">
+  <div class="page__level-title mb-4">
     핵심가치
   </div>
   <p>조직 내에서 바람직한 행동을 제시하는 기본 규범이며, 기업 구성원들이 공유하고 있는 가치관이자 신념으로서 기업이 지향하는 신념과 기준으로서 경영행위나 의사결정 방식을 결정하는 기능을 합니다.</p>

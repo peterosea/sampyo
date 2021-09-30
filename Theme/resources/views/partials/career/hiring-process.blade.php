@@ -1,6 +1,6 @@
 <main class="career__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="business__page-title mb-8">
+  <div class="page__level-title mb-8">
     신입사원 채용 프로세스
   </div>
   <div class="mb-14"></div>
@@ -57,7 +57,7 @@
     @endforeach
   </div>
   <div class="mb-24"></div>
-  <div class="business__page-title mb-5">
+  <div class="page__level-title mb-5">
     경력사원 채용 프로세스
   </div>
   <p>
@@ -65,7 +65,7 @@
 ​세부사항(채용대상 및 자격기준 등)은 경력사원 채용 시 게시되는 경력사원 채용 모집공고를 참고하시기 바랍니다.
   </p>
   <div class="mb-24"></div>
-  <div class="business__page-title mb-5">
+  <div class="page__level-title mb-5">
     상시 채용 안내
   </div>
   <p>

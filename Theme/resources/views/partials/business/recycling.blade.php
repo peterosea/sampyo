@@ -1,7 +1,7 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-32">
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       환경을 품다. 미래를 담다.<br/>
       자원부족 해결과 환경보존을 위하여 순환자원 사업을 확대합니다.
     </div>
@@ -12,7 +12,7 @@
     </div>
   </section>
   <section class="mb-32">
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       철스크랩 사업
     </div>
     <div class="grid grid-cols-2 gap-x-12 gap-y-16">
@@ -72,7 +72,7 @@
   </section>
   <section class="mb-32">
     <div class="coverbox-full-fixedHeight left pt-24" style="--h: 460px">
-      <div class="business__page-title mb-10">
+      <div class="page__level-title mb-10">
         경제가치와 지속가능성
       </div>
       <div class="flex -mx-6 mb-16 pb-1.5">
@@ -96,7 +96,7 @@
     </div>
   </section>
   <section class="mb-32">
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       철강부산물 사업
     </div>
     <div class="flex -mx-6 mb-16 pb-1.5">
@@ -142,7 +142,7 @@
     </div>
   </section>
   <section class="mb-32">
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       소각사업
     </div>
     <div class="flex -mx-6 mb-16 pb-1.5">
@@ -168,7 +168,7 @@
     </div>
   </section>
   <section class="mb-32">
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       건조 사업
     </div>
     <div class="flex -mx-6 mb-16 pb-1.5">

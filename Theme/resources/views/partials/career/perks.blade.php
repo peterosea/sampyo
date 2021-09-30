@@ -1,6 +1,6 @@
 <main class="career__page ">
   <div class="container xl:max-w-screen-xl mx-auto">
-    <div class="business__page-title mb-4">
+    <div class="page__level-title mb-4">
       복리후생
     </div>
     <p>

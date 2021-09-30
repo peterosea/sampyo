@@ -1,16 +1,16 @@
 <main class="sampyoGroup__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section>
-    <div class="business__page-title mb-16 pb-1.5">
+    <div class="page__level-title mb-7 sm:mb-16 pb-1.5">
       삼표그룹, 지속가능한 미래의 기초가 되다.
     </div>
-    <div class="flex -mx-6 mb-16 pb-1.5">
-      <div class="w-1/2 px-6 prose">
+    <div class="grid grid-cols-1 sm:grid-cols-2 mb-16 pb-1.5 gap-x-12">
+      <div class="prose">
         <p>
           삼표그룹은 사람 ∙ 사회 ∙ 세상에 기여하는 것을 경영 이념으로 우리의 생활에 필수적인 건설기초소재를 공급하며, 지속적인 연구 개발과 기술 혁신을 통하여 사회의 다양한 요구에 부응하는 제품, 시스템 및 서비스 등을 제공합니다.
         </p>
       </div>
-      <div class="w-1/2 px-6 prose">
+      <div class="prose">
         <p>
           삼표그룹의 사업은 원료(또는 자원)부터 제품까지 환경 부하가 적은 유기적인 가치사슬을 바탕으로 안정적 공급 능력을 보유하고 있으며, 고도의 리사이클 기술과 사업 기반을 바탕으로 자원순환형 사회의 기초를 다지고 있습니다. 또, 문제 해결 의식으로 뭉친 탄탄한 팀워크를 바탕으로 풍요로운 사회의 유지와 발전에 공헌하고 있습니다.
         </p>
@@ -20,14 +20,14 @@
       </div>
     </div>
     <div class="flex text-white">
-      <div class="w-3/5">
+      <div class="w-full sm:w-3/5">
         <div class="card__house-root">
           <div class="card__house bg-atmosphere mb-4">
             <div class="card__house-inner flex flex-col items-center p-8 h-52 relative">
               <div class="text-lg">
                 지속가능성 Building Materials
               </div>
-              <div class="font-black" style="font-size: 42px">
+              <div class="font-black text-px-26 sm:text-px-42">
                 선도기업 삼표
               </div>
               <div class="label absolute w-full bottom-0 flex items-center justify-center h-16 text-lg font-bold bg-glitterLake">
@@ -88,10 +88,10 @@
         </div>
       </div>
     </div>
-    <div class="mb-32"></div>
+    <div class="mb-16 sm:mb-32"></div>
   </section>
   <section>
-    <div class="business__page-title mb-16 pb-1.5">
+    <div class="page__level-title mb-16 pb-1.5">
       사람 ∙ 사회 ∙ 세상을 위해 새로운 기초를 창조하고<br/>
       지속가능한 사회에 공헌하는 선도 기업
     </div>
@@ -145,11 +145,11 @@
     <div class="mb-32"></div>
   </section>
   <section>
-    <div class="business__page-title mb-16 pb-1.5">
+    <div class="page__level-title mb-16 pb-1.5">
       지속가능한 미래의 기초를 만드는 삼표그룹의 가치체계
     </div>
     <div class="flex">
-      <div class="w-3/5">
+      <div class="w-full sm:w-3/5">
         <div class="card__house-root" data-label="지향가치">
           <div class="card__house bg-winterWizard mb-4 text-white"">
             <div class="card__house-inner flex flex-col items-center p-8 h-52">

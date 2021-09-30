@@ -1,7 +1,7 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-32">
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       업계 최초의 건설기초자재 전문 기술연구소
     </div>
     <div class="grid grid-cols-2 gap-x-12 gap-y-16">
@@ -32,7 +32,7 @@
     </div>
   </section>
   <section class="mb-32">
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       주요 연구성과
     </div>
     <div class="prose">
@@ -46,7 +46,7 @@
   </section>
   <section class="mb-32">
     <div class="coverbox-full-fixedHeight left pt-24 mb-20" style="--h: 658px">
-      <div class="business__page-title mb-11">
+      <div class="page__level-title mb-11">
         연구분야
       </div>
       <h3 class="text-2xl font-black underline power mb-12">콘크리트 분야</h3>

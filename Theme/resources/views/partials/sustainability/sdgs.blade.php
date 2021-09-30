@@ -16,7 +16,7 @@
     </div>
   </div>
   <div class="mb-36"></div>
-  <div class="business__page-title mb-20">
+  <div class="page__level-title mb-20">
     기업 활동을 통해 지속가능한 발전에 기여합니다.
   </div>
   

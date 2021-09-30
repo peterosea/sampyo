@@ -1,7 +1,7 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-32">
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       국내 프리캐스트 콘크리트 산업의<br/>
       미래를 선도해 나가겠습니다.
     </div>
@@ -31,7 +31,7 @@
     </div>
   </section>
   <section class="mb-20">
-    <div class="business__page-title mb-10">
+    <div class="page__level-title mb-10">
       삼표가 만들면 다릅니다.
     </div>
     <div class="prose mb-28 pb-2">

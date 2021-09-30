@@ -1,6 +1,6 @@
 <main class="sampyoGroup__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="business__page-title mb-4">
+  <div class="page__level-title mb-4">
     사회적 임팩트
   </div>
   <p>
@@ -8,7 +8,7 @@
   </p>
   <div class="mb-24"></div>
   <div class="coverbox-full left py-28">
-    <div class="business__page-title mb-4">
+    <div class="page__level-title mb-4">
       사회 공헌활동의 지향점
     </div>
     <p>
@@ -58,7 +58,7 @@
     </div>
   </div>
   <div class="mb-24"></div>
-  <div class="business__page-title mb-14">
+  <div class="page__level-title mb-14">
     사회공헌 활동
   </div>
   <div class="text-2xl font-black underline power mb-7">인재 육성</div>

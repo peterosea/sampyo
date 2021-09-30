@@ -1,6 +1,6 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="business__page-title mb-11">
+  <div class="page__level-title mb-11">
     국내 최초 KS인증 골재로 국내 최대 생산량과<br/>
     최고의 품질을 자랑합니다.
   </div>
@@ -30,16 +30,16 @@
   </div>
   <div class="mb-32"></div>
   <div class="coverbox-full-fixedHeight left pt-24">
-    <div class="business__page-title mb-4">
+    <div class="page__level-title mb-4">
       안정적인 골재 공급 능력 보유
     </div>
-    <div class="business__page-description mb-16">
+    <div class="page__level-description mb-16">
       수도권 시장점유율 21%, 전국 10개 골재 사업장
     </div>
     @include('partials.img', ['ex' => 'jpg', 'name' => '2017-3'])
   </div>
   <div class="mb-32"></div>
-  <div class="business__page-title mb-11">
+  <div class="page__level-title mb-11">
     골재채취능력평가 시작 이래 13년 연속 1위
   </div>
   <div class="grid grid-cols-2 gap-x-12 gap-y-20">
@@ -67,7 +67,7 @@
     </div>
   </div>
   <div class="mb-32"></div>
-  <div class="business__page-title mb-11">
+  <div class="page__level-title mb-11">
     국내 최초 KS인증의 우수하고 균일한 품질의 골재
   </div>
   <div class="flex -mx-6 mb-20">
@@ -84,7 +84,7 @@
   </div>
   @include('partials.img', ['ex' => 'jpg', 'name' => '5272'])
   <div class="mb-32"></div>
-  <div class="business__page-title mb-11">
+  <div class="page__level-title mb-11">
     환경친화적인 자원 개발
   </div>
   <div class="flex -mx-6">

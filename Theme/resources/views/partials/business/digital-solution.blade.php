@@ -1,7 +1,7 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-32">
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       디지털 신기술을 통한 Operation Excellence 확보로<br/>
       그룹의 사업 경쟁우위 지속
     </div>
@@ -49,7 +49,7 @@
     </div>
   </section>
   <section class="mb-28">
-    <div class="business__page-title mb-11">
+    <div class="page__level-title mb-11">
       사업 및 제품 상세소개
     </div>
     <div class="prose mb-16 pb-1.6">

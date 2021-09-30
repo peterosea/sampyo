@@ -1,7 +1,7 @@
 <main class="sampyoGroup__page page__layout pb-0">
 <div class="container xl:max-w-screen-xl mx-auto">
   <div class="coverbox-full left py-24 mb-24">
-    <div class="business__page-title mb-8">
+    <div class="page__level-title mb-8">
       삼표의 지칠줄 모르는 변화와 도전의 노력은 계속됩니다.
     </div>
     <p>

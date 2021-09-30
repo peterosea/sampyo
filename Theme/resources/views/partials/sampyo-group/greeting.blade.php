@@ -1,7 +1,7 @@
 
 <main class="sampyoGroup__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="business__page-title mb-8 sm:mb-20">
+  <div class="page__level-title mb-8 sm:mb-20">
     고객과 사회의 지속가능한 발전에 힘이 되는 기업이 되겠습니다.
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-7 sm:gap-y-28 mb-8 sm:mb-20">
