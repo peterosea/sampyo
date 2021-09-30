@@ -1,6 +1,6 @@
 <main class="career__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="page__level-title mb-8">
+  <div class="page__level-title mb-px-30 sm:mb-8">
     신입사원 채용 프로세스
   </div>
   <div class="mb-14"></div>

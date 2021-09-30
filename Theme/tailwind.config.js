@@ -21,11 +21,11 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        mx_2xl: { max: '1535px' },
-        mx_xl: { max: '1279px' },
-        mx_lg: { max: '1023px' },
-        mx_md: { max: '767px' },
-        mx_sm: { max: '639px' },
+        'max:2xl': { max: '1535px' },
+        'max:xl': { max: '1279px' },
+        'max:lg': { max: '1023px' },
+        'max:md': { max: '767px' },
+        'max:sm': { max: '639px' },
       },
       placeholderColor: {
         current:

@@ -129,7 +129,7 @@
     </div>
   </div>
   <div class="mb-44"></div>
-  <div class="page__level-title mb-8">
+  <div class="page__level-title mb-px-30 sm:mb-8">
     스마트한 운송<br/>
     GPS 및 화물전용 내비게이션 장착 운송
   </div>
@@ -142,7 +142,7 @@
     </ul>
   </div>
   <div class="mb-20"></div>
-  <div class="page__level-title mb-8">
+  <div class="page__level-title mb-px-30 sm:mb-8">
     엄격한 품질관리 기준 - SKS (Sampyo KS)
   </div>
   <div class="prose mb-14">

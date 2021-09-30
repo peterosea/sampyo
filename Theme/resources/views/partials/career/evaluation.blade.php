@@ -1,6 +1,6 @@
 <main class="career__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="page__level-title mb-8">
+  <div class="page__level-title mb-px-30 sm:mb-8">
     평가 및 보상
   </div>
   <div class="flex -mx-6">
