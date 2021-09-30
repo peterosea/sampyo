@@ -311,33 +311,29 @@
       </div>
     </div>
     <div class="container xl:max-w-screen-xl mx-auto mt-14 max:sm:px-0">
-      <div class="-mx-2 flex flex-wrap">
-        <div class="w-full sm:w-1/2 px-2">
-          <a href="https://smart.sampyo.co.kr/main/group/introduction" target="_blank" rel="noopener noreferrer">
-            <div class="card__s3 max:sm:py-px-54 max:sm:px-px-30">
-              <div class="card__s3-body">
-                <div class="card__s3-title text-2xl sm:text-px-32">사업장 정보</div>
-                <div class="card__s3-content text-px-12 sm:text-base">삼표삼표그룹 계열사들의 사업장 정보를 조회하실 수 있습니다.</div>
-              </div>
-              <div class="card__s3-bg nonDim">
-                @include('partials.img', ['ex' => 'jpg', 'name' => '3340'])
-              </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+        <a href="https://smart.sampyo.co.kr/main/group/introduction" target="_blank" rel="noopener noreferrer">
+          <div class="card__s3 max:sm:py-px-54 max:sm:px-px-30">
+            <div class="card__s3-body">
+              <div class="card__s3-title text-2xl sm:text-px-32">사업장 정보</div>
+              <div class="card__s3-content text-px-12 sm:text-base">삼표삼표그룹 계열사들의 사업장 정보를 조회하실 수 있습니다.</div>
             </div>
-          </a>
-        </div>
-        <div class="w-full sm:w-1/2 px-2">
-          <a href="https://smart.sampyo.co.kr/" target="_blank" rel="noopener noreferrer">
-            <div class="card__s3 max:sm:py-px-54 max:sm:px-px-30">
-              <div class="card__s3-body">
-                <div class="card__s3-title text-2xl sm:text-px-32">SMART 삼표</div>
-                <div class="card__s3-content text-px-12 sm:text-base">자체시험성적표/제품 주문 등 다양한 자료와 정보를 제공합니다.</div>
-              </div>
-              <div class="card__s3-bg nonDim">
-                @include('partials.img', ['ex' => 'jpg', 'name' => '3341'])
-              </div>
+            <div class="card__s3-bg nonDim">
+              @include('partials.img', ['ex' => 'jpg', 'name' => '3340'])
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
+        <a href="https://smart.sampyo.co.kr/" target="_blank" rel="noopener noreferrer">
+          <div class="card__s3 max:sm:py-px-54 max:sm:px-px-30">
+            <div class="card__s3-body">
+              <div class="card__s3-title text-2xl sm:text-px-32">SMART 삼표</div>
+              <div class="card__s3-content text-px-12 sm:text-base">자체시험성적표/제품 주문 등 다양한 자료와 정보를 제공합니다.</div>
+            </div>
+            <div class="card__s3-bg nonDim">
+              @include('partials.img', ['ex' => 'jpg', 'name' => '3341'])
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </div>
