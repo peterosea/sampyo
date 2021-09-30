@@ -18,14 +18,23 @@
     }
 
     @mixin direction() {
-      &.left::before {
-        right: 0;
-        transform: translateX(100px);
+      @media (max-width: theme('screens.sm')) {
+        &.left::before,
+        &.right::before {
+          left: 50%;
+          transform: translateX(-50%);
+        }
       }
+      @media (min-width: theme('screens.sm')) {
+        &.left::before {
+          right: 0;
+          transform: translateX(100px);
+        }
 
-      &.right::before {
-        left: 0;
-        transform: translateX(-100px);
+        &.right::before {
+          left: 0;
+          transform: translateX(-100px);
+        }
       }
     }
 

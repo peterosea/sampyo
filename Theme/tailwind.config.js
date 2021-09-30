@@ -44,6 +44,7 @@ module.exports = {
       margin: px(0, 80),
       fontSize: px(0, 120),
       padding: px(0, 300),
+      gap: px(0, 300),
       colors: {
         point: 'var(--atmosphere, #009ddf)',
         funnelCloud: 'var(--funnel-cloud, #113a66)',
