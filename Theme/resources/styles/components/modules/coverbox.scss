@@ -42,7 +42,9 @@
 
     &.nonOverWidth {
       &::before {
-        transform: none;
+        @media (min-width: theme('screens.sm')) {
+          transform: none;
+        }
       }
     }
 
@@ -50,8 +52,11 @@
       &::before {
         background-image: var(--bg-image);
         background-position: center;
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
+        @media (min-width: theme('screens.sm')) {
+          background-size: 100%;
+        }
       }
     }
 
