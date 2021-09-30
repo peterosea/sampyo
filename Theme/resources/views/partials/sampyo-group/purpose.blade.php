@@ -24,7 +24,7 @@
         <div class="card__house-root">
           <div class="card__house bg-atmosphere mb-4">
             <div class="card__house-inner flex flex-col items-center p-8 h-52 relative">
-              <div class="text-lg">
+              <div class="sm:text-lg text-base">
                 지속가능성 Building Materials
               </div>
               <div class="font-black text-px-26 sm:text-px-42">
@@ -91,12 +91,12 @@
     <div class="mb-16 sm:mb-32"></div>
   </section>
   <section>
-    <div class="page__level-title mb-16 pb-1.5">
-      사람 ∙ 사회 ∙ 세상을 위해 새로운 기초를 창조하고<br/>
+    <div class="page__level-title mb-7 sm:mb-16 pb-1.5">
+      사람 ∙ 사회 ∙ 세상을 위해 새로운 기초를 창조하고<br class="hidden sm:block" />
       지속가능한 사회에 공헌하는 선도 기업
     </div>
-    @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-purpose-0', 'class' => 'mb-28'])
-    <div class="grid grid-cols-2 gap-y-16 gap-x-16">
+    @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-purpose-0', 'class' => 'mb-14 sm:mb-28'])
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-16 gap-x-16">
       <div class="card__s1 max-w-none">
         <div class="card__s1-thumbnail_">
             @include('partials.img', ['ex' => 'png', 'name' => 'sampyogroup-purpose-0'])
@@ -145,7 +145,7 @@
     <div class="mb-32"></div>
   </section>
   <section>
-    <div class="page__level-title mb-16 pb-1.5">
+    <div class="page__level-title mb-7 sm:mb-16 pb-1.5">
       지속가능한 미래의 기초를 만드는 삼표그룹의 가치체계
     </div>
     <div class="flex">
@@ -166,7 +166,7 @@
         </div>
         <div class="grid grid-cols-2 gap-x-px gap-y-5">
           <div class="card__house bg-glitterLake half text-white">
-            <div class="card__house-inner h-52 flex flex-col items-center p-8">
+            <div class="card__house-inner h-60 sm:h-52 flex flex-col items-center p-4 sm:p-8">
               <div class="text-2xl font-black mb-3">
                 혁신
               </div>
@@ -179,7 +179,7 @@
           </div>
           <div class="card__house-root half" data-label="행동가치">
             <div class="card__house bg-glitterLake half text-white">
-              <div class="card__house-inner h-52 flex flex-col items-center p-8">
+              <div class="card__house-inner h-60 sm:h-52 flex flex-col items-center p-4 sm:p-8">
                 <div class="text-2xl font-black mb-3">
                   전문성
                 </div>
@@ -191,7 +191,7 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col items-center p-8 bg-atmosphere h-52 text-white">
+          <div class="flex flex-col items-center p-4 sm:p-8 bg-atmosphere h-60 sm:h-52 text-white">
             <div class="text-2xl font-black mb-3">
               도전정신
             </div>
@@ -203,7 +203,7 @@
           </div>
   
           <div class="card__house-root rootless" data-label="기반가치">
-            <div class="flex flex-col items-center p-8 bg-atmosphere h-52 text-white">
+            <div class="flex flex-col items-center p-4 sm:p-8 bg-atmosphere h-60 sm:h-52 text-white">
               <div class="text-2xl font-black mb-3">
                 윤리성
               </div>

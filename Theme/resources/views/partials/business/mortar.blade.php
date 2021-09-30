@@ -1,6 +1,6 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="page__level-title mb-16 pb-1.5">
+  <div class="page__level-title mb-7 sm:mb-16 pb-1.5">
     24시간 자동출하시스템과 인터넷 주문시스템,<br/>
     최적화된 배합비로 고객 만족을 최우선하겠습니다.
   </div>
@@ -32,7 +32,7 @@
   </div>
   <div class="mb-32"></div>
   <div class="coverbox-full-fixedHeight left pt-24" style="--h: 472px">
-    <div class="page__level-title mb-16 pb-1.5">
+    <div class="page__level-title mb-7 sm:mb-16 pb-1.5">
       고객 친화적인 서비스
     </div>
     <div class="prose mb-16">

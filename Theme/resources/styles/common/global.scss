@@ -1,9 +1,12 @@
-body {
-  font-family: 'Noto Sans KR', sans-serif;
-
+body,
+html {
   @media (max-width: theme('screens.sm')) {
     font-size: 14px;
   }
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
 
   &.overflow-hidden {
     touch-action: none;
