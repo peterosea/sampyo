@@ -1,4 +1,4 @@
-<main class="sampyoGroup__page ">
+<main class="sampyoGroup__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <div class="coverbox-full right py-32">
     <div class="prose text-xl leading-loose">
