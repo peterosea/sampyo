@@ -27,6 +27,7 @@ class FrontPage extends Composer
           'heroVideo' => $this->heroVideo(),
           'business' => Business::fixedMenu(),
           'newsroom' => $this->getNewsroom(),
+          'newsroomBg' => $this->getNewsroomBg(),
           'heroSlide' => $this->heroSlide(),
           'career' => $this->getCareer(),
           'sustainability' => $this->getSustainability(),
@@ -155,6 +156,15 @@ class FrontPage extends Composer
           'media' => $media,
           'noticeBoard' => $noticeBoard,
         );
+    }
+
+    public function getNewsroomBg()
+    {
+        return [
+        'blog' => 'td-00860074816',
+        'media' => 'twi-001-t-3092049',
+        'noticeBoard' => 'td-00860074816',
+      ];
     }
 
     public function getCareer()

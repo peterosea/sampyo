@@ -62,7 +62,7 @@
                     @if(!empty($post->thumbnail))
                       <img class="card-content-thumbnail" src="{{ $post->thumbnail }}" alt="">
                     @else
-                      <img class="card-content-thumbnail" src="https://picsum.photos/1920?random={{$post->ID}}" alt="">
+                      @include('partials.img', ['ex' => 'jpg', 'name' => $newsroomBg[$id], 'class' => 'card-content-thumbnail' ])
                     @endif
                   </div>
                 @endforeach
@@ -78,7 +78,7 @@
           <div id="swiperContentRoot" class="h-full">
             <div class="swiper-wrapper">
               @foreach ($newsroom as $id => $pt)
-                <div class="swiper-slide">
+                <div class="swiper-slide overflow-hidden">
                   <div class="card-content">
                     <div id="swiperContentChild" data-id="{{$id}}">
                       <div class="swiper-wrapper">
