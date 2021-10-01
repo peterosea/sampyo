@@ -21,6 +21,7 @@ import newsroom from './routes/newsroom';
 import home from './routes/home';
 import business from './routes/business';
 import readyMix from './routes/readyMix';
+import csr from './routes/csr';
 
 const routes = new Router({
   // All pages
@@ -31,6 +32,7 @@ const routes = new Router({
   readyMix,
   blueCon: readyMix,
   distribution: readyMix,
+  csr,
 });
 
 // Load Events
