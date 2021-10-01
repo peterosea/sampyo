@@ -11,7 +11,11 @@
       <img src="{!! $siteLogo !!}" alt="{{ $siteName }}"/>
     </a>
     @if (has_nav_menu('primary_navigation'))
-      <div class="header-global-menu">
+      <div
+        class="header-global-menu"
+        @mouseover="menuHover = true"
+        @mouseleave="menuHover = false"
+      >
         {!! wp_nav_menu([
             'theme_location' => 'primary_navigation', 
             'menu_class' => 'header-global-nav hidden lg:flex', 

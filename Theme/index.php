@@ -13,8 +13,8 @@
   </head>
 
   <body <?php body_class(); ?>
-    x-data="{m_menu: false}"
-    :class="{'overflow-hidden': m_menu}"
+    x-data="{m_menu: false, menuHover: false}"
+    :class="{'overflow-hidden': m_menu || menuHover }"
   >
     <?php wp_body_open(); ?>
     <?php do_action('get_header'); ?>
