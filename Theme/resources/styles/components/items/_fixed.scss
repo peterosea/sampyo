@@ -4,10 +4,19 @@
   top: 270px;
   left: 50%;
   transform: translateX(
-    calc(
-      -50% + (var(--container-width) / 2 * -1) + var(--absolute-margin-left) + var(--container-px)
-    )
+    calc(-50% + (var(--container-width) / 2 * -1) + var(--container-px))
   );
+
+  @media (min-width: theme('screens.2xl')) {
+    /* stylelint-disable */
+    transform: translateX(
+      calc(
+        -50% + (var(--container-width) / 2 * -1) + var(--absolute-margin-left) +
+          var(--container-px)
+      )
+    );
+    /* stylelint-enable */
+  }
 
   &-wrap {
     width: calc(400px - var(--absolute-margin-left));
