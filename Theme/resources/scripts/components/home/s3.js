@@ -16,6 +16,7 @@ function s3() {
   new Swiper('#swipercontainerS3', {
     pagination: {
       el: document.querySelector('.swiper-pagination.s3'),
+      clickable: true,
     },
   });
 }

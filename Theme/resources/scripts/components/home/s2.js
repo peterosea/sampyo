@@ -4,7 +4,6 @@ import camelCase from '../../util/camelCase';
 function s2() {
   // Wrap Swiper
   const swiperContentRoot = new Swiper('#swiperContentRoot', {
-    preloadImages: true,
     touchEventsTarget: 'wrapper',
     effect: 'fade',
     allowTouchMove: false,
@@ -13,8 +12,6 @@ function s2() {
     },
   });
   const swiperBgRoot = new Swiper('#swiperBgRoot', {
-    preloadImages: true,
-    updateOnImagesReady: true,
     touchEventsTarget: 'wrapper',
     effect: 'fade',
     allowTouchMove: false,
@@ -53,8 +50,6 @@ function s2() {
       `#postBox[data-id="${postBoxId}"] li`
     );
     const content = new Swiper(contentSwiper, {
-      preloadImages: true,
-      updateOnImagesReady: true,
       touchEventsTarget: 'wrapper',
       effect: 'fade',
       allowTouchMove: false,
