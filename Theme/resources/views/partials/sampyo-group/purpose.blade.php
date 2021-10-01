@@ -24,7 +24,7 @@
         <div class="card__house-root">
           <div class="card__house bg-atmosphere mb-4">
             <div class="card__house-inner flex flex-col items-center p-8 h-52 relative">
-              <div class="sm:text-lg text-base">
+              <div class="sm:text-lg text-px-16">
                 지속가능성 Building Materials
               </div>
               <div class="font-black text-px-26 sm:text-px-42">
