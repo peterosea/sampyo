@@ -23,7 +23,7 @@
             'echo' => false,
             'depth' => 1
         ]) !!}
-        <div class="header-global-subnav-wrap" :class="{'active' : m_menu}">
+        <div class="header-global-subnav-wrap overflow-x-hidden" :class="{'active' : m_menu}">
           {!! $siteSubMenu !!}
         </div>
       </div>
