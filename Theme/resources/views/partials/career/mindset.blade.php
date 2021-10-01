@@ -6,7 +6,7 @@
   <p>
     삼표그룹의 핵심가치를 실천하는 융합형 인재, 전문형 인재, 도전형 인재를 지향합니다.
   </p>
-  <div class="mb-20"></div>
+  <div class="pb-px-30 sm:pb-20"></div>
   <div class="flex -mx-9">
     <div class="w-1/3 px-9">
       <div class="card__s1 gap-9">
@@ -134,6 +134,6 @@
     <div class="w-1/3 px-9">
     </div>
   </div>
-  <div class="mb-px-70 sm:mb-24"></div>
+  <div class="pb-px-70 sm:pb-24"></div>
 </div>
 </main>

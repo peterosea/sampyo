@@ -7,7 +7,7 @@
     삼표의 인재육성 비전은 개인의 전문성 강화 그리고 조직의 시너지 창출입니다. 삼표는 리더십과 전문성을 함께 배양하는 인재육성 체계를 운영합니다. 
     구성원은 각자의 역량 수준에 따라 개인별로 차별화된 육성계획을 세우고, 각자의 성장경로에 맞는 교육에 참여합니다.
   </p>
-  <div class="mb-20"></div>
+  <div class="pb-px-30 sm:pb-20"></div>
   <div class="flex -mx-9">
     <div class="w-1/3 px-9">
       <div class="card__s1 gap-9">
@@ -167,6 +167,6 @@
     </div>
     {{-- end col --}}
   </div>
-  <div class="mb-px-70 sm:mb-24"></div>
+  <div class="pb-px-70 sm:pb-24"></div>
 </div>
 </main>

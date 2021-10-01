@@ -141,7 +141,7 @@
       <li>대형차량 특성을 반영하여 안전한 주행경로 설정</li>
     </ul>
   </div>
-  <div class="mb-20"></div>
+  <div class="pb-px-30 sm:pb-20"></div>
   <div class="page__level-title mb-px-30 sm:mb-8">
     엄격한 품질관리 기준 - SKS (Sampyo KS)
   </div>

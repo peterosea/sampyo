@@ -68,7 +68,7 @@
     </div>
   </div>
   @include('partials.img', ['ex' => 'jpg', 'name' => 'tip-249-t-014163-1'])
-  <div class="mb-20"></div>
+  <div class="pb-px-30 sm:pb-20"></div>
   <div class="flex -mx-6">
     <div class="w-1/2 px-6">
       <div>

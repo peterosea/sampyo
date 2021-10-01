@@ -48,7 +48,7 @@
       @include('partials.img', ['ex' => 'png', 'name' => 'sampyo-group-sustainability-2', 'class' => 'max:sm:max-w-px-130 max-auto max:sm:mt-px-60 max:sm:mb-px-20'])
     </div>
   </div>
-  <div class="mb-px-70 sm:mb-24"></div>
+  <div class="pb-px-70 sm:pb-24"></div>
   <div class="coverbox-full right py-px-70 sm:py-20 bg nonOverWidth max:sm:px-0" style="--bg-image: url('@php echo get_theme_file_uri('resources/images/sampyo-group-sustainability-3.jpg') @endphp')">
     <div class="flex sm:-mx-6">
       <div class="hidden sm:block w-1/2 px-6"></div>
@@ -78,6 +78,6 @@
       @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-sustainability-4'])
     </div>
   </div>
-  <div class="mb-px-70 sm:mb-24"></div>
+  <div class="pb-px-70 sm:pb-24"></div>
 </div>
 </main>
