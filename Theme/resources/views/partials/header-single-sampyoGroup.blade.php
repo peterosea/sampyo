@@ -10,7 +10,7 @@
           @endif
         </div>
         <div class="header-archive-content max:sm:px-8 max:sm:w-full">
-          <div x-data="select({label: '{!! $title !!}'})" class="w-full relative mb-px-30">
+          <div x-data="select({label: '{!! $title !!}'})" class="w-full relative mb-px-30 block sm:hidden">
             <button class="flex items-center justify-between w-full px-3 py-3 text-left border focus:outline-none"
               @click="toggle()"
               @click.away="close()">
