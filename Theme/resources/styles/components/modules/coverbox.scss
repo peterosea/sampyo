@@ -64,7 +64,9 @@
       @extend .coverbox-full;
 
       &::before {
-        height: var(--h, 402px);
+        @media (min-width: theme('screens.sm')) {
+          height: var(--h, 402px);
+        }
       }
 
       @include direction();
