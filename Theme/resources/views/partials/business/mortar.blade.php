@@ -1,11 +1,11 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <div class="page__level-title mb-px-30 sm:mb-16 pb-1.5">
-    24시간 자동출하시스템과 인터넷 주문시스템,<br/>
+    24시간 자동출하시스템과 인터넷 주문시스템,<br class="hidden sm:block" />
     최적화된 배합비로 고객 만족을 최우선하겠습니다.
   </div>
-  @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-0'])
-  <div class="grid grid-cols-2 gap-x-12 gap-y-16">
+  @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-0', 'class' => 'mb-px-30 sm:mb-px-60'])
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-px-30 sm:gap-y-16">
     <div class="prose">
       <p>
         시멘트를 사용하는 공사 현장에서 별도의 모래 혼합과정 없이 물만 부어 바로 사용할 수 있도록 시멘트, 모래, 특성개선재 등을 용도에 맞도록 배합한 
@@ -31,7 +31,7 @@
     </div>
   </div>
   <div class="mb-px-70 sm:mb-32"></div>
-  <div class="coverbox-full-fixedHeight left pt-24" style="--h: 472px">
+  <div class="coverbox-full-fixedHeight left py-px-30 sm:pt-24" style="--h: 472px">
     <div class="page__level-title mb-px-30 sm:mb-16 pb-1.5">
       고객 친화적인 서비스
     </div>
@@ -43,20 +43,21 @@
     </div>
     @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-3'])
   </div>
+  <div class="mb-px-70 sm:mb-32"></div>
   <div class="page__level-title mb-px-30 sm:mb-11">
     몰탈 제품군
   </div>
-  <div class="prose mb-16">
+  <div class="prose mb-px-30 sm:mb-16">
     <p>
       삼표 몰탈은 일반미장용, 조적용, 바닥용 등 널리 쓰이는 일반제품을 비롯하여 무수축 그라우트, 자기수평몰탈, 보수보강용 몰탈 등 10여 가지가 넘는 특수제품까지 다양한 종류로 구성되어 건축물의 성능과 작업 효율성 향상에 기여하고 있습니다
     </p>
   </div>
-  <div class="flex -mx-6">
-    <div class="w-1/2 px-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-px-30">
+    <div>
       <h3 class="text-2xl font-black mb-11">일반 제품군</h3>
       @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-4'])
     </div>
-    <div class="w-1/2 px-6">
+    <div>
       <h3 class="text-2xl font-black mb-11">특수 제품군</h3>
       @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-5'])
     </div>
