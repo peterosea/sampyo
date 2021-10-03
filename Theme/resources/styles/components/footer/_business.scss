@@ -11,8 +11,6 @@
 
   .container {
     position: relative;
-    padding-top: 120px;
-    padding-bottom: 120px;
 
     &::after {
       content: '';
@@ -34,10 +32,6 @@
 
   &-description {
     opacity: 0.6;
-  }
-
-  &-body {
-    margin-bottom: 60px;
   }
 
   &-etc {

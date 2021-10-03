@@ -1,9 +1,9 @@
 <footer class="footer__business">
-  <div class="container xl:max-w-screen-xl mx-auto">
-    <div class="flex -mx-6 relative z-10">
+  <div class="container xl:max-w-screen-xl mx-auto py-px-40 sm:py-px-120">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 relative z-10">
       @if (!empty($acf['outlink']))
-        <div class="w-1/2 px-6">
-          <div class="footer__business-body">
+        <div class="hidden sm:block">
+          <div class="footer__business-body sm:mb-px-60">
             <div class="footer__business-title">
               홈페이지 바로가기
             </div>
@@ -19,8 +19,8 @@
         </div>
       @endif
       @if(!empty($acf['area']) && !$acf['address'])
-        <div class="w-1/2 px-6">
-          <div class="footer__business-body">
+        <div>
+          <div class="footer__business-body sm:mb-px-60">
             <div class="footer__business-title">
               사업장 정보
             </div>
@@ -36,8 +36,8 @@
         </div>
       @endif
       @if ($acf['address'])
-        <div class="px-6 @if($acf['area'] && $acf['outlink']) w-1/2 @else w-full @endif">
-          <div class="footer__business-body">
+        <div class="@if(!$acf['area'] && !$acf['outlink']) col-span-2 @endif">
+          <div class="footer__business-body sm:mb-px-60">
             <div class="footer__business-title">
               연락하기
             </div>
@@ -51,8 +51,8 @@
                 @endif
               "
             >
-              @foreach ($acf['address'] as $_)
-                <div class="mb-6">
+              @foreach ($acf['address'] as $key => $_)
+                <div class="@if (count($acf['address']) !== $key + 1) mb-6 @endif">
                   @foreach ($_ as $key => $item)
                     @if (is_array($item))
                       <div class="flex gap-x-4 flex-wrap">
