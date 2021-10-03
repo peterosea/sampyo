@@ -4,7 +4,7 @@
     삼표의 고성능 레미콘은 <br class="hidden sm:block" />
     현대건축의 다양한 시도를 가능케합니다.
   </div>
-  <div class="grid grid-cols-2 gap-x-12 gap-y-20">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-20">
     <div>
       <div class="prose">
         <p>
@@ -34,7 +34,7 @@
     </div>
   </div>
   <div class="mb-70px sm:mb-32"></div>
-  <div class="coverbox-full right py-16">
+  <div class="coverbox-full right py-30px sm:py-16">
     <div class="pointUnderLine text-2xl font-bold mb-6" style="--bs: var(--RGB-bermudagrass)">
       레미콘이란?
     </div>
@@ -48,20 +48,20 @@
   <div class="page__level-title mb-30px sm:mb-11">
     국내 최초 고성능 레미콘 브랜드
   </div>
-  <div class="mb-16">
+  <div class="mb-30px sm:mb-16">
     <div class="prose">
       <p>
         삼표는 초고층 빌딩 건설을 위한 초고강도 콘크리트, 지구온난화를 막기 위한 저탄소 콘크리트, 건축물의 예술적 가치를 높여주는 칼라 콘크리트 등 일반 콘크리트의 한계를 뛰어넘는 고성능 차별화 제품을 공급하고 있으며, 현대건축이 요구하는 다양한 제품 개발을 위해 끊임없이 노력하고 있습니다.
       </p>
     </div>
   </div>
-  <div class="flex -mx-6">
-    <div class="w-1/2 px-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px">
+    <div>
       @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-3'])
     </div>
-    <div class="w-1/2 px-6">
+    <div>
       <div class="flex flex-col justify-between h-full">
-        <div class="prose">
+        <div class="prose mb-30px sm:mb-16">
           <p>
             건설 환경이 점점 더 복잡하고 어려워지고 있습니다. 공사지연(인허가, 근로시간단축), 기상조건(동절기, 우천), 도심공사 등의 이유로 공사기간을 지키거나 단축하는 것이 어려워지고 있습니다. 게다가 작업장의 안전에 대한 관심이 점점 더 커지고 있으며 전문인력 감소로 인한 인건비가 상승하고 있습니다.<br/>
             <span class="pointUnderLine" style="--bs: var(--RGB-atmosphere)">삼표의 특수콘크리트의 대표 브랜드가 블루콘입니다.</span>
@@ -89,9 +89,9 @@
     </div>
   </div>
   <div class="mb-70px sm:mb-32"></div>
-  <div class="coverbox-full left py-28">
-    <div class="flex -mx-4">
-      <div class="w-7/12 px-4">
+  <div class="coverbox-full left pt-30px sm:py-28">
+    <div class="grid grid-cols-1 sm:grid-cols-12 gap-x-8 max:sm:mb-30px">
+      <div class="col-span-1 sm:col-span-7">
         <div class="page__level-title mb-7">
           수도권 최고의 레미콘 생산 능력,<br/>
           전국적 공급망, 스마트한 운송
@@ -123,8 +123,8 @@
           </div>
         </div>
       </div>
-      <div class="w-5/12 px-4 relative">
-        @include('partials.img', ['ex' => 'png', 'name' => 'ready-mix-4', 'class' => 'absolute w-full'])
+      <div class="col-span-1 sm:col-span-5 relative max:sm:transform max:sm:translate-y-100px">
+        @include('partials.img', ['ex' => 'png', 'name' => 'ready-mix-4', 'class' => 'sm:absolute w-full'])
       </div>
     </div>
   </div>
@@ -145,22 +145,22 @@
   <div class="page__level-title mb-30px sm:mb-8">
     엄격한 품질관리 기준 - SKS (Sampyo KS)
   </div>
-  <div class="prose mb-14">
+  <div class="prose mb-30px sm:mb-14">
     <p>
       레미콘 전 사업장에서 KS인증을 획득하였으며, 더 엄격한 자체 품질기준인 SKS를 설정해 최고의 품질을 유지하고 있습니다. 그 결과 국가표준화 대상(대통령포창, 국무총리표장), 한국품질만족지수 1위 7회 수상 등 품질경영의 성과를 대외적으로 인정받고 있습니다.
     </p>
   </div>
   <div class="coverbox-label">
     @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-5'])
-    <span class="label text-white">삼표 콘크리트 시험평가원</span>
+    <span class="label text-white max:sm:relative nonFixed">삼표 콘크리트 시험평가원</span>
   </div>
   <div class="mb-70px sm:mb-32"></div>
-  <div class="flex -mx-6 mb-36">
-    <div class="w-1/2 px-6">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 mb-36 gap-y-30px">
+    <div>
       <div class="text-2xl font-black mb-9">환경성적표지 인증서</div>
       @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-6'])
     </div>
-    <div class="w-1/2 px-6">
+    <div>
       <div class="text-2xl font-black mb-9">저탄소 제품 인증서</div>
       @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-7'])
     </div>
