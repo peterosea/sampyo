@@ -1,5 +1,7 @@
 .business-template-default {
-  --header-nav-height: 150px;
+  @media (min-width: theme('screens.sm')) {
+    --header-nav-height: 150px;
+  }
 }
 
 .business {

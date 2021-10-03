@@ -27,6 +27,7 @@ class Business extends Composer
           'selected' => $this->selected(),
           'acf' => $this->get_business_info(),
           'bluecon' => get_post()->post_name === 'blue-con' ? $this->bluecon() : null,
+          'fixedMenuLabel' => $this->getFixedMenuLabel(),
         ];
     }
 
@@ -142,5 +143,14 @@ class Business extends Composer
             $bluecon['g'.$i] = $v;
         }
         return $bluecon;
+    }
+
+    public function getFixedMenuLabel()
+    {
+        $post = get_post();
+        if ($terms = get_the_terms($post->ID, 'business_category')) {
+            return $terms[0]->name;
+        }
+        return '';
     }
 }

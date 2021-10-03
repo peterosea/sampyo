@@ -1,6 +1,6 @@
 function select(config) {
-  console.log(config);
   return {
+    ...config,
     label: config.label ?? 'None',
     dropdown: false,
     toggle: function () {

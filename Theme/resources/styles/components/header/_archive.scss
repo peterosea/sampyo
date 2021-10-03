@@ -30,7 +30,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    height: calc(100% - var(--header-nav-height));
+    height: calc(100% - var(--header-nav-height, 0));
     background-color: var(--lighthouse);
     position: absolute;
     z-index: -1;
@@ -105,6 +105,12 @@
 
     @media (min-width: theme('screens.sm')) {
       left: 180px;
+    }
+
+    @media (max-width: theme('screens.sm')) {
+      .depth-2 button > span:nth-of-type(2) {
+        display: none;
+      }
     }
   }
 

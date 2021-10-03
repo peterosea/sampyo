@@ -32,12 +32,6 @@
                   </a>
                 </li>
               @endforeach
-              <template x-for="(index, item) in Object.keys(options)" :key="index">
-                <li @click="selectOption(index, options[index].label)" class="px-4 py-2 cursor-pointer text-gray-600">
-                  <a href="/">test</a>
-                  <span class="block text-lg" x-text="options[index].label"></span>
-                </li>
-              </template>
             </ul>
           </div>
           <h1 class="header-archive-title text-px-36 sm:text-px-70 mb-px-5 sm:mb-px-18">{!! $title !!}</h1>
