@@ -1,7 +1,7 @@
 <main class="sampyoGroup__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section>
-    <div class="page__level-title mb-px-30 sm:mb-16 pb-1.5">
+    <div class="page__level-title mb-30px sm:mb-16 pb-1.5">
       삼표그룹, 지속가능한 미래의 기초가 되다.
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 mb-16 pb-1.5 gap-x-12">
@@ -24,10 +24,10 @@
         <div class="card__house-root">
           <div class="card__house bg-atmosphere mb-4">
             <div class="card__house-inner flex flex-col items-center p-8 h-52 relative">
-              <div class="sm:text-lg text-px-16">
+              <div class="sm:text-lg text-16px">
                 지속가능성 Building Materials
               </div>
-              <div class="font-black text-px-26 sm:text-px-42">
+              <div class="font-black text-26px sm:text-42px">
                 선도기업 삼표
               </div>
               <div class="label absolute w-full bottom-0 flex items-center justify-center h-16 text-lg font-bold bg-glitterLake">
@@ -88,10 +88,10 @@
         </div>
       </div>
     </div>
-    <div class="mb-px-70 sm:mb-32"></div>
+    <div class="mb-70px sm:mb-32"></div>
   </section>
   <section>
-    <div class="page__level-title mb-px-30 sm:mb-16 pb-1.5">
+    <div class="page__level-title mb-30px sm:mb-16 pb-1.5">
       사람 ∙ 사회 ∙ 세상을 위해 새로운 기초를 창조하고<br class="hidden sm:block" />
       지속가능한 사회에 공헌하는 선도 기업
     </div>
@@ -142,10 +142,10 @@
         </div>
       </div>
     </div>
-    <div class="mb-px-70 sm:mb-32"></div>
+    <div class="mb-70px sm:mb-32"></div>
   </section>
   <section>
-    <div class="page__level-title mb-px-30 sm:mb-16 pb-1.5">
+    <div class="page__level-title mb-30px sm:mb-16 pb-1.5">
       지속가능한 미래의 기초를 만드는 삼표그룹의 가치체계
     </div>
     <div class="flex">
@@ -217,7 +217,7 @@
         </div>
       </div>
     </div>
-    <div class="pb-px-70 sm:pb-24"></div>
+    <div class="pb-70px sm:pb-24"></div>
   </section>
 </div>
 </main>

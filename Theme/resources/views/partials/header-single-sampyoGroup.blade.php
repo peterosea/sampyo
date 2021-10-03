@@ -10,7 +10,7 @@
           @endif
         </div>
         <div class="header-archive-content max:sm:px-8 max:sm:w-full">
-          <div x-data="select({label: '{!! $title !!}'})" class="w-full relative mb-px-30 block sm:hidden">
+          <div x-data="select({label: '{!! $title !!}'})" class="w-full relative mb-30px block sm:hidden">
             <button class="flex items-center justify-between w-full px-3 py-3 text-left border focus:outline-none"
               @click="toggle()"
               @click.away="close()">
@@ -34,7 +34,7 @@
               @endforeach
             </ul>
           </div>
-          <h1 class="header-archive-title text-px-36 sm:text-px-70 mb-px-5 sm:mb-px-18">{!! $title !!}</h1>
+          <h1 class="header-archive-title text-36px sm:text-70px mb-5px sm:mb-18px">{!! $title !!}</h1>
           <span class="header-archive-description">{!! $excerpt !!}</span>
         </div>
       </div>

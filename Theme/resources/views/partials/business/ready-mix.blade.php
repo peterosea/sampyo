@@ -1,6 +1,6 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="page__level-title mb-px-30 sm:mb-11">
+  <div class="page__level-title mb-30px sm:mb-11">
     삼표의 고성능 레미콘은 <br class="hidden sm:block" />
     현대건축의 다양한 시도를 가능케합니다.
   </div>
@@ -33,7 +33,7 @@
       </div>
     </div>
   </div>
-  <div class="mb-px-70 sm:mb-32"></div>
+  <div class="mb-70px sm:mb-32"></div>
   <div class="coverbox-full right py-16">
     <div class="pointUnderLine text-2xl font-bold mb-6" style="--bs: var(--RGB-bermudagrass)">
       레미콘이란?
@@ -44,8 +44,8 @@
       </p>
     </div>
   </div>
-  <div class="mb-px-70 sm:mb-32"></div>
-  <div class="page__level-title mb-px-30 sm:mb-11">
+  <div class="mb-70px sm:mb-32"></div>
+  <div class="page__level-title mb-30px sm:mb-11">
     국내 최초 고성능 레미콘 브랜드
   </div>
   <div class="mb-16">
@@ -88,7 +88,7 @@
       @endforeach
     </div>
   </div>
-  <div class="mb-px-70 sm:mb-32"></div>
+  <div class="mb-70px sm:mb-32"></div>
   <div class="coverbox-full left py-28">
     <div class="flex -mx-4">
       <div class="w-7/12 px-4">
@@ -129,7 +129,7 @@
     </div>
   </div>
   <div class="mb-44"></div>
-  <div class="page__level-title mb-px-30 sm:mb-8">
+  <div class="page__level-title mb-30px sm:mb-8">
     스마트한 운송<br/>
     GPS 및 화물전용 내비게이션 장착 운송
   </div>
@@ -141,8 +141,8 @@
       <li>대형차량 특성을 반영하여 안전한 주행경로 설정</li>
     </ul>
   </div>
-  <div class="pb-px-30 sm:pb-20"></div>
-  <div class="page__level-title mb-px-30 sm:mb-8">
+  <div class="pb-30px sm:pb-20"></div>
+  <div class="page__level-title mb-30px sm:mb-8">
     엄격한 품질관리 기준 - SKS (Sampyo KS)
   </div>
   <div class="prose mb-14">
@@ -154,7 +154,7 @@
     @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-5'])
     <span class="label text-white">삼표 콘크리트 시험평가원</span>
   </div>
-  <div class="mb-px-70 sm:mb-32"></div>
+  <div class="mb-70px sm:mb-32"></div>
   <div class="flex -mx-6 mb-36">
     <div class="w-1/2 px-6">
       <div class="text-2xl font-black mb-9">환경성적표지 인증서</div>

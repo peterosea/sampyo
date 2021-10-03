@@ -273,7 +273,7 @@
 </div>
 <div class="section home__s45">
   <div class="section home__s4 sm:mb-32">
-    <div class="container xl:max-w-screen-xl mx-auto flex flex-wrap sm:block mb-px-50">
+    <div class="container xl:max-w-screen-xl mx-auto flex flex-wrap sm:block mb-50px">
       <ul id="originalS4" class="home__s4-container hidden sm:flex relative z-10">
         @foreach ($career as $item)
           <li data-scrollreveal id="cardWrap" class="w-1/3">
@@ -295,16 +295,16 @@
         @endforeach
       </ul>
       <div id="swipercontainerS4" class="block sm:hidden order-2 w-full z-10 relative"></div>
-      <div class="home__s4-content text-white order-1 static sm:absolute z-50 text-center sm:text-left mb-px-60 sm:mb-0">
-        <div class="home__s4-title text-px-36 sm:text-px-56">인재채용</div>
-        <div class="home__s4-description text-px-14 sm:text-px-22">
+      <div class="home__s4-content text-white order-1 static sm:absolute z-50 text-center sm:text-left mb-60px sm:mb-0">
+        <div class="home__s4-title text-36px sm:text-56px">인재채용</div>
+        <div class="home__s4-description text-14px sm:text-22px">
           변화를 주도하며 창의적인 사고를 가진 삼표인과 함께<br/>
           더 큰 미래를 향해 성장해나갑니다.
         </div>
       </div>
     </div>
   </div>
-  <div class="section home__s5 mt-px-10 sm:mt-0 max:sm:pb-2.5">
+  <div class="section home__s5 mt-10px sm:mt-0 max:sm:pb-2.5">
     <div class="newsroom__newslater">
       <div class="container mx-auto xl:max-w-screen-xl">
         @include('partials.newsletter')
@@ -313,10 +313,10 @@
     <div class="container xl:max-w-screen-xl mx-auto mt-14 max:sm:px-0">
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
         <a href="https://smart.sampyo.co.kr/main/group/introduction" target="_blank" rel="noopener noreferrer">
-          <div class="card__s3 max:sm:py-px-54 max:sm:px-px-30">
+          <div class="card__s3 max:sm:py-54px max:sm:px-30px">
             <div class="card__s3-body">
-              <div class="card__s3-title text-2xl sm:text-px-32">사업장 정보</div>
-              <div class="card__s3-content text-px-12 sm:text-base">삼표삼표그룹 계열사들의 사업장 정보를 조회하실 수 있습니다.</div>
+              <div class="card__s3-title text-2xl sm:text-32px">사업장 정보</div>
+              <div class="card__s3-content text-12px sm:text-base">삼표삼표그룹 계열사들의 사업장 정보를 조회하실 수 있습니다.</div>
             </div>
             <div class="card__s3-bg nonDim">
               @include('partials.img', ['ex' => 'jpg', 'name' => '3340'])
@@ -324,10 +324,10 @@
           </div>
         </a>
         <a href="https://smart.sampyo.co.kr/" target="_blank" rel="noopener noreferrer">
-          <div class="card__s3 max:sm:py-px-54 max:sm:px-px-30">
+          <div class="card__s3 max:sm:py-54px max:sm:px-30px">
             <div class="card__s3-body">
-              <div class="card__s3-title text-2xl sm:text-px-32">SMART 삼표</div>
-              <div class="card__s3-content text-px-12 sm:text-base">자체시험성적표/제품 주문 등 다양한 자료와 정보를 제공합니다.</div>
+              <div class="card__s3-title text-2xl sm:text-32px">SMART 삼표</div>
+              <div class="card__s3-content text-12px sm:text-base">자체시험성적표/제품 주문 등 다양한 자료와 정보를 제공합니다.</div>
             </div>
             <div class="card__s3-bg nonDim">
               @include('partials.img', ['ex' => 'jpg', 'name' => '3341'])

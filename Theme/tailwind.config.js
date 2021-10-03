@@ -7,7 +7,7 @@ const colorReset = {
 function px(min, max) {
   let result = {};
   for (let i = min; i < max + 1; i++) {
-    const key = i < 0 ? `-px-${i}` : `px-${i}`;
+    const key = i < 0 ? `-${i}px` : `${i}px`;
     result[key] = `${i}px`;
   }
   return result;

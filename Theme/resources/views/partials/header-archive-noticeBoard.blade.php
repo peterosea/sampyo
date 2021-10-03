@@ -10,7 +10,7 @@
           @endif
         </div>
         <div class="header-archive-content max:sm:px-8 max:sm:w-full">
-          <h1 class="header-archive-title text-px-36 sm:text-px-70 mb-px-5 sm:mb-px-18">{!! $title !!}</h1>
+          <h1 class="header-archive-title text-36px sm:text-70px mb-5px sm:mb-18px">{!! $title !!}</h1>
           <span class="header-archive-description">{!! $description !!}</span>
         </div>
       </div>

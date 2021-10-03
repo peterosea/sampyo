@@ -1,13 +1,13 @@
 <footer id="global" class="footer-global sm:px-12 sm:py-14 bg-blackout text-white">
-  <div class="flex flex-wrap justify-between sm:mb-6 mb-px-30">
+  <div class="flex flex-wrap justify-between sm:mb-6 mb-30px">
     <div class="w-full sm:w-auto order-2 px-8 pt-8 sm:p-0 sm:order-1">
-      <div class="block sm:hidden mb-px-21">
+      <div class="block sm:hidden mb-21px">
         @include('partials.list-sns')
       </div>
       {!! wp_nav_menu(['menu' => 'footer', 'menu_class' => 'footer-global-nav flex flex-wrap gap-x-6 sm:gap-x-12 gap-y-4', 'echo' => false]) !!}
     </div>
     <div class="w-full sm:w-auto order-1 sm:order-2">
-      <div class="grid grid-cols-2 sm:flex gap-px sm:gap-10 h-px-60 sm:h-auto bg-white bg-opacity-20 pb-px sm:pb-0 sm:bg-transparent">
+      <div class="grid grid-cols-2 sm:flex gap-px sm:gap-10 h-60px sm:h-auto bg-white bg-opacity-20 pb-px sm:pb-0 sm:bg-transparent">
         <a class="w-full h-full flex items-center justify-center sm:inline bg-blackout whitespace-nowrap" href="#">뉴스레터 구독신청</a>
         <div x-data="{ isOpen: false }" class="relative sm:inline-block text-left w-full h-full flex items-center justify-center bg-blackout">
           <div>

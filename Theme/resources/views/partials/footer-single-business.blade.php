@@ -1,9 +1,9 @@
 <footer class="footer__business">
-  <div class="container xl:max-w-screen-xl mx-auto py-px-40 sm:py-px-120">
+  <div class="container xl:max-w-screen-xl mx-auto py-40px sm:py-120px">
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 relative z-10">
       @if (!empty($acf['outlink']))
         <div class="hidden sm:block">
-          <div class="footer__business-body sm:mb-px-60">
+          <div class="footer__business-body sm:mb-60px">
             <div class="footer__business-title">
               홈페이지 바로가기
             </div>
@@ -20,7 +20,7 @@
       @endif
       @if(!empty($acf['area']) && !$acf['address'])
         <div>
-          <div class="footer__business-body sm:mb-px-60">
+          <div class="footer__business-body sm:mb-60px">
             <div class="footer__business-title">
               사업장 정보
             </div>
@@ -37,7 +37,7 @@
       @endif
       @if ($acf['address'])
         <div class="@if(!$acf['area'] && !$acf['outlink']) col-span-2 @endif">
-          <div class="footer__business-body sm:mb-px-60">
+          <div class="footer__business-body sm:mb-60px">
             <div class="footer__business-title">
               연락하기
             </div>

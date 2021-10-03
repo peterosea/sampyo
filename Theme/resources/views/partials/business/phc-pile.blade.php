@@ -1,7 +1,7 @@
 <main class="page__layout">
   <div class="container xl:max-w-screen-xl mx-auto">
     <section class="mb-32">
-      <div class="page__level-title mb-px-30 sm:mb-11">
+      <div class="page__level-title mb-30px sm:mb-11">
         기초를 바르게 만듭니다.
       </div>
       <div class="prose mb-24 pb-1">

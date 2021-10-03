@@ -6,7 +6,7 @@
     <p>
       삼표는 직워들의 안정적이고 풍요로운 생활을 보장하기 위해 다양한 복리후생 제도를 시행하고 있습니다.
     </p>
-    <div class="pb-px-30 sm:pb-20"></div>
+    <div class="pb-30px sm:pb-20"></div>
     @php
       $benefits = [
         [

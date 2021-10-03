@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/resource.stibee.com/subscribe/stb_subscribe_form_style.css">
-<div class="newsroom__newslater-body py-px-38 sm:py-px-52 gap-0 sm:gap-4">
-  <div class="newsroom__newslater-title text-px-36 sm:text-px-62">뉴스레터</div>
+<div class="newsroom__newslater-body py-38px sm:py-52px gap-0 sm:gap-4">
+  <div class="newsroom__newslater-title text-36px sm:text-62px">뉴스레터</div>
   <form action="https://stibee.com/api/v1.0/lists/f2eqTU7I64dCpLpErO92czVDIsF_nA==/public/subscribers" method="POST" target="_blank" accept-charset="utf-8" class="stb_form newsroom__newslater-form" name="stb_subscribe_form" id="stb_subscribe_form" novalidate="">
     <div class="grid grid-cols-2 gap-y-4 gap-x-0 sm:gap-x-2">
       <div class="col-span-3 text-right">
@@ -9,10 +9,10 @@
         <div class="stb_form_result" id="stb_form_result"></div>
       </div>
       <div class="col-span-2 flex justify-end">
-        <input type="email" class="stb_form_set_input input max-w-full text-px-14 sm:text-base" id="stb_email" name="email" required="required" placeholder="sample@email.com">
+        <input type="email" class="stb_form_set_input input max-w-full text-14px sm:text-base" id="stb_email" name="email" required="required" placeholder="sample@email.com">
       </div>
       <div class="flex gap-1 col-span-1">
-        <button id="stb_form_submit_button" type="submit" class="btn btn-dark stb_form_submit_button text-px-12 sm:text-base">구독 신청<span class="hidden sm:inline">하기</span></button>
+        <button id="stb_form_submit_button" type="submit" class="btn btn-dark stb_form_submit_button text-12px sm:text-base">구독 신청<span class="hidden sm:inline">하기</span></button>
         <a href="https://page.stibee.com/archives/138300" target="_blank" class="btn btn-dark hidden sm:block">지난 뉴스레터 보기</a>
       </div>
       <div class="col-span-3 flex justify-end">

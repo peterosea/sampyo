@@ -1,6 +1,6 @@
 <main class="career__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="page__level-title mb-px-30 sm:mb-8">
+  <div class="page__level-title mb-30px sm:mb-8">
     평가 및 보상
   </div>
   <div class="flex -mx-6">
@@ -15,7 +15,7 @@
       </p>
     </div>
   </div>
-  <div class="pb-px-30 sm:pb-20"></div>
+  <div class="pb-30px sm:pb-20"></div>
   <div class="font-black underline power text-2xl mb-5">
     성과관리 프로세스
   </div>
@@ -72,7 +72,7 @@
       </div>
     </li>
   </ul>
-  <div class="pb-px-70 sm:pb-24"></div>
+  <div class="pb-70px sm:pb-24"></div>
   <div class="font-black underline power text-2xl mb-16">
     성과관리 프로세스
   </div>
@@ -145,6 +145,6 @@
       </div>
     </div>
   </div>
-  <div class="pb-px-70 sm:pb-24"></div>
+  <div class="pb-70px sm:pb-24"></div>
 </div>
 </main>
