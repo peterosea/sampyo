@@ -1,8 +1,8 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-32">
-    <div class="page__level-title mb-11">
-      국내 프리캐스트 콘크리트 산업의<br/>
+    <div class="page__level-title mb-px-30 sm:mb-11">
+      국내 프리캐스트 콘크리트 산업의<br class="hidden sm:block" />
       미래를 선도해 나가겠습니다.
     </div>
     <div class="prose mb-24 pb-1">

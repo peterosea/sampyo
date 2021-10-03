@@ -43,7 +43,7 @@
     </div>
     @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-3'])
   </div>
-  <div class="page__level-title mb-11">
+  <div class="page__level-title mb-px-30 sm:mb-11">
     몰탈 제품군
   </div>
   <div class="prose mb-16">

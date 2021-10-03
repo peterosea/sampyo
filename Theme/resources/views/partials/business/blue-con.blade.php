@@ -1,7 +1,7 @@
 <main class="page__layout pb-0">
 <div class="container xl:max-w-screen-xl mx-auto">
   <section>
-    <div class="page__level-title mb-11">
+    <div class="page__level-title mb-px-30 sm:mb-11">
       삼표의 특수 콘크리트 <span class="text-point">블루콘 (BLUECON)</span>
     </div>
     <div class="prose mb-20">

@@ -1,7 +1,7 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="page__level-title mb-11">
-    삼표의 고성능 레미콘은 <br/>
+  <div class="page__level-title mb-px-30 sm:mb-11">
+    삼표의 고성능 레미콘은 <br class="hidden sm:block" />
     현대건축의 다양한 시도를 가능케합니다.
   </div>
   <div class="grid grid-cols-2 gap-x-12 gap-y-20">
@@ -45,7 +45,7 @@
     </div>
   </div>
   <div class="mb-px-70 sm:mb-32"></div>
-  <div class="page__level-title mb-11">
+  <div class="page__level-title mb-px-30 sm:mb-11">
     국내 최초 고성능 레미콘 브랜드
   </div>
   <div class="mb-16">

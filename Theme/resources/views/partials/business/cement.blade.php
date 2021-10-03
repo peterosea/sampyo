@@ -1,7 +1,7 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="page__level-title mb-11">
-    세계 최고 수준의 시멘트 생산/공급 능력을 갖추고, <br/>
+  <div class="page__level-title mb-px-30 sm:mb-11">
+    세계 최고 수준의 시멘트 생산/공급 능력을 갖추고, <br class="hidden sm:block" />
     국내 시멘트 산업을 선도하고 있습니다.
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 mb-px-30 sm:mb-20">
@@ -22,7 +22,7 @@
   @include('partials.img', ['ex' => 'jpg', 'name' => 'dji-0232-sample'])
   <div class="mb-px-70 sm:mb-32"></div>
   <div class="coverbox-full left pb-32 pt-24 mb-14 sm:mb-28">
-    <div class="page__level-title mb-px-26 sm:mb-11">
+    <div class="page__level-title mb-px-30 sm:mb-11">
       사회적, 환경적 책임을 존중합니다.
     </div>
     <div class="mb-px-30 sm:mb-16">
@@ -42,7 +42,7 @@
       </div>
     </div>
   </div>
-  <div class="page__level-title mb-px-26 sm:mb-11">
+  <div class="page__level-title mb-px-30 sm:mb-11">
     지속가능한 미래를 위한 기술 개발
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 mb-px-30 sm:mb-20">
