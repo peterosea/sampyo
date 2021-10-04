@@ -82,7 +82,9 @@
           </p>
         </div>
         <div class="prose">
-          <h3 class="text-xl pointUnderLine" style="--bs: var(--RGB-bermudagrass); --h: -0.5em">권역별 생산 및 공급망</h3>
+          <h3 class="text-xl">
+            <span class="pointUnderLine" style="--bs: var(--RGB-bermudagrass); --h: -0.5em">권역별 생산 및 공급망</span>
+          </h3>
           <p>
             당진 FA공장 / 당진 슬래그 공장 / 보령 FA공장 /<br/>
             천안 슬래그 공장 / 호남 FA공장

@@ -35,8 +35,10 @@
   </div>
   <div class="mb-70px sm:mb-32"></div>
   <div class="coverbox-full right py-30px sm:py-16">
-    <div class="pointUnderLine text-2xl font-bold mb-6" style="--bs: var(--RGB-bermudagrass)">
-      레미콘이란?
+    <div class="text-2xl font-bold mb-6">
+      <span class="pointUnderLine " style="--bs: var(--RGB-bermudagrass)">
+        레미콘이란?
+      </span>
     </div>
     <div class="prose">
       <p>
@@ -102,8 +104,10 @@
           </p>
         </div>
         <div class="mb-7">
-          <div class="pointUnderLine font-bold mb-3">
-            수도권 핵심 거점 17곳
+          <div class="font-bold mb-3">
+            <span class="pointUnderLine">
+              수도권 핵심 거점 17곳
+            </span>
           </div>
           <div class="prose">
             <p>
@@ -113,8 +117,12 @@
           </div>
         </div>
         <div>
-          <div class="pointUnderLine font-bold mb-3">
-            전국 분포된 7곳
+          <div class="font-bold mb-3">
+            <div>
+              <span class="pointUnderLine">
+                전국 분포된 7곳
+              </span>
+            </div>
           </div>
           <div class="prose">
             <p>

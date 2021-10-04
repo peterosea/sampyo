@@ -68,8 +68,10 @@
       </div>
     </div>
     <div class="mb-20">
-      <div class="pointUnderLine text-2xl mb-12">
-        블루콘 시리즈
+      <div class="text-2xl mb-12">
+        <span class="pointUnderLine ">
+          블루콘 시리즈
+        </span>
       </div>
       <div id="readyMix" class="overflow-hidden">
         <div class="swiper-wrapper">
@@ -82,8 +84,10 @@
       </div>
     </div>
     <div class="mb-20">
-      <div class="pointUnderLine text-2xl mb-8">
-        UHPC (Ultra High Performance Concrete)
+      <div class="text-2xl mb-8">
+        <span class="pointUnderLine ">
+          UHPC (Ultra High Performance Concrete)
+        </span>
       </div>
       <div class="prose">
         <p>
@@ -93,8 +97,10 @@
       </div>
     </div>
     <div class="mb-28">
-      <div class="pointUnderLine text-2xl mb-8">
-        특히, 삼표는 이 분야에서 특허를 다수 보유하고 있습니다.
+      <div class="text-2xl mb-8">
+        <span class="pointUnderLine">
+          특히, 삼표는 이 분야에서 특허를 다수 보유하고 있습니다.
+        </span>
       </div>
       <div class="prose">
         <ul>

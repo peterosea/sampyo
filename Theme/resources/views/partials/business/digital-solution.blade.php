@@ -24,24 +24,30 @@
       </div>
     </div>
     <div class="prose mb-14">
-      <div class="pointUnderLine text-2xl mb-8">
-        Smart Factory
+      <div class="text-2xl mb-8">
+        <span class="pointUnderLine ">
+          Smart Factory
+        </span>
       </div>
       <p>
         제조현장의 데이터 수집/활용, 설비 제어, 자동화 시스템 설계/구축, 공장 전기 시스템 설계/제어 등 통합 자동화 솔루션을 제공하며 업계 최초 무인 출하 자동화 및 권역별 통합 출하실 구축/운영 등 제조 전체 프로세스 혁신에 앞장서고 있습니다.
       </p>
     </div>
     <div class="prose mb-14">
-      <div class="pointUnderLine text-2xl mb-8">
-        Smart Business
+      <div class="text-2xl mb-8">
+        <span class="pointUnderLine">
+          Smart Business
+        </span>
       </div>
       <p>
         제품의 생산부터 고객에게 전달되기까지의 가치사슬 전반에 걸처 디지털 역량을 투입하여 업무 프로세스 최적화를 지원하고 고객 만족 및 임직원의 업무 생산성을 향상시킵니다.
       </p>
     </div>
     <div class="prose mb-14">
-      <div class="pointUnderLine text-2xl mb-8">
-        Smart Workplace
+      <div class="text-2xl mb-8">
+        <span class="pointUnderLine">
+          Smart Workplace
+        </span>
       </div>
       <p>
         언택트 협업 솔루션 구축, 화상회의, 모바일 시스템 확대 등 시간/공간의 제약이 없는 업무환경을 구축하고, 소통과 협업을 확대하여 급변하는 환경에 대응하고 있습니다. 앞으로도 사업의 디지털 포트폴리오 확대와 함께 기존 플랫폼 및 자동화 솔루션과 최첨단 기술의 완벽한 통합을 통해 사업 운영의 효율성을 강화하고, Building Materials 산업의 Total Solution Provider로서 IT와 OT의 융합(Convergence), 그리고 디지털 전환을 주도하겠습니다. 디지털 솔루션 사업부문이 여는 미래를 기대해 주시기 바랍니다.
@@ -94,8 +100,10 @@
             </div>
           </div>
           <div class="prose">
-            <div class="pointUnderLine font-bold text-xl" style="--h: -0.7em">
-              그룹 레미콘 공장 통합 출하 현황
+            <div class="font-bold text-xl">
+              <span class="pointUnderLine" style="--h: -0.7em">
+                그룹 레미콘 공장 통합 출하 현황
+              </span>
             </div>
             <ul>
               <li class="li__single-s1 bermudagrass">단독운영 (성수, 풍납, 동서울, 광주, 청암, 남광주, 군산, 부산, 8개 공장)</li>

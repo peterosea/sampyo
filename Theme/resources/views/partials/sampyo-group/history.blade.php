@@ -16,8 +16,10 @@
     <div class="max:sm:hidden w-1/3 px-6"></div>
     <div class="w-full sm:w-2/3 sm:px-6 relative z-10 sm:py-12 sm:pl-16 bg-white">
       <div class="historybox">
-        <div class="historybox__title pointUnderLine font-bold text-40px sm:text-4xl mb-12" style="--bs: var(--RGB-atmosphere); --h: -0.4em">
-          2020’s
+        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+            2020’s
+          </span>
         </div>
         <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
           @foreach ($history['2020'] as $item)
@@ -36,8 +38,10 @@
     </div>
     <div class="w-full sm:w-2/3 sm:px-6 relative z-10 sm:py-12 sm:pl-16 bg-white">
       <div class="historybox">
-        <div class="historybox__title pointUnderLine font-bold text-40px sm:text-4xl mb-12" style="--bs: var(--RGB-atmosphere); --h: -0.4em">
-          2010’s
+        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+            2010’s
+          </span>
         </div>
         <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
           @foreach ($history['2010'] as $item)
@@ -58,8 +62,10 @@
     <div class="max:sm:hidden w-1/3 px-6"></div>
     <div class="w-full sm:w-2/3 sm:px-6 sm:relative sm:z-10 sm:py-12 sm:pl-16 bg-white">
       <div class="historybox">
-        <div class="historybox__title pointUnderLine font-bold text-40px sm:text-4xl mb-12" style="--bs: var(--RGB-atmosphere); --h: -0.4em">
-          2000’s
+        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+            2000’s
+          </span>
         </div>
         <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
           @foreach ($history['2000'] as $item)
@@ -78,8 +84,10 @@
     </div>
     <div class="w-full sm:w-2/3 sm:px-6 sm:relative sm:z-10 sm:py-12 sm:pr-16 bg-white flex flex-col gap-y-24">
       <div class="historybox">
-        <div class="historybox__title pointUnderLine font-bold text-40px sm:text-4xl mb-12" style="--bs: var(--RGB-atmosphere); --h: -0.4em">
-          1990’s
+        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+            1990’s
+          </span>
         </div>
         <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
           @foreach ($history['1990'] as $item)
@@ -100,8 +108,10 @@
     <div class="max:sm:hidden w-1/3 px-6"></div>
     <div class="w-full sm:w-2/3 sm:px-6 sm:relative sm:z-10 sm:py-12 sm:pl-16 bg-white flex flex-col gap-y-30px sm:gap-y-24">
       <div class="historybox">
-        <div class="historybox__title pointUnderLine font-bold text-40px sm:text-4xl mb-12" style="--bs: var(--RGB-atmosphere); --h: -0.4em">
-          1980’s
+        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+            1980’s
+          </span>
         </div>
         <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
           @foreach ($history['1980'] as $item)
@@ -113,8 +123,10 @@
         </div>
       </div>
       <div class="historybox">
-        <div class="historybox__title pointUnderLine font-bold text-40px sm:text-4xl mb-12" style="--bs: var(--RGB-atmosphere); --h: -0.4em">
-          1970’s
+        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+            1970’s
+          </span>
         </div>
         <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
           @foreach ($history['1970'] as $item)
@@ -126,8 +138,10 @@
         </div>
       </div>
       <div class="historybox">
-        <div class="historybox__title pointUnderLine font-bold text-40px sm:text-4xl mb-12" style="--bs: var(--RGB-atmosphere); --h: -0.4em">
-          1960’s
+        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+            1960’s
+          </span>
         </div>
         <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
           @foreach ($history['1960'] as $item)

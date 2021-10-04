@@ -11,8 +11,10 @@
         </p>
       </div>
       <div class="coverbox-full-fixedHeight right pt-28" style="--h: 400px">
-        <div class="pointUnderLine text-2xl font-bold mb-6" style="--h: -0.5em">
-          PHC 파일이란?
+        <div class="text-2xl font-bold mb-6">
+          <span class="pointUnderLine" style="--h: -0.5em">
+            PHC 파일이란?
+          </span>
         </div>
         <div class="prose mb-16 pb-1.5">
           <p>
@@ -67,8 +69,10 @@
       </div>
       <div class="bg-lighthouse py-16">
         <div class="text-center mb-12">
-          <div class="pointUnderLine text-2xl font-black">
-            고객혜택
+          <div class="text-2xl font-black">
+            <span class="pointUnderLine ">
+              고객혜택
+            </span>
           </div>
         </div>
         <div class="flex max-w-3xl mx-auto">
