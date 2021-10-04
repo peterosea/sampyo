@@ -1,10 +1,10 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <section class="mb-32">
+  <section class="mb-70px sm:mb-32">
     <div class="page__level-title mb-30px sm:mb-11">
       업계 최초의 건설기초자재 전문 기술연구소
     </div>
-    <div class="grid grid-cols-2 gap-x-12 gap-y-16">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-16">
       <div class="prose">
         <p>
           연구개발 전문부서로 시작된 연구소는 2004년 경기도 광주에 독립건물을 신축, 이전하였으며, 2017년 4월 별동을 신축하여 총 2개 연구동을 운영하고 있습니다. 수십여명의 각 분야 석박사급의 우수한 전문연구원들이 4차 산업혁명 시대 트랜드에 맞추어 건설기초자재 및 친환경적인 기술개발에 앞장서고 있습니다. 
@@ -31,7 +31,7 @@
       </div>
     </div>
   </section>
-  <section class="mb-32">
+  <section class="mb-70px sm:mb-32">
     <div class="page__level-title mb-30px sm:mb-11">
       주요 연구성과
     </div>
@@ -44,13 +44,17 @@
       </ul>
     </div>
   </section>
-  <section class="mb-32">
-    <div class="coverbox-full-fixedHeight left pt-24 mb-20" style="--h: 658px">
+  <section class="mb-70px sm:mb-32">
+    <div class="coverbox-full-fixedHeight left max:sm:py-30px sm:pt-24 mb-20" style="--h: 658px">
       <div class="page__level-title mb-30px sm:mb-11">
         연구분야
       </div>
-      <h3 class="text-2xl font-black underline power mb-12">콘크리트 분야</h3>
-      <div class="grid grid-cols-2 gap-x-12 gap-y-10">
+      <h3 class="text-2xl font-black mb-30px sm:mb-12">
+        <span class="underline power">
+          콘크리트 분야
+        </span>
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10">
         <div class="prose">
           <p>
             콘크리트 가장 근본적인 성능에 대해서 연구를 진행하고 있습니다. 콘크리트의 조기강도 발현, 고유동성, 건조수축 저감, 초고강도 등에 대해서 지속적으로 연구를 통하여 제품화하고 있습니다. 콘크리트는 변화가 없다 라는 편견을 깨고 새로운 제품으로 국내 레미콘 품질을 한단계 더 진보시키기 위해서 노력하고 있습니다.<br/>
@@ -62,14 +66,14 @@
             상용화 측면에서 기술 수준은 경쟁사를 많이 앞서고 있습니다. 특히 VAP 제품의 경우(조강, 수축, 유동성)는 우리는 2년전에 상용화에 성공하여 현재 판매중이지만 경쟁사는 아직 연구 단계에 머무르고 있습니다. 한해 평균 특허는 5~10건, 논문(학술발표)은 10여편을 발표하고 있습니다.
           </p>
         </div>
-        <div class="col-span-2">
+        <div class="sm:col-span-2">
           @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-2'])
         </div>
       </div>
     </div>
-    <div class="mb-20">
-      <div class="text-2xl mb-12">
-        <span class="pointUnderLine ">
+    <div class="mb-30px sm:mb-20">
+      <div class="text-2xl mb-30px sm:mb-12">
+        <span class="pointUnderLine">
           블루콘 시리즈
         </span>
       </div>
@@ -83,9 +87,9 @@
         </div>
       </div>
     </div>
-    <div class="mb-20">
+    <div class="mb-30px sm:mb-20">
       <div class="text-2xl mb-8">
-        <span class="pointUnderLine ">
+        <span class="pointUnderLine">
           UHPC (Ultra High Performance Concrete)
         </span>
       </div>
@@ -96,7 +100,7 @@
         </p>
       </div>
     </div>
-    <div class="mb-28">
+    <div class="mb-60px sm:mb-28">
       <div class="text-2xl mb-8">
         <span class="pointUnderLine">
           특히, 삼표는 이 분야에서 특허를 다수 보유하고 있습니다.
@@ -110,9 +114,13 @@
         </ul>
       </div>
     </div>
-    <div class="mb-28">
-      <h3 class="text-2xl font-black underline power mb-12">분체 분야</h3>
-      <div class="grid grid-cols-2 gap-x-12 gap-y-16">
+    <div class="mb-60px sm:mb-28">
+      <h3 class="text-2xl font-black mb-30px sm:mb-12">
+        <span class="underline power">
+          분체 분야
+        </span>
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-16">
         <div class="prose">
           <p>
             분체 연구조직은 시멘트, 고로슬래그 미분말 및 플라이애시와 같은 콘크리트용 결합재 관련 제품을 개발하고, 지속적인 성능향상을 위한 업무를 수행하고 있습니다.<br/>
@@ -124,21 +132,21 @@
             분체 연구조직에서는 콘크리트 및 몰탈에서 활용이 가능한 신규 소재발굴과 더불어 기존 산업 부산물 중 불용자원의 재활용 방안 수립과 관련한 연구를 수행하고 있습니다. 저발열 혼합시멘트 납품과 관련하여 매스 콘크리트 수화열 해석을 통한 균열안정성 평가 기술지원을 수행하며, 미지 시료를 분석하고 활용 분야를 발굴하여 새로운 건설기초소재 사업에 기여합니다. 자원재활용과 환경보호를 위한 제품개발에 집중하고 있습니다.
           </p>
         </div>
-        <div class="col-span-2">
-          <div class="grid grid-cols-3">
-            <div class="coverbox-label mb-12">
+        <div class="sm:col-span-2">
+          <div class="grid grid-cols-1 sm:grid-cols-3">
+            <div class="coverbox-label sm:mb-12">
               @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-3'])
               <span class="label text-white">
                 보통 포틀랜드 시멘트
               </span>
             </div>
-            <div class="coverbox-label mb-12">
+            <div class="coverbox-label sm:mb-12">
               @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-4'])
               <span class="label text-white">
                 고로슬래그 미분말
               </span>
             </div>
-            <div class="coverbox-label mb-12">
+            <div class="coverbox-label sm:mb-12">
               @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-5'])
               <span class="label text-white">
                 플라이애시
@@ -148,9 +156,13 @@
         </div>
       </div>
     </div>
-    <div class="mb-28">
-      <h3 class="text-2xl font-black underline power mb-12">몰탈 분야</h3>
-      <div class="grid grid-cols-2 gap-x-12 mb-16">
+    <div class="mb-60px sm:mb-28">
+      <h3 class="text-2xl font-black underline power mb-12">
+        <span class="underline power">
+          몰탈 분야
+        </span>
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px mb-30px sm:mb-16">
         <div class="prose">
           <p>
             몰탈은 각종 시멘트 및 무기질 혼합재에 선별한 모래와 성능개선제를 균일하게 혼합하여 제조함으로써, 현장에서 물만 섞어 시공할 수 있도록 사용 편의성을 극대화한 첨단 건설소재입니다.
@@ -163,22 +175,22 @@
           </p>
         </div>
       </div>
-      <div class="coverbox-label mb-16">
+      <div class="coverbox-label sm:mb-16">
         @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-6'])
-        <span class="label text-white">
+        <span class="label text-white nonFixed">
           물리 실험실
         </span>
       </div>
-      <div class="grid grid-cols-2">
+      <div class="grid grid-cols-1 sm:grid-cols-2">
         <div class="coverbox-label">
           @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-7'])
-          <span class="label text-white">
+          <span class="label text-white nonFixed">
             실험 준비실
           </span>
         </div>
         <div class="coverbox-label">
           @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-8'])
-          <span class="label text-white">
+          <span class="label text-white nonFixed">
             화학 분석실
           </span>
         </div>

@@ -31,6 +31,7 @@ const routes = new Router({
   home,
   singleBusiness: business,
   readyMix,
+  sampyoTechCenter: readyMix,
   blueCon: readyMix,
   distribution: readyMix,
   csr,
