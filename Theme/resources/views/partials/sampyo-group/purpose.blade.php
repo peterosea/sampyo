@@ -95,7 +95,7 @@
       사람 ∙ 사회 ∙ 세상을 위해 새로운 기초를 창조하고<br class="hidden sm:block" />
       지속가능한 사회에 공헌하는 선도 기업
     </div>
-    @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-purpose-0', 'class' => 'mb-14 sm:mb-28'])
+    @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-purpose-0', 'class' => 'mb-60px sm:mb-28'])
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-16 gap-x-16">
       <div class="card__s1 max-w-none">
         <div class="card__s1-thumbnail_">
