@@ -29,7 +29,7 @@ module.exports = {
       },
       // pixel token
       height: px(0, 300),
-      margin: px(0, 80),
+      margin: px(0, 300),
       fontSize: px(0, 120),
       padding: px(0, 300),
       gap: px(0, 300),
