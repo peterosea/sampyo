@@ -22,6 +22,7 @@ import home from './routes/home';
 import business from './routes/business';
 import readyMix from './routes/readyMix';
 import csr from './routes/csr';
+import phcPile from './routes/phcPile';
 
 const routes = new Router({
   // All pages
@@ -33,6 +34,7 @@ const routes = new Router({
   blueCon: readyMix,
   distribution: readyMix,
   csr,
+  phcPile,
 });
 
 // Load Events
