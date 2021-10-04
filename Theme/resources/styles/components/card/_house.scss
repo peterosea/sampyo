@@ -4,6 +4,7 @@
   clip-path: polygon(100% 100%, 50% 100%, 0% 100%, 0% 33%, 50% 0%, 100% 33%);
   overflow: hidden;
 
+  // bottom
   &.bottom {
     clip-path: polygon(100% 75%, 50% 100%, 0% 75%, 0% 25%, 0 0%, 100% 0);
 
@@ -13,12 +14,51 @@
     }
   }
 
+  @media (min-width: theme('screens.sm')) {
+    &.sm\:bottom {
+      clip-path: polygon(100% 75%, 50% 100%, 0% 75%, 0% 25%, 0 0%, 100% 0);
+
+      #{$p}-inner:not([class*='mb-']) {
+        margin-top: 0;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  @media (max-width: theme('screens.sm')) {
+    &.max\:sm\:bottom {
+      clip-path: polygon(100% 75%, 50% 100%, 0% 75%, 0% 25%, 0 0%, 100% 0);
+
+      #{$p}-inner:not([class*='mb-']) {
+        margin-top: 0;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  @media (max-width: theme('screens.sm')) {
+    &.max\:sm\:bottom-1\/2 {
+      clip-path: polygon(100% 85%, 50% 100%, 0% 85%, 0% 25%, 0 0%, 100% 0);
+    }
+  }
+
   &.right {
     clip-path: polygon(0 0, 84% 0, 100% 50%, 84% 100%, 0 100%);
 
     #{$p}-inner {
       margin-top: 0;
       margin-right: calc(16% / 2);
+    }
+  }
+
+  @media (min-width: theme('screens.sm')) {
+    &.sm\:right {
+      clip-path: polygon(0 0, 84% 0, 100% 50%, 84% 100%, 0 100%);
+
+      #{$p}-inner {
+        margin-top: 0;
+        margin-right: calc(16% / 2);
+      }
     }
   }
 
