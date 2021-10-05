@@ -35,6 +35,7 @@ module.exports = {
       gap: px(0, 300),
       maxWidth: px(0, 1000),
       translate: px(0, 300),
+      minWidth: px(0, 300),
       placeholderColor: {
         current:
           '--tw-placeholder-opacity: 1; color: currentColor; opacity: var(--tw-placeholder-opacity)',

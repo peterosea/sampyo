@@ -108,6 +108,8 @@
     }
 
     @media (max-width: theme('screens.sm')) {
+      top: 50%;
+
       .depth-2 button > span:nth-of-type(2) {
         display: none;
       }

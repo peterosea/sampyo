@@ -4,24 +4,26 @@
     신입사원 채용 프로세스
   </div>
   <div class="mb-14"></div>
-  <ul class="flex gap-x-2.5">
-    @foreach (['지원서 접수', '서류전형', '인성검사', '면접전형', '건강검진전형', '최종합격'] as $key => $item)
-    <li class="flex-1">
-      <div class="card__house bg-lighthouse right mb-3">
-        <div class="card__house-inner h-24 flex flex-col items-center justify-center p-8">
-          <img src="{{ get_theme_file_uri('resources/images/career-hiringprocess-'. $key .'.svg') }}" alt="">
+  <div class="max:sm:overflow-x-scroll max:sm:pb-16px">
+    <ul class="flex gap-x-2.5">
+      @foreach (['지원서 접수', '서류전형', '인성검사', '면접전형', '건강검진전형', '최종합격'] as $key => $item)
+      <li class="flex-1 min-w-100px">
+        <div class="card__house bg-lighthouse right mb-3">
+          <div class="card__house-inner h-24 flex flex-col items-center justify-center p-8">
+            <img src="{{ get_theme_file_uri('resources/images/career-hiringprocess-'. $key .'.svg') }}" alt="">
+          </div>
         </div>
-      </div>
-      <div class="prose mr-8 text-center">
-        <p>
-          {{ $item }}
-        </p>
-      </div>
-    </li>
-    @endforeach
-  </ul>
+        <div class="prose mr-8 text-center">
+          <p class="whitespace-nowrap">
+            {{ $item }}
+          </p>
+        </div>
+      </li>
+      @endforeach
+    </ul>
+  </div>
   <div class="pb-30px sm:pb-20"></div>
-  <div class="grid grid-flow-col grid-cols-2 grid-rows-3 gap-x-12 gap-y-11">
+  <div class="grid sm:grid-flow-col grid-cols-1 sm:grid-cols-2 sm:grid-rows-3 gap-x-12 gap-y-30px sm:gap-y-11">
     @foreach ([
       [
         "title" => "지원서 접수",
@@ -48,11 +50,13 @@
         "content" => "최종 합격된 대상자는 삼표그룹의 신입사원으로 입사하게 됩니다."
       ],
     ] as $key => $item)
-      <div class="prose">
-        <h3 class="text-lg">{!! $key + 1 !!}.​ {!! $item['title'] !!}</h3>
-        <p>
-          {!! $item['content'] !!}
-        </p>
+      <div>
+        <div class="prose">
+          <h3 class="text-lg">{!! $key + 1 !!}.​ {!! $item['title'] !!}</h3>
+          <p>
+            {!! $item['content'] !!}
+          </p>
+        </div>
       </div>
     @endforeach
   </div>
