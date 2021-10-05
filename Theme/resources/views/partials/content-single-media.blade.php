@@ -1,4 +1,4 @@
-<x-HeaderBlog post-type="{{ get_post_type() }}" />
+@include('partials.header-archive-newsroom')
 <div class="container mx-auto xl:max-w-screen-xl">
   <article @php(post_class())>
     <header>

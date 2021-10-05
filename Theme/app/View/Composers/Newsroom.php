@@ -118,7 +118,7 @@ class Newsroom extends Composer
         return $posts;
     }
 
-    public function get_category($postType)
+    public static function get_category($postType)
     {
         $terms = get_terms(array(
           "taxonomy" => $postType. '_category',
