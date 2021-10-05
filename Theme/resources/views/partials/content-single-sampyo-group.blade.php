@@ -1,2 +1,2 @@
 @include('partials.header-single-sampyoGroup')
-@include('partials.sampyo-group.'. $slug)
+@includeFirst(['partials.sampyo-group.'. $slug, 'partials.content-single'])
