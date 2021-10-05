@@ -69,7 +69,7 @@
               @endforeach
             </div>
           </div>
-          <h1 class="header-archive-title">@if (is_archive()) {!! $title !!} @else {!! $title !!} @endif</h1>
+          <h1 class="header-archive-title text-36px sm:text-70px mb-5px sm:mb-18px">@if (is_archive()) {!! $title !!} @else {!! $title !!} @endif</h1>
           <span class="header-archive-description">{!! $description !!}</span>
         </div>
         <div class="header-archive-nav hidden sm:block">
