@@ -23,6 +23,7 @@ import business from './routes/business';
 import readyMix from './routes/readyMix';
 import csr from './routes/csr';
 import phcPile from './routes/phcPile';
+import mindset from './routes/mindset';
 
 const routes = new Router({
   // All pages
@@ -36,6 +37,7 @@ const routes = new Router({
   distribution: readyMix,
   csr,
   phcPile,
+  mindset,
 });
 
 // Load Events

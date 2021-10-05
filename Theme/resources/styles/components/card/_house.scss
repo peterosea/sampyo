@@ -4,6 +4,15 @@
   clip-path: polygon(100% 100%, 50% 100%, 0% 100%, 0% 33%, 50% 0%, 100% 33%);
   overflow: hidden;
 
+  @media (max-width: theme('screens.sm')) {
+    &.max\:sm\:rootless {
+      clip-path: none !important;
+      #{$p}-inner {
+        margin-top: 0 !important;
+      }
+    }
+  }
+
   // bottom
   &.bottom {
     clip-path: polygon(100% 75%, 50% 100%, 0% 75%, 0% 25%, 0 0%, 100% 0);
@@ -85,23 +94,37 @@
       display: flex;
       align-items: center;
       padding-left: 56px;
-      position: absolute;
-      left: 100%;
-      bottom: 0;
-      width: 100vw;
-      height: calc(100% - 33%);
+      width: 100%;
       background-color: var(--lighthouse);
       color: var(--covered-in-platinum);
-      font-size: 2.5rem;
       font-weight: 900;
+      font-size: 1.25rem;
+
+      @media (max-width: theme('screens.sm')) {
+        padding: 18px 0;
+        justify-content: center;
+      }
+
+      @media (min-width: theme('screens.sm')) {
+        position: absolute;
+        left: 100%;
+        bottom: 0;
+        width: 100vw;
+        font-size: 2.5rem;
+        height: calc(100% - 33%);
+      }
     }
 
     &[data-label].half::after {
-      height: calc(100% - 16.5%);
+      @media (min-width: theme('screens.sm')) {
+        height: calc(100% - 16.5%);
+      }
     }
 
     &[data-label].rootless::after {
-      height: 100%;
+      @media (min-width: theme('screens.sm')) {
+        height: 100%;
+      }
     }
   }
 
