@@ -91,6 +91,8 @@
           --bs: var(--RGB-atmosphere);
           @apply text-point;
           @include pointUnderLine;
+
+          display: inline-block;
         }
       }
 
@@ -98,6 +100,7 @@
       @media (min-width: theme('screens.sm')) {
         @include pointUnderLine;
 
+        display: inline-block;
         margin-bottom: 26px;
       }
 
