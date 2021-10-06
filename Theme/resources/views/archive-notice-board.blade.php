@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-  @include('partials.header-archive-noticeBoard')
+  @include('partials.header-archive-newsroom')
   @include('partials.nav-fixed')
   <main class="page__layout p-0">
     <div class="container xl:max-w-screen-xl mx-auto">

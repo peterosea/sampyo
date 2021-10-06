@@ -62,7 +62,9 @@ class Blog extends Composer
         $result = get_post_type_object($name);
         $result->term_taxonomy_id = 0;
         $result->permalink = get_post_type_archive_link($name);
-        $result->children = Newsroom::get_category($name);
+        if (get_post_type() !== 'notice-board') {
+            $result->children = Newsroom::get_category($name);
+        }
         return $result;
     }
     
@@ -71,6 +73,7 @@ class Blog extends Composer
         $menu = [
           'blog' => $this->nameToObject('blog'),
           'media' => $this->nameToObject('media'),
+          'noticeBoard' => $this->nameToObject('notice-board'),
         ];
         return $menu;
     }
@@ -82,6 +85,9 @@ class Blog extends Composer
 
     public function selected()
     {
+        if (get_post_type() === 'notice-board') {
+            return 0;
+        }
         $post = get_post();
         if ($terms = get_the_terms($post->ID, get_post_type().'_category')) {
             return $terms[0]->term_id;
