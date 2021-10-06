@@ -61,7 +61,7 @@
           class="p-4 fixed flex justify-center items-center inset-0 bg-black bg-opacity-75 z-50 h-screen"
           >
           <div x-on:click.away="pop_search = false"
-              class="container max-w-3xl max-h-full bg-white shadow-lg overflow-auto">
+              class="container max-w-3xl max-h-full bg-white shadow-lg overflow-auto px-0">
               {!! get_search_form(false) !!}
           </div>
       </div>
