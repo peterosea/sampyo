@@ -31,7 +31,7 @@
   </div>
 </div>
 <div class="section home__s1  overflow-hidden">
-  <div class="container xl:max-w-screen-xl mx-auto relative">
+  <div class="container mx-auto relative">
     <div class="home__s1-header">
       <div class="home__s1-title text-6xl font-black">비즈니스</div>
       <p class="home__s1-header-content">끊임없는 도전과 창조적인 혁신을 통해 Building Materials 분야의 리더로 자리매김합니다.</p>
@@ -178,7 +178,7 @@
     </div>
   </div>
   <div class="section home__s3">
-    <div class="container xl:max-w-screen-xl mx-auto">
+    <div class="container mx-auto">
       <div class="home__s3-header">
         <div class="home__s3-title">삼표의 책임경영</div>
         <div class="home__s3-description">
@@ -273,7 +273,7 @@
 </div>
 <div class="section home__s45">
   <div class="section home__s4 sm:mb-32">
-    <div class="container xl:max-w-screen-xl mx-auto flex flex-wrap sm:block mb-50px">
+    <div class="container mx-auto flex flex-wrap sm:block mb-150px">
       <ul id="originalS4" class="home__s4-container hidden sm:flex relative z-10">
         @foreach ($career as $item)
           <li data-scrollreveal id="cardWrap" class="w-1/3">
@@ -306,11 +306,11 @@
   </div>
   <div class="section home__s5 mt-10px sm:mt-0 max:sm:pb-2.5">
     <div class="newsroom__newslater">
-      <div class="container mx-auto xl:max-w-screen-xl">
+      <div class="container mx-auto">
         @include('partials.newsletter')
       </div>
     </div>
-    <div class="container xl:max-w-screen-xl mx-auto mt-14 max:sm:px-0">
+    <div class="container mx-auto mt-14 max:sm:px-0">
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
         <a href="https://smart.sampyo.co.kr/main/group/introduction" target="_blank" rel="noopener noreferrer">
           <div class="card__s3 max:sm:py-54px max:sm:px-30px">
