@@ -38,12 +38,12 @@
       </a>
     </div>
     <div class="card-def-meta">
-      <div class="card-def-date">
-        {!! $date !!}
-      </div>
-      @if (!empty($like))
+      @isset($date)
+        <div class="card-def-date">{!! $date !!}</div>  
+      @endisset
+      @isset($like)
         <div class="card-def-like">{!! $like !!}</div>
-      @endif
+      @endisset
       <div class="card-def-share"></div>
     </div>
   </div>

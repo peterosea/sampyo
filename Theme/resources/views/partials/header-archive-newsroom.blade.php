@@ -27,7 +27,7 @@
             @if (get_post_type() !== 'notice-board')
               <div class="depth-2 relative flex-1">
                 @foreach ($fixedMenu as $item)
-                  @if ($item->children)
+                  @isset($item->children)
                     <div
                       x-show="@if (current($item->children)->taxonomy === $category_label) true @else false @endif"
                       x-cloak
@@ -66,7 +66,7 @@
                         </ul>
                       </div>
                     </div>
-                  @endif
+                  @endisset
                 @endforeach
               </div>
             @endif

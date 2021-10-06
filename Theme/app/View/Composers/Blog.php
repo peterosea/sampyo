@@ -62,7 +62,7 @@ class Blog extends Composer
         $result = get_post_type_object($name);
         $result->term_taxonomy_id = 0;
         $result->permalink = get_post_type_archive_link($name);
-        if (get_post_type() !== 'notice-board') {
+        if ($name !== 'notice-board') {
             $result->children = Newsroom::get_category($name);
         }
         return $result;
