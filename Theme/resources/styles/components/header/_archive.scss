@@ -122,5 +122,8 @@
     width: 100%;
     height: var(--header-nav-height);
     background-color: var(--lighthouse);
+    @media (min-width: theme('screens.lg')) {
+      width: calc(100% - var(--absolute-margin-left));
+    }
   }
 }
