@@ -2,7 +2,7 @@
   <div class="sm:overflow-hidden header-archive-root">
     <header class="header-archive">
       <div class="container xl:max-w-screen-xl mx-auto max:sm:px-0">
-        <div class="header-archive-imgRow @if(!empty($acf['outlink'])) mb-75px @endif">
+        <div class="header-archive-imgRow">
           @if (!empty($thumbnail))
               {!! $thumbnail !!}
           @else
