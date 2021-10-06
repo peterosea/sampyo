@@ -12,7 +12,7 @@
       </div>
       <div class="coverbox-full-fixedHeight right py-30px sm:pt-28" style="--h: 400px">
         <div class="text-2xl font-bold mb-6">
-          <span class="pointUnderLine" style="--h: -0.5em">
+          <span class="pointUnderLine" style="--h: 0.5em">
             PHC 파일이란?
           </span>
         </div>

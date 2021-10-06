@@ -12,7 +12,7 @@
     </div>
     <div class="coverbox-full-fixedHeight right max:sm:py-30px pt-28" style="--h: 400px">
       <div class="text-2xl font-bold mb-6">
-        <span class="pointUnderLine" style="--h: -0.5em">
+        <span class="pointUnderLine" style="--h: 0.5em">
           프리캐스트 콘크리트(Precast Concrete)란?
         </span>
       </div>

@@ -17,7 +17,7 @@
     <div class="w-full sm:w-2/3 sm:px-6 relative z-10 sm:py-12 sm:pl-16 bg-white">
       <div class="historybox">
         <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
             2020’s
           </span>
         </div>
@@ -39,7 +39,7 @@
     <div class="w-full sm:w-2/3 sm:px-6 relative z-10 sm:py-12 sm:pl-16 bg-white">
       <div class="historybox">
         <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
             2010’s
           </span>
         </div>
@@ -63,7 +63,7 @@
     <div class="w-full sm:w-2/3 sm:px-6 sm:relative sm:z-10 sm:py-12 sm:pl-16 bg-white">
       <div class="historybox">
         <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
             2000’s
           </span>
         </div>
@@ -85,7 +85,7 @@
     <div class="w-full sm:w-2/3 sm:px-6 sm:relative sm:z-10 sm:py-12 sm:pr-16 bg-white flex flex-col gap-y-24">
       <div class="historybox">
         <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
             1990’s
           </span>
         </div>
@@ -109,7 +109,7 @@
     <div class="w-full sm:w-2/3 sm:px-6 sm:relative sm:z-10 sm:py-12 sm:pl-16 bg-white flex flex-col gap-y-30px sm:gap-y-24">
       <div class="historybox">
         <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
             1980’s
           </span>
         </div>
@@ -124,7 +124,7 @@
       </div>
       <div class="historybox">
         <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
             1970’s
           </span>
         </div>
@@ -139,7 +139,7 @@
       </div>
       <div class="historybox">
         <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: -0.4em">
+          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
             1960’s
           </span>
         </div>

@@ -42,7 +42,7 @@
     </div>
   </div>
   <p class="text-2xl mb-11" style="line-height: 1.67">
-    <span class="pointUnderLine" style="display: inline; --bs: var(--RGB-atmosphere); --h: -0.6em; --op: 0.2">
+    <span class="pointUnderLine" style="display: inline; --bs: var(--RGB-atmosphere); --h: 0.6em; --op: 0.2">
       삼표그룹은 끝없는 개척과 도전의 정신으로 고객의 성공과 대한민국의 지속가능한 발전에 기여하겠습니다.
     </span><br/><br class="sm:hidden" />
     <span>

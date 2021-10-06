@@ -101,7 +101,7 @@
           </div>
           <div class="prose">
             <div class="font-bold text-xl">
-              <span class="pointUnderLine" style="--h: -0.7em">
+              <span class="pointUnderLine" style="--h: 0.7em">
                 그룹 레미콘 공장 통합 출하 현황
               </span>
             </div>

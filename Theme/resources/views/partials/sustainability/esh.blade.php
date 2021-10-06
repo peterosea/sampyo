@@ -4,7 +4,7 @@
     <div class="prose text-16px sm:text-xl leading-loose">
       <p>
         환경안전보건은 삼표그룹이 사업 활동에서 최우선적으로 집중하는 과제 중 하나이며, 기업 이념의 필수 요소이기도 합니다.
-        <span class="pointUnderLine inline" style="--bs: var(--RGB-atmosphere);--h: -0.4em">
+        <span class="pointUnderLine inline" style="--bs: var(--RGB-atmosphere);--h: 0.4em">
           효과적인 예방 조치를 통해 사고 및 부상의 위험을 줄이고, 직업병의 위험을 최소화하고자 노력합니다. 광범위한 교육 활동과 사업장에 최적화된 안전 조치를 통해 무재해 목표를 달성하기 위해 노력하겠습니다.
         </span>
       </p>
