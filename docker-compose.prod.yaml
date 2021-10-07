@@ -35,3 +35,10 @@ services:
     restart: always
     ports:
       - 3306:8080
+  redis:
+    image: redis:latest
+    volumes:
+      - redis:/data
+
+volumes:
+  redis:
