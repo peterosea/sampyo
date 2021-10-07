@@ -1,6 +1,6 @@
 <main class="sampyoGroup__page page__layout max:sm:pt-0">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="coverbox-full right py-40px sm:py-32">
+  <div class="coverbox-full left py-40px sm:py-32">
     <div class="prose text-16px sm:text-xl leading-loose">
       <p>
         환경안전보건은 삼표그룹이 사업 활동에서 최우선적으로 집중하는 과제 중 하나이며, 기업 이념의 필수 요소이기도 합니다.
