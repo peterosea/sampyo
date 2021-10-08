@@ -1,3 +1,7 @@
-style.css
+Proposal/**/style.css
 node_modules
 .DS_Store
+backup
+.wordpress
+.env
+mysql
