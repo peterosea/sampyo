@@ -1,0 +1,52 @@
+body,
+html {
+  @media (max-width: theme('screens.sm')) {
+    font-size: 14px;
+  }
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+
+  &.overflow-hidden {
+    touch-action: none;
+  }
+}
+
+[x-cloak] {
+  display: none !important;
+}
+
+:root {
+  --container-px: 2rem;
+  @media (min-width: theme('screens.lg')) {
+    --container-px: 4rem;
+  }
+  @media (min-width: theme('screens.xl')) {
+    --container-px: 5rem;
+  }
+  @media (min-width: theme('screens.2xl')) {
+    --container-px: 7.1875rem;
+  }
+
+  --container-width: 100%;
+  @media (min-width: theme('screens.sm')) {
+    --container-width: 640px;
+  }
+  @media (min-width: theme('screens.md')) {
+    --container-width: 768px;
+  }
+  @media (min-width: theme('screens.lg')) {
+    --container-width: 1024px;
+  }
+  @media (min-width: theme('screens.xl')) {
+    --container-width: 1280px;
+  }
+  @media (min-width: theme('screens.2xl')) {
+    --container-width: 1536px;
+  }
+}
+
+:not([data-sr-visible])[data-scrollreveal] {
+  visibility: hidden;
+}

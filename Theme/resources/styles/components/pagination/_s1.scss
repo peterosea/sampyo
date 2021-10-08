@@ -1,0 +1,9 @@
+&__s1 {
+  .swiper-pagination-bullet {
+    --swiper-pagination-color: var(--carbon);
+
+    width: 11px;
+    height: 11px;
+    margin: 0 10px !important;
+  }
+}

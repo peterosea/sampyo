@@ -1,0 +1,43 @@
+&__s1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.125rem; // 18px
+  transition: color 0.3s;
+  will-change: color;
+  max-width: 264px;
+
+  &.active,
+  &:hover {
+    color: var(--atmosphere);
+  }
+
+  &-cat {
+    margin-bottom: 8px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em;
+  }
+
+  &-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+  }
+
+  &-btn {
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 9999px;
+    border: 1px solid currentColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .svg-icon {
+      width: 1em;
+      height: 1em;
+    }
+  }
+}

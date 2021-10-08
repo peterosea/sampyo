@@ -1,0 +1,10 @@
+.btn {
+  padding: 0.625em 1.75em;
+  border: 1px solid currentColor;
+  color: var(--black-out);
+  display: inline-block;
+
+  @import 'arrow';
+  @import 'dark';
+  @import 'menu';
+}

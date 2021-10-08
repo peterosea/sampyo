@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89.965" height="74.192">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#5ab662;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="그룹_5442" data-name="그룹 5442" transform="translate(-2244.734 -3124)">
+        <g id="그룹_5435" data-name="그룹 5435" transform="translate(2282.197 3138.21)">
+            <g id="그룹_5434" data-name="그룹 5434">
+                <g id="그룹_5433" data-name="그룹 5433">
+                    <path id="패스_10006" data-name="패스 10006" class="cls-1" d="M2277.621 3153.041a7.521 7.521 0 0 1 0-15.042h7.52" transform="translate(-2270.101 -3131.659)"/>
+                    <path id="패스_10007" data-name="패스 10007" class="cls-1" d="M2277.621 3148a7.521 7.521 0 0 1 0 15.043h-7.52" transform="translate(-2270.101 -3126.618)"/>
+                    <path id="선_151" data-name="선 151" class="cls-1" transform="translate(7.936)" d="M0 0v6.605"/>
+                    <path id="선_152" data-name="선 152" class="cls-1" transform="translate(7.936 36.327)" d="M0 0v6.605"/>
+                </g>
+            </g>
+        </g>
+        <g id="그룹_5438" data-name="그룹 5438" transform="translate(2255.125 3164.104)">
+            <g id="그룹_5437" data-name="그룹 5437">
+                <g id="그룹_5436" data-name="그룹 5436" transform="translate(55.647)">
+                    <path id="패스_10008" data-name="패스 10008" class="cls-1" d="m2289.1 3160.024 13.868-9.024 8.692 15.04" transform="translate(-2289.1 -3151)"/>
+                </g>
+                <path id="패스_10009" data-name="패스 10009" class="cls-1" d="M2321.285 3153c-2.107 16.98-15.943 30.08-34.47 30.08-16.449 0-30.337-10.392-34.713-24.608" transform="translate(-2252.101 -3149.992)"/>
+            </g>
+        </g>
+        <g id="그룹_5441" data-name="그룹 5441" transform="translate(2246.101 3125)">
+            <g id="그룹_5440" data-name="그룹 5440">
+                <g id="그룹_5439" data-name="그룹 5439" transform="translate(0 18.048)">
+                    <path id="패스_10010" data-name="패스 10010" class="cls-1" d="m2268.66 3143.016-13.868 9.024-8.692-15.04" transform="translate(-2246.1 -3137)"/>
+                </g>
+                <path id="패스_10011" data-name="패스 10011" class="cls-1" d="M2252.1 3155.08c2.105-16.981 15.94-30.08 34.47-30.08 16.448 0 30.337 10.393 34.714 24.608" transform="translate(-2243.076 -3125)"/>
+            </g>
+        </g>
+    </g>
+</svg>

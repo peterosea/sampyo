@@ -1,0 +1,72 @@
+&__s1 {
+  text-align: center;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 100%;
+
+  @media (min-width: theme('screens.sm')) {
+    gap: 48px;
+  }
+
+  &-thumbnail {
+    width: 100%;
+    aspect-ratio: 21/9;
+    position: relative;
+    overflow: hidden;
+
+    @media (min-width: theme('screens.sm')) {
+      aspect-ratio: 16/9;
+    }
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &-title {
+    font-weight: 900;
+    font-size: 24px;
+    @media (min-width: theme('screens.sm')) {
+      font-size: 2.125rem;
+    }
+  }
+
+  &-content {
+    line-height: 1.6;
+
+    @media (max-width: theme('screens.sm')) {
+      font-size: 12px;
+    }
+  }
+
+  &-btn {
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 9999px;
+    border: 1px solid #64cc6e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64cc6e;
+
+    .svg-icon {
+      width: 1em;
+      height: 1em;
+    }
+  }
+}

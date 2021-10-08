@@ -1,0 +1,63 @@
+@at-root {
+  :root {
+    --header-nav-height: 70px;
+  }
+}
+
+&-block {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+
+  &-item {
+    @apply flex-1;
+
+    a {
+      @apply text-white;
+
+      height: var(--header-nav-height);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1.2;
+      background-color: var(--dhusar-grey);
+      font-size: 1.125rem;
+      font-weight: 500;
+      transition: background-color 0.3s;
+      will-change: background-color;
+
+      &.current,
+      &:hover {
+        background-color: var(--atmosphere);
+      }
+    }
+  }
+
+  &-item-2 {
+    display: inline-flex;
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100vw;
+      height: 75px;
+      bottom: 0;
+      left: 100%;
+      background: #fff;
+    }
+
+    a {
+      font-size: 1.25rem;
+      font-weight: 700;
+      width: 300px;
+      height: 150px;
+      background-color: var(--atmosphere);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

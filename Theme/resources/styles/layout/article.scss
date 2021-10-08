@@ -1,0 +1,47 @@
+article {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  @media (min-width: theme('screens.sm')) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid var(--super-silver);
+
+    @media (min-width: theme('screens.sm')) {
+      padding-bottom: 50px;
+      margin-bottom: 80px;
+    }
+
+    .entry-title {
+      @apply text-black;
+
+      margin-bottom: 21px;
+      font-size: 24px;
+      line-height: 1.2;
+
+      @media (min-width: theme('screens.sm')) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .prose {
+    max-width: none;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+
+  iframe[src*='https://www.youtube.com/embed']
+  {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+  }
+}

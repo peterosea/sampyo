@@ -1,0 +1,45 @@
+@at-root {
+  :root {
+    /* stylelint-disable */
+    --absolute-margin-left: 0px;
+    /* stylelint-enable */
+    @media (min-width: 1439px) {
+      --absolute-margin-left: 125px;
+    }
+  }
+}
+
+.page {
+  &__layout {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow-x: hidden;
+    font-weight: 300;
+
+    @media (min-width: theme('screens.sm')) {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+    @media (min-width: theme('screens.lg')) {
+      .container.xl\:max-w-screen-xl {
+        transform: translateX(var(--absolute-margin-left));
+      }
+    }
+  }
+
+  &__level-title {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: -0.8px;
+    line-height: 1.5;
+    @media (min-width: theme('screens.sm')) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__level-description {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}

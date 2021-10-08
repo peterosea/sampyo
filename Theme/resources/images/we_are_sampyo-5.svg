@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.416" height="87.4">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#68cd71;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="그룹_5448" data-name="그룹 5448" transform="translate(-1810.592 -11354.6)">
+        <path id="선_160" data-name="선 160" class="cls-1" transform="translate(1857.579 11404.495)" d="M22.02 26.452 0 0"/>
+        <g id="그룹_5444" data-name="그룹 5444" transform="translate(1845.8 11356)">
+            <path id="선_161" data-name="선 161" class="cls-1" transform="translate(.2)" d="M17 24 0 0"/>
+            <path id="선_162" data-name="선 162" class="cls-1" transform="translate(6.2 24)" d="M0 0h11"/>
+        </g>
+        <g id="그룹_5445" data-name="그룹 5445" transform="translate(1851.705 11379.513)">
+            <path id="선_163" data-name="선 163" class="cls-1" d="M19.077 24.982 0 0"/>
+            <path id="선_164" data-name="선 164" class="cls-1" transform="translate(6.294 24.486)" d="M0 0h13"/>
+        </g>
+        <path id="선_165" data-name="선 165" class="cls-1" transform="translate(1812 11404.495)" d="M0 26.452 22.02 0"/>
+        <g id="그룹_5446" data-name="그룹 5446" transform="translate(1828.165 11356)">
+            <path id="선_166" data-name="선 166" class="cls-1" transform="translate(-.165)" d="M0 24 18 0"/>
+            <path id="선_167" data-name="선 167" class="cls-1" transform="translate(-.165 24)" d="M12 0H0"/>
+        </g>
+        <g id="그룹_5447" data-name="그룹 5447" transform="translate(1820.817 11379.513)">
+            <path id="선_168" data-name="선 168" class="cls-1" d="M0 24.982 19.077 0"/>
+            <path id="선_169" data-name="선 169" class="cls-1" transform="translate(.183 24.486)" d="M13 0H0"/>
+        </g>
+        <path id="선_170" data-name="선 170" class="cls-1" transform="translate(1812 11431)" d="M68 0H0"/>
+        <path id="선_171" data-name="선 171" class="cls-1" transform="translate(1846 11431)" d="M0 0v10"/>
+    </g>
+</svg>

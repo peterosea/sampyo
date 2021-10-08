@@ -1,0 +1,22 @@
+&__single-s1 {
+  // <li class="li__single-s1">
+  &.bermudagrass::before {
+    width: 0.85em;
+    height: 0.85em;
+    background-color: var(--bermudagrass);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &.atmosphere::before {
+    width: 0.85em;
+    height: 0.85em;
+    background-color: var(--atmosphere);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &.transparent::before {
+    background-color: transparent;
+  }
+}

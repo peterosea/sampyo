@@ -1,0 +1,15 @@
+&__box {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+
+  &-value {
+    font-size: 2em;
+    color: var(--atmosphere);
+    font-weight: bold;
+  }
+
+  &-unit {
+    font-weight: 300;
+  }
+}

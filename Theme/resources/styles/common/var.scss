@@ -1,0 +1,34 @@
+$base: (
+  lighthouse: #f4f4f4,
+  dhusar-grey: #aaaaaa,
+  atmosphere: #009ddf,
+  super-silver: #eeeeee,
+  dugong: #707070,
+  basalt-grey: #999999,
+  black-out: #222222,
+  quicksilver: #a7a7a7,
+  funnel-cloud: #113a66,
+  unique-grey: #c9c9c9,
+  steam: #dddddd,
+  steel-wool: #777777,
+  lvivian-rain: #0086ce,
+  raven-black: #3d3d3d,
+  bermudagrass: #64cc6e,
+  shisha-coal: #3c3c3c,
+  unicorn-silver: #e8e8e8,
+  carbon: #333333,
+  orochimaru: #d9d9d9,
+  misty-lawn: #def7e0,
+  hospital-green: #9ae3a1,
+  covered-in-platinum: #b9b9b9,
+  artificial-turf: #47b951,
+  stonewall-grey: #c1c1c1,
+  winter-wizard: #9de2ff,
+  bleached-silk: #f2f2f2,
+  squant: #666666,
+  glitter-lake: #4ac1f2,
+);
+
+:root {
+  @include generate_colors($base);
+}

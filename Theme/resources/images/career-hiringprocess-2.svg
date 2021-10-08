@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.273" height="50.257">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#64cc6e;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="그룹_5355" data-name="그룹 5355" transform="translate(-583.999 -8946)">
+        <g id="그룹_5354" data-name="그룹 5354" transform="translate(584.999 8947)">
+            <g id="그룹_5353" data-name="그룹 5353">
+                <g id="그룹_5350" data-name="그룹 5350" transform="translate(13.312 12.48)">
+                    <g id="그룹_5349" data-name="그룹 5349">
+                        <g id="그룹_5348" data-name="그룹 5348" transform="translate(2.629)">
+                            <g id="그룹_5347" data-name="그룹 5347" transform="translate(0 1.029)">
+                                <path id="선_122" data-name="선 122" class="cls-1" d="M0 16.936 16.933 0"/>
+                                <path id="선_123" data-name="선 123" class="cls-1" transform="translate(4.37 4.371)" d="M16.931 0 0 16.934"/>
+                            </g>
+                            <path id="패스_3096" data-name="패스 3096" class="cls-1" d="M624.662 8962.906a3.089 3.089 0 0 1 4.368 4.368" transform="translate(-607.604 -8962)"/>
+                        </g>
+                        <path id="패스_3097" data-name="패스 3097" class="cls-1" d="m608 8987.957-7 2.629 2.629-7" transform="translate(-601 -8965.626)"/>
+                    </g>
+                </g>
+                <g id="그룹_5352" data-name="그룹 5352">
+                    <g id="그룹_5351" data-name="그룹 5351">
+                        <path id="패스_3098" data-name="패스 3098" class="cls-1" d="M622.3 8953.656v-5.049a1.6 1.6 0 0 0-1.587-1.607H599" transform="translate(-587.351 -8947)"/>
+                        <path id="패스_3099" data-name="패스 3099" class="cls-1" d="M585 8961v35a1.6 1.6 0 0 0 1.588 1.608h31.768a1.6 1.6 0 0 0 1.587-1.608v-17.527" transform="translate(-584.999 -8949.352)"/>
+                        <path id="패스_3100" data-name="패스 3100" class="cls-1" d="M585 8958.647h11.648V8947z" transform="translate(-584.999 -8947)"/>
+                    </g>
+                </g>
+            </g>
+            <path id="선_124" data-name="선 124" class="cls-1" transform="translate(5.137 37.128)" d="M8 0H0"/>
+        </g>
+        <path id="선_125" data-name="선 125" class="cls-1" transform="translate(615.136 8963.128)" d="m0 0 5 4"/>
+    </g>
+</svg>
