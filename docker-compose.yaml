@@ -5,7 +5,7 @@ services:
     env_file:
       - ./.env
     container_name: WP__${PROJECT_NAME}
-    image: wordpress:php8.0
+    image: ghcr.io/hansanghyeon/wordpress-redis:php8.0-apache-redis
     restart: always
     ports:
       - 80:80
@@ -36,6 +36,7 @@ services:
     ports:
       - 3306:8080
   redis:
+    container_name: DB__redis
     image: redis:latest
     volumes:
       - redis:/data
