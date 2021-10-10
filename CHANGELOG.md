@@ -9,6 +9,10 @@
 
 - git flow makefile 생성
 
+## Release fixed
+
+- make file의 upstream 일름 오류
+
 ## [v1.0.0] 2021-10-08
 
 - beeclover/sampyo > PR > peterosea/sampyo
