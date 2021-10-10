@@ -6,6 +6,6 @@ release:
 	git checkout develop
 	git merge --no-ff release/$v -m ":bookmark: $v"
 	git push origin develop
-	git push upsteam main
-	git push upsteam $v
+	git push upstream main
+	git push upstream $v
 	git branch -d release/$v
