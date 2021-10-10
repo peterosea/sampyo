@@ -1,24 +1,14 @@
-name: ✨ 수동 전체 최신 코드 & build (NCP)
+name: 🛠 prod server source build and deploy (NCP)
 on:
+  release:
+    types: [published]
+  push:
+    branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  source:
-    runs-on: ubuntu-latest
-    # if: ${{ github.event.repository.owner.name == 'peterosea' }}
-    name: 📮 Github 소스코드로 업데이트 `git pull origin main`
-    steps:
-      - name: executing remote ssh commands using password
-        uses: appleboy/ssh-action@master
-        with:
-          key: ${{ secrets.DEPLOYSERVER_KEY }}
-          host: ${{ secrets.DEPLOYSERVER_HOST }}
-          username: ${{ secrets.DEPLOYSERVER_USERNAME }}
-          port: ${{ secrets.DEPLOYSERVER_PORT }}
-          script: |
-            cd www
-            git pull origin main
-
   build:
     runs-on: ubuntu-latest
     # if: ${{ github.event.repository.owner.name == 'peterosea' }}
