@@ -20,6 +20,11 @@ mix
   .options({
     processCssUrls: false,
     postCss: [require('tailwindcss')],
+    autoprefixer: {
+      options: {
+        browsers: ['last 6 versions'],
+      },
+    },
   });
 
 mix
@@ -32,8 +37,6 @@ mix
 mix
   .copyDirectory('resources/images', 'public/images')
   .copyDirectory('resources/fonts', 'public/fonts');
-
-mix.sourceMaps().version();
 
 mix.webpackConfig({
   module: {
@@ -48,6 +51,7 @@ mix.webpackConfig({
 });
 
 if (!mix.inProduction()) {
+  mix.sourceMaps().version();
   mix.webpackConfig({
     devtool: 'inline-source-map',
   });
