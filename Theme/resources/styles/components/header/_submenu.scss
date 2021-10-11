@@ -40,7 +40,7 @@
     background-color: #fff;
     border-top: 1px solid rgba(#000, 0.1);
     border-bottom: 1px solid rgba(#000, 0.1);
-    transform: translateY(-1000px);
+    transform: translateY(-100vh);
     transition: transform 0.2s ease-in-out;
   }
 
@@ -79,29 +79,22 @@
     > a {
       --bs: var(--RGB-stonewall-grey);
       --op: 0.3;
-      --h: -0.5em;
+      --h: 0.5em;
 
-      display: inline-block;
       font-size: 18px;
+      font-weight: bold;
 
       @media (max-width: theme('screens.sm')) {
-        font-weight: bold;
-
         &.active {
           --bs: var(--RGB-atmosphere);
           @apply text-point;
           @include pointUnderLine;
-
-          display: inline-block;
         }
       }
 
       margin-bottom: 13px;
       @media (min-width: theme('screens.sm')) {
         @include pointUnderLine;
-
-        display: inline-block;
-        margin-bottom: 26px;
       }
 
       + ul.sub-menu {
@@ -150,6 +143,7 @@
         flex-direction: column;
 
         @media (min-width: theme('screens.sm')) {
+          margin-top: 20px;
           display: flex !important;
           transform: none !important;
         }
