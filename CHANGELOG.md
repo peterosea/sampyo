@@ -3,6 +3,13 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.0.3] 2021-10-11
+
+### Fixed
+
+- underline error 2줄로 넘어갈때 underline이 안생기는 문제때문에 구성방법을 변경
+- submenu의 translate Y의 값이 상수로 지정되어있어서 menu의 높이갚이 1000px을 넘어가는경우 흰색박스가 보이는 문제
+
 ## [v1.0.2] 2021-10-10
 
 ### Changed
