@@ -62,7 +62,7 @@
 
   &-imgCol {
     &-1 {
-      padding-top: 540px;
+      padding-top: 480px;
 
       @media (min-width: theme('screens.sm')) {
         padding-top: 310px;
@@ -88,7 +88,7 @@
 
   #swiper-container {
     position: absolute;
-    top: 200px;
+    top: 150px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
