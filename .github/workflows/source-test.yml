@@ -1,5 +1,9 @@
 name: 🧑‍⚕️ 에러 테스트
-on: [pull_request]
+on:
+  pull_request:
+    paths:
+      - "Theme/resources/styles"
+      - "Theme/resources/scripts"
 
 jobs:
   asset:

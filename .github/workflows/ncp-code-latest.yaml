@@ -2,6 +2,11 @@ name: 🚛 static code deploy
 on:
   release:
     types: [published]
+    paths:
+      - "Theme/resources/views"
+      - "Theme/resources/fonts"
+      - "Theme/resources/images"
+      - "Theme/resources/video"
   push:
     branches: [main]
     paths:
