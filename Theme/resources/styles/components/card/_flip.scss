@@ -62,6 +62,10 @@
       will-change: opacity;
       overflow-y: scroll;
       padding-top: var(--py);
+
+      &::-webkit-scrollbar {
+        width: 0;
+      }
     }
   }
 

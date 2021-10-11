@@ -32,8 +32,12 @@
 </div>
 <div class="section home__s1  overflow-hidden">
   <div class="container mx-auto relative">
+    <div class="absolute w-screen h-full transform left-1/2 -translate-x-1/2">
+      @include('partials.img', ['ex' => 'png', 'name' => 'txt-business-03-hover', 'class' => 'absolute top-150px left-1/2 hidden sm:block'])
+      @include('partials.img', ['ex' => 'png', 'name' => 'label', 'class' => 'absolute bottom-0 hidden sm:block'])
+    </div>
     <div class="home__s1-header">
-      <div class="home__s1-title text-6xl font-black">비즈니스</div>
+      <div class="home__s1-title text-36px sm:text-6xl font-black">비즈니스</div>
       <p class="home__s1-header-content">끊임없는 도전과 창조적인 혁신을 통해 Building Materials 분야의 리더로 자리매김합니다.</p>
     </div>
     <div id="macy-container">

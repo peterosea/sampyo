@@ -37,6 +37,13 @@ module.exports = {
       maxWidth: px(0, 1000),
       translate: px(0, 300),
       minWidth: px(0, 1000),
+      inset: {
+        'container-x': 'var(--container-px)',
+        '-container-x': 'calc(var(--container-px) * -1)',
+        'container-y': 'var(--container-y)',
+        '-container-y': 'var(--container-y)',
+        ...px(0, 1000),
+      },
       placeholderColor: {
         current:
           '--tw-placeholder-opacity: 1; color: currentColor; opacity: var(--tw-placeholder-opacity)',

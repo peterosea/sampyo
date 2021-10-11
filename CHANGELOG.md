@@ -3,6 +3,21 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.0.4] 2021-10-11
+
+### Changed
+
+- 메인페이지 비즈니스
+  - 타이틀 폰트사이즈 수정
+  - 모바일 swiper slider 높이 수정
+
+### Added
+
+- postcss - autoprefixer 추가 브라우저 대응
+- 메인페이지 비즈니스 
+  - 비즈니스 카드 스크롤제거 (peterosea/sampyo#18)
+  - 섹션 배경그래픽 추가 (peterosea/sampyo#19)
+
 ## [v1.0.3] 2021-10-11
 
 ### Fixed
