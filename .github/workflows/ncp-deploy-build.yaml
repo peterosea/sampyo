@@ -1,4 +1,4 @@
-name: 🛠 prod server source build and deploy (NCP)
+name: 🛠 build code deploy
 on:
   release:
     types: [published]

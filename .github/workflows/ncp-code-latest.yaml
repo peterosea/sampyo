@@ -1,4 +1,4 @@
-name: 🚛 prod server deploy (NCP)
+name: 🚛 static code deploy
 on:
   release:
     types: [published]

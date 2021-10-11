@@ -1,4 +1,4 @@
-name: ✨ 수동 전체 최신 코드 & build (NCP)
+name: 🙆‍♂️ 수동 static & build code deploy
 on:
   workflow_dispatch:
 
