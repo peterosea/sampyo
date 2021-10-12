@@ -14,6 +14,10 @@ export default {
         320: {
           slidesPerView: 2,
           spaceBetween: 20,
+          pagination: {
+            el: '#readyMix .swiper-pagination',
+            clickable: true,
+          },
         },
         // when window width is >= 480px
         480: {

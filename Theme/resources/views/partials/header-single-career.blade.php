@@ -33,7 +33,7 @@
     </header>
   </div>
 </div>
-<nav class="items-fixed hidden sm:block">
+<nav class="items-fixed hidden md:block">
   <ul class="items-fixed-wrap" x-data="{
     selected: {!!$selected !!}
   }">

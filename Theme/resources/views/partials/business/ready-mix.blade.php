@@ -86,6 +86,7 @@
       @foreach (['바닥 콘크리트', '내한 콘크리트', '조강 콘크리트', '자기충전 콘크리트', '20mm 콘크리트'] as $index => $item)
         <div class="swiper-slide">
           @include('partials.card__s4', ['index' => $index])
+          <div class="swiper-pagination pagination__s1 static mt-7 pt-0.5 visible sm:invisible"></div>
         </div>
       @endforeach
     </div>
@@ -165,11 +166,11 @@
   <div class="mb-70px sm:mb-32"></div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 mb-36 gap-y-30px">
     <div>
-      <div class="text-2xl font-black mb-9">환경성적표지 인증서</div>
+      <div class="text-16px sm:text-2xl font-black mb-9">환경성적표지 인증서</div>
       @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-6'])
     </div>
     <div>
-      <div class="text-2xl font-black mb-9">저탄소 제품 인증서</div>
+      <div class="text-16px sm:text-2xl font-black mb-9">저탄소 제품 인증서</div>
       @include('partials.img', ['ex' => 'jpg', 'name' => 'ready-mix-7'])
     </div>
   </div>

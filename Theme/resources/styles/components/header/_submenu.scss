@@ -38,9 +38,10 @@
     position: absolute;
     width: 100vw;
     display: grid;
+    padding-bottom: calc(var(--bar-global-height) * 2);
     justify-content: center;
     overflow-y: scroll;
-    max-height: calc(100vh - var(--bar-global-height, 0));
+    max-height: 100vh;
     background-color: #fff;
     border-top: 1px solid rgba(#000, 0.1);
     border-bottom: 1px solid rgba(#000, 0.1);
@@ -52,8 +53,16 @@
   > li {
     @media (max-width: theme('screens.sm')) {
       margin-bottom: 0;
-      padding: var(--py) var(--px) 0;
+      padding: var(--py) var(--px);
       border-top: 1px solid rgba(#000, 0.1);
+
+      &.open {
+        padding-bottom: 0;
+      }
+
+      &.open > .sub-menu {
+        margin-top: var(--py);
+      }
 
       &:first-child {
         border-top: 0;
@@ -168,6 +177,7 @@
       > ul.sub-menu > li {
         display: grid;
         grid-template-columns: 0.5fr 1fr;
+        position: relative;
 
         &:first-child::after {
           content: none !important;

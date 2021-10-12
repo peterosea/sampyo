@@ -96,7 +96,7 @@
     visibility: visible;
     z-index: 2;
 
-    --mpx: 1rem;
+    --mpx: 30px;
     @media (min-width: theme('screens.md')) {
       z-index: 1;
       visibility: hidden;

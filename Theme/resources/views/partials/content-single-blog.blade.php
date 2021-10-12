@@ -1,4 +1,5 @@
 @include('partials.header-archive-newsroom')
+<main class="page__layout">
 <div class="container mx-auto xl:max-w-screen-xl">
   <article @php(post_class())>
     <header>
@@ -39,3 +40,4 @@
     @php(comments_template())
   </article>
 </div>
+</main>

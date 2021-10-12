@@ -137,7 +137,7 @@
       }
 
       @media (min-height: 590px) and (max-width: theme('screens.sm')) {
-        height: 100vh;
+        height: 590px;
       }
 
       img {
@@ -177,7 +177,7 @@
       transform: translateY(-50%);
 
       @media (max-width: theme('screens.sm')) {
-        top: calc(var(--bar-global-height) + 30px);
+        top: calc(var(--bar-global-height) + 40px);
         transform: none;
       }
 
@@ -193,10 +193,8 @@
         font-weight: 900;
         opacity: 0;
         margin-bottom: 18px;
+        line-height: 1.2;
 
-        @media (max-width: theme('screens.sm')) {
-          line-height: 1.2;
-        }
         @media (min-width: theme('screens.xl')) {
           font-size: 60px;
           margin-bottom: 32px;

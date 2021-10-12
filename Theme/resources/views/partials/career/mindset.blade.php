@@ -73,7 +73,7 @@
       <div class="card__house-root max:sm:mb-30px" data-label="지향가치">
         <div class="card__house bg-mistyLawn sm:mb-4">
           <div class="card__house-inner flex flex-col items-center p-8 sm:h-52">
-            <div class="text-2xl font-black">
+            <div class="text-16px sm:text-2xl font-black">
               시너지
             </div>
             <div class="prose max-w-sm">
@@ -87,7 +87,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-2.5 sm:gap-y-5">
         <div class="card__house bg-hospitalGreen half text-white">
           <div class="card__house-inner sm:h-52 flex flex-col items-center p-8">
-            <div class="text-2xl font-black">
+            <div class="text-16px sm:text-2xl font-black">
               혁신
             </div>
             <div class="prose max-w-sm">
@@ -100,7 +100,7 @@
         <div class="card__house-root half" data-label="행동가치">
           <div class="card__house bg-hospitalGreen half text-white max:sm:rootless">
             <div class="card__house-inner sm:h-52 flex flex-col items-center p-8">
-              <div class="text-2xl font-black">
+              <div class="text-16px sm:text-2xl font-black">
                 전문성
               </div>
               <div class="prose max-w-sm">
@@ -112,7 +112,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center p-8 bg-bermudagrass sm:h-52 text-white">
-          <div class="text-2xl font-black">
+          <div class="text-16px sm:text-2xl font-black">
             도전정신
           </div>
           <div class="prose max-w-sm">
@@ -124,7 +124,7 @@
 
         <div class="card__house-root rootless" data-label="기반가치">
           <div class="flex flex-col items-center p-8 bg-bermudagrass sm:h-52 text-white">
-            <div class="text-2xl font-black">
+            <div class="text-16px sm:text-2xl font-black">
               윤리성
             </div>
             <div class="prose max-w-sm">

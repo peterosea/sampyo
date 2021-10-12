@@ -1,7 +1,7 @@
-<div class="sm:overflow-hidden header-archive-root2">
-  <div class="sm:overflow-hidden header-archive-root">
+<div class="2xl:overflow-hidden header-archive-root2">
+  <div class="2xl:overflow-hidden header-archive-root">
     <header class="header-archive">
-      <div class="container xl:max-w-screen-xl mx-auto max:sm:px-0">
+      <div class="container xl:max-w-screen-xl mx-auto max:2xl:px-0 max:sm:mb-60px">
         <div class="header-archive-imgRow">
           @if (!empty($thumbnail))
               {!! $thumbnail !!}
@@ -9,13 +9,13 @@
               <img src="https://picsum.photos/1920?random=10" alt="" class="header-archive-img">
           @endif
         </div>
-        <div class="header-archive-content max:sm:px-8 max:sm:w-full @if(empty($acf['outlink'])) top-1/2 @endif">
-          <div x-data="select({label: '{!! $fixedMenuLabel !!}', selected: {!! $selected !!}})" class="w-full relative mb-30px sm:hidden flex">
+        <div class="header-archive-content max:2xl:px-8 max:2xl:w-full @if(empty($acf['outlink'])) top-1/2 @endif">
+          <div x-data="select({label: '{!! $fixedMenuLabel !!}', selected: {!! $selected !!}})" class="w-full relative mb-30px 2xl:hidden flex">
             <div class="depth-1 relative flex-1">
               <button class="flex items-center justify-between w-full px-3 py-3 text-left border focus:outline-none border-r-0"
                 @click="toggle()"
                 @click.away="close()">
-                <span x-text="label" class="text-xs"></span>
+                <span x-text="label"></span>
                 <svg width="11.107" height="11.107">
                   <path d="M0 .067 7.345 0l-.068 7.345" transform="rotate(135 4.297 4.826)" style="fill:none;stroke:#fff"/>
                 </svg>
@@ -60,9 +60,9 @@
                         @click="dropdown = !dropdown"
                         @click.away="dropdown = false">
                         <template x-if="label2">
-                          <span x-text="label2" class="text-xs"></span>
+                          <span x-text="label2"></span>
                         </template>
-                        <span x-text="placeholder" class="text-xs"></span>
+                        <span x-text="placeholder"></span>
                         <svg width="11.107" height="11.107">
                           <path d="M0 .067 7.345 0l-.068 7.345" transform="rotate(135 4.297 4.826)" style="fill:none;stroke:#fff"/>
                         </svg>
@@ -88,9 +88,9 @@
           <span class="header-archive-description">{!! $excerpt !!}</span>
         </div>
         @if(!empty($acf['outlink']))
-          <div class="header-archive-nav hidden sm:block bg-transparent translate-y-1/2">
+          <div class="header-archive-nav bg-transparent sm:translate-y-1/2 max:sm:top-full max:sm:bottom-auto">
             <ul>
-              <li class="items-block-item-2">
+              <li class="items-block-item-2 max:sm:w-full">
                 <a class="text-white" href="{!! $acf['outlink'] !!}">홈페이지 바로가기</a>
               </li>
             </ul>
@@ -100,7 +100,7 @@
     </header>
   </div>
 </div>
-<nav class="items-fixed hidden sm:block">
+<nav class="items-fixed hidden 2xl:block">
   <ul class="items-fixed-wrap" x-data="{
     selected: {!!$selected !!}
   }">

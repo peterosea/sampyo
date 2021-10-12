@@ -21,6 +21,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        xxl: '1536px',
         'max:2xl': { max: '1535px' },
         'max:xl': { max: '1279px' },
         'max:lg': { max: '1023px' },
@@ -32,16 +33,21 @@ module.exports = {
       width: px(0, 1000),
       margin: px(0, 300),
       fontSize: px(0, 120),
-      padding: px(0, 300),
+      padding: {
+        'container-x': 'var(--container-px)',
+        'container-y': 'var(--container-py)',
+        ...px(0, 300),
+      },
       gap: px(0, 300),
       maxWidth: px(0, 1000),
+      maxHeight: px(0, 1000),
       translate: px(0, 300),
       minWidth: px(0, 1000),
       inset: {
         'container-x': 'var(--container-px)',
         '-container-x': 'calc(var(--container-px) * -1)',
-        'container-y': 'var(--container-y)',
-        '-container-y': 'var(--container-y)',
+        'container-y': 'var(--container-py)',
+        '-container-y': 'calc(var(--container-py) * -1)',
         ...px(0, 1000),
       },
       placeholderColor: {

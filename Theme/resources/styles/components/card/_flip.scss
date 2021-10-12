@@ -33,6 +33,9 @@
       --py: 48px;
       --px: 56px;
     }
+    @media (min-width: theme('screens.lg')) {
+      --py: 69px;
+    }
   }
 
   &-front {

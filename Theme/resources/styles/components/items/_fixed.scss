@@ -18,6 +18,17 @@
     /* stylelint-enable */
   }
 
+  @media (min-width: 1700px) {
+    /* stylelint-disable */
+    transform: translateX(
+      calc(
+        -50% + (var(--container-width) / 2 * -1) + var(--absolute-margin-left) +
+          var(--container-px) - 200px
+      )
+    );
+    /* stylelint-enable */
+  }
+
   &-wrap {
     width: calc(400px - var(--absolute-margin-left));
     display: flex;
