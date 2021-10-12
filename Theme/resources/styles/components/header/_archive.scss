@@ -104,7 +104,7 @@
     transform: translateY(-50%);
 
     @media (min-width: theme('screens.sm')) {
-      left: 180px;
+      left: calc(var(--container-px) + 180px);
     }
 
     @media (max-width: theme('screens.sm')) {

@@ -66,7 +66,7 @@
   <div class="page__level-title mb-20px  sm:mb-14">
     사회공헌 활동
   </div>
-  <div class="text-2xl font-black underline power mb-7">인재 육성</div>
+  <div class="text-16px sm:text-2xl font-black underline power mb-7">인재 육성</div>
   <div class="grid grid-cols-1 sm:grid-cols-2 mb-20px sm:mb-14 gap-y-4">
     <div class="prose">
       <p>

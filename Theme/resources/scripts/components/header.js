@@ -7,7 +7,7 @@ function header() {
 
   $(window).scroll(function () {
     const shrinkHeader =
-      document.querySelector('.section.hero')?.offsetHeight ?? 100;
+      document.querySelector('.section.hero')?.offsetHeight ?? 40;
     var scroll = getCurrentScroll();
     if (scroll >= shrinkHeader) {
       $('header#global').addClass('shrink');

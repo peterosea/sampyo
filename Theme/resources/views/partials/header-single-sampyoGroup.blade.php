@@ -1,5 +1,5 @@
-<div class="sm:overflow-hidden header-archive-root2">
-  <div class="sm:overflow-hidden header-archive-root">
+<div class="xxl:overflow-hidden header-archive-root2">
+  <div class="xxl:overflow-hidden header-archive-root">
     <header class="header-archive">
       <div class="container xl:max-w-screen-xl mx-auto max:sm:px-0">
         <div class="header-archive-imgRow">
@@ -10,7 +10,7 @@
           @endif
         </div>
         <div class="header-archive-content max:sm:px-8 max:sm:w-full">
-          <div x-data="select({label: '{!! $title !!}'})" class="w-full relative mb-30px block sm:hidden">
+          <div x-data="select({label: '{!! $title !!}'})" class="w-full relative mb-30px block xxl:hidden">
             <button class="flex items-center justify-between w-full px-3 py-3 text-left border focus:outline-none"
               @click="toggle()"
               @click.away="close()">
@@ -41,7 +41,7 @@
     </header>
   </div>
 </div>
-<nav class="items-fixed hidden sm:block">
+<nav class="items-fixed hidden xxl:block">
   <ul class="items-fixed-wrap">
     @foreach ($fixedMenu as $item)
       <li class="items-fixed-item">

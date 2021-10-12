@@ -153,7 +153,7 @@
         <div class="card__house-root" data-label="지향가치">
           <div class="card__house bg-winterWizard mb-4 text-white"">
             <div class="card__house-inner flex flex-col items-center p-8 h-52">
-              <div class="text-2xl font-black mb-4">
+              <div class="text-16px sm:text-2xl font-black mb-4">
                 시너지
               </div>
               <div class="prose max-w-sm">
@@ -167,7 +167,7 @@
         <div class="grid grid-cols-2 gap-x-px gap-y-5">
           <div class="card__house bg-glitterLake half text-white">
             <div class="card__house-inner h-60 sm:h-52 flex flex-col items-center p-4 sm:p-8">
-              <div class="text-2xl font-black mb-3">
+              <div class="text-16px sm:text-2xl font-black mb-3">
                 혁신
               </div>
               <div class="prose max-w-sm">
@@ -180,7 +180,7 @@
           <div class="card__house-root half" data-label="행동가치">
             <div class="card__house bg-glitterLake half text-white">
               <div class="card__house-inner h-60 sm:h-52 flex flex-col items-center p-4 sm:p-8">
-                <div class="text-2xl font-black mb-3">
+                <div class="text-16px sm:text-2xl font-black mb-3">
                   전문성
                 </div>
                 <div class="prose max-w-sm">
@@ -192,7 +192,7 @@
             </div>
           </div>
           <div class="flex flex-col items-center p-4 sm:p-8 bg-atmosphere h-60 sm:h-52 text-white">
-            <div class="text-2xl font-black mb-3">
+            <div class="text-16px sm:text-2xl font-black mb-3">
               도전정신
             </div>
             <div class="prose max-w-sm">
@@ -204,7 +204,7 @@
   
           <div class="card__house-root rootless" data-label="기반가치">
             <div class="flex flex-col items-center p-4 sm:p-8 bg-atmosphere h-60 sm:h-52 text-white">
-              <div class="text-2xl font-black mb-3">
+              <div class="text-16px sm:text-2xl font-black mb-3">
                 윤리성
               </div>
               <div class="prose max-w-sm">

@@ -47,7 +47,7 @@
   <div class="mb-12"></div>
   <div class="grid grid-cols-1 sm:grid-cols-2 mb-16 gap-x-12 gap-y-20px">
     <div class="prose">
-      <div class="text-2xl font-black underline power mb-8">
+      <div class="text-16px sm:text-2xl font-black underline power mb-8">
         8행
       </div>
       <ol>
@@ -62,7 +62,7 @@
       </ol>
     </div>
     <div class="prose">
-      <div class="text-2xl font-black underline power mb-8">
+      <div class="text-16px sm:text-2xl font-black underline power mb-8">
         5금
       </div>
       <ol>

@@ -130,6 +130,7 @@ class WPDocs_Walker_Nav_Menu extends Walker_Nav_Menu
         switch ($depth) {
             case 0: $dapth_alpinejs = <<<EOD
                   x-data="{open: false}"
+                  :class="{'open': open}"
                 EOD;
                 break;
             default: $dapth_alpinejs = '';
@@ -138,6 +139,7 @@ class WPDocs_Walker_Nav_Menu extends Walker_Nav_Menu
         if (in_array('current-menu-ancestor', $item->classes)) {
             $dapth_alpinejs = <<<EOD
               x-data="{open: true}"
+              :class="{'open': open}"
             EOD;
         }
 

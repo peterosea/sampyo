@@ -1,4 +1,4 @@
-<nav class="items-fixed hidden sm:block">
+<nav class="items-fixed hidden md:block">
   <ul class="items-fixed-wrap">
     <li class="items-fixed-item @if ($category_label === "blog_category") current @endif">
       <a href="/blog">블로그</a>

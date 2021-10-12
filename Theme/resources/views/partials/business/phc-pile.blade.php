@@ -69,7 +69,7 @@
       </div>
       <div class="bg-lighthouse p-30px sm:py-16">
         <div class="text-center mb-30px sm:mb-12">
-          <div class="text-2xl font-black">
+          <div class="text-16px sm:text-2xl font-black">
             <span class="pointUnderLine ">
               고객혜택
             </span>
