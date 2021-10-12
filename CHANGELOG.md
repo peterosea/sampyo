@@ -3,6 +3,34 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.0.8] 2021-10-12
+
+### QA
+
+- submenu (mobile)
+  - list actiive pb 0
+  - wrap pb 추가
+- main
+  - card-flip py, list gap 여백
+  - hero title line-height
+  - 인재상 (mobile)
+    - arrow 보이게
+  - hero section (mobile)
+    - height 고정값으로 변경
+    - readmore 모바일이미지 추가
+- page
+  - fixed menu hidden break point sm > md
+  - header content 좌 여백
+  - Fixed menu 우 여백
+  - 비즈니스 홈페이지 바로가기 모바일 디자인 반영
+  - mobile 홈페이지 footer 바로가기 반영
+- Logo svg 변경
+- search 
+  - x버튼 focus 노출 취소 상시 노출
+  - 버튼 크기 데스크탑 모바일 둘다 조정
+- font size
+  - `<div class="text-2xl font-black` > `<div class="text-16px sm:text-2xl font-black`
+
 ## [v1.0.7] 2021-10-12
 
 ### Added
