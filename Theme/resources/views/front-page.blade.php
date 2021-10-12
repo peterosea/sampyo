@@ -181,8 +181,11 @@
       </div>
     </div>
   </div>
-  <div class="section home__s3">
-    <div class="container mx-auto">
+  <div class="section home__s3 relative overflow-hidden">
+    <div class="absolute top-0 w-full h-full left-0">
+      @include('partials.img', ['ex' => 'png', 'name' => 'main-s3-01', 'class' => 'absolute top-0 transform -translte-y-50px'])
+    </div>
+    <div class="container mx-auto relative">
       <div class="home__s3-header">
         <div class="home__s3-title">삼표의 책임경영</div>
         <div class="home__s3-description">
@@ -190,7 +193,7 @@
           풍요로운 미래를 위한 지속적인 노력을 아끼지 않고 있습니다.
         </div>
       </div>
-      <div class="home__s3-body relative">
+      <div class="home__s3-body">
         <div id="originalS3" class="hidden sm:flex">
           <div id="cardWrap" class="w-1/3 flex justify-center">
             @php($post = array_shift($sustainability))
