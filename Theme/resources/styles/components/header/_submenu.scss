@@ -20,6 +20,10 @@
     gap: 80px;
   }
 
+  a.menu-link.sub-menu-link:hover {
+    color: var(--atmosphere);
+  }
+
   &-wrap {
     @media (max-width: theme('screens.lg')) {
       &.active {
