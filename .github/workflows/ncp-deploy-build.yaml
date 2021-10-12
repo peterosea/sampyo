@@ -5,6 +5,11 @@ on:
     paths:
       - "Theme/resources/styles/**/*"
       - "Theme/resources/scripts/**/*"
+  push:
+    branches: [main]
+    paths:
+      - "Theme/resources/styles/**/*"
+      - "Theme/resources/scripts/**/*"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
