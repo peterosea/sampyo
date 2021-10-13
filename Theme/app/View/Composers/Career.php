@@ -26,6 +26,7 @@ class career extends Composer
           'queriedCat' => $this->queriedCat(),
           'fixedMenu' => $this->fixedMenu(),
           'selected' => $this->selected(),
+          'fixedMenuLabel' => $this->getFixedMenuLabel(),
       ];
     }
 
@@ -121,5 +122,14 @@ class career extends Composer
             return $terms[0]->term_id;
         }
         return 0;
+    }
+
+    public function getFixedMenuLabel()
+    {
+        $post = get_post();
+        if ($terms = get_the_terms($post->ID, 'career_category')) {
+            return $terms[0]->name;
+        }
+        return get_the_title();
     }
 }
