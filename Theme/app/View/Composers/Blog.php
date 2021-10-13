@@ -89,7 +89,7 @@ class Blog extends Composer
             return 0;
         }
         $post = get_post();
-        if ($terms = get_the_terms($post->ID, get_post_type().'_category')) {
+        if (isset($post) && $terms = get_the_terms($post->ID, get_post_type().'_category')) {
             return $terms[0]->term_id;
         }
         return 0;

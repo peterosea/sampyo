@@ -3,6 +3,18 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.1.3] 2021-10-13
+
+### Added
+
+- career mobile fixed menu
+- breakpoint labtop(1440px)
+
+### Fixed
+
+- swiper js safari 포지션 오류 (beeclover/sampyo#155)
+- fixed menu break point
+
 ## [v1.1.2] 2021-10-12
 
 ### Fixed
