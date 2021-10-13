@@ -1,7 +1,7 @@
-<div class="2xl:overflow-hidden header-archive-root2">
-  <div class="2xl:overflow-hidden header-archive-root">
+<div class="overflow-hidden header-archive-root2">
+  <div class="labtop:overflow-hidden header-archive-root">
     <header class="header-archive">
-      <div class="container xl:max-w-screen-xl mx-auto max:2xl:px-0 max:sm:mb-60px">
+      <div class="container xl:max-w-screen-xl mx-auto max:labtop:px-0 max:sm:mb-60px max:labtop:mb-150px">
         <div class="header-archive-imgRow">
           @if (!empty($thumbnail))
               {!! $thumbnail !!}
@@ -9,8 +9,8 @@
               <img src="https://picsum.photos/1920?random=10" alt="" class="header-archive-img">
           @endif
         </div>
-        <div class="header-archive-content max:2xl:px-8 max:2xl:w-full @if(empty($acf['outlink'])) top-1/2 @endif">
-          <div x-data="select({label: '{!! $fixedMenuLabel !!}', selected: {!! $selected !!}})" class="w-full relative mb-30px 2xl:hidden flex">
+        <div class="header-archive-content max:labtop:px-8 max:sm:w-full @if(empty($acf['outlink'])) top-1/2 @endif">
+          <div x-data="select({label: '{!! $fixedMenuLabel !!}', selected: {!! $selected !!}})" class="w-full relative mb-30px labtop:hidden flex">
             <div class="depth-1 relative flex-1">
               <button class="flex items-center justify-between w-full px-3 py-3 text-left border focus:outline-none border-r-0"
                 @click="toggle()"
@@ -88,7 +88,7 @@
           <span class="header-archive-description">{!! $excerpt !!}</span>
         </div>
         @if(!empty($acf['outlink']))
-          <div class="header-archive-nav bg-transparent sm:translate-y-1/2 max:sm:top-full max:sm:bottom-auto">
+          <div class="header-archive-nav bg-transparent labtop:translate-y-1/2 max:labtop:top-full max:labtop:bottom-auto">
             <ul>
               <li class="items-block-item-2 max:sm:w-full">
                 <a class="text-white" href="{!! $acf['outlink'] !!}">홈페이지 바로가기</a>
@@ -100,7 +100,7 @@
     </header>
   </div>
 </div>
-<nav class="items-fixed hidden 2xl:block">
+<nav class="items-fixed hidden labtop:block">
   <ul class="items-fixed-wrap" x-data="{
     selected: {!!$selected !!}
   }">

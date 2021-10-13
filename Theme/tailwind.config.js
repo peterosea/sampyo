@@ -22,7 +22,9 @@ module.exports = {
     extend: {
       screens: {
         xxl: '1536px',
-        'max:2xl': { max: '1535px' },
+        labtop: '1440px',
+        'max:labtop': { max: '1439px' },
+        'max:xxl': { max: '1535px' },
         'max:xl': { max: '1279px' },
         'max:lg': { max: '1023px' },
         'max:md': { max: '767px' },

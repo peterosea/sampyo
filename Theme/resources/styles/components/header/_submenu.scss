@@ -25,10 +25,13 @@
   }
 
   &-wrap {
-    @media (max-width: theme('screens.lg')) {
-      &.active {
+    &.active {
+      @media (max-width: theme('screens.lg')) {
         transform: translateY(0);
         color: var(--black-out);
+      }
+      @media (max-width: theme('screens.sm')) {
+        padding-bottom: calc(var(--bar-global-height) * 2);
       }
     }
 
@@ -50,6 +53,8 @@
       padding-bottom: calc(var(--bar-global-height) * 2);
       height: 100vh;
       max-height: none;
+      display: flex;
+      align-items: flex-start;
     }
   }
 
