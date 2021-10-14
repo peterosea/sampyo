@@ -2,7 +2,7 @@
   <div class="container xl:max-w-screen-xl mx-auto">
     <section class="mb-70px sm:mb-32">
       <div class="page__level-title mb-30px sm:mb-11">
-        기초를 바르게 만듭니다.
+        삼표의 가치공학으로 건축의 기초를 바르게 만듭니다
       </div>
       <div class="prose mb-40px sm:mb-24 pb-1">
         <p>
@@ -18,7 +18,7 @@
         </div>
         <div class="prose mb-16 pb-1.5">
           <p>
-            PHC 파일 (Pretensioned spun High strength Concrete Pile)은 건축 및 토목 구조물의 하중을 지반으로 전달하기 위한 목적으로 기초공사에 사용되는 고강도 콘크리트 말뚝입니다.
+            PHC 파일(Pretensioned spun High strength Concrete Pile)은 건축 및 토목 구조물의 하중을 지반으로 전달하기 위한 목적으로 기초공사에 사용되는 고강도 콘크리트 말뚝입니다.
           </p>
         </div>
         <div class="flex mb-5">
@@ -38,7 +38,7 @@
       </div>
       <div class="prose mb-30px sm:mb-20">
         <p>
-          가치공학 (VE, Value Engineering) 서비스를 통하여 구조적으로 안전하고 경제성 높은 파일 설계를 제안하고 고품질의 제품을 공급함으로써 고객의 니즈와 함께 하겠습니다.
+          가치공학(VE, Value Engineering) 서비스를 통하여 구조적으로 안전하고 경제성 높은 파일 설계를 제안하고 고품질의 제품을 공급해 고객 만족을 이끌어냅니다.
         </p>
       </div>
       <div class="card__house bg-lighthouse bottom max:sm:bottom-1/2 text-white mb-6">
@@ -76,7 +76,7 @@
           </div>
         </div>
         <div class="relative">
-          <div id="phcpileOriginal" class="grid grid-cols-3 mx-auto max-w-3xl gap-x-12 invisible sm:visible absolute left-0 top-0 sm:z-10 ">
+          <div id="phcpileOriginal" class="grid grid-cols-3 mx-auto max-w-3xl gap-x-12 invisible sm:visible absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:z-10 ">
             <div id="cardWrap" class="card__s1 gap-y-5">
               <div class="card__s1-thumbnail_ flex justify-center">
                   @include('partials.img', ['ex' => 'svg', 'name' => 'business-phc-3'])

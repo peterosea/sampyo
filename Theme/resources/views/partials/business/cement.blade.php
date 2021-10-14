@@ -2,7 +2,7 @@
 <div class="container xl:max-w-screen-xl mx-auto">
   <div class="page__level-title mb-30px sm:mb-11">
     세계 최고 수준의 시멘트 생산/공급 능력을 갖추고, <br class="hidden sm:block" />
-    국내 시멘트 산업을 선도하고 있습니다.
+    국내 시멘트 산업을 선도하고 있습니다
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 mb-30px sm:mb-20">
     <div>
@@ -23,7 +23,7 @@
   <div class="mb-70px sm:mb-32"></div>
   <div class="coverbox-full left pb-32 pt-24 mb-60px sm:mb-28">
     <div class="page__level-title mb-30px sm:mb-11">
-      사회적, 환경적 책임을 존중합니다.
+      사회적, 환경적 책임을 존중합니다
     </div>
     <div class="mb-30px sm:mb-16">
       <p>삼표시멘트는 제품과 서비스를 넘어 지속가능한 미래를 만들기 위하여 기업의 혁신문화를 촉진하고 있으며, 긍정적인 사회적, 환경적 성과를 달성하기 위해 노력을 아끼지 않습니다. 삼표시멘트는 1980년 에너지 파동 시 국내최초로 소성로의 연료를 벙커C유에서 유연탄으로 대체하였으며, 2004년에는 소성로의 폐열을 이용하여 전기를 생산하는 폐열발전소를 가동하였습니다.</p>

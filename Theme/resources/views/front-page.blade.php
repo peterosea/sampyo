@@ -39,7 +39,7 @@
     </div>
     <div class="home__s1-header">
       <div class="home__s1-title text-36px sm:text-6xl font-black mb-15px">비즈니스</div>
-      <p class="home__s1-header-content">끊임없는 도전과 창조적인 혁신을 통해 Building Materials 분야의 리더로 자리매김합니다.</p>
+      <p class="home__s1-header-content">끊임없는 도전과 창조적인 혁신을 통해 지속가능한 Building Materials의 기초를 만들어갑니다.</p>
     </div>
     <div id="macy-container">
       <div class="home__s1-imgCol-1"></div>
@@ -190,7 +190,7 @@
       <div class="home__s3-header">
         <div class="home__s3-title">삼표의 지속가능경영</div>
         <div class="home__s3-description">
-          삼표는 인간과 생명을 중시하는 경영철학을 바탕으로<br/>
+          삼표는 사람 사회 세상에 기여하는 경영이념을 바탕으로<br/>
           풍요로운 미래를 위한 지속적인 노력을 아끼지 않고 있습니다.
         </div>
       </div>
@@ -224,13 +224,13 @@
           <div id="cardWrap" class="w-1/3 flex justify-center">
             @php($post = array_shift($sustainability))
             <div class="card__s1">
-              <div data-scrollreveal data-sr-delay="300" class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/56.svg') }}"></div>
+              <div data-scrollreveal class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/57.svg') }}"></div>
               <div class="card__s1-body">
                 <div class="card__s1-title">{!! $post->post_title !!}</div>
                 <div class="card__s1-content">
-                  자원과 에너지의 근원적 제어를 통해<br/>
-                  자원·에너지의 효율적 이용과 환경오염물질<br/>
-                  배출저감을 위한 노력을
+                  ‘기업과 사회가 함께하는 것이<br/>
+                  진정한 행복’이라는 믿음 아래 실천중인<br/>
+                  삼표의 ‘나눔경영’
                 </div>
                 <div class="card__s1-etc">
                   <a href="{!! $post->permalink !!}" class="card__s1-btn">
@@ -249,13 +249,12 @@
           <div id="cardWrap" class="w-1/3 flex justify-center">
             @php($post = array_shift($sustainability))
             <div class="card__s1">
-              <div data-scrollreveal class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/57.svg') }}"></div>
+              <div data-scrollreveal data-sr-delay="300" class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/56.svg') }}"></div>
               <div class="card__s1-body">
                 <div class="card__s1-title">{!! $post->post_title !!}</div>
                 <div class="card__s1-content">
-                  ‘기업과 사회가 함께하는 것이<br/>
-                  진정한 행복’이라는 믿음 아래 실천중인<br/>
-                  삼표의 ‘나눔경영’
+                  자원과 에너지의 효율적 이용과 더불어<br/>
+                  안전한 사업장 운영을 위한 노력
                 </div>
                 <div class="card__s1-etc">
                   <a href="{!! $post->permalink !!}" class="card__s1-btn">

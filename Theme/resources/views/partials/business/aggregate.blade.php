@@ -2,7 +2,7 @@
 <div class="container xl:max-w-screen-xl mx-auto">
   <div class="page__level-title mb-30px sm:mb-11">
     국내 최초 KS인증 골재로 국내 최대 생산량과<br class="hidden sm:block" />
-    최고의 품질을 자랑합니다.
+    최고의 품질을 자랑합니다
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 sm:gap-x-12 gap-y-30px sm:gap-y-20">
     <div class="max:sm:order-2">

@@ -194,6 +194,10 @@
 
         @media (min-width: theme('screens.sm')) {
           gap: 1em;
+
+          > a {
+            white-space: nowrap;
+          }
         }
         @media (max-width: theme('screens.sm')) {
           a {
