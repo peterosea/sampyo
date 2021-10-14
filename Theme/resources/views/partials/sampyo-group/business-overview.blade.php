@@ -32,11 +32,7 @@
   <h2 class="text-point text-lg sm:text-2xl text-center mb-30px sm:mb-20">
     자원의 순환을 통해 새로운 가치를 계속 창출함으로써 지속 가능한 세상의 실현을 앞당깁니다.
   </h2>
-  <img
-    src="@php echo get_theme_file_uri('resources/images/sampyo-group-business-1.jpg') @endphp"
-    alt=""
-    class="mx-auto hidden sm:block"
-  >
+  @include('partials.img', ['ex' => 'png', 'name' => 'sampyo-group-business-1', 'class' => 'mx-auto hidden sm:block'])
   <img
     src="@php echo get_theme_file_uri('resources/images/sampyo-group-business-2.jpg') @endphp"
     alt=""
