@@ -85,6 +85,7 @@ class Business extends Composer
           'post_type' => 'business',
           'hide_empty' => false,
           'numberposts' => 99,
+          'exclude' => array(177),
         ]);
         self::sort_terms_hierarchically($posts, $termsHierarchy);
         $cat = get_terms([
