@@ -188,7 +188,7 @@
     </div>
     <div class="container mx-auto relative">
       <div class="home__s3-header">
-        <div class="home__s3-title">삼표의 책임경영</div>
+        <div class="home__s3-title">삼표의 지속가능경영</div>
         <div class="home__s3-description">
           삼표는 인간과 생명을 중시하는 경영철학을 바탕으로<br/>
           풍요로운 미래를 위한 지속적인 노력을 아끼지 않고 있습니다.

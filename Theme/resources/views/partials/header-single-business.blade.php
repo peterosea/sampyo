@@ -1,7 +1,7 @@
-<div class="overflow-hidden header-archive-root2">
+<div class="labtop:overflow-x-hidden header-archive-root2">
   <div class="labtop:overflow-hidden header-archive-root">
     <header class="header-archive">
-      <div class="container xl:max-w-screen-xl mx-auto max:labtop:px-0 max:sm:mb-60px max:labtop:mb-150px">
+      <div class="container xl:max-w-screen-xl mx-auto max:labtop:px-0 @isset($acf['outlink']) max:sm:mb-60px max:labtop:mb-150px @endisset">
         <div class="header-archive-imgRow">
           @if (!empty($thumbnail))
               {!! $thumbnail !!}
@@ -87,7 +87,7 @@
           <h1 class="header-archive-title text-36px sm:text-70px mb-5px sm:mb-18px">{!! $title !!}</h1>
           <span class="header-archive-description">{!! $excerpt !!}</span>
         </div>
-        @if(!empty($acf['outlink']))
+        @isset($acf['outlink'])
           <div class="header-archive-nav bg-transparent labtop:translate-y-1/2 max:labtop:top-full max:labtop:bottom-auto">
             <ul>
               <li class="items-block-item-2 max:sm:w-full">
@@ -95,7 +95,7 @@
               </li>
             </ul>
           </div>
-        @endif
+        @endisset
       </div>
     </header>
   </div>

@@ -86,6 +86,7 @@ module.exports = {
         winterWizard: 'var(--winter-wizard, #9de2ff)',
         glitterLake: 'var(--glitter-lake, #4AC1F2)',
         blackout: 'var(--black-out, #222222)',
+        snowflake: 'var(--snowflake, #f0f0f0)',
       },
       gradientColorStops: {
         glitterLake: 'var(--glitter-lake, #4AC1F2)',

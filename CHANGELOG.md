@@ -3,6 +3,32 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.1.4] 2021-10-14
+
+### Fixed
+
+- newsroom header 헤더 이미지 클래스 누락
+- page header height cover
+- business home link 없을때 margin 클래스 조건식으로 변경
+
+### Changed
+
+- header
+  - search 아이콘으로 변경 & 100vw에서 100%으로 변경
+- typo
+  - 메인 책임경영 타이틀 변경
+- image
+  - 연혁
+  - 비지니스 소개
+  - 레미콘
+- zeplin
+  - [211013_02비즈니스_02_01레미콘](https://zpl.io/2v8gkeP)
+  - [211009_02비즈니스_05_02철도기술연구소](https://zpl.io/bAwkQyO)
+  - [211013_02비즈니스_03순환자원](https://zpl.io/awwQe4n)
+  - [211013_02비즈니스_02골재](https://zpl.io/amxXN0r)
+  - [211013_02비즈니스_02프리캐스트콘크리트](https://zpl.io/2yMjew9)
+  - [211013_02비즈니스_03몰탈](https://zpl.io/ag5qYw9)
+
 ## [v1.1.3] 2021-10-13
 
 ### Added

@@ -24,7 +24,7 @@
   z-index: 9000;
   top: var(--bar-wp, 0);
   left: 0;
-  width: 100vw;
+  width: 100%;
 
   @mixin dark {
     #{$p}-inner {

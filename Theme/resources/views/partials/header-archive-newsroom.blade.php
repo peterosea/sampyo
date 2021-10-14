@@ -3,7 +3,7 @@
     <header class="header-archive">
       <div class="container xl:max-w-screen-xl mx-auto max:labtop:px-0 max:labtop:mb-70px">
         <div class="header-archive-imgRow">
-          @include('partials.img', ['ex' => 'jpg', 'name' => 'header-'.get_post_type()])
+          @include('partials.img', ['ex' => 'jpg', 'name' => 'header-'.get_post_type(), 'class' => 'header-archive-img'])
         </div>
         <div class="header-archive-content max:labtop:px-8 max:sm:w-full">
           <div x-data="select({label: '{!! $title !!}', selected: {!! $selected !!}})" class="w-full relative mb-30px labtop:hidden flex">

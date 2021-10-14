@@ -21,14 +21,14 @@
           프리캐스트 콘크리트는 건설현장에서 사용되는 콘크리트 구조체(기둥, 보, 슬라브, 벽체 등)를 공장에서 엄격한 공정관리 하에 사전에 제작/생산하고, 이를 건설현장으로 운반하여 조립/시공하는 건설방식입니다. 공기단축, 고품질, 경제성, 친환경 등의 장점으로 지속성장하고 있는 분야입니다.
         </p>
       </div>
-      <div class="grid grid-cols-2 gap-y-5">
+      <div class="grid grid-cols-3">
         <div>
           @include('partials.img', ['ex' => 'jpg', 'name' => 'business-precast-0'])
         </div>
         <div>
           @include('partials.img', ['ex' => 'jpg', 'name' => 'business-precast-1'])
         </div>
-        <div class="col-span-2">
+        <div>
           @include('partials.img', ['ex' => 'jpg', 'name' => 'business-precast-2'])
         </div>
       </div>

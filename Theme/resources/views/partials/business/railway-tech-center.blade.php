@@ -5,20 +5,18 @@
       종합철도엔지니어링의 전문가들이 만드는 미래
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-20px mb-30px sm:mb-16 sm:pb-1.5">
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-0'])
       <div class="prose">
         <p>
           철도 기술연구소는 국내철도산업 발전을 위해 2001년 설립되어 궤도분야 전문가로 구성된 연구원들이 철도의 안정성 및 성능 향상을 위해 다양한 연구활동을 수행하고 있습니다.<br/>
           세계 네번째 고속철도 운영국에 걸맞게 고속철도용 궤도용품 개발을 진행하여 고속분기기 생산기술 국산화에 성공하였으며, 한국 철도기술을 선진국 수준으로 끌어 올리기 위해 노력하고 있습니다.
         </p>
-      </div>
-      <div class="prose">
         <p>
           주요 연구분야는 고속철도 및 국철용 분기기와 신호제품·체결장치·특수레일 등 철도 궤도의 핵심 부품들이며, 이를 위해 2D, 3D설계, FEM해석, 동적해석(Dynamic Analysis), 실내성능실험, 현장부설 시험과 계측을 수행하고 있습니다.<br/>
           당사만이 보유하고 있는 오랜 기술력과 노하우를 활용해 한국철도기술의 발전을 위해 활발한 연구활동을 수행하고 있습니다.
         </p>
       </div>
     </div>
-    @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-0'])
   </section>
   <section class="mb-70px sm:mb-32">
     <div class="coverbox-full-fixedHeight left mb-60px sm:mb-28 max:sm:py-30px sm:pt-24" style="--h: 550px">
@@ -216,12 +214,11 @@
     <div class="page__level-title mb-10">
       신기술 및 인증
     </div>
-    <div class="py-30px sm:py-28 px-30px sm:px-16 coverbox-bg relative mb-30px sm:mb-16" style="--bg-image: url({{ get_theme_file_uri('resources/images/business-'. get_post()->post_name .'-16.jpg') }})">
+    <div class="py-30px sm:py-28 px-30px sm:px-16 coverbox-bg relative mb-30px sm:mb-16" style="--bg-image: url({{ get_theme_file_uri('resources/images/business-'. get_post()->post_name .'-16@3x.jpg') }})">
       <div class="text-white text-24px sm:text-4xl relative z-10 font-black">
         국내 최초 ‘고속철도 분기기’ 개발 및<br class="hidden sm:block" /> 
         세계일류상품 선정
       </div>
-      <div class="absolute w-full h-full bg-gradient-to-r from-black top-0 left-0 opacity-50"></div>
     </div>
     <div class="mb-10 text-xl">
       콘크리트궤도용 열차선로 전환장치(분기기)에 적용되는 2중 탄성체결장치의 강성을 탄성패드의 접촉면적으로 조절하는 기술 (2010)

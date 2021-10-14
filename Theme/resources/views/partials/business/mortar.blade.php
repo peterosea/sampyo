@@ -52,14 +52,50 @@
       삼표 몰탈은 일반미장용, 조적용, 바닥용 등 널리 쓰이는 일반제품을 비롯하여 무수축 그라우트, 자기수평몰탈, 보수보강용 몰탈 등 10여 가지가 넘는 특수제품까지 다양한 종류로 구성되어 건축물의 성능과 작업 효율성 향상에 기여하고 있습니다
     </p>
   </div>
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px">
-    <div>
-      <h3 class="text-2xl font-black mb-11">일반 제품군</h3>
-      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-4'])
+  <div class="mb-11">
+    <h3 class="text-2xl font-black pointUnderLine" style="--bs: var(--RGB-black-out); --h: 0.1em">일반 제품군</h3>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-50px mb-50px">
+    <div class="bg-snowflake text-center">
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-4', 'class' => 'mb-12px'])
+      <div class="font-bold mb-33px">포장제품 (일반미장용 외 4종)</div>
     </div>
-    <div>
-      <h3 class="text-2xl font-black mb-11">특수 제품군</h3>
-      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-5'])
+    <div class="bg-snowflake text-center">
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-5', 'class' => 'mb-12px'])
+      <div class="font-bold mb-33px">벌크제품 (일반바닥용 외 7종)</div>
+    </div>
+  </div>
+  <div class="mb-11">
+    <h3 class="text-2xl font-black pointUnderLine" style="--bs: var(--RGB-black-out); --h: 0.1em">특수 제품군</h3>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-17px">
+    <div class="text-center">
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-6', 'class' => 'mb-9px mx-auto'])
+      <div class="font-bold mb-33px">
+        무수축 그라우트<br/>
+        (SG 45N 외 4종)
+      </div>
+    </div>
+    <div class="text-center">
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-7', 'class' => 'mb-9px mx-auto'])
+      <div class="font-bold mb-33px">
+        셀프레벨링<br/>
+        (SPSL 1040)
+      </div>
+    </div>
+    <div class="text-center">
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-8', 'class' => 'mb-9px mx-auto'])
+      <div class="font-bold mb-33px">
+        보수보강재<br/>
+        (SPPM 400)
+      </div>
+    </div>
+    <div class="text-center">
+      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-9', 'class' => 'mb-9px mx-auto'])
+      <div class="font-bold mb-33px">
+        타일시멘트<br/>
+        (타일압착, 타일줄눈)
+      </div>
     </div>
   </div>
   <div class="mb-14"></div>

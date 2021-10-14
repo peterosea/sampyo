@@ -29,43 +29,40 @@
     </div>
   </div>
   <div class="mb-70px sm:mb-32"></div>
-  <div class="coverbox-full-fixedHeight left max:sm:py-30px sm:pt-24">
-    <div class="page__level-title mb-4">
-      안정적인 골재 공급 능력 보유
+  <div class="coverbox-full-fixedHeight left max:sm:py-30px sm:pt-24" style="--h: 560px">
+    <div class="page__level-title mb-30px sm:mb-11">
+      골재채취능력평가 시작 이래 13년 연속 1위
     </div>
-    <div class="page__level-description mb-16">
-      수도권 시장점유율 21%, 전국 10개 골재 사업장
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-20">
+      <div class="max:sm:order-1">
+        <p>
+          국토교통부에서 2008년부터 시작한 골재채취능력평가에서 13년째 1위를 놓치지 않고 있습니다. 골재채취능력평가는 골재채취실적과 보유장비, 신인도 등을 종합적으로 평가하는 것으로, 이는 가장 신뢰할 수 있는 골재 공급업체라는 것을 인정받았다고 할 수 있습니다.
+        </p>
+      </div>
+      <div class="max:sm:order-3">
+        <p>
+          당사는 10개의 골재산지에서 연간 1,300만㎥ 이상의 레미콘용 골재를 공급할 수 있는 능력을 갖추고 있으며, 이는 수도권 레미콘용 골재 공급량의 15%(총 8,200만㎥)에 육박하는 물량입니다. 또한, 아스콘용, 토목공사용 골재 등 다양한 제품을 생산하고 있습니다.
+        </p>
+      </div>
+      <div class="max:sm:order-2">
+        <div class="coverbox-label">
+          @include('partials.img', ['ex' => 'jpg', 'name' => '433'])
+          <span class="label text-white">석산 양석 채취</span>
+        </div>
+      </div>
+      <div class="max:sm:order-4">
+        <div class="coverbox-label">
+          @include('partials.img', ['ex' => 'jpg', 'name' => '434'])
+          <span class="label text-white">바다모래 채취</span>
+        </div>
+      </div>
     </div>
-    @include('partials.img', ['ex' => 'jpg', 'name' => '2017-3'])
   </div>
   <div class="mb-70px sm:mb-32"></div>
   <div class="page__level-title mb-30px sm:mb-11">
-    골재채취능력평가 시작 이래 13년 연속 1위
+    수도권 시장점유율 21%, 전국 10개 골재 사업장
   </div>
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-20">
-    <div class="max:sm:order-1">
-      <p>
-        국토교통부에서 2008년부터 시작한 골재채취능력평가에서 13년째 1위를 놓치지 않고 있습니다. 골재채취능력평가는 골재채취실적과 보유장비, 신인도 등을 종합적으로 평가하는 것으로, 이는 가장 신뢰할 수 있는 골재 공급업체라는 것을 인정받았다고 할 수 있습니다.
-      </p>
-    </div>
-    <div class="max:sm:order-3">
-      <p>
-        당사는 10개의 골재산지에서 연간 1,300만㎥ 이상의 레미콘용 골재를 공급할 수 있는 능력을 갖추고 있으며, 이는 수도권 레미콘용 골재 공급량의 15%(총 8,200만㎥)에 육박하는 물량입니다. 또한, 아스콘용, 토목공사용 골재 등 다양한 제품을 생산하고 있습니다.
-      </p>
-    </div>
-    <div class="max:sm:order-2">
-      <div class="coverbox-label">
-        @include('partials.img', ['ex' => 'jpg', 'name' => '433'])
-        <span class="label text-white">석산 양석 채취</span>
-      </div>
-    </div>
-    <div class="max:sm:order-4">
-      <div class="coverbox-label">
-        @include('partials.img', ['ex' => 'jpg', 'name' => '434'])
-        <span class="label text-white">바다모래 채취</span>
-      </div>
-    </div>
-  </div>
+  @include('partials.img', ['ex' => 'jpg', 'name' => '2017-3'])
   <div class="mb-70px sm:mb-32"></div>
   <div class="page__level-title mb-30px sm:mb-11">
     국내 최초 KS인증의 우수하고 균일한 품질의 골재
