@@ -5,6 +5,12 @@
 
 
 
+## [v1.2.4] 2021-10-14
+
+### Fixed
+
+- submenu padding (peterosea/sampyo#27)
+
 ## [v1.2.3] 2021-10-14
 
 ### Fixed
