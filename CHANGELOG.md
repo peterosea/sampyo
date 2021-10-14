@@ -3,6 +3,14 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+
+
+## [v1.1.6] 2021-10-14
+
+### Added
+
+- 외부링크 링크속성 추가 `target="_blank" rel="noopener noreferrer"` 
+
 ## [v1.1.5] 2021-10-14
 
 - 1차 피드백 제플린용 코멘트 해결
