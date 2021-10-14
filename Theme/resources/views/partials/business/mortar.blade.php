@@ -2,7 +2,7 @@
 <div class="container xl:max-w-screen-xl mx-auto">
   <div class="page__level-title mb-30px sm:mb-16 pb-1.5">
     24시간 자동출하시스템과 인터넷 주문시스템,<br class="hidden sm:block" />
-    최적화된 배합비로 고객 만족을 최우선하겠습니다.
+    최적화된 배합비로 고객 만족을 최우선하겠습니다
   </div>
   @include('partials.img', ['ex' => 'jpg', 'name' => 'business-mortar-0', 'class' => 'mb-30px sm:mb-60px'])
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-16">
@@ -53,7 +53,7 @@
     </p>
   </div>
   <div class="mb-11">
-    <h3 class="text-2xl font-black pointUnderLine" style="--bs: var(--RGB-black-out); --h: 0.1em">일반 제품군</h3>
+    <h3 class="text-2xl font-black underline power">일반 제품군</h3>
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-50px mb-50px">
     <div class="bg-snowflake text-center">
@@ -66,7 +66,7 @@
     </div>
   </div>
   <div class="mb-11">
-    <h3 class="text-2xl font-black pointUnderLine" style="--bs: var(--RGB-black-out); --h: 0.1em">특수 제품군</h3>
+    <h3 class="text-2xl font-black underline power">특수 제품군</h3>
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-17px">
     <div class="text-center">

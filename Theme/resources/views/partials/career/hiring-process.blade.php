@@ -6,7 +6,7 @@
   <div class="mb-14"></div>
   <div class="max:sm:overflow-x-scroll max:sm:pb-16px">
     <ul class="flex gap-x-2.5">
-      @foreach (['지원서 접수', '서류전형', '인성검사', '면접전형', '건강검진전형', '최종합격'] as $key => $item)
+      @foreach (['지원서 접수', '서류전형', '인성검사', '면접전형', '건강검진', '최종합격'] as $key => $item)
       <li class="flex-1 min-w-100px">
         <div class="card__house bg-lighthouse right mb-3">
           <div class="card__house-inner h-24 flex flex-col items-center justify-center p-8">
@@ -42,7 +42,7 @@
         "content" => "실제 업무를 수행하기 위한 능력과 열정, 전략적 사고역량, 실무역량 등을 평가하는 면접이 진행됩니다. 면접 진행방식은 일대다 방식이며, 인성평가가 병행됩니다. (30분~1시간 소요)"
       ],
       [
-        "title" => "건강검진전형",
+        "title" => "건강검진",
         "content" => "면접합격자를 대상으로 이루어지는 채용검진으로 신체적 결격사유를 판단하는 절차입니다."
       ],
       [
@@ -65,8 +65,8 @@
     경력사원 채용 프로세스
   </div>
   <p>
-    기본적인 채용 프로세스는 서류전형, 인성검사, 면접전형, 건강검진전형으로 진행되며 진행방식과 내용은 대졸 신입채용과 동일합니다.
-​세부사항(채용대상 및 자격기준 등)은 경력사원 채용 시 게시되는 경력사원 채용 모집공고를 참고하시기 바랍니다.
+    기본적인 채용 프로세스는 서류전형, 인성검사, 면접전형, 건강검진으로 진행되며 진행방식과 내용은 대졸 신입채용과 동일합니다.
+​세부사항(채용대상 및 자격기준 등)은 경력사원 채용 시 게시되는 경력사원 모집공고를 참고하시기 바랍니다.
   </p>
   <div class="pb-70px sm:pb-24"></div>
   <div class="page__level-title mb-5">

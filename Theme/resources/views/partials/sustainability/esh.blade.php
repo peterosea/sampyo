@@ -1,6 +1,9 @@
 <main class="sampyoGroup__page page__layout max:sm:pt-0">
 <div class="container xl:max-w-screen-xl mx-auto">
   <div class="coverbox-full left py-40px sm:py-32">
+    <div class="page__level-title mb-5">
+      안전을 위한 최적의 작업환경과 시스템을 유지합니다
+    </div>
     <div class="prose text-16px sm:text-xl leading-loose">
       <p>
         환경안전보건은 삼표그룹이 사업 활동에서 최우선적으로 집중하는 과제 중 하나이며, 기업 이념의 필수 요소이기도 합니다.
@@ -34,8 +37,7 @@
   <img class="mx-auto" src="@php echo get_theme_file_uri('resources/images/sampyo-group-she-1.jpg') @endphp" alt="" >
   <div class="mb-28"></div>
   <div class="page__level-title mb-9">
-    삼표 안전 골든 룰 <br/>
-    (SAMPYO Safety Golden Rules)
+    삼표 안전 골든 룰
   </div>
   <p>삼표는 구성원과 파트너가 필수적으로 준수해야 할 안전 수칙(8행 5금)을 정의했습니다. 이는 과거의 사고 사례를 근거한 것으로, 사업장 상황에 맞춰 안전수칙을 강화하고 있습니다. 집중적인 교육을 통해 관련된 모든 작업자들이 이러한 위험 영역을 잘 인식하고 사고를 사전에 예방하도록 합니다.</p>
   <div class="mb-16"></div>

@@ -2,12 +2,12 @@
 <div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-70px sm:mb-32">
     <div class="page__level-title mb-10">
-      No.1 철도궤도 종합엔지니어링 기업
+      국내 No.1 철도궤도 종합엔지니어링 기업입니다
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-16">
       <div class="prose">
         <p>
-          1980년 강원산업(주) 철도사업부로 시작한 삼표레일웨이는 대한민국 철도산업의 발전과 그 역사를 함께 해 왔습니다.<br/>
+          1980년 강원산업(주) 철도사업부로 시작한 삼표레일웨이는 대한민국 철도산업의 발전과 그 역사를 함께 해왔습니다.<br/>
           1997년 국내 최초로 분기기(Turnout) 생산 공장을 설립하여 철도궤도분야의 핵심제품인 분기기를 비롯한 각종 궤도용품의 양산 체계를 갖추었으며, 적극적인 기술개발 및 과감한 투자를 통해 세계적 수준의 기술력을 확보하였습니다. 지속적인 노력을 통해 얻은 글로벌 경쟁력을 바탕으로 삼표레일웨이는 국내를 넘어 해외시장에도 적극적으로 진출하여 고객으로부터 기술력과 품질에 대한 호평을 받고 있습니다.
         </p>
       </div>
@@ -87,7 +87,7 @@
     </div>
     <h3 class="font-black text-2xl mb-8">
       <span class="underline power">
-        레인연마/유지보수
+        레일연마/유지보수
       </span>
     </h3>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-16 mb-30px sm:mb-16">

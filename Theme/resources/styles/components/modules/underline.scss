@@ -6,7 +6,7 @@
     transparent 50%,
     rgba(var(--bs, var(--RGB-bermudagrass)), var(--op, 0.4)) 50%
   );
-  background-size: auto calc(200% - (var(--h, 15%) * 2));
+  background-size: auto calc(200% - (var(--h, 20%) * 2));
   transition: background 500ms ease;
   display: inline;
 }

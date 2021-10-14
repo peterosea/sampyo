@@ -3,7 +3,7 @@
   <section class="mb-70px sm:mb-32">
     <div class="page__level-title mb-30px sm:mb-11">
       국내 프리캐스트 콘크리트 산업의<br class="hidden sm:block" />
-      미래를 선도해 나가겠습니다.
+      미래를 선도해 나가겠습니다
     </div>
     <div class="prose mb-40px sm:mb-24 pb-1">
       <p>
@@ -36,7 +36,7 @@
   </section>
   <section class="mb-30px sm:mb-20">
     <div class="page__level-title mb-10">
-      삼표가 만들면 다릅니다.
+      삼표가 처음부터 끝까지 책입집니다
     </div>
     <div class="prose mb-60px sm:mb-28 pb-2">
       <p>
@@ -57,7 +57,7 @@
           <div class="card__s1-body items-start text-left gap-2.5">
             <div class="card__s1-title text-xl font-bold">설계</div>
             <div class="card__s1-content">
-              자체적인 PC설계 조직의 보유로 제품에 대한 고객 Needs 반영과 우수한 품질 확보. 국내 최상위 수준의 기술연구소를 보유하여 다양하고 독자적인 공법 및 제품 보유
+              자체적인 PC설계 조직의 보유로 제품에 대한 고객 요구 반영과 우수한 품질 확보. 국내 최상위 수준의 기술연구소를 보유하여 다양하고 독자적인 공법 및 제품 보유
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@
           <div class="card__s1-body items-start text-left gap-2.5">
             <div class="card__s1-title text-xl font-bold">시공</div>
             <div class="card__s1-content">
-              풍부한 PC시공 경험을 통한 Know-how 보유로 공기 단축
+              풍부한 PC시공 경험을 통한 노하우 보유로 공기 단축
             </div>
           </div>
         </div>

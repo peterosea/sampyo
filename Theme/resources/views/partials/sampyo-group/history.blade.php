@@ -2,11 +2,10 @@
 <div class="container xl:max-w-screen-xl mx-auto">
   <div class="coverbox-full left py-10 sm:py-24 mb-40px sm:mb-24">
     <div class="page__level-title mb-30px sm:mb-8">
-      삼표의 지칠줄 모르는 변화와 도전의 노력은 계속됩니다.
+      삼표의 지칠줄 모르는 변화와 도전의 노력은 계속됩니다
     </div>
     <p>
-      사업 경쟁력 확보에 철저합니다. 신제품 및 신사업 개발과 지속가능성(Sustainability)의 관점을 통합합니다.<br/>
-      외부 파트너와 적극적으로 협업하면서 사회적 가치와 경제적 가치를 함께 추구합니다.
+      삼표는 지금보다 더 나은 미래를 현실로 만들기 위해 지난 반세기동안 한결같은 마음으로 노력해오고 있습니다.
     </p>
   </div>
   <div class="flex max:sm:flex-wrap sm:-mx-6 mb-32 relative pt-10px sm:pt-24">

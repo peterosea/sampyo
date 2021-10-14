@@ -2,13 +2,13 @@
 <div class="container xl:max-w-screen-xl mx-auto">
   <section class="mb-70px sm:mb-32">
     <div class="page__level-title mb-10">
-      종합철도엔지니어링의 전문가들이 만드는 미래
+      종합철도엔지니어링의 전문가들이 새로운 미래를 만들어갑니다
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-20px mb-30px sm:mb-16 sm:pb-1.5">
       @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-0'])
       <div class="prose">
         <p>
-          철도 기술연구소는 국내철도산업 발전을 위해 2001년 설립되어 궤도분야 전문가로 구성된 연구원들이 철도의 안정성 및 성능 향상을 위해 다양한 연구활동을 수행하고 있습니다.<br/>
+          철도기술연구소는 2001년 국내 철도산업발전을 위해 설립되었으며, 궤도분야 전문가로 구성된 연구원들이 철도의 안정성 및 성능 향상을 위해 다양한 연구활동을 수행하고 있습니다.<br/>
           세계 네번째 고속철도 운영국에 걸맞게 고속철도용 궤도용품 개발을 진행하여 고속분기기 생산기술 국산화에 성공하였으며, 한국 철도기술을 선진국 수준으로 끌어 올리기 위해 노력하고 있습니다.
         </p>
         <p>
@@ -27,7 +27,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 mb-30px gap-y-20px sm:mb-16 sm:pb-1.5">
         <div class="prose">
           <p>
-            분기기(Turnout,Switch)는 선로전환장치라고도 하며 주행중인 철도차량을 다른 선로로 전환시키는 장치입니다. 궤도에서 가장 중요한 역할을 하는 장치이며, 차량의 안전과 직결되므로 고정밀 설계 제작과 노하우가 가장 많이 필요한 영역입니다. 
+            분기기(Turnout, Switch)는 선로전환장치라고도 하며 주행중인 철도차량을 다른 선로로 전환시키는 장치입니다. 궤도에서 가장 중요한 역할을 하는 장치이며, 차량의 안전과 직결되므로 고정밀 설계 제작과 노하우가 가장 많이 필요한 영역입니다. 
           </p>
         </div>
         <div class="prose">
@@ -74,7 +74,7 @@
     </div>
     <div class="mb-60px sm:mb-28">
       <h3 class="text-2xl font-black underline power mb-8">PSTS 부문</h3>
-      <div class="prose">
+      <div class="prose mb-30px sm:mb-70px">
         PSTS란 슬래브 궤도 시스템으로 공장에서 사전제작 된 슬래브 패널을 현장으로 이동 후 레일, 체결구 등과 조립하여 바로 사용할 수 있는 궤도 시스템으로써, 현장타설식 궤도 시스템 대비 빠른 시공속도, 균일한 품질 확보 및 유지보수 절감 효과, 정밀시공이 가능한 우수한 궤도 시스템입니다.
       </div>
       @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-6'])
@@ -112,19 +112,19 @@
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-3">
         <div class="coverbox-label">
-          @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-6'])
+          @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-7'])
           <span class="label text-white">
             2D 설계
           </span>
         </div>
         <div class="coverbox-label">
-          @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-7'])
+          @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-8'])
           <span class="label text-white">
             3D 설계
           </span>
         </div>
         <div class="coverbox-label">
-          @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-8'])
+          @include('partials.img', ['ex' => 'jpg', 'name' => 'business-'. get_post()->post_name .'-9'])
           <span class="label text-white tracking-tighter">
             3D 프린팅 기술을 활용한 인터페이스 분석
           </span>
