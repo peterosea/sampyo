@@ -1,7 +1,9 @@
 @at-root {
   body.home {
     .header-global {
-      @apply text-white;
+      @media (min-width: theme('screens.lg')) {
+        @apply text-white;
+      }
 
       &-search {
         color: #fff;
