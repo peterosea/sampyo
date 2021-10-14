@@ -24,7 +24,9 @@
           </div>
         @endforeach
         <div class="hero-slide-wrap">
-          <video src="{!! $heroVideo !!}" autoplay muted loop></video>
+          <video autoplay loop muted playsinline>
+            <source src="{!! $heroVideo !!}" type="video/mp4">
+          </video>
         </div>
       </div>
       <div class="hero-slide-pagination swiper-pagination"></div>

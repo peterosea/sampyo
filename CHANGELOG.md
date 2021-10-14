@@ -5,6 +5,14 @@
 
 
 
+## [v1.2.3] 2021-10-14
+
+### Fixed
+
+- submenu padding (peterosea/sampyo#27)
+- sampyo 포스트타입 명변경
+- main video autoplay
+
 ## [v1.2.2] 2021-10-14
 
 ### Chagned
