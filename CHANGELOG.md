@@ -5,6 +5,15 @@
 
 
 
+## [v1.2.2] 2021-10-14
+
+### Chagned
+
+- main
+  - hero xl style
+  - section2 lg break point
+  - section2 lg - xl width 비율
+
 ## [v1.2.1] 2021-10-14
 
 ### Chagned

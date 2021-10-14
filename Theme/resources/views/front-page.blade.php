@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="section hero">
-  <div class="container mx-auto px-0">
+  <div class="xl:container mx-auto px-0">
     <div class="swiper-container hero-slide">
       <div class="swiper-wrapper">
         @foreach ($heroSlide as $item)
@@ -78,8 +78,8 @@
       </div>
     </div>
     <div class="container mx-auto">
-      <div class="flex sm:py-32 flex-wrap">
-        <div class="w-full order-2 sm:order-1 sm:w-3/5 text-white">
+      <div class="flex lg:py-32 flex-wrap">
+        <div class="w-full order-2 lg:order-1 lg:w-1/2 xl:w-3/5 text-white">
           <div id="swiperContentRoot" class="h-full">
             <div class="swiper-wrapper">
               @foreach ($newsroom as $id => $pt)
@@ -129,8 +129,8 @@
             </div>
           </div>
         </div>
-        <div class="w-full order-1 sm:order-2 sm:w-2/5 relative">
-          <div class="box-content py-8 sm:py-16 px-10 sm:px-20 bg-white sm:bg-transparent">
+        <div class="w-full order-1 lg:order-2 lg:w-1/2 xl:w-2/5 relative">
+          <div class="box-content py-8 lg:py-16 px-40px lg:px-20 bg-white lg:bg-transparent">
             <div class="box-content-inner">
               <ul id="tab" class="flex tab-wrap">
                 <li data-id="blog" class="tab-item active">
@@ -143,7 +143,7 @@
                   <a href="javascript:;">공지</a>
                 </li>
               </ul>
-              <div id="tab-content" class="hidden sm:block">
+              <div id="tab-content" class="hidden lg:block">
                 @foreach ($newsroom as $id => $pt)
                   <ul id="postBox" data-id="{{$id}}" @if ($id === "blog") class="active" @endif>
                     @foreach ($pt as $key=>$post)

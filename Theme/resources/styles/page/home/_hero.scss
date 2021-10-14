@@ -12,7 +12,7 @@
   overflow: hidden;
   padding-bottom: 0;
 
-  > .container {
+  > [class*='container'] {
     @media (min-width: theme('screens.2xl')) {
       max-width: 1920px;
     }
