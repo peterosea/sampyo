@@ -111,9 +111,10 @@
   <ul class="items-fixed-wrap" x-data="{
     selected: {!!$selected !!}
   }">
+    @php($index = 0)
     @foreach ($fixedMenu as $item)
       @if ($item->term_taxonomy_id)
-        <li class="items-fixed-item">
+        <li class="items-fixed-item @if ($index === 3) order-1 @else order-{!! $index !!} @endif">
           <a href="javascript:;" 
             @click="selected !== {!! $item->term_taxonomy_id !!} ? selected = {!! $item->term_taxonomy_id !!} : selected = null"
             @if ($item->term_taxonomy_id === $selected) class="current" @endif
@@ -131,14 +132,17 @@
           @endif
         </li>
       @else
-        <li class="items-fixed-item">
-          @if ($item->ID === 312)
-            <a href="https://sampyo.recruiter.co.kr/" target="_blank" rel="noopener noreferrer">{!! $item->post_title !!}</a>
-          @else
+        @if ($item->ID === 312)
+          <li class="items-fixed-item order-4">
+          <a href="https://sampyo.recruiter.co.kr/" target="_blank" rel="noopener noreferrer">{!! $item->post_title !!}</a>
+          </li>
+        @else
+          <li class="items-fixed-item order-{!! $index !!}">
             <a href="{!! $item->permalink !!}" @if ($item->ID === get_the_ID()) class="current" @endif>{!! $item->post_title !!}</a>
-          @endif
-        </li>
+          </li>
+        @endif
       @endif
+      @php($index++)
     @endforeach
   </ul>
 </nav>
