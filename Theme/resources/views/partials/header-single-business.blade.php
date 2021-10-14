@@ -91,7 +91,7 @@
           <div class="header-archive-nav bg-transparent labtop:translate-y-1/2 max:labtop:top-full max:labtop:bottom-auto">
             <ul>
               <li class="items-block-item-2 max:sm:w-full">
-                <a class="text-white" href="{!! $acf['outlink'] !!}">홈페이지 바로가기</a>
+                <a href="{!! $acf['outlink'] !!}" target="_blank" rel="noopener noreferrer" class="text-white">홈페이지 바로가기</a>
               </li>
             </ul>
           </div>
