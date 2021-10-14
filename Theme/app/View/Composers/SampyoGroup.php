@@ -12,7 +12,7 @@ class SampyoGroup extends Composer
      * @var array
      */
     protected static $views = [
-        'partials.content-single-sampyo-group',
+        'partials.content-single-sampyo',
     ];
 
     /**
