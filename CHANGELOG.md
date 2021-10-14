@@ -5,6 +5,12 @@
 
 
 
+## [v1.2.1] 2021-10-14
+
+### Chagned
+
+- business fixed-menu에서 블루콘 제거
+
 ## [v1.2.0] 2021-10-14
 
 ### Changed
