@@ -55,7 +55,7 @@ class SampyoGroup extends Composer
     {
         $termsHierarchy = array();
         $posts = get_posts([
-          'post_type' => 'sampyo-group',
+          'post_type' => 'sampyo',
           'hide_empty' => false,
           'numberposts' => 99,
         ]);
