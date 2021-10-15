@@ -3,6 +3,21 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.3.0] 2021-10-15
+
+### Fixed
+
+- github action yaml git pull error 수정
+
+### Changed
+
+- `li/_single-1` prose 내부 list가 아니더라도 스타일 적용
+
+### Added
+
+- 404 페이지 layout
+- 비즈니스 - 물류
+
 ## [v1.2.7] 2021-10-15
 
 ### Added
