@@ -5,7 +5,6 @@ on:
 jobs:
   source:
     runs-on: ubuntu-latest
-    # if: ${{ github.event.repository.owner.name == 'peterosea' }}
     name: 📮 Github 소스코드로 업데이트 `git pull origin main`
     steps:
       - name: executing remote ssh commands using password
@@ -17,11 +16,13 @@ jobs:
           port: ${{ secrets.DEPLOYSERVER_PORT }}
           script: |
             cd www
+            git fetch origin
+            git checkout main
+            git branch | grep 'release/*' | xargs git branch -D
             git pull origin main
 
   build:
     runs-on: ubuntu-latest
-    # if: ${{ github.event.repository.owner.name == 'peterosea' }}
     name: 🗳 Theme source build & rsync
     steps:
       - uses: actions/checkout@v2
