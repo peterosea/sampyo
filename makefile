@@ -1,3 +1,5 @@
+test:
+	git push upstream release/$v
 release:
 	git commit -m ":memo: $v changelog"
 	git checkout main
