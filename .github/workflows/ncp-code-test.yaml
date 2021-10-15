@@ -1,4 +1,4 @@
-name: 🚛 static code deploy
+name: 🚛 (release test) static code deploy
 on:
   push:
     branches: [release/*]
