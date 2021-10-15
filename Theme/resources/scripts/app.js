@@ -36,12 +36,12 @@ const routes = new Router({
   readyMix,
   sampyoTechCenter: readyMix,
   blueCon: readyMix,
-  distribution: readyMix,
   csr,
   phcPile,
   mindset,
   evaluation,
   talentDev,
+  distribution: evaluation,
 });
 
 // Load Events
