@@ -19,7 +19,7 @@
       </p>
     </div>
   </div>
-  @include('partials.img', ['ex' => 'jpg', 'name' => 'dji-0232-sample'])
+  @include('partials.img', ['ex' => 'jpg', 'name' => 'business-cement-0'])
   <div class="mb-70px sm:mb-32"></div>
   <div class="coverbox-full left pb-32 pt-24 mb-60px sm:mb-28">
     <div class="page__level-title mb-30px sm:mb-11">
@@ -30,7 +30,7 @@
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 max:sm:gap-y-30px">
       <div class="max:sm:justify-self-center">
-        @include('partials.img', ['ex' => 'jpg', 'name' => '5387'])
+        @include('partials.img', ['ex' => 'jpg', 'name' => 'business-cement-1'])
       </div>
       <div class="self-center">
         <p>이러한 경험을 바탕으로, ESG 경영 체제로의 전환을 위해 친환경 사업을 정관상 목적사업으로 추가하는 한편, 환경오염물 배출 저감을 위한 환경개선설비, 폐플라스틱, 폐비닐 등의 순환자원 활용을 통해 온실가스 배출량을 저감할 수 있는 순환자원처리시설 및 기존 폐열 발전설비 보강 등 친환경 사업에 관한 투자를 확충하고 있습니다.</p>
