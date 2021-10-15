@@ -5,6 +5,18 @@
 
 
 
+## [v1.2.5] 2021-10-15
+
+### Fixed
+
+- mobile fixed menu toggle 버그
+- career 에서 1depth fixed menu label이름이 2depth 메뉴랑 동일하게 나오는 이슈
+
+### Chagned
+
+- 메인페이지 뉴스룸에서 공지가 표시된느 것 제거
+- footer gap-y
+
 ## [v1.2.4] 2021-10-14
 
 ### Fixed

@@ -8,8 +8,8 @@
     구성원은 각자의 역량 수준에 따라 개인별로 차별화된 육성계획을 세우고, 각자의 성장경로에 맞는 교육에 참여합니다.
   </p>
   <div class="pb-30px sm:pb-20"></div>
-  <div class="flex -mx-9">
-    <div class="w-1/3 px-9">
+  <div class="relative">
+    <div id="tdOriginal" class="grid grid-cols-3 gap-x-18 z-0 sm:z-10 invisible sm:visible absolute left-0 top-0">
       <div class="card__s1 gap-9">
         <div class="card__s1-thumbnail_">
             @include('partials.img', ['ex' => 'png', 'name' => 'career-training-1'])
@@ -26,8 +26,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="w-1/3 px-9">
       <div class="card__s1 gap-9">
         <div class="card__s1-thumbnail_">
             @include('partials.img', ['ex' => 'png', 'name' => 'career-training-2'])
@@ -44,8 +42,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="w-1/3 px-9">
       <div class="card__s1 gap-9">
         <div class="card__s1-thumbnail_">
             @include('partials.img', ['ex' => 'png', 'name' => 'career-training-3'])
@@ -63,8 +59,11 @@
         </div>
       </div>
     </div>
+    <div id="tdSwiper" class="z-10 sm:z-0 sm:invisible overflow-hidden">
+      <div class="swiper-pagination pagination__s1 static mt-7 pt-0.5"></div>
+    </div>
   </div>
-  <div class="mb-16"></div>
+  <div class="mb-30px sm:mb-16"></div>
   <div class="coverbox-full-fixedHeight left pt-16" style="--h: 291px">
     <div class="font-bold underline power text-2xl mb-5">
       삼표연수원
@@ -73,12 +72,11 @@
       삼표는 2009년 그룹 전용연수원을 건립하고 인재양성을 위한 다양한 교육프로그램을 시행하고 있습니다.
     </p>
     <div class="mb-16"></div>
-    <div class="grid grid-cols-2 gap-y-2.5 gap-x-12">
-      {{-- start col --}}
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-9 sm:gap-y-2.5 gap-x-12">
       <div>
         @include('partials.img', ['ex' => 'jpg', 'name' => 'career-training-4'])
       </div>
-      <div class="flex flex-col justify-end pb-12 prose">
+      <div class="flex flex-col justify-end pb-30px sm:pb-12 prose">
         <div class="font-bold text-xl">
           교육시설
         </div>
@@ -86,12 +84,10 @@
           삼표연수원은 60명 규모의 대강의장, 30명 규모의 중강의장 그리고 20명 규모의 소강의장까지 총 3개의 교육실로 구성되어 있습니다.
         </p>
       </div>
-      {{-- end col --}}
-      {{-- start col --}}
       <div>
         @include('partials.img', ['ex' => 'jpg', 'name' => 'career-training-5'])
       </div>
-      <div class="flex flex-col justify-end pb-12 prose">
+      <div class="flex flex-col justify-end pb-30px sm:pb-12 prose">
         <div class="font-bold text-xl">
           연수시설
         </div>
@@ -99,12 +95,10 @@
           삼표연수원의 객실은 3개의 2인용 침실, 6개의 온돌방으로 구성되어 있습니다. 온돌방은 5~6인이 수용되는 넓은 공간을 확보하고 있습니다.
         </p>
       </div>
-      {{-- end col --}}
-      {{-- start col --}}
       <div>
         @include('partials.img', ['ex' => 'jpg', 'name' => 'career-training-6'])
       </div>
-      <div class="flex flex-col justify-end pb-12 prose">
+      <div class="flex flex-col justify-end pb-30px sm:pb-12 prose">
         <div class="font-bold text-xl">
           부대시설
         </div>
@@ -112,7 +106,6 @@
           경상북도 경주에 위치한 삼표연수원은 총 3,000평의 넓은 대지면적에 족구장과 캠프파이어장을 갖추고 있습니다.
         </p>
       </div>
-      {{-- end col --}}
     </div>
   </div>
   <div class="mb-70px sm:mb-32"></div>
@@ -122,11 +115,10 @@
   <p>
     삼표는 사이버연수원을 통해 시간과 공간의 제약없이 학습할 수 있는 온라인 교육 시스템을 운영하고 있습니다.
   </p>
-  <div class="mb-16"></div>
+  <div class="mb-30px sm:mb-16"></div>
   @include('partials.img', ['ex' => 'jpg', 'name' => 'career-training-7'])
-  <div class="mb-16"></div>
-  <div class="grid grid-cols-2 gap-12">
-    {{-- start col --}}
+  <div class="mb-30px sm:mb-16"></div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
     <div>
       <div class="font-bold text-xl mb-2.5">
         삼표교육 소개
@@ -143,8 +135,6 @@
         교육훈련신청서/보고서/불참사유서
       </p>
     </div>
-    {{-- end col --}}
-    {{-- start col --}}
     <div>
       <div class="font-bold text-xl mb-2.5">
         온라인 과정
@@ -165,7 +155,6 @@
         </ul>
       </div>
     </div>
-    {{-- end col --}}
   </div>
   <div class="pb-70px sm:pb-24"></div>
 </div>

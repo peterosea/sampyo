@@ -101,10 +101,8 @@
       </div>
     </div>
     <div class="mb-60px sm:mb-28">
-      <div class="text-2xl mb-8">
-        <span class="pointUnderLine">
-          특히, 삼표는 이 분야에서 특허를 다수 보유하고 있습니다.
-        </span>
+      <div class="text-20px mb-8 font-bold">
+        특히, 삼표는 이 분야에서 특허를 다수 보유하고 있습니다.
       </div>
       <div class="prose">
         <ul>

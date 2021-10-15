@@ -1,5 +1,5 @@
 <footer id="global" class="footer-global sm:px-12 sm:py-14 bg-blackout text-white" x-data="{pop_newsletter: false}">
-  <div class="flex flex-wrap justify-between sm:mb-6 mb-30px">
+  <div class="flex flex-wrap justify-between sm:mb-6 mb-30px gap-y-14px">
     <div class="w-full sm:w-auto order-2 px-8 pt-8 sm:p-0 sm:order-1">
       <div class="block sm:hidden mb-21px">
         @include('partials.list-sns')
@@ -82,7 +82,7 @@
       </div>
     </div>
   </div>
-  <div class="flex items-center justify-between flex-wrap">
+  <div class="flex items-center justify-between flex-wrap gap-y-14px">
     <div class="w-full sm:w-auto px-8 pb-8 sm:p-0">
       {!! wp_nav_menu(['menu' => 'footer sub', 'menu_class' => 'footer-global-navSub flex-wrap gap-y-1', 'echo' => false]) !!}
       <div class="footer-global-copylight">

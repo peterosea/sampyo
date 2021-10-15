@@ -41,7 +41,7 @@
     </div>
     <div class="home__s1-header">
       <div class="home__s1-title text-36px sm:text-6xl font-black mb-15px">비즈니스</div>
-      <p class="home__s1-header-content">끊임없는 도전과 창조적인 혁신을 통해 지속가능한 Building Materials의 기초를 만들어갑니다.</p>
+      <p class="home__s1-header-content break-words">끊임없는 도전과 창조적인 혁신을 통해 지속가능한 Building Materials의 기초를 만들어갑니다.</p>
     </div>
     <div id="macy-container">
       <div class="home__s1-imgCol-1"></div>
@@ -141,9 +141,9 @@
                 <li data-id="media" class="tab-item">
                   <a href="javascript:;">미디어</a>
                 </li>
-                <li data-id="notice-board" class="tab-item">
+                {{-- <li data-id="notice-board" class="tab-item">
                   <a href="javascript:;">공지</a>
-                </li>
+                </li> --}}
               </ul>
               <div id="tab-content" class="hidden lg:block">
                 @foreach ($newsroom as $id => $pt)

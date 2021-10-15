@@ -8,13 +8,13 @@
   </p>
   <div class="pb-30px sm:pb-20"></div>
   <div class="relative">
-    <div id="mindsetOriginal" class="grid grid-cols-3 gap-x-18 invisible sm:visible absolute left-0 top-0">
+    <div id="mindsetOriginal" class="grid grid-cols-3 gap-x-18px invisible md:visible absolute left-0 top-0">
       <div id="cardWrap">
-        <div class="card__s1 gap-9 max:sm:mx-auto">
-          <div class="card__s1-thumbnail_ max:sm:flex max:sm:justify-center">
+        <div class="card__s1 gap-9 max:lg:mx-auto">
+          <div class="card__s1-thumbnail_ max:lg:flex max:lg:justify-center">
               @include('partials.img', ['ex' => 'png', 'name' => 'career-mindset-1'])
           </div>
-          <div class="card__s1-body sm:items-start text-center sm:text-left gap-5">
+          <div class="card__s1-body lg:items-start text-center lg:text-left gap-5">
             <div class="card__s1-title text-xl font-bold">
               융합형 인재<br/>
               (Synergy Creator)
@@ -26,11 +26,11 @@
         </div>
       </div>
       <div id="cardWrap">
-        <div class="card__s1 gap-9 max:sm:mx-auto">
-          <div class="card__s1-thumbnail_ max:sm:flex max:sm:justify-center">
+        <div class="card__s1 gap-9 max:lg:mx-auto">
+          <div class="card__s1-thumbnail_ max:lg:flex max:lg:justify-center">
               @include('partials.img', ['ex' => 'png', 'name' => 'career-mindset-2'])
           </div>
-          <div class="card__s1-body sm:items-start text-center sm:text-left gap-5">
+          <div class="card__s1-body lg:items-start text-center lg:text-left gap-5">
             <div class="card__s1-title text-xl font-bold">
               전문형 인재 <br/>
               (Value Professional) 
@@ -42,11 +42,11 @@
         </div>
       </div>
       <div id="cardWrap">
-        <div class="card__s1 gap-9 max:sm:mx-auto">
-          <div class="card__s1-thumbnail_ max:sm:flex max:sm:justify-center">
+        <div class="card__s1 gap-9 max:lg:mx-auto">
+          <div class="card__s1-thumbnail_ max:lg:flex max:lg:justify-center">
               @include('partials.img', ['ex' => 'png', 'name' => 'career-mindset-3'])
           </div>
-          <div class="card__s1-body sm:items-start text-center sm:text-left gap-5">
+          <div class="card__s1-body lg:items-start text-center lg:text-left gap-5">
             <div class="card__s1-title text-xl font-bold">
               도전형 인재 <br/>
               (Proactive Challenger)
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-    <div id="mindsetSwiper" class="z-10 sm:z-0 sm:invisible overflow-hidden">
+    <div id="mindsetSwiper" class="z-10 sm:z-0 md:invisible overflow-hidden">
       <div class="swiper-pagination s3 pagination__s1 static mt-7 pt-0.5"></div>
     </div>
   </div>
