@@ -47,7 +47,7 @@
     background-color: #fff;
     border-top: 1px solid rgba(#000, 0.1);
     border-bottom: 1px solid rgba(#000, 0.1);
-    transform: translateY(-100vh);
+    transform: translateY(-120vh);
     transition: transform 0.2s ease-in-out;
     @media (max-width: theme('screens.sm')) {
       height: 100vh;
