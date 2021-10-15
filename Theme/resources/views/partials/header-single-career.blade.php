@@ -1,5 +1,5 @@
 <div class="labtop:overflow-x-hidden header-archive-root2">
-  <div class="labtop:overflow-hidden header-archive-root">
+  <div class="overflow-hidden header-archive-root">
     <header class="header-archive">
       <div class="container xl:max-w-screen-xl mx-auto max:labtop:px-0">
         <div class="header-archive-imgRow">
@@ -25,7 +25,7 @@
                   @if ($item->term_taxonomy_id)
                     <li class="items-fixed-item">
                       <a href="javascript:;" 
-                        @click="selectOption('{!! $item->name !!}'); selected !== {!! $item->term_taxonomy_id !!} ? selected = {!! $item->term_taxonomy_id !!} : selected = null"
+                        @click="selectOption('{!! $item->name !!}'); selected = {!! $item->term_taxonomy_id !!}"
                         class="p-3 block text-lg @if ($item->term_taxonomy_id === get_the_ID()) color-point @endif"
                       >
                         {{ $item->name }}
@@ -93,7 +93,7 @@
           @endif
         </div>
         @if ($queriedCat)
-          <div class="header-archive-nav" style="--atmosphere: var(--bermudagrass)">
+          <div class="header-archive-nav max:labtop:overflow-x-scroll overflow-hidden max:labtop:whitespace-nowrap" no-scrollbar style="--atmosphere: var(--bermudagrass)">
             <ul class="items-block">
               @foreach ($queriedCat as $item)
                 <li class="items-block-item">

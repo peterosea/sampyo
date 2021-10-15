@@ -25,7 +25,7 @@
                   @if ($item->term_taxonomy_id)
                     <li class="items-fixed-item">
                       <a href="javascript:;" 
-                        @click="selectOption('{!! $item->name !!}'); selected !== {!! $item->term_taxonomy_id !!} ? selected = {!! $item->term_taxonomy_id !!} : selected = null"
+                        @click="selectOption('{!! $item->name !!}'); selected = {!! $item->term_taxonomy_id !!}"
                         class="p-3 block text-lg @if ($item->term_taxonomy_id === get_the_ID()) color-point @endif"
                       >
                         {{ $item->name }}
