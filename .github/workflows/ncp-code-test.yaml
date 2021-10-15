@@ -1,4 +1,4 @@
-name: 🚛 static code deploy
+name: 🚛 (release test) static code deploy
 on:
   push:
     branches: [release/*]
@@ -7,9 +7,6 @@ on:
       - "Theme/resources/fonts/**/*"
       - "Theme/resources/images/**/*"
       - "Theme/resources/video/**/*"
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 
 jobs:
   source:
