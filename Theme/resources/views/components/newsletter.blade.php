@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/resource.stibee.com/subscribe/stb_subscribe_form_style.css">
 <div class="newsroom__newsletter-body py-38px sm:py-52px gap-0 sm:gap-4
   @if ($border)
       border-t-4 border-b-4 border-blackout
@@ -17,7 +16,7 @@
       </div>
       <div class="flex gap-1 col-span-1">
         <button id="stb_form_submit_button" type="submit" class="btn btn-dark stb_form_submit_button text-12px sm:text-base">구독 신청<span class="hidden sm:inline">하기</span></button>
-        <a href="https://page.stibee.com/archives/138300" target="_blank" class="btn btn-dark hidden sm:block">지난 뉴스레터 보기</a>
+        {{-- <a href="https://page.stibee.com/archives/138300" target="_blank" class="btn btn-dark hidden">지난 뉴스레터 보기</a> --}}
       </div>
       <div class="col-span-3 flex justify-end">
         <div id="stb_subscribe" style="all: unset;">
