@@ -24,5 +24,5 @@ jobs:
           script: |
             cd www
             git fetch origin
-            git pull origin ${GITHUB_REF##*/}
             git checkout ${GITHUB_REF##*/}
+            git pull origin ${GITHUB_REF##*/}
