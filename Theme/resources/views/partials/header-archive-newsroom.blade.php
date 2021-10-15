@@ -6,7 +6,7 @@
           @include('partials.img', ['ex' => 'jpg', 'name' => 'header-'.get_post_type(), 'class' => 'header-archive-img'])
         </div>
         <div class="header-archive-content max:labtop:px-8 max:sm:w-full">
-          <div x-data="select({label: '{!! $title !!}', selected: {!! $selected !!}})" class="w-full relative mb-30px labtop:hidden flex">
+          <div x-data="select({label: '{!! $fixedMenuLabel !!}', selected: {!! $selected !!}})" class="w-full relative mb-30px labtop:hidden flex">
             <div class="depth-1 relative flex-1">
               <button class="flex items-center justify-between w-full px-3 py-3 text-left border focus:outline-none @if (get_post_type() !== 'notice-board') border-r-0 @endif"
                 @click="toggle()"
@@ -18,9 +18,11 @@
               </button>
               <ul x-show="dropdown" x-cloak class="absolute w-full z-50 shadow divide-y bg-white">
                 @foreach ($fixedMenu as $item)
-                  <li class="items-fixed-item">
-                    <a href="{!! $item->permalink !!}" class="p-3 block text-lg">{!! $item->label !!}</a>
-                  </li>
+                  @if ($item->label !== $title)
+                    <li class="items-fixed-item">
+                      <a href="{!! $item->permalink !!}" class="p-3 block text-lg">{!! $item->label !!}</a>
+                    </li>
+                  @endif
                 @endforeach
               </ul>
             </div>
