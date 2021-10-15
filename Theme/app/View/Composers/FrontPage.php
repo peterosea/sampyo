@@ -143,7 +143,7 @@ class FrontPage extends Composer
         return array(
           'blog' => $blog,
           'media' => $media,
-          'noticeBoard' => $noticeBoard,
+          // 'noticeBoard' => $noticeBoard,
         );
     }
 
@@ -152,7 +152,7 @@ class FrontPage extends Composer
         return [
         'blog' => 'td-00860074816',
         'media' => 'twi-001-t-3092049',
-        'noticeBoard' => 'td-00860074816',
+        // 'noticeBoard' => 'td-00860074816',
       ];
     }
 
