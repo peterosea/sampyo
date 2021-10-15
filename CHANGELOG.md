@@ -3,7 +3,19 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.2.7] 2021-10-15
 
+### Added
+
+- makefile에서 test 스크립트 추가 (release 브랜치 푸시로 github action 실행)
+- github action release 브랜치 이동 QA
+
+### Changed
+
+- 뉴스레터 지난 뉴스레터 버튼 숨김 (peterosea/smapyo#30)
+- 비즈니스 - 시멘트 이미지 변경
+- 사회공헌 이미지 변경
+- 그룹연혁 이미지 변경
 
 ## [v1.2.6] 2021-10-15
 
