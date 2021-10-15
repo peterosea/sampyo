@@ -8,7 +8,7 @@ on:
       - "Theme/resources/images/**/*"
       - "Theme/resources/video/**/*"
   push:
-    branches: [main, release/*]
+    branches: [main]
     paths:
       - "Theme/resources/views/**/*"
       - "Theme/resources/fonts/**/*"
