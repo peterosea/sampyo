@@ -32,6 +32,10 @@ article {
 
   .prose {
     max-width: none;
+
+    figure {
+      max-width: 100%;
+    }
   }
 
   footer {
