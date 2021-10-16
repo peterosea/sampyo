@@ -5,6 +5,12 @@
 
 ## [v1.3.0] 2021-10-15
 
+### Added
+
+- prose figure max-wdith 추가
+
+## [v1.3.0] 2021-10-15
+
 ### Fixed
 
 - github action yaml git pull error 수정
