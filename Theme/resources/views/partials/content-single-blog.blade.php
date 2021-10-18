@@ -1,4 +1,5 @@
 @include('partials.header-archive-newsroom')
+@include('partials.nav-fixed')
 <main class="page__layout">
 <div class="container mx-auto xl:max-w-screen-xl">
   <article @php(post_class())>
