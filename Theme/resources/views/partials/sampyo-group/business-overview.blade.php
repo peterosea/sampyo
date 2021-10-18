@@ -1,3 +1,5 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
 <main class="sampyoGroup__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
   <div class="page__level-title mb-30px sm:mb-16 pb-1.5">
@@ -30,11 +32,27 @@
   <h2 class="text-point text-lg sm:text-2xl text-center mb-30px sm:mb-20">
     자원의 순환을 통해 새로운 가치를 계속 창출함으로써 지속 가능한 세상의 실현을 앞당깁니다
   </h2>
-  @include('partials.img', ['ex' => 'png', 'name' => 'sampyo-group-business-1', 'class' => 'mx-auto hidden sm:block'])
   <img
-    src="@php echo get_theme_file_uri('resources/images/sampyo-group-business-2.jpg') @endphp"
+    class="mx-auto hidden sm:block max-w-full"
+    src="{{ get_theme_file_uri('resources/images/sampyo-group-business-1.png') }}"
     alt=""
-    class="mx-auto block sm:hidden mb-12"
+    usemap="#image-map"ㅁ
   >
+  <map name="image-map">
+    <area alt="시멘트" title="시멘트" href="{!! get_the_permalink(166) !!}" coords="110,297,171,320" shape="rect">
+    <area alt="골재" title="골재" href="{!! get_the_permalink(163) !!}" coords="111,324,165,348" shape="0">
+    <area alt="분체" title="분체" href="{!! get_the_permalink(165) !!}" coords="112,357,164,379" shape="0">
+    <area alt="몰탈" title="몰탈" href="{!! get_the_permalink(164) !!}" coords="117,385,159,413" shape="0">
+    <area alt="레미콘" title="레미콘" href="{!! get_the_permalink(176) !!}" coords="360,293,427,318" shape="0">
+    <area alt="프리캐스트" title="프리캐스트" href="{!! get_the_permalink(178) !!}" coords="353,326,444,348" shape="0">
+    <area alt="파일" title="파일" href="{!! get_the_permalink(340) !!}" coords="369,355,420,381" shape="0">
+    <area alt="철도" title="철도" href="{!! get_the_permalink(181) !!}" coords="633,293,676,319" shape="0">
+    <area alt="물류" title="물류" href="{!! get_the_permalink(180) !!}" coords="633,325,674,351" shape="0">
+    <area alt="환경자원" title="환경자원" href="{!! get_the_permalink(174) !!}" coords="874,291,957,322" shape="0">
+  </map>
+  @include('partials.img', ['ex' => 'png', 'name' => 'sampyo-group-business-2', 'class' => 'mx-auto block sm:hidden mb-12'])
 </div>
 </main>
+<script>
+  $('img[usemap]').rwdImageMaps()
+</script>
