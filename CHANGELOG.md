@@ -3,7 +3,17 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
-## [v1.4.0] 2021-10-18
+## [v1.4.1] 2021-10-19
+
+### Changed
+
+- tailwind css mode jit
+
+### Fixed
+
+- 개인정보 처리방침 페이지 템플릿 여백오류 수정
+
+## [v1.4.0] 2021-10-19
 
 ### Added
 
