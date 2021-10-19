@@ -4,13 +4,8 @@ const colorReset = {
   color: null,
 };
 
-function devConfig() {
-  if (process.env.NODE_ENV === 'development') return { mode: 'jit' };
-  return {};
-}
-
 module.exports = {
-  ...devConfig(),
+  mode: 'jit',
   purge: {
     content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
   },
