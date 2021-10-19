@@ -16,6 +16,7 @@ class Post extends Composer
         'partials.header-newsroom',
         'partials.content',
         'partials.content-*',
+        'partials.header-template',
     ];
 
     /**

@@ -1,13 +1,13 @@
 <main class="career__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="page__level-title mb-30px sm:mb-8">
+  <div class="page__level-title mb-[30px] sm:mb-8">
     신입사원 채용 프로세스
   </div>
   <div class="mb-14"></div>
-  <div class="max:sm:overflow-x-scroll max:sm:pb-16px" no-scrollbar>
+  <div class="max:sm:overflow-x-scroll max:sm:pb-[16px]" no-scrollbar>
     <ul class="flex gap-x-2.5">
       @foreach (['지원서 접수', '서류전형', '인성검사', '면접전형', '건강검진', '최종합격'] as $key => $item)
-      <li class="flex-1 min-w-100px">
+      <li class="flex-1 min-w-[100px]">
         <div class="card__house bg-lighthouse right mb-3">
           <div class="card__house-inner h-24 flex flex-col items-center justify-center p-8">
             <img src="{{ get_theme_file_uri('resources/images/career-hiringprocess-'. $key .'.svg') }}" alt="">
@@ -22,8 +22,8 @@
       @endforeach
     </ul>
   </div>
-  <div class="pb-30px sm:pb-20"></div>
-  <div class="grid sm:grid-flow-col grid-cols-1 sm:grid-cols-2 sm:grid-rows-3 gap-x-12 gap-y-30px sm:gap-y-11">
+  <div class="pb-[30px] sm:pb-20"></div>
+  <div class="grid sm:grid-flow-col grid-cols-1 sm:grid-cols-2 sm:grid-rows-3 gap-x-12 gap-y-[30px] sm:gap-y-11">
     @foreach ([
       [
         "title" => "지원서 접수",
@@ -60,7 +60,7 @@
       </div>
     @endforeach
   </div>
-  <div class="pb-70px sm:pb-24"></div>
+  <div class="pb-[70px] sm:pb-24"></div>
   <div class="page__level-title mb-5">
     경력사원 채용 프로세스
   </div>
@@ -68,7 +68,7 @@
     기본적인 채용 프로세스는 서류전형, 인성검사, 면접전형, 건강검진으로 진행되며 진행방식과 내용은 대졸 신입채용과 동일합니다.
 ​세부사항(채용대상 및 자격기준 등)은 경력사원 채용 시 게시되는 경력사원 모집공고를 참고하시기 바랍니다.
   </p>
-  <div class="pb-70px sm:pb-24"></div>
+  <div class="pb-[70px] sm:pb-24"></div>
   <div class="page__level-title mb-5">
     상시 채용 안내
   </div>
@@ -76,8 +76,8 @@
     삼표그룹에서 열정적이고 도전정신을 갖춘 여러분의 지원서를 기다리고 있습니다. 등록된 지원서는 특정 직무의 채용 발생시 공고 전, 우선적으로 검토됩니다.
 내부 채용발생시 DB 검토를 통하여 개별 연락을 드리고 있습니다.
   </p>
-  <div class="pb-70px sm:pb-24"></div>
+  <div class="pb-[70px] sm:pb-24"></div>
   <a href="https://sampyo.recruiter.co.kr" class="inline-block p-16 bg-artificialTurf text-white font-black text-lg">채용공고 바로가기</a>
-  <div class="pb-70px sm:pb-24"></div>
+  <div class="pb-[70px] sm:pb-24"></div>
 </div>
 </main>
