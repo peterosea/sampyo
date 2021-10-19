@@ -62,6 +62,9 @@
                           @endif
                           <div class="flex pb-1.5">
                             @foreach ($c as $index => $v)
+                              @if ($index === 'full')
+                                @continue
+                              @endif
                               {{ $v }} @if ($index == 'name') : @endif
                             @endforeach
                           </div>
