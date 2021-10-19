@@ -5,11 +5,13 @@ on:
     paths:
       - "Theme/resources/styles/**/*"
       - "Theme/resources/scripts/**/*"
+      - "Theme/tailwind.config.js"
   push:
     branches: [main, release/*]
     paths:
       - "Theme/resources/styles/**/*"
       - "Theme/resources/scripts/**/*"
+      - "Theme/tailwind.config.js"
 
 jobs:
   build:
