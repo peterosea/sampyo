@@ -9,7 +9,7 @@
   </p>
   <div class="pb-[30px] sm:pb-20"></div>
   <div class="relative">
-    <div id="tdOriginal" class="grid grid-cols-3 gap-x-18 z-0 sm:z-10 invisible sm:visible absolute left-0 top-0">
+    <div id="tdOriginal" class="grid grid-cols-3 gap-x-18 z-0 sm:z-10 invisible sm:visible absolute left-0 top-0 w-full gap-x-[20px]">
       <div class="card__s1 gap-9">
         <div class="card__s1-thumbnail_">
             @include('partials.img', ['ex' => 'png', 'name' => 'career-training-1'])

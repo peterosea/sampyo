@@ -36,7 +36,7 @@
   </section>
   <section class="mb-[30px] sm:mb-20">
     <div class="page__level-title mb-10">
-      삼표가 처음부터 끝까지 책입집니다
+      삼표가 처음부터 끝까지 책임집니다
     </div>
     <div class="prose mb-[60px] sm:mb-28 pb-2">
       <p>

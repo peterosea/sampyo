@@ -134,7 +134,7 @@
       @else
         @if ($item->ID === 312)
           <li class="items-fixed-item order-4">
-          <a href="https://sampyo.recruiter.co.kr/" target="_blank" rel="noopener noreferrer">{!! $item->post_title !!}</a>
+          <a href="{!! $recruiter !!}/" target="_blank" rel="noopener noreferrer">{!! $item->post_title !!}</a>
           </li>
         @else
           <li class="items-fixed-item order-{!! $index !!}">
