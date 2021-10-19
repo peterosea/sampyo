@@ -9,7 +9,6 @@ module.exports = {
   purge: {
     content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
   },
-  darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
       screens: {

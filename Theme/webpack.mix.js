@@ -34,9 +34,9 @@ mix
   .autoload({ jquery: ['$', 'window.jQuery'] })
   .extract();
 
-// mix
-//   .copyDirectory('resources/images', 'public/images')
-//   .copyDirectory('resources/fonts', 'public/fonts');
+mix
+  .copyDirectory('resources/images', 'public/images')
+  .copyDirectory('resources/fonts', 'public/fonts');
 
 mix.webpackConfig({
   module: {

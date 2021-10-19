@@ -21,7 +21,7 @@
       </h1>
       <div class="border border-dugong p-[30px] lg:p-[60px] prose text-[14px] tracking-[-0.17px]">
         <div class="mb-[40px]">
-          <h2 class="!text-[18px] !mb-[30px] font-bold">01. 개인정보의 수집 및 이용목적</h2>
+          <h2 class="!text-[18px] !mb-[30px] font-bold !mt-0">01. 개인정보의 수집 및 이용목적</h2>
           <p>
             본 사이트는 고객이 별도의 회원가입 절차 없이 컨텐츠에 자유롭게 접근할 수 있습니다. 다만 회사는 다음의 목적을 위해 고객의 개인정보를 일부 수집하고 있습니다.
           </p>
