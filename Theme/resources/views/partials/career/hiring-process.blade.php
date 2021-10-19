@@ -64,20 +64,24 @@
   <div class="page__level-title mb-5">
     경력사원 채용 프로세스
   </div>
-  <p>
-    기본적인 채용 프로세스는 서류전형, 인성검사, 면접전형, 건강검진으로 진행되며 진행방식과 내용은 대졸 신입채용과 동일합니다.
-​세부사항(채용대상 및 자격기준 등)은 경력사원 채용 시 게시되는 경력사원 모집공고를 참고하시기 바랍니다.
-  </p>
+  <div class="prose">
+    <p>
+      기본적인 채용 프로세스는 서류전형, 인성검사, 면접전형, 건강검진으로 진행되며 진행방식과 내용은 대졸 신입채용과 동일합니다.<br/>
+      세부사항(채용대상 및 자격기준 등)은 경력사원 채용 시 게시되는 경력사원 모집공고를 참고하시기 바랍니다.
+    </p>
+  </div>
   <div class="pb-[70px] sm:pb-24"></div>
   <div class="page__level-title mb-5">
     상시 채용 안내
   </div>
-  <p>
-    삼표그룹에서 열정적이고 도전정신을 갖춘 여러분의 지원서를 기다리고 있습니다. 등록된 지원서는 특정 직무의 채용 발생시 공고 전, 우선적으로 검토됩니다.
-내부 채용발생시 DB 검토를 통하여 개별 연락을 드리고 있습니다.
-  </p>
+  <div class="prose">
+    <p>
+      삼표그룹에서 열정적이고 도전정신을 갖춘 여러분의 지원서를 기다리고 있습니다. 등록된 지원서는 특정 직무의 채용 발생시 공고 전, 우선적으로 검토됩니다.<br/>
+      내부 채용발생시 DB 검토를 통하여 개별 연락을 드리고 있습니다.
+    </p>
+  </div>
   <div class="pb-[70px] sm:pb-24"></div>
-  <a href="https://sampyo.recruiter.co.kr" class="inline-block p-16 bg-artificialTurf text-white font-black text-lg">채용공고 바로가기</a>
+  <a href="{!! $recruiter !!}" class="inline-block p-16 bg-artificialTurf text-white font-black text-lg">채용공고 바로가기</a>
   <div class="pb-[70px] sm:pb-24"></div>
 </div>
 </main>

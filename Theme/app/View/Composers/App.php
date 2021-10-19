@@ -27,6 +27,7 @@ class App extends Composer
             'siteName' => $this->siteName(),
             'siteLogo' => $this->siteLogo(),
             'siteSubMenu' => $this->siteSubMenu(),
+            'recruiter' => $this->recruiter,
         ];
     }
 
@@ -57,6 +58,8 @@ class App extends Composer
 
         return $nav;
     }
+
+    public $recruiter = 'https://sampyo.recruiter.co.kr';
 }
 
 class WPDocs_Walker_Nav_Menu extends Walker_Nav_Menu

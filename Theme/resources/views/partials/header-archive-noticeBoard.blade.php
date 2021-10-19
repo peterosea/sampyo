@@ -35,7 +35,7 @@
                 @else
                   <li class="items-fixed-item px-3 py-2 text-gray-600">
                     @if ($item->ID === 312)
-                      <a href="https://sampyo.recruiter.co.kr/" target="_blank" rel="noopener noreferrer">{!! $item->post_title !!}</a>
+                      <a href="{!! $recruiter !!}/" target="_blank" rel="noopener noreferrer">{!! $item->post_title !!}</a>
                     @else
                       <a href="{!! $item->permalink !!}" @if ($item->ID === get_the_ID()) class="current" @endif>{!! $item->post_title !!}</a>
                     @endif

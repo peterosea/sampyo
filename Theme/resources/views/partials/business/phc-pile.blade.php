@@ -21,15 +21,11 @@
             PHC 파일(Pretensioned spun High strength Concrete Pile)은 건축 및 토목 구조물의 하중을 지반으로 전달하기 위한 목적으로 기초공사에 사용되는 고강도 콘크리트 말뚝입니다.
           </p>
         </div>
-        <div class="flex mb-5">
-          <div class="w-1/2">
-            @include('partials.img', ['ex' => 'jpg', 'name' => 'business-phc-0'])
-          </div>
-          <div class="w-1/2">
-            @include('partials.img', ['ex' => 'jpg', 'name' => 'business-phc-1'])
-          </div>
+        <div class="grid grid-cols-3 mb-5">
+          @include('partials.img', ['ex' => 'jpg', 'name' => 'business-phc-0'])
+          @include('partials.img', ['ex' => 'jpg', 'name' => 'business-phc-1'])
+          @include('partials.img', ['ex' => 'jpg', 'name' => 'business-phc-2'])
         </div>
-        @include('partials.img', ['ex' => 'jpg', 'name' => 'business-phc-2'])
       </div>
     </section>
     <section class="mb-[30px] sm:mb-20">

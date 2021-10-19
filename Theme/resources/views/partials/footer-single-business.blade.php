@@ -2,7 +2,7 @@
   <div class="container xl:max-w-screen-xl mx-auto sm:py-[120px] max:sm:px-0">
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 relative z-10">
       @if (!empty($acf['outlink']))
-        <div class="max:sm:px-container-x max:sm:py-[40px] max:sm:border-b border-white border-opacity-50">
+        <div class="max:sm:px-container-x py-[30px] sm:py-[40px] max:sm:border-b border-white border-opacity-50">
           <div class="footer__business-body mb-[30px] sm:mb-[60px]">
             <div class="footer__business-title max:sm:text-[18px]">
               홈페이지 바로가기
@@ -19,7 +19,7 @@
         </div>
       @endif
       @if(!empty($acf['area']) && !$acf['address'])
-        <div class="max:sm:px-container-x max:sm:py-[40px]">
+        <div class="max:sm:px-container-x py-[30px] sm:py-[40px]">
           <div class="footer__business-body sm:mb-[60px]">
             <div class="footer__business-title max:sm:text-[18px]">
               사업장 정보
@@ -36,8 +36,8 @@
         </div>
       @endif
       @if ($acf['address'])
-        <div class="@if(!$acf['area'] && !$acf['outlink']) col-span-2 @endif max:sm:px-container-x max:sm:py-[40px]">
-          <div class="footer__business-body sm:mb-[60px]">
+        <div class="@if(!$acf['area'] && !$acf['outlink']) col-span-2 @endif max:sm:px-container-x py-[30px] sm:py-[40px]">
+          <div class="footer__business-body">
             <div class="footer__business-title max:sm:text-[18px]">
               연락하기
             </div>
@@ -57,7 +57,10 @@
                     @if (is_array($item))
                       <div class="flex gap-x-4 flex-wrap">
                         @foreach ($item as $c)
-                          <div class="flex">
+                          @if ($c['full']) 
+                            <div class="w-full"></div>
+                          @endif
+                          <div class="flex pb-1.5">
                             @foreach ($c as $index => $v)
                               {{ $v }} @if ($index == 'name') : @endif
                             @endforeach
