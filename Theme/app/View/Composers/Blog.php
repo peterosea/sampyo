@@ -80,6 +80,12 @@ class Blog extends Composer
 
     public function getFixedMenuLabel()
     {
+        $archive_title = get_the_archive_title();
+        if ($archive_title === '보관함') {
+            $post_type_obj = get_post_type_object(get_post_type());
+            // echo $post_type_obj->labels->singular_name; //Ice Cream.
+            return $post_type_obj->labels->name; //Ice Creams.
+        }
         return get_the_archive_title();
     }
 
