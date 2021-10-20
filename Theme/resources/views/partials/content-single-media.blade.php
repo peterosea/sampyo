@@ -29,7 +29,9 @@
     </header>
   
     <div class="entry-content prose">
-      @php(the_content())
+      <div class="mx-auto max-w-[820px]">
+        @php(the_content())
+      </div>
     </div>
 
     @if (!empty($attechedFiles))
