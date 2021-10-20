@@ -108,7 +108,7 @@
     <div class="newsroom__media">
       <div class="container mx-auto xl:max-w-screen-xl max:sm:px-0">
         <div class="newsroom__media-header max:sm:px-[32px]">
-          <div class="newsroom__media-header-title">프레스</div>
+          <div class="newsroom__media-header-title">미디어</div>
           <div class="newsroom__media-header-arrow">
             <a href="javascript:;" class="btn-arrow prev"></a>
             <a href="javascript:;" class="btn-arrow next"></a>

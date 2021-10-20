@@ -1,6 +1,7 @@
 @include('partials.header-archive-newsroom')
 @include('partials.nav-fixed')
-<div class="container mx-auto xl:max-w-screen-xl">
+<main class="page__layout">
+<div class="container xl:max-w-screen-xl mx-auto">
   <article @php(post_class())>
     <header>
       @if (!empty($categories))
@@ -64,3 +65,4 @@
     @php(comments_template())
   </article>
 </div>
+</main>
