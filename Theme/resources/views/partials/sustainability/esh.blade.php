@@ -34,7 +34,7 @@
     삼표그룹은 산업 재해 예방과 쾌적한 작업 환경 조성을 목적으로 근로자의 안전 및 보건의 유지·증진을 위한 목표를 정하고, 이를 달성하기 위해 조직 ∙ 책임·절차를 규정한 후 기업 내 물적·인적 자원을 효율적으로 배분하여 지속 가능한 환경 안전 경영을 실천하고 있습니다.
   </p>
   <div class="mb-12"></div>
-  <img class="mx-auto" src="@php echo get_theme_file_uri('resources/images/sampyo-group-she-1.jpg') @endphp" alt="" >
+  @include('partials.img', ['ex' => 'png', 'name' => 'sampyo-group-she-1', 'class' => 'mx-auto'])
   <div class="mb-28"></div>
   <div class="page__level-title mb-9">
     삼표 안전 골든 룰

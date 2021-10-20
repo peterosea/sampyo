@@ -19,75 +19,7 @@
         </p>
       </div>
     </div>
-    <div class="flex text-white">
-      <div class="w-full sm:w-3/5">
-        <div class="card__house-root">
-          <div class="card__house bg-atmosphere mb-4">
-            <div class="card__house-inner flex flex-col items-center p-8 h-52 relative">
-              <div class="sm:text-lg text-[16px]">
-                지속가능한 Building Materials
-              </div>
-              <div class="font-black text-[26px] sm:text-[42px]">
-                선도기업 삼표
-              </div>
-              <div class="label absolute w-full bottom-0 flex items-center justify-center h-16 text-lg font-bold bg-glitterLake">
-                그룹 경영목표
-              </div>
-            </div>
-          </div>
-          <div class="card__house-banner text-lg text-squant flex flex-col justify-center">
-            <div>Vision</div>
-            <span class="opacity-30 font-medium">지향점</span>
-          </div>
-        </div>
-        <div class="grid grid-cols-5 gap-0.5">
-          @foreach (['시너지', '혁신', '전문성', '도전정신'] as $item)
-            <div class="card__house bg-gradient-to-t from-glitterLake half">
-              <div class="card__house-inner h-32 flex flex-col items-center justify-center p-1">
-                <div class="font-bold">
-                  {!! $item !!}
-                </div>
-              </div>
-            </div>
-          @endforeach
-          <div class="card__house-root half">
-            <div class="card__house bg-gradient-to-t from-glitterLake half">
-              <div class="card__house-inner h-32 flex flex-col items-center justify-center p-1">
-                <div class="font-bold">
-                  윤리성
-                </div>
-              </div>
-            </div>
-            <div class="card__house-banner text-lg text-squant flex flex-col justify-center" style="height: calc(100% - 16.5%)">
-              <div>핵심가치</div>
-              <span class="opacity-30 font-medium">행동의 기준</span>
-            </div>
-          </div>
-          <div class="card__house-root rootless col-span-5">
-            <div class="flex flex-col items-center justify-center p-8 bg-glitterLake h-24">
-              <div class="font-bold">
-                새로움의 기초가 되다 /  Build th 1st
-              </div>
-            </div>
-            <div class="card__house-banner h-full text-lg text-squant flex flex-col justify-center">
-              <div>Brand Identity</div>
-              <span class="opacity-30 font-medium">정체성</span>
-            </div>
-          </div>
-          <div class="card__house-root rootless col-span-5">
-            <div class="flex flex-col items-center justify-center p-8 bg-atmosphere h-24 text-white">
-              <div class="font-bold">
-                사람 ∙ 사회 ∙ 세상에 기여 / 전문형 ∙ 도전형 ∙ 융합형 인재
-              </div>
-            </div>
-            <div class="card__house-banner h-full text-lg text-squant flex flex-col justify-center">
-              <div>경영이념 / 인재상</div>
-              <span class="opacity-30 font-medium">존재의 이유</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    @include('partials.img', ['ex' => 'png', 'name' => '5515'])
     <div class="mb-[70px] sm:mb-32"></div>
   </section>
   <section>
