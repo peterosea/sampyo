@@ -9,7 +9,7 @@
               <img src="https://picsum.photos/1920?random=10" alt="" class="header-archive-img">
           @endif
         </div>
-        <div class="header-archive-content max:labtop:px-8 max:sm:w-full @if(empty($acf['outlink'])) top-1/2 @endif">
+        <div class="header-archive-content max:labtop:px-8 max:labtop:w-full @if(empty($acf['outlink'])) top-1/2 @endif">
           <div x-data="select({label: '{!! $fixedMenuLabel !!}', selected: {!! $selected !!}})" class="w-full relative mb-30px labtop:hidden flex">
             <div class="depth-1 relative flex-1">
               <button class="flex items-center justify-between w-full px-3 py-3 text-left border focus:outline-none border-r-0"

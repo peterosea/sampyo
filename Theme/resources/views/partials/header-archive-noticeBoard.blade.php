@@ -9,7 +9,7 @@
             @include('partials.img', ['ex' => 'jpg', 'name' => 'header-blog', 'class' => 'header-archive-img'])
           @endif
         </div>
-        <div class="header-archive-content max:labtop:px-8 max:sm:w-full">
+        <div class="header-archive-content max:labtop:px-8 max:labtop:w-full">
           <div x-data="select({label: '{!! $title !!}'})" class="w-full relative mb-30px labtop:hidden flex">
             <button class="flex items-center justify-between w-full px-3 py-3 text-left border focus:outline-none"
               @click="toggle()"
