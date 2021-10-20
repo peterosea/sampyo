@@ -1,23 +1,4 @@
 // 하이라이트 밑줄
-.pointUnderLine {
-  text-decoration: none;
-  background-position-y: -0%;
-  background-image: linear-gradient(
-    transparent 50%,
-    rgba(var(--bs, var(--RGB-bermudagrass)), var(--op, 0.4)) 50%
-  );
-  background-size: auto calc(200% - (var(--h, 20%) * 2));
-  transition: background 500ms ease;
-  display: inline;
-}
-
-// 페이지 굵은 밑줄
-.underline.power {
-  text-decoration: underline;
-  text-underline-position: under;
-  text-decoration-thickness: var(--uph, 3px);
-}
-
 @mixin pointUnderLine {
   text-decoration: none;
   background-position-y: -0%;
@@ -28,4 +9,15 @@
   background-size: auto calc(200% - (var(--h, 15%) * 2));
   transition: background 500ms ease;
   display: inline;
+}
+
+.pointUnderLine {
+  @include pointUnderLine;
+}
+
+// 페이지 굵은 밑줄
+.underline.power {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: var(--uph, 3px);
 }
