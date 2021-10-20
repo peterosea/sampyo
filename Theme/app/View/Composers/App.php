@@ -7,6 +7,9 @@ use Walker_Nav_Menu;
 
 class App extends Composer
 {
+    public $recruiter = 'https://sampyo.recruiter.co.kr';
+    public $asf = 'http://chunginwookfoundation.org';
+    
     /**
      * List of views served by this composer.
      *
@@ -28,6 +31,7 @@ class App extends Composer
             'siteLogo' => $this->siteLogo(),
             'siteSubMenu' => $this->siteSubMenu(),
             'recruiter' => $this->recruiter,
+            'asf' => $this->asf,
         ];
     }
 
@@ -58,8 +62,6 @@ class App extends Composer
 
         return $nav;
     }
-
-    public $recruiter = 'https://sampyo.recruiter.co.kr';
 }
 
 class WPDocs_Walker_Nav_Menu extends Walker_Nav_Menu
