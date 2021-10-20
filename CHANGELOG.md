@@ -3,6 +3,21 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.5.0] 2021-10-20
+
+### Fixed
+
+- `jit` 모드에서 https://tailwindcss.com/docs/just-in-time-mode
+- screens에 대한 속성이 따른 scss로 추출되는대 해당 적요을 하는 방법을 찾기 어려움
+
+### Changed
+
+- 몰탈
+  - `/business/mortar/`
+  - 'mortar.blade.php`
+  - (wp) 위치정보추가
+  - 210만톤 > 250만톤
+
 ## [v1.4.7] 2021-10-20
 
 ### Added
