@@ -10,5 +10,5 @@ release:
 	git push origin develop
 	git push upstream main
 	git push upstream $v
-	git push upstream --delete release/$v
 	git branch -d release/$v
+	# git push upstream --delete release/$v
