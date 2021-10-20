@@ -29,7 +29,7 @@
     </header>
   
     <div class="entry-content prose">
-      <div class="mx-auto" style="max-width: 820px">
+      <div class="mx-auto max-w-[820px]">
         @php(the_content())
       </div>
     </div>
