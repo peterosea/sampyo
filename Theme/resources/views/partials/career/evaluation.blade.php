@@ -17,7 +17,7 @@
   </div>
   <div class="pb-30px sm:pb-20"></div>
   <div class="font-black underline power text-2xl mb-5">
-    평가 및 보상 체계
+    성과관리 프로세스
   </div>
   <div class="mb-16"></div>
   <div id="swiper" class="swiper-container">
@@ -77,7 +77,7 @@
   </div>
   <div class="pb-70px sm:pb-24"></div>
   <div class="font-black underline power text-2xl mb-16">
-    성과관리 프로세스
+    평가 및 보상 체계
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 mb-30px sm:mb-14">
     <div class="relative sm:justify-self-end">

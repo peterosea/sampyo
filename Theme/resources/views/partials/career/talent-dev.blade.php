@@ -123,34 +123,40 @@
       <div class="font-bold text-xl mb-2.5">
         삼표교육 소개
       </div>
-      <ul>
-        <li>비전</li>
-        <li>인재상</li>
-        <li>교육체계도</li>
-        <li>학점 이수제</li>
-        <li>사내강사</li>
-        <li>교육규정</li>
-      </ul>
+      <div class="prose">
+        <ul>
+          <li>비전</li>
+          <li>인재상</li>
+          <li>교육체계도</li>
+          <li>학점 이수제</li>
+          <li>사내강사</li>
+          <li>교육규정</li>
+        </ul>
+      </div>
     </div>
     <div>
       <div class="font-bold text-xl mb-2.5">
         교육 훈련 신청/보고
       </div>
-      <ul>
-        <li>교육훈련신청서</li>
-        <li>보고서</li>
-        <li>불참사유서</li>
-      </ul>
+      <div class="prose">
+        <ul>
+          <li>교육훈련신청서</li>
+          <li>보고서</li>
+          <li>불참사유서</li>
+        </ul>
+      </div>
     </div>
     <div>
       <div class="font-bold text-xl mb-2.5">
         온라인 과정
       </div>
+      <div class="prose">
       <ul>
         <li>이러닝</li>
         <li>북러닝</li>
         <li>모바일 교육과정 신청</li>
       </ul>
+      </div>
     </div>
     <div>
       <div class="font-bold text-xl mb-2.5">

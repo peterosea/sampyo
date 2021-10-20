@@ -5,7 +5,7 @@
         <div class="header-archive-imgRow">
           @include('partials.img', ['ex' => 'jpg', 'name' => 'header-'.get_post_type(), 'class' => 'header-archive-img'])
         </div>
-        <div class="header-archive-content max:labtop:px-8 max:sm:w-full">
+        <div class="header-archive-content max:labtop:px-8 max:labtop:w-full">
           <div x-data="select({label: '{!! $fixedMenuLabel !!}', selected: {!! $selected !!}})" class="w-full relative mb-30px labtop:hidden flex">
             <div class="depth-1 relative flex-1">
               <button class="flex items-center justify-between w-full px-3 py-3 text-left border focus:outline-none @if (get_post_type() !== 'notice-board') border-r-0 @endif"

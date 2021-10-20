@@ -98,6 +98,7 @@ module.exports = {
               color: null,
               '&:hover': colorReset,
             },
+            strong: colorReset,
             string: colorReset,
             h1: colorReset,
             h2: colorReset,
