@@ -7,6 +7,17 @@
 
 ### Fixed
 
+- archive page fixed menu full width 조정
+- 인재육성페이지 bullet prose 누락
+
+### Changed
+
+- 평가보상 제목위치 변경
+
+## [v1.5.0] 2021-10-20
+
+### Fixed
+
 - `jit` 모드에서 https://tailwindcss.com/docs/just-in-time-mode
 - screens에 대한 속성이 따른 scss로 추출되는대 해당 적요을 하는 방법을 찾기 어려움
 
