@@ -1,7 +1,7 @@
 <main class="page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <section class="mb-[70px] sm:mb-32">
-    <div class="page__level-title mb-[30px] sm:mb-11">
+  <section class="mb-70px sm:mb-32">
+    <div class="page__level-title mb-30px sm:mb-11">
       환경을 품다. 미래를 담다.<br class="hidden sm:block" />
       자원부족 해결과 환경보전을 위하여 환경자원 사업을 확대합니다
     </div>
@@ -11,11 +11,11 @@
       </p>
     </div>
   </section>
-  <section class="mb-[70px] sm:mb-32">
-    <div class="page__level-title mb-[30px] sm:mb-11">
+  <section class="mb-70px sm:mb-32">
+    <div class="page__level-title mb-30px sm:mb-11">
       철스크랩 사업
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-[30px] sm:gap-y-16">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-16">
       <div class="prose max:sm:order-1">
         <p>
           삼표는 철강산업의 중요 원료인 철스크랩을 수집·가공·판매하면서 철스크랩을 안정적으로 제강사에 공급함으로써 철강산업 발전에 기여하고 있으며 자원 순환을 통한 환경보전에 앞장서고 있습니다.
@@ -78,12 +78,12 @@
       </div>
     </div>
   </section>
-  <section class="mb-[70px] sm:mb-32">
-    <div class="coverbox-full-fixedHeight left max:sm:py-[30px] sm:pt-24" style="--h: 460px">
+  <section class="mb-70px sm:mb-32">
+    <div class="coverbox-full-fixedHeight left max:sm:py-30px sm:pt-24" style="--h: 460px">
       <div class="page__level-title mb-10">
         경제가치와 지속가능성
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-[30px] sm:gap-y-[70px]">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-70px">
         <div class="prose">
           <p>
             철스크랩은 철강산업의 중요 원료로써 전기로 투입원의 95% 이상을 차지하며 철강재 제조원가의 약 50% 이상을 차지하고 있어 안정적인 공급이 중요합니다.
@@ -103,11 +103,11 @@
       </div>
     </div>
   </section>
-  <section class="mb-[70px] sm:mb-32">
-    <div class="page__level-title mb-[30px] sm:mb-11">
+  <section class="mb-70px sm:mb-32">
+    <div class="page__level-title mb-30px sm:mb-11">
       철강부산물 사업
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-[30px] sm:gap-y-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-12">
       <div class="prose">
         <p>
           제강사 및 제철소 공정 중 발생하는 부산물(지금, 밀스케일, 슬래그, 슬러지, 분진 등)을 파쇄·선별·가공하여 철강산업 및 시멘트산업의 원부재료와 건설공사 기초재료로 재활용하는 사업입니다. 
@@ -150,11 +150,11 @@
       </div>
     </div>
   </section>
-  <section class="mb-[70px] sm:mb-32">
-    <div class="page__level-title mb-[30px] sm:mb-11">
+  <section class="mb-70px sm:mb-32">
+    <div class="page__level-title mb-30px sm:mb-11">
       소각 사업
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-[30px] sm:gap-y-12 mb-[30px] sm:mb-[70px]">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-12 mb-30px sm:mb-70px">
       <div>
         <div class="prose">
           <p>
@@ -182,11 +182,11 @@
       </div>
     </div>
   </section>
-  <section class="mb-[70px] sm:mb-32">
-    <div class="page__level-title mb-[30px] sm:mb-11">
+  <section class="mb-70px sm:mb-32">
+    <div class="page__level-title mb-30px sm:mb-11">
       건조 사업
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-[30px] mb-[30px] sm:mb-[70px]">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px mb-30px sm:mb-70px">
       <div class="prose">
         <p>
           소각 처리과정에서 발생하는 소각열을 이용해 각종 슬러지류를 건조해 매립되는 폐기물의 양을 최소화합니다. 이를 통해 폐기물 매립비용을 절감하고 환경보전에 기여하고 있습니다.

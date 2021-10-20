@@ -1,6 +1,6 @@
 <main class="career__page page__layout">
 <div class="container xl:max-w-screen-xl mx-auto">
-  <div class="page__level-title mb-[30px] sm:mb-8">
+  <div class="page__level-title mb-30px sm:mb-8">
     평가 및 보상
   </div>
   <div class="flex -mx-6">
@@ -15,7 +15,7 @@
       </p>
     </div>
   </div>
-  <div class="pb-[30px] sm:pb-20"></div>
+  <div class="pb-30px sm:pb-20"></div>
   <div class="font-black underline power text-2xl mb-5">
     평가 및 보상 체계
   </div>
@@ -75,11 +75,11 @@
       <div class="swiper-pagination pagination__s1 static mt-7 pt-0.5 visible sm:invisible"></div>
     </div>
   </div>
-  <div class="pb-[70px] sm:pb-24"></div>
+  <div class="pb-70px sm:pb-24"></div>
   <div class="font-black underline power text-2xl mb-16">
     성과관리 프로세스
   </div>
-  <div class="grid grid-cols-1 sm:grid-cols-2 mb-[30px] sm:mb-14">
+  <div class="grid grid-cols-1 sm:grid-cols-2 mb-30px sm:mb-14">
     <div class="relative sm:justify-self-end">
       @include('partials.img', ['ex' => 'png', 'name' => 'career-evaluation-0'])
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white prose text-center w-full px-4">
@@ -148,6 +148,6 @@
       </div>
     </div>
   </div>
-  <div class="pb-[70px] sm:pb-24"></div>
+  <div class="pb-70px sm:pb-24"></div>
 </div>
 </main>

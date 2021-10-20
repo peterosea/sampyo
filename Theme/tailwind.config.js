@@ -4,8 +4,16 @@ const colorReset = {
   color: null,
 };
 
+function px(min, max) {
+  let result = {};
+  for (let i = min; i < max + 1; i++) {
+    const key = i < 0 ? `-${i}px` : `${i}px`;
+    result[key] = `${i}px`;
+  }
+  return result;
+}
+
 module.exports = {
-  mode: 'jit',
   purge: {
     content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
   },
@@ -21,10 +29,21 @@ module.exports = {
         'max:md': { max: '767px' },
         'max:sm': { max: '639px' },
       },
+      // pixel token
+      height: px(0, 300),
+      width: px(0, 1000),
+      margin: px(0, 300),
+      fontSize: px(0, 120),
       padding: {
         'container-x': 'var(--container-px)',
         'container-y': 'var(--container-py)',
+        ...px(0, 300),
       },
+      gap: px(0, 300),
+      maxWidth: px(0, 1000),
+      maxHeight: px(0, 1000),
+      translate: px(0, 300),
+      minWidth: px(0, 1000),
       inset: {
         'container-x': 'var(--container-px)',
         '-container-x': 'calc(var(--container-px) * -1)',
