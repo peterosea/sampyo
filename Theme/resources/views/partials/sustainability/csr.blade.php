@@ -83,7 +83,7 @@
     <div class="max:sm:aspect-w-16 max:sm:aspect-h-9">
       @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-csr-4', 'class' => 'max:sm:object-cover'])
     </div>
-    <a href="#" class="px-5 py-2.5 font-bold absolute right-0 bottom-0 bg-white transform -translate-x-11 -translate-y-11">학술장학재단 바로가기</a>
+    <a href="{!! $asf !!}" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 font-bold absolute right-0 bottom-0 bg-white transform -translate-x-11 -translate-y-11">학술장학재단 바로가기</a>
   </div>
   <div class="pb-[30px] sm:pb-20"></div>
   <div class="font-black underline power text-2xl mb-10">지역 나눔</div>
