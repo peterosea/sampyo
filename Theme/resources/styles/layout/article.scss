@@ -41,14 +41,14 @@ article {
       }
     }
 
+    .aligncenter {
+      @apply mx-auto;
+    }
+
     a[href] {
       @include pointUnderLine;
 
-      text-decoration: none !important;
-
-      &:hover {
-        background-size: 99%;
-      }
+      background-size: 99%;
     }
   }
 
