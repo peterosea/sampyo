@@ -3,7 +3,14 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
-## [v1.5.0] 2021-10-20
+## [v1.5.2] 2021-10-20
+
+### Chagned
+
+- post align center
+- post link background full style
+
+## [v1.5.1] 2021-10-20
 
 ### Fixed
 
