@@ -41,7 +41,7 @@
         <div class="card__house-inner flex flex-col items-center justify-items-center p-30px sm:p-8 mb-90px sm:mb-36 mt-0">
           <div class="grid grid-cols-1 sm:grid-cols-2 w-full gap-7">
             <div>
-              <div class="card__house bg-gradient-to-r from-[#009ddf] to-[#98e69e] max:sm:bottom sm:right h-full">
+              <div class="card__house bg-gradient-to-r from-atmosphere to-hospitalGreen max:sm:bottom sm:right h-full">
                 <div class="card__house-inner flex flex-col items-center justify-center p-8 mb-0 h-full max:sm:mt-0">
                   <div class="text-xl font-bold text-center">
                     가치공학<br/>
@@ -52,12 +52,12 @@
             </div>
             <div>
               <div class="grid bg-white gap-y-px">
-                <div class="bg-[#98e69e] py-3 h-36 flex items-center justify-center">원스톱 토탈 솔루션 제공</div>
-                <div class="bg-[#d3eccc] py-3 h-12 flex items-center justify-center">고강도파일</div>
-                <div class="bg-[#d3eccc] py-3 h-12 flex items-center justify-center">초고강도파일</div>
-                <div class="bg-[#d3eccc] py-3 h-12 flex items-center justify-center">대구경파일</div>
-                <div class="bg-[#d3eccc] py-3 h-12 flex items-center justify-center">초고강도 대구경파일</div>
-                <div class="bg-[#d3eccc] py-3 h-12 flex items-center justify-center">PHC탑다운용 파일</div>
+                <div class="bg-hospitalGreen py-3 h-36 flex items-center justify-center">원스톱 토탈 솔루션 제공</div>
+                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center">고강도파일</div>
+                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center">초고강도파일</div>
+                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center">대구경파일</div>
+                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center">초고강도 대구경파일</div>
+                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center">PHC탑다운용 파일</div>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@
         </div>
         <div class="relative">
           <div id="phcpileOriginal" class="grid grid-cols-3 w-full mx-auto gap-x-12 invisible sm:visible absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:z-10 ">
-            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full bg-[#eff7ed] justify-center justify-self-center">
+            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full bg-gardenDawn justify-center justify-self-center">
               <div class="card__s1-thumbnail_ flex justify-center">
                   @include('partials.img', ['ex' => 'svg', 'name' => 'business-phc-3'])
               </div>
@@ -81,7 +81,7 @@
                 <div class="card__s1-title text-xl font-bold">시공성</div>
               </div>
             </div>
-            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full bg-[#eff7ed] justify-center justify-self-center">
+            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full bg-gardenDawn justify-center justify-self-center">
               <div class="card__s1-thumbnail_ flex justify-center">
                   @include('partials.img', ['ex' => 'svg', 'name' => 'business-phc-4'])
               </div>
@@ -89,7 +89,7 @@
                 <div class="card__s1-title text-xl font-bold">안전성</div>
               </div>
             </div>
-            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full bg-[#eff7ed] justify-center justify-self-center">
+            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full bg-gardenDawn justify-center justify-self-center">
               <div class="card__s1-thumbnail_ flex justify-center">
                   @include('partials.img', ['ex' => 'svg', 'name' => 'business-phc-5'])
               </div>
