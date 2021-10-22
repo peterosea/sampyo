@@ -59,22 +59,8 @@ class Newsroom extends Composer
             array(
               'post_type' => $postType,
               'numberposts' => 1,
-              'meta_query' => array(
-                  array(
-                      'key' => 'pin',
-                      'value' => true
-                  )
-              )
           )
         );
-        if (count($pintpost) === 0) {
-            $pintpost = get_posts(
-                array(
-                'post_type' => $postType,
-                'numberposts' => 1,
-              )
-            );
-        }
 
         $post = $this->set_post_data($pintpost[0], $postType);
 

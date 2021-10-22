@@ -56,35 +56,38 @@
       </div>
       <div class="newsroom__blog-body">
         <div class="swiper-wrapper">
-          @foreach ($blog_posts as $post)
-          <div class="swiper-slide">
-            <div class="card-col gap-y-30px sm:gap-y-10">
-              @if ($post->thumbnail)
-              <div class="card-col-thumbnail">
-                <img src="{!! $post->thumbnail !!}" />
-              </div>
-              @endif
-              <div class="card-col-main">
-                @if (!empty($post->category))
-                  <ul class="card-col-cat">
-                    @foreach ($post->category as $item)
-                      <li class="card-col-cat-item">
-                        <a href="{{ $item->link }}">
-                          <span>{{ $item->name }}</span>
-                        </a>
-                      </li>
-                    @endforeach
-                  </ul>
+          @foreach ($blog_posts as $key => $post)
+            @if ($key === 0)
+              @continue
+            @endif
+            <div class="swiper-slide" data-test="{!! $key !!}">
+              <div class="card-col gap-y-30px sm:gap-y-10">
+                @if ($post->thumbnail)
+                <div class="card-col-thumbnail">
+                  <img src="{!! $post->thumbnail !!}" />
+                </div>
                 @endif
-                <div class="card-col-contentWrap">
-                  <a href="{!! $post->permalink !!}" class="card-col-title text-20px sm:text-2xl">{!! $post->post_title !!}</a>
-                  <a href="{!! $post->permalink !!}" class="card-col-content">
-                    {!! $post->excerpt !!}
-                  </a>
+                <div class="card-col-main">
+                  @if (!empty($post->category))
+                    <ul class="card-col-cat">
+                      @foreach ($post->category as $item)
+                        <li class="card-col-cat-item">
+                          <a href="{{ $item->link }}">
+                            <span>{{ $item->name }}</span>
+                          </a>
+                        </li>
+                      @endforeach
+                    </ul>
+                  @endif
+                  <div class="card-col-contentWrap">
+                    <a href="{!! $post->permalink !!}" class="card-col-title text-20px sm:text-2xl">{!! $post->post_title !!}</a>
+                    <a href="{!! $post->permalink !!}" class="card-col-content">
+                      {!! $post->excerpt !!}
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
           @endforeach
         </div>
       </div>
