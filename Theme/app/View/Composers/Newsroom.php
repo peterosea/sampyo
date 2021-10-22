@@ -28,8 +28,8 @@ class Newsroom extends Composer
           'blog_cat' => $this->get_category("blog"),
           'media_posts' => $this->get_banner_posts("media"),
           'notice_posts' => $this->get_def_posts("notice-board"),
-          'media_cat_release' => $this->get_media("press-release"),
-          'media_cat_featured' => $this->get_media("media-featured"),
+          'media_cat_release' => $this->get_media("press-release", true),
+          'media_cat_featured' => $this->get_media("media-featured", true),
         ];
     }
 
@@ -59,22 +59,8 @@ class Newsroom extends Composer
             array(
               'post_type' => $postType,
               'numberposts' => 1,
-              'meta_query' => array(
-                  array(
-                      'key' => 'pin',
-                      'value' => true
-                  )
-              )
           )
         );
-        if (count($pintpost) === 0) {
-            $pintpost = get_posts(
-                array(
-                'post_type' => $postType,
-                'numberposts' => 1,
-              )
-            );
-        }
 
         $post = $this->set_post_data($pintpost[0], $postType);
 
@@ -102,18 +88,37 @@ class Newsroom extends Composer
     public function get_banner_posts($postType)
     {
         $posts = get_posts(array(
-        'post_type' => $postType,
-        'numberposts' => 5,
-        'meta_query' => array(array('key' => '_thumbnail_id'))
-      ));
+          'post_type' => $postType,
+          'numberposts' => 5,
+          "tax_query" => array(
+            'relation' => 'and',
+            array(
+              "taxonomy" => "media_category",
+              "field" => "slug",
+              "terms" => "media-featured",
+              "operator" => "NOT EXISTS"
+            ),
+            array(
+              "taxonomy" => "media_category",
+              "field" => "slug",
+              "terms" => "press-release",
+              "operator" => "NOT EXISTS"
+            ),
+          )
+        ));
 
-        if (count($posts) === 0) {
-            return;
-        }
+        $mf = $this->get_media("media-featured");
+        $pr = $this->get_media("press-release");
+        empty($mf) ?: array_push($posts, array_shift($mf)[0]);
+        empty($pr) ?: array_push($posts, array_shift($pr)[0]);
 
         $posts = array_map(function ($post) use ($postType) {
             return $this->set_post_data($post, $postType);
         }, $posts);
+
+        usort($posts, function ($post_a, $post_b) {
+            return $post_b->post_date <=> $post_a->post_date;
+        });
 
         return $posts;
     }
@@ -142,7 +147,7 @@ class Newsroom extends Composer
         return $posts;
     }
 
-    public function get_media($cat)
+    public function get_media($cat, $firstDelete = false)
     {
         $posts = get_posts(array(
           "post_type" => "media",
@@ -153,6 +158,10 @@ class Newsroom extends Composer
             "terms" => $cat
           ))
         ));
+
+        if ($firstDelete) {
+            array_shift($posts);
+        }
 
         $posts = array_map(function ($post) {
             return $this->set_post_data($post, "media");

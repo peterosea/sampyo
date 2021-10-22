@@ -23,7 +23,6 @@
         <div class="card-def-date">
           @include('partials/entry-meta')
         </div>
-        <div class="card-def-like">{!! do_shortcode('[wp_ulike]') !!}</div>
         <div class="card-def-share"></div>
       </div>
     </header>
