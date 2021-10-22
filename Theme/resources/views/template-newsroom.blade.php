@@ -112,7 +112,7 @@
       <div class="container mx-auto xl:max-w-screen-xl max:sm:px-0">
         <div class="newsroom__media-header max:sm:px-32px">
           <div class="newsroom__media-header-title">미디어</div>
-          <div class="newsroom__media-header-arrow">
+          <div class="newsroom__media-header-arrow @if (count($media_posts) === 1) hidden @endif">
             <a href="javascript:;" class="btn-arrow prev"></a>
             <a href="javascript:;" class="btn-arrow next"></a>
           </div>
@@ -160,10 +160,6 @@
           <div class="@if (empty($media_cat_featured)) sm:col-span-2 max-w-none @else max-w-520px @endif">
             <div class="newsroom__media-header">
               <div class="newsroom__media-header-title">보도자료</div>
-              <div class="newsroom__media-header-arrow">
-                <a href="javascript:;" id="media_release_btn" class="btn-arrow prev"></a>
-                <a href="javascript:;" id="media_release_btn" class="btn-arrow next"></a>
-              </div>
             </div>
             <div id="media_release" class="newsroom__media-row-body">
               <div class="swiper-wrapper">
@@ -192,10 +188,6 @@
               <div class="wrap">
                 <div class="newsroom__media-header">
                   <div class="newsroom__media-header-title">언론소개</div>
-                  <div class="newsroom__media-header-arrow">
-                    <a href="javascript:;" id="media_featured_btn" class="btn-arrow prev"></a>
-                    <a href="javascript:;" id="media_featured_btn" class="btn-arrow next"></a>
-                  </div>
                 </div>
                 <div id="media_featured" class="newsroom__media-row-body">
                   <div class="swiper-wrapper">
