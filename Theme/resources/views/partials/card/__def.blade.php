@@ -41,9 +41,6 @@
       @isset($date)
         <div class="card-def-date">{!! $date !!}</div>  
       @endisset
-      @isset($like)
-        <div class="card-def-like">{!! $like !!}</div>
-      @endisset
       <div class="card-def-share"></div>
     </div>
   </div>

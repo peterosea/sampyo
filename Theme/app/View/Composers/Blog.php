@@ -30,7 +30,6 @@ class Blog extends Composer
     {
         return [
             'categories' => $this->categories(),
-            'like' => $this->like(),
             'category_label' => $this->category_label(),
             'fixedMenu' => $this->fixedMenu(),
             'fixedMenuLabel' => $this->getFixedMenuLabel(),
@@ -42,11 +41,6 @@ class Blog extends Composer
     public function categories()
     {
         return wp_get_post_terms(get_the_ID(), get_post_type(). '_category');
-    }
-
-    public function like()
-    {
-        return do_shortcode('[wp_ulike]');
     }
 
     public function category_label()
