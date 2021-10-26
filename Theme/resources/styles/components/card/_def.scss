@@ -108,4 +108,10 @@
       }
     }
   }
+
+  .relevanssi-query-term {
+    --h: 99%;
+
+    @include pointUnderLine;
+  }
 }
