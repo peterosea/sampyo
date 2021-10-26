@@ -60,7 +60,7 @@
     </div>
     <div>
       <div class="h-44 flex items-center justify-center border-t-2 border-b-2 py-5 mb-10 border-blackout">
-        <span class="font-bold text-2xl">사무직</span>
+        <span class="font-bold text-2xl">생산직</span>
       </div>
       <ul>
         <li class="mb-2 5">
