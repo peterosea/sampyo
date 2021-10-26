@@ -94,10 +94,10 @@
                           <div class="swiper-slide" data-index="{{$index}}">
                             <div data-id="{{ $post->ID }}"class="card-content-body">
                               <div class="card-content-title">
-                                {{ $post->post_title }}
+                                {!! $post->post_title !!}
                               </div>
                               <div class="card-content-content prose text-sm sm:text-base">
-                                {{ $post->excerpt }}
+                                {!! $post->excerpt !!}
                               </div>
                               <div class="card-content-more text-sm sm:text-base"> 
                                 <a href="{{ $post->permalink }}">더보기</a>
