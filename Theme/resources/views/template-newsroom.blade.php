@@ -184,34 +184,32 @@
             </div>
           </div>
           @if (!empty($media_cat_featured))
-            <div class="flex justify-end">
-              <div class="wrap">
-                <div class="newsroom__media-header">
-                  <div class="newsroom__media-header-title">언론소개</div>
-                </div>
-                <div id="media_featured" class="newsroom__media-row-body">
-                  <div class="swiper-wrapper">
-                    @foreach ($media_cat_featured as $media_cat_featured_col)
-                      <ul class="swiper-slide">
-                        @php($index = 1)
-                        @foreach ($media_cat_featured_col as $post)
-                        <li class="mb-30px sm:mb-16 list-none @if ($index < count($media_cat_release_col)) max:sm:border-b max:sm:border-orochimaru max:sm:pb-30px @endif">
-                            @include('partials.card.__def2', [
-                              'thumbnail' => $post->thumbnail,
-                              'permalink' => $post->permalink,
-                              'title' => $post->post_title,
-                              'excerpt' => $post->excerpt,
-                              'date' => $post->date,
-                            ])
-                          </li>
-                          @php($index++)
-                        @endforeach
-                      </ul>
+          <div class="@if (empty($media_cat_featured)) sm:col-span-2 max-w-none @else max-w-520px @endif">
+            <div class="newsroom__media-header">
+              <div class="newsroom__media-header-title">언론소개</div>
+            </div>
+            <div id="media_featured" class="newsroom__media-row-body">
+              <div class="swiper-wrapper">
+                @foreach ($media_cat_featured as $media_cat_featured_col)
+                  <ul class="swiper-slide">
+                    @php($index = 1)
+                    @foreach ($media_cat_featured_col as $post)
+                    <li class="mb-30px sm:mb-16 list-none @if ($index < count($media_cat_release_col)) max:sm:border-b max:sm:border-orochimaru max:sm:pb-30px @endif">
+                        @include('partials.card.__def2', [
+                          'thumbnail' => $post->thumbnail,
+                          'permalink' => $post->permalink,
+                          'title' => $post->post_title,
+                          'excerpt' => $post->excerpt,
+                          'date' => $post->date,
+                        ])
+                      </li>
+                      @php($index++)
                     @endforeach
-                  </div>
-                </div>
+                  </ul>
+                @endforeach
               </div>
             </div>
+          </div>
           @endif
         </div>
       </div>
