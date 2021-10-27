@@ -7,7 +7,7 @@
 @section('content')
   @include('partials.header-newsroom')
   <div class="newsroom__pin_blog">
-    <div class="container xl:max-w-screen-xl mx-auto flex">
+    <div class="container mx-auto flex">
       <div class="grid grid-cols-1 sm:grid-cols-2">
         <div>
           <div class="newsroom__pin_blog-thumbnail max:sm:pt-40px max:sm:pb-30px">
@@ -46,7 +46,7 @@
     </div>
   </div>
   <div class="newsroom__blog overflow-hidden">
-    <div class="container mx-auto xl:max-w-screen-xl">
+    <div class="container mx-auto">
       <div class="newsroom__blog-header">
         <div class="newsroom__blog-header-title">블로그</div>
         <div class="newsroom__blog-header-arrow hidden sm:block">
@@ -109,7 +109,7 @@
   </div>
   <div class="newsroom__section-2 max:sm:pb-0">
     <div class="newsroom__media">
-      <div class="container mx-auto xl:max-w-screen-xl max:sm:px-0">
+      <div class="container mx-auto max:sm:px-0">
         <div class="newsroom__media-header max:sm:px-32px">
           <div class="newsroom__media-header-title">미디어</div>
           <div class="newsroom__media-header-arrow @if (count($media_posts) === 1) hidden @endif">
@@ -156,8 +156,8 @@
             @endforeach
           </div>
         </div>
-        <div class="newsroom__media-row grid grid-cols-1 sm:grid-cols-2 max:sm:px-32px">
-          <div class="@if (empty($media_cat_featured)) sm:col-span-2 max-w-none @else max-w-520px @endif">
+        <div class="newsroom__media-row grid grid-cols-1 sm:grid-cols-2 max:sm:px-32px sm:gap-x-140px">
+          <div class="@if (empty($media_cat_featured)) sm:col-span-2 @endif">
             <div class="newsroom__media-header">
               <div class="newsroom__media-header-title">보도자료</div>
             </div>
@@ -184,7 +184,7 @@
             </div>
           </div>
           @if (!empty($media_cat_featured))
-          <div class="@if (empty($media_cat_featured)) sm:col-span-2 max-w-none @else max-w-520px @endif">
+          <div class="@if (empty($media_cat_featured)) sm:col-span-2 @endif">
             <div class="newsroom__media-header">
               <div class="newsroom__media-header-title">언론소개</div>
             </div>
@@ -215,10 +215,10 @@
       </div>
     </div>
     <div class="newsroom__newsletter">
-      <div class="container mx-auto xl:max-w-screen-xl mb-30px">
+      <div class="container mx-auto mb-30px">
         <x-Newsletter />
       </div>
-      <div class="container mx-auto xl:max-w-screen-xl max:sm:px-0">
+      <div class="container mx-auto max:sm:px-0">
         <div class="newsroom__newsletter-notice">
           <div class="swiper-wrapper">
             @foreach ($notice_posts as $post)
