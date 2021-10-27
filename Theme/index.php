@@ -14,8 +14,8 @@
   </head>
 
   <body <?php body_class(); ?>
-    x-data="{m_menu: false, menuHover: false, pop_search: false}"
-    :class="{'overflow-hidden': m_menu || menuHover || pop_search }"
+    x-data="{m_menu: false, menuHover: false, pop_search: false, footerShown: false}"
+    :class="{'overflow-hidden': m_menu || menuHover || pop_search, 'relative': footerShown}"
   >
     <?php wp_body_open(); ?>
     <?php do_action('get_header'); ?>
