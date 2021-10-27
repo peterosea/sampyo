@@ -3,6 +3,14 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.6.4] 2021-10-27
+
+### Added
+
+- Top 버튼이 푸터에 겹치지 않는 기능 추가
+- sns list add url
+- sns list facebook
+
 ## [v1.6.3] 2021-10-26
 
 ### Fixed

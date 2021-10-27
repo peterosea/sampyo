@@ -1,4 +1,4 @@
-<footer id="global" class="footer-global sm:px-12 sm:py-14 bg-blackout text-white" x-data="{pop_newsletter: false}">
+<footer id="global" class="footer-global sm:px-12 sm:py-14 bg-blackout text-white" x-data="{pop_newsletter: false}" x-intersect:enter="footerShown = true" x-intersect:leave="footerShown = false">
   <div class="flex flex-wrap justify-between sm:mb-6 mb-30px gap-y-14px">
     <div class="w-full sm:w-auto order-2 px-8 pt-8 sm:p-0 sm:order-1">
       <div class="block sm:hidden mb-21px">
@@ -95,7 +95,13 @@
   </div>
   
 </footer>
-<button id="scrollTop" class="fixed max:xxl:right-0 xxl:left-1/2 bottom-0 xxl:bottom-10 w-90px h-90px bg-blackout text-white flex flex-col items-center justify-center z-50">
+<button id="scrollTop" 
+  class="
+    fixed max:xxl:right-0 xxl:left-1/2  z-50
+    w-90px h-90px bg-blackout text-white flex flex-col items-center justify-center
+  "
+  :class="{'absolute bottom-72': footerShown, 'bottom-0 xxl:bottom-10': !footerShown}"
+>
   <svg xmlns="http://www.w3.org/2000/svg" width="15.556" height="15.556" viewBox="0 0 15.556 15.556">
     <path d="M0 10h10V0" transform="rotate(-135 7.11 6.167)" style="fill:none;stroke:#fff;stroke-width:2px"/>
   </svg>
