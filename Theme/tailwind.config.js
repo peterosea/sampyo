@@ -4,37 +4,8 @@ const colorReset = {
   color: null,
 };
 
-function px(min, max) {
-  let result = {};
-  for (let i = min; i < max + 1; i++) {
-    const key = i < 0 ? `-${i}px` : `${i}px`;
-    result[key] = `${i}px`;
-  }
-  return result;
-}
-
-const colors = {
-  mistyLawn: 'var(--misty-lawn, #DEF7E0)',
-  hospitalGreen: 'var(--hospital-green, #9AE3A1)',
-  bermudagrass: 'var(--bermudagrass, #64CC6E)',
-  lighthouse: 'var(--lighthouse, #F4F4F4)',
-  artificialTurf: 'var(--artificial-turf, #47B951)',
-  atmosphere: 'var(--atmosphere, #009ddf)',
-  winterWizard: 'var(--winter-wizard, #9de2ff)',
-  glitterLake: 'var(--glitter-lake, #4AC1F2)',
-  blackout: 'var(--black-out, #222222)',
-  snowflake: 'var(--snowflake, #f0f0f0)',
-  dugong: 'var(--dugong, #707070)',
-  orochimaru: 'var(--orochimaru, #d9d9d9)',
-  superSilver: 'var(--super-silver, #eeeeee)',
-  point: 'var(--atmosphere, #009ddf)',
-  funnelCloud: 'var(--funnel-cloud, #113a66)',
-  squant: `var(--squant)`,
-  kiwiSqueeze: `var(--kiwi-squeeze, #d3eccc)`,
-  gardenDawn: `var(--garden-dawn, #eff7ed)`,
-};
-
 module.exports = {
+  mode: 'jit',
   purge: {
     content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
   },
@@ -50,21 +21,10 @@ module.exports = {
         'max:md': { max: '767px' },
         'max:sm': { max: '639px' },
       },
-      // pixel token
-      height: px(0, 300),
-      width: px(0, 1000),
-      margin: px(0, 300),
-      fontSize: px(0, 120),
       padding: {
         'container-x': 'var(--container-px)',
         'container-y': 'var(--container-py)',
-        ...px(0, 300),
       },
-      gap: px(0, 300),
-      maxWidth: px(0, 1000),
-      maxHeight: px(0, 1000),
-      translate: px(0, 300),
-      minWidth: px(0, 1000),
       inset: {
         'container-x': 'var(--container-px)',
         '-container-x': 'calc(var(--container-px) * -1)',
@@ -84,10 +44,32 @@ module.exports = {
           '2xl': '7.1875rem',
         },
       },
-      colors,
-      borderColor: colors,
-      backgroundColor: colors,
-      gradientColorStops: colors,
+      colors: {
+        point: 'var(--atmosphere, #009ddf)',
+        funnelCloud: 'var(--funnel-cloud, #113a66)',
+        squant: `var(--squant)`,
+      },
+      borderColor: {
+        dugong: 'var(--dugong, #707070)',
+        orochimaru: 'var(--orochimaru, #d9d9d9)',
+        blackout: 'var(--black-out, #222222)',
+        superSilver: 'var(--super-silver, #eeeeee)',
+      },
+      backgroundColor: {
+        mistyLawn: 'var(--misty-lawn, #DEF7E0)',
+        hospitalGreen: 'var(--hospital-green, #9AE3A1)',
+        bermudagrass: 'var(--bermudagrass, #64CC6E)',
+        lighthouse: 'var(--lighthouse, #F4F4F4)',
+        artificialTurf: 'var(--artificial-turf, #47B951)',
+        atmosphere: 'var(--atmosphere, #009ddf)',
+        winterWizard: 'var(--winter-wizard, #9de2ff)',
+        glitterLake: 'var(--glitter-lake, #4AC1F2)',
+        blackout: 'var(--black-out, #222222)',
+        snowflake: 'var(--snowflake, #f0f0f0)',
+      },
+      gradientColorStops: {
+        glitterLake: 'var(--glitter-lake, #4AC1F2)',
+      },
       typography: {
         DEFAULT: {
           css: {
@@ -97,7 +79,6 @@ module.exports = {
               color: null,
               '&:hover': colorReset,
             },
-            strong: colorReset,
             string: colorReset,
             h1: colorReset,
             h2: colorReset,
