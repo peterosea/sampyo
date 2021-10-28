@@ -7,7 +7,7 @@
     삼표는 우수한 인재를 육성하기 위한 직급체계를 통해 경력 개발의 기회를 제공합니다.
   </p>
   <div class="mb-14"></div>
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-[30px]">
     <div>
       <div class="h-44 flex items-center justify-center border-t-2 border-b-2 py-5 mb-10 border-blackout">
         <span class="font-bold text-2xl">사무직</span>

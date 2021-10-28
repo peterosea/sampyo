@@ -28,7 +28,7 @@
     </header>
   
     <div class="entry-content prose font-normal">
-      <div class="mx-auto max-w-820px">
+      <div class="mx-auto max-w-[820px]">
         @php(the_content())
       </div>
     </div>
