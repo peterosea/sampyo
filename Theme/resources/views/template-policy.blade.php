@@ -96,7 +96,7 @@
             <tbody>
               <tr>
                 <td>성명</td>
-                <td>허성회 차장</td>
+                <td>OOO</td>
               </tr>
               <tr>
                 <td>소속 부서</td>
@@ -104,11 +104,11 @@
               </tr>
               <tr>
                 <td>연락처</td>
-                <td>T. <a href="tel:+02-6270-0764">02-6270-0764</a></td>
+                <td class="opacity-30">T. <a href="tel:+02-6270-0764">02-6270-0764</a></td>
               </tr>
               <tr>
                 <td>성명</td>
-                <td>최연규 과장</td>
+                <td>OOO</td>
               </tr>
               <tr>
                 <td>소속 부서</td>
@@ -116,7 +116,7 @@
               </tr>
               <tr>
                 <td>연락처</td>
-                <td>T. <a href="tel:+02-6270-0775">02-6270-0775</a></td>
+                <td class="opacity-30">T. <a href="tel:+02-6270-0775">02-6270-0775</a></td>
               </tr>
             </tbody>
           </table>

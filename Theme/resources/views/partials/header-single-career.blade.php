@@ -122,7 +122,7 @@
             {{ $item->name }}
           </a>
           @if (count($item->children) > 0)
-              <ul class="items-fixed-child" x-show="selected === {!! $item->term_taxonomy_id !!} || @if ($item->term_taxonomy_id === $selected) true @else false @endif">
+              <ul class="items-fixed-child" x-show="selected === {!! $item->term_taxonomy_id !!}">
                 @foreach ($item->children as $child)
                   <li class="items-fixed-item">
                     <a href="{{ $child->permalink }}" @if ($child->ID === get_the_ID()) class="current" @endif>{{ $child->post_title }}</a>

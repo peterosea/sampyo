@@ -33,6 +33,16 @@
     }
   }
 
+  &-navFam {
+    --px: 20px;
+    --py: 13px;
+
+    .menu-item {
+      padding: var(--py) var(--px);
+      position: relative;
+    }
+  }
+
   &-copylight {
     font-weight: 100;
 
