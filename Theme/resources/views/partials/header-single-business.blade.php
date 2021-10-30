@@ -88,13 +88,15 @@
           <span class="header-archive-description">{!! $excerpt !!}</span>
         </div>
         @isset($acf['outlink'])
-          <div class="header-archive-nav bg-transparent labtop:translate-y-1/2 max:labtop:top-full max:labtop:bottom-auto">
-            <ul>
-              <li class="items-block-item-2 max:sm:w-full">
-                <a href="{!! $acf['outlink'] !!}" target="_blank" rel="noopener noreferrer" class="text-white">홈페이지 바로가기</a>
-              </li>
-            </ul>
-          </div>
+          @if ($acf['outlink'] !== '')
+            <div class="header-archive-nav bg-transparent labtop:translate-y-1/2 max:labtop:top-full max:labtop:bottom-auto">
+              <ul>
+                <li class="items-block-item-2 max:sm:w-full">
+                  <a href="{!! $acf['outlink'] !!}" target="_blank" rel="noopener noreferrer" class="text-white">홈페이지 바로가기</a>
+                </li>
+              </ul>
+            </div>
+          @endif
         @endisset
       </div>
     </header>
