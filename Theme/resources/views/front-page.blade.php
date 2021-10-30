@@ -316,11 +316,11 @@
     </div>
   </div>
   <div class="section home__s5 mt-10px sm:mt-0 max:sm:pb-2.5">
-    <div class="newsroom__newsletter">
+    {{-- <div class="newsroom__newsletter">
       <div class="container mx-auto mb-30px">
         <x-Newsletter />
       </div>
-    </div>
+    </div> --}}
     <div class="container mx-auto mt-14 max:sm:px-0">
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
         <a href="https://smart.sampyo.co.kr/main/group/introduction" target="_blank" rel="noopener noreferrer">

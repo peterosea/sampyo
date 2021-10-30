@@ -7,8 +7,8 @@
       {!! wp_nav_menu(['menu' => 'footer', 'menu_class' => 'footer-global-nav flex flex-wrap gap-x-6 sm:gap-x-12 gap-y-4', 'echo' => false]) !!}
     </div>
     <div class="w-full sm:w-auto order-1 sm:order-2">
-      <div class="grid grid-cols-2 sm:flex gap-px sm:gap-10 h-60px sm:h-auto bg-white bg-opacity-20 pb-px sm:pb-0 sm:bg-transparent">
-        <button class="w-full h-full flex items-center justify-center sm:inline bg-blackout whitespace-nowrap focus:outline-none" x-on:click.prevent="pop_newsletter = true">뉴스레터 구독신청</button>
+      <div class="grid grid-cols-1 sm:flex gap-px sm:gap-10 h-60px sm:h-auto bg-white bg-opacity-20 pb-px sm:pb-0 sm:bg-transparent">
+        {{-- <button class="w-full h-full flex items-center justify-center sm:inline bg-blackout whitespace-nowrap focus:outline-none" x-on:click.prevent="pop_newsletter = true">뉴스레터 구독신청</button> --}}
         <div x-show="pop_newsletter"
             x-cloak
             x-transition:enter="transition ease-out duration-300"
