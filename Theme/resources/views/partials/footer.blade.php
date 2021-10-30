@@ -7,8 +7,8 @@
       {!! wp_nav_menu(['menu' => 'footer', 'menu_class' => 'footer-global-nav flex flex-wrap gap-x-6 sm:gap-x-12 gap-y-4', 'echo' => false]) !!}
     </div>
     <div class="w-full sm:w-auto order-1 sm:order-2">
-      <div class="grid grid-cols-2 sm:flex gap-px sm:gap-10 h-60px sm:h-auto bg-white bg-opacity-20 pb-px sm:pb-0 sm:bg-transparent">
-        <button class="w-full h-full flex items-center justify-center sm:inline bg-blackout whitespace-nowrap focus:outline-none" x-on:click.prevent="pop_newsletter = true">뉴스레터 구독신청</button>
+      <div class="grid grid-cols-1 sm:flex gap-px sm:gap-10 h-60px sm:h-auto bg-white bg-opacity-20 pb-px sm:pb-0 sm:bg-transparent">
+        {{-- <button class="w-full h-full flex items-center justify-center sm:inline bg-blackout whitespace-nowrap focus:outline-none" x-on:click.prevent="pop_newsletter = true">뉴스레터 구독신청</button> --}}
         <div x-show="pop_newsletter"
             x-cloak
             x-transition:enter="transition ease-out duration-300"
@@ -37,10 +37,10 @@
                 <x-Newsletter border="false" title="뉴스레터 구독신청" />
             </div>
         </div>
-        <div x-data="{ isOpen: false }" class="relative sm:inline-block text-left w-full h-full flex items-center justify-center bg-blackout">
+        <div class="relative sm:inline-block text-left w-full h-full flex items-center justify-center bg-blackout">
           <div>
             <button  @click="onButtonClick()" @keyup.space.prevent="onButtonEnter()" @keydown.enter.prevent="onButtonEnter()" aria-expanded="true" aria-haspopup="true" x-bind:aria-expanded="open.toString()" @keydown.arrow-up.prevent="onArrowUp()" @keydown.arrow-down.prevent="onArrowDown()">
-            <button @click="isOpen = !isOpen"  type="button" class="inline-flex justify-center w-full font-black items-center" id="menu-button" aria-expanded="true" aria-haspopup="true" style="outline: none !important">
+            <button @click="famMenuOpen = !famMenuOpen" type="button" class="inline-flex justify-center w-full font-black items-center" id="menu-button" aria-expanded="true" aria-haspopup="true" style="outline: none !important">
               FAMILY SITE
               <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -48,7 +48,7 @@
             </button>
           </div>
           <div 
-            x-show="isOpen"
+            x-show="famMenuOpen"
             x-transition:enter="transition ease-out duration-100"
             x-transition:enter-start="transform opacity-0 scale-95"
             x-transition:enter-end="transform opacity-100 scale-100"
@@ -69,12 +69,14 @@
               w-screen
               mt-0
               top-full
-              sm:mt-2
+              sm:mb-2
               sm:top-auto
+              sm:bottom-full
               sm:w-56
+              max:sm:max-w-full
             " role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1" style="display: none">
-            <div @click.away="isOpen = false" class="text-gray-700 block px-4 py-2 text-sm" role="none">
-              {!! wp_nav_menu(['menu' => 'Famaily site', 'container' => null, 'echo' => false]) !!}
+            <div @click.away="famMenuOpen = false" class="text-gray-700 block text-sm" role="none">
+              {!! wp_nav_menu(['menu' => 'Famaily site', 'container' => null, 'menu_class' => 'footer-global-navFam', 'echo' => false]) !!}
             </div>
           </div>
         </div>
@@ -97,10 +99,11 @@
 </footer>
 <button id="scrollTop" 
   class="
-    fixed max:xxl:right-0 xxl:left-1/2  z-50
-    w-90px h-90px bg-blackout text-white flex flex-col items-center justify-center
+    max:sm:hidden sm:flex
+    fixed max:xxl:right-0 xxl:left-1/2
+    w-90px h-90px bg-blackout text-white flex-col items-center justify-center
   "
-  :class="{'absolute bottom-72': footerShown, 'bottom-0 xxl:bottom-10': !footerShown}"
+  :class="{'absolute bottom-72': footerShown, 'bottom-0 xxl:bottom-10': !footerShown, '-z-10': famMenuOpen, 'z-50': !famMenuOpen}"
 >
   <svg xmlns="http://www.w3.org/2000/svg" width="15.556" height="15.556" viewBox="0 0 15.556 15.556">
     <path d="M0 10h10V0" transform="rotate(-135 7.11 6.167)" style="fill:none;stroke:#fff;stroke-width:2px"/>

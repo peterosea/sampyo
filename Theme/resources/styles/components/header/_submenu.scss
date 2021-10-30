@@ -96,6 +96,13 @@
       }
     }
 
+    &.current-menu-ancestor, &:hover {
+      > a {
+        --bs: var(--RGB-atmosphere);
+        @apply text-point;
+      }
+    }
+
     // level 1 title
     > a {
       --bs: var(--RGB-stonewall-grey);

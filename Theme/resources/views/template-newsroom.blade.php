@@ -215,9 +215,9 @@
       </div>
     </div>
     <div class="newsroom__newsletter">
-      <div class="container mx-auto mb-30px">
+      {{-- <div class="container mx-auto mb-30px">
         <x-Newsletter />
-      </div>
+      </div> --}}
       <div class="container mx-auto max:sm:px-0">
         <div class="newsroom__newsletter-notice">
           <div class="swiper-wrapper">
