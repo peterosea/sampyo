@@ -13,6 +13,7 @@ function header() {
   $(window).scroll(function () {
     classAddandRemove('header#global');
     classAddandRemove('button#scrollTop');
+    classAddandRemove('nav#fixedMenu', undefined, 100);
   });
 }
 

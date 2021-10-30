@@ -1,4 +1,8 @@
-<nav class="items-fixed hidden labtop:block">
+<nav
+  id="fixedMenu"
+  class="items-fixed hidden labtop:block"
+  :class="{'absolute bottom-72 footerFixed': footerShown}"
+>
   <ul class="items-fixed-wrap">
     <li class="items-fixed-item @if ($category_label === "blog_category") current @endif">
       <a href="/blog">블로그</a>
