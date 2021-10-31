@@ -1,4 +1,6 @@
 Proposal/**/style.css
+traefik/acme
+!traefik/acme/.gitkeep
 node_modules
 .DS_Store
 backup
