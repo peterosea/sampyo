@@ -52,7 +52,7 @@ services:
       - traefik.http.routers.svc__adminer.entrypoints=websecure
       - traefik.http.routers.svc__adminer.tls.certresolver=leresolver
       ## Service
-      - traefik.http.services.svc__adminer.loadbalancer.server.port=80
+      - traefik.http.services.svc__adminer.loadbalancer.server.port=8080
   redis:
     container_name: DB__redis
     image: redis:latest
