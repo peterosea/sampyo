@@ -111,7 +111,6 @@
 
   .relevanssi-query-term {
     --h: 99%;
-
-    @include pointUnderLine;
+    --bs: var(--RGB-atmosphere);
   }
 }
