@@ -88,8 +88,3 @@ services:
 
 volumes:
   redis:
-
-networks:
-  default:
-    driver: overlay
-    name: traefik_proxy
