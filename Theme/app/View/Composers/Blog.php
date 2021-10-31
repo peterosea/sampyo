@@ -35,6 +35,7 @@ class Blog extends Composer
             'fixedMenuLabel' => $this->getFixedMenuLabel(),
             'selected' => $this->selected(),
             'title' => $this->title(),
+            'tags' => $this->getTags(),
         ];
     }
 
@@ -101,5 +102,13 @@ class Blog extends Composer
             return get_the_archive_title();
         }
         return get_post_type_object(get_post_type())->labels->singular_name;
+    }
+
+    public static function getTags()
+    {
+        $post = get_post();
+        if (isset($post) && $terms = get_the_terms($post->ID, get_post_type().'_tag')) {
+            return $terms;
+        }
     }
 }
