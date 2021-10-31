@@ -1,4 +1,4 @@
-<div class="xl:overflow-x-hidden header-archive-root2">
+<div class="labtop:overflow-x-hidden header-archive-root2">
   <div class="labtop:overflow-hidden header-archive-root">
     <header class="header-archive">
       <div class="container xl:max-w-screen-xl mx-auto max:labtop:px-0 max:labtop:mb-70px">
