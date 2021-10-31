@@ -85,7 +85,7 @@
         </div>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-2.5 sm:gap-y-5">
-        <div class="card__house bg-hospitalGreen half text-white">
+        <div class="card__house bg-hospitalGreen text-white" style="--triangle: 50px">
           <div class="card__house-inner sm:h-52 flex flex-col items-center p-8">
             <div class="text-16px sm:text-2xl font-black">
               혁신
@@ -97,8 +97,8 @@
             </div>
           </div>
         </div>
-        <div class="card__house-root half" data-label="행동가치">
-          <div class="card__house bg-hospitalGreen half text-white max:sm:rootless">
+        <div class="card__house-root" data-label="행동가치" style="--triangle: 50px">
+          <div class="card__house bg-hospitalGreen text-white max:sm:rootless" style="--triangle: 50px">
             <div class="card__house-inner sm:h-52 flex flex-col items-center p-8">
               <div class="text-16px sm:text-2xl font-black">
                 전문성

@@ -23,7 +23,7 @@
   <div id="swiper" class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="card__house bg-mistyLawn right mb-10">
+        <div class="card__house bg-mistyLawn right mb-10" style="--triangle: 28px">
           <div class="card__house-inner h-24 flex flex-col items-center justify-center p-8">
             <div class="text-xl font-normal">
               목표수립
@@ -37,7 +37,7 @@
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="card__house bg-hospitalGreen right text-white mb-10">
+        <div class="card__house bg-hospitalGreen right text-white mb-10" style="--triangle: 28px">
           <div class="card__house-inner h-24 flex flex-col items-center justify-center p-8">
             <div class="text-xl font-bold">
               중간점검/코칭
@@ -51,7 +51,7 @@
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="card__house bg-bermudagrass right text-white mb-10">
+        <div class="card__house bg-bermudagrass right text-white mb-10" style="--triangle: 28px">
           <div class="card__house-inner h-24 flex flex-col items-center justify-center p-8">
             <div class="text-xl font-bold">
               평가

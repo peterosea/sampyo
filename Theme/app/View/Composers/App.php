@@ -53,6 +53,11 @@ class App extends Composer
     public function siteSubMenu()
     {
         $nav = wp_nav_menu([
+          'items_wrap' => <<<EOD
+          <ul id="%1\$s" class="%2\$s" x-data="{selected: 0}">
+            %3\$s
+          </ul>
+EOD,
           'theme_location' => 'primary_navigation',
           'menu_class' => 'header-global-subnav',
           'container' => false,
@@ -91,7 +96,7 @@ class WPDocs_Walker_Nav_Menu extends Walker_Nav_Menu
 
         // depth data
         $dapth_alpinejs = $depth === 0 ? <<<EOD
-              x-show="open"
+              x-show="id === selected"
               x-cloak
               x-transition:enter="transition ease-out duration-100"
               x-transition:enter-start="opacity-0"
@@ -132,20 +137,16 @@ class WPDocs_Walker_Nav_Menu extends Walker_Nav_Menu
 
         // depth data
         $dapth_alpinejs = '';
-        switch ($depth) {
-            case 0: $dapth_alpinejs = <<<EOD
-                  x-data="{open: false}"
-                  :class="{'open': open}"
-                EOD;
-                break;
-            default: $dapth_alpinejs = '';
-        }
-
-        if (in_array('current-menu-ancestor', $item->classes)) {
+        
+        if ($depth === 0) {
             $dapth_alpinejs = <<<EOD
-              x-data="{open: true}"
-              :class="{'open': open}"
-            EOD;
+              :class="{'open': selected === $item->ID}"
+EOD;
+        }
+        if ($depth === 0 && in_array('current-menu-ancestor', $item->classes)) {
+            $dapth_alpinejs .= <<<EOD
+              x-init="selected = $item->ID"
+EOD;
         }
 
         // Passed classes.
@@ -153,7 +154,9 @@ class WPDocs_Walker_Nav_Menu extends Walker_Nav_Menu
         $class_names = esc_attr(implode(' ', apply_filters('nav_menu_css_class', array_filter($classes), $item)));
 
         // Build HTML.
-        $output .= $indent . '<li id="nav-menu-item-'. $item->ID . '" class="' . $depth_class_names . ' ' . $class_names . '"'. $dapth_alpinejs .'>';
+        $output .= <<<EOD
+        $indent<li x-data="{id: $item->ID}" class="$depth_class_names $class_names" $dapth_alpinejs>
+EOD;
 
         // Link attributes.
         $attributes  = ! empty($item->attr_title) ? ' title="'  . esc_attr($item->attr_title) .'"' : '';
@@ -162,7 +165,11 @@ class WPDocs_Walker_Nav_Menu extends Walker_Nav_Menu
         $attributes .= ! empty($item->url)        ? ' href="'   . esc_attr($item->url) .'"' : '';
         $attributes .= ' class="menu-link ' . ($depth > 0 ? 'sub-menu-link' : 'main-menu-link') . '"';
 
-        $attributes .=  $depth == 0 ? ' @click.prevent="open = !open" :class="{\'active\': open}"' : '';
+        if ($depth === 0) {
+            $attributes .= <<<EOD
+              @click.prevent="selected === $item->ID ? selected = 0 : selected = $item->ID" :class="{'active': selected === $item->ID}"
+EOD;
+        }
 
         // Build HTML output and pass through the proper filter.
         $item_output = sprintf(

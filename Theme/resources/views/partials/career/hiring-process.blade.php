@@ -8,7 +8,7 @@
     <ul class="flex gap-x-2.5">
       @foreach (['지원서 접수', '서류전형', '인성검사', '면접전형', '건강검진', '최종합격'] as $key => $item)
       <li class="flex-1 min-w-100px">
-        <div class="card__house bg-lighthouse right mb-3">
+        <div class="card__house bg-lighthouse right mb-3" style="--triangle: 20px">
           <div class="card__house-inner h-24 flex flex-col items-center justify-center p-8">
             <img src="{{ get_theme_file_uri('resources/images/career-hiringprocess-'. $key .'.svg') }}" alt="">
           </div>

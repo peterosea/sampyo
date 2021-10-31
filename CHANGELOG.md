@@ -3,6 +3,39 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.7.1] 2021-10-30, 2021-10-31
+
+### Changed
+
+- revert `v1.6.7`
+- card__house style % > px
+
+### Feedback
+
+- [#42](https://github.com/peterosea/sampyo/issues/42)
+
+### Added
+
+- fixed menu 서브메뉴도 close 가능
+- fixed menu 푸터와 겹치지 않는 기능 추가
+- fixed menu business 푸터와 겹칠때 색상 변경
+- global submenu (mobile) 1개의 2 level 서브 메뉴만 활성화 되게
+- global submenu current item style
+
+### Fixed
+
+- footer 패밀리 메뉴 노출시 데스크탑에서 아래로 스크롤이 더 생기는 문제
+
+## [v1.7.0] 2021-10-28
+
+### Changed
+
+- 단일 px 토큰값 제거
+
+### Added
+
+- tailwind jit
+
 ## [v1.6.7] 2021-10-27
 
 ### Fixed

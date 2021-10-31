@@ -1,5 +1,5 @@
-<div class="overflow-x-hidden header-archive-root2">
-  <div class="overflow-hidden header-archive-root">
+<div class="labtop:overflow-x-hidden header-archive-root2">
+  <div class="labtop:overflow-hidden header-archive-root">
     <header class="header-archive">
       <div class="container xl:max-w-screen-xl mx-auto max:labtop:px-0">
         <div class="header-archive-imgRow">
@@ -107,7 +107,11 @@
     </header>
   </div>
 </div>
-<nav class="items-fixed hidden labtop:block">
+<nav
+  id="fixedMenu"
+  class="items-fixed hidden labtop:block"
+  :class="{'absolute bottom-72 footerFixed': footerShown}"
+>
   <ul class="items-fixed-wrap" x-data="{
     selected: {!!$selected !!}
   }">

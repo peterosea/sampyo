@@ -14,7 +14,13 @@
   </head>
 
   <body <?php body_class(); ?>
-    x-data="{m_menu: false, menuHover: false, pop_search: false, footerShown: false, famMenuOpen: false}"
+    x-data="{
+      m_menu: false, 
+      menuHover: false, 
+      pop_search: false, 
+      footerShown: false, 
+      famMenuOpen: false, 
+    }"
     :class="{'overflow-hidden': m_menu || menuHover || pop_search, 'relative': footerShown}"
   >
     <?php wp_body_open(); ?>

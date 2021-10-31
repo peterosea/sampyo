@@ -97,9 +97,15 @@
     }
 
     &.current-menu-ancestor, &:hover {
-      > a {
+      > a, .current-menu-item, .current-menu-parent > a {
         --bs: var(--RGB-atmosphere);
         @apply text-point;
+      }
+    }
+
+    @media (max-width: theme('screens.lg')) {
+      &.current-menu-ancestor > a {
+        color: var(--bermudagrass);
       }
     }
 
@@ -112,7 +118,7 @@
       font-size: 18px;
       font-weight: bold;
 
-      @media (max-width: theme('screens.sm')) {
+      @media (max-width: theme('screens.lg')) {
         &.active {
           --bs: var(--RGB-atmosphere);
           @apply text-point;
@@ -126,6 +132,10 @@
       }
 
       + ul.sub-menu {
+        // level 2
+        > li > a {
+          font-weight: 500;
+        }
         @media (max-width: theme('screens.sm')) {
           margin-left: calc(-1 * var(--px));
           margin-right: calc(-1 * var(--px));
@@ -149,7 +159,6 @@
             > a {
               display: inline-block;
               padding: var(--py) 0;
-              font-weight: 500;
             }
 
             @media (max-width: theme('screens.sm')) {

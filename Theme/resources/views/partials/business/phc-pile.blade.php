@@ -36,12 +36,12 @@
           가치공학(VE, Value Engineering) 서비스를 통하여 구조적으로 안전하고 경제성 높은 파일 설계를 제안하고 고품질의 제품을 공급해 고객 만족을 이끌어냅니다.
         </p>
       </div>
-      <div class="card__house bg-lighthouse bottom max:sm:bottom-1/2 text-white mb-6">
-        <div class="card__house-inner flex flex-col items-center justify-items-center p-30px sm:p-8 mb-90px sm:mb-36 mt-0">
+      <div class="card__house bg-lighthouse bottom text-white mb-6">
+        <div class="card__house-inner flex flex-col items-center justify-items-center p-30px sm:p-8 mt-0">
           <div class="grid grid-cols-1 sm:grid-cols-2 w-full gap-7">
             <div>
               <div class="card__house bg-gradient-to-r from-atmosphere to-hospitalGreen max:sm:bottom sm:right h-full">
-                <div class="card__house-inner flex flex-col items-center justify-center p-8 mb-0 h-full max:sm:mt-0">
+                <div class="card__house-inner flex flex-col items-center justify-center p-8 sm:h-full max:sm:mt-0">
                   <div class="text-xl font-bold text-center">
                     가치공학<br/>
                     (Value Engineering) 
@@ -62,7 +62,7 @@
           </div>
         </div>
       </div>
-      <div class="p-30px sm:py-16">
+      <div class="p-30px sm:py-16 max:sm:bg-lighthouse">
         <div class="text-center mb-30px sm:mb-12">
           <div class="text-16px sm:text-2xl font-black">
             <span class="pointUnderLine ">
@@ -70,35 +70,36 @@
             </span>
           </div>
         </div>
-        <div class="relative">
-          <div id="phcpileOriginal" class="grid grid-cols-3 w-full mx-auto gap-x-12 invisible sm:visible absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 sm:z-10 ">
-            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full bg-gardenDawn justify-center justify-self-center">
-              <div class="card__s1-thumbnail_ flex justify-center">
+        <div class="grid grid-cols-3 w-full mx-auto gap-x-12">
+          <div class="flex items-center justify-center">
+            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full sm:bg-gardenDawn justify-center justify-self-center">
+              <div class="card__s1-thumbnail_ flex justify-center max:sm:w-48px mx-auto">
                   @include('partials.img', ['ex' => 'svg', 'name' => 'business-phc-3'])
               </div>
               <div class="card__s1-body text-center">
                 <div class="card__s1-title text-xl font-bold">시공성</div>
               </div>
             </div>
-            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full bg-gardenDawn justify-center justify-self-center">
-              <div class="card__s1-thumbnail_ flex justify-center">
+          </div>
+          <div class="flex items-center justify-center">
+            <div id="cardWrap" class="card__s1 gap-y-5 w-260px sm: h-260px rounded-full sm:bg-gardenDawn justify-center justify-self-center">
+              <div class="card__s1-thumbnail_ flex justify-center max:sm:w-48px mx-auto">
                   @include('partials.img', ['ex' => 'svg', 'name' => 'business-phc-4'])
               </div>
               <div class="card__s1-body text-center">
                 <div class="card__s1-title text-xl font-bold">안전성</div>
               </div>
             </div>
-            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full bg-gardenDawn justify-center justify-self-center">
-              <div class="card__s1-thumbnail_ flex justify-center">
+          </div>
+          <div class="flex items-center justify-center">
+            <div id="cardWrap" class="card__s1 gap-y-5 w-260px h-260px rounded-full sm:bg-gardenDawn justify-center justify-self-center">
+              <div class="card__s1-thumbnail_ flex justify-center max:sm:w-48px mx-auto">
                   @include('partials.img', ['ex' => 'svg', 'name' => 'business-phc-5'])
               </div>
               <div class="card__s1-body text-center">
                 <div class="card__s1-title text-xl font-bold">경제성</div>
               </div>
             </div>
-          </div>
-          <div id="phcpileSwiper" class="z-10 sm:z-0 sm:invisible overflow-hidden">
-            <div class="swiper-pagination s3 pagination__s1 static mt-7 pt-0.5"></div>
           </div>
         </div>
       </div>

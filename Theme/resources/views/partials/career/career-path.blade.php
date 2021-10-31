@@ -13,43 +13,43 @@
         <span class="font-bold text-2xl">사무직</span>
       </div>
       <ul>
-        <li class="mb-2 5">
-          <div class="card__house bg-bermudagrass bottom text-white">
-            <div class="card__house-inner h-14 flex flex-col items-center justify-items-center p-8">
+        <li class="mb-10px">
+          <div class="card__house bg-bermudagrass bottom text-white" style="--triangle: 33px">
+            <div class="card__house-inner flex flex-col items-center justify-items-center p-8 pb-4">
               <div class="text-xl font-bold">
                 부장
               </div>
             </div>
           </div>
         </li>
-        <li class="mb-2 5">
-          <div class="card__house bg-hospitalGreen bottom text-white">
-            <div class="card__house-inner h-14 flex flex-col items-center justify-items-center p-8">
+        <li class="mb-10px">
+          <div class="card__house bg-hospitalGreen bottom text-white" style="--triangle: 33px">
+            <div class="card__house-inner flex flex-col items-center justify-items-center p-8 pb-4">
               <div class="text-xl font-bold">
                 차장
               </div>
             </div>
           </div>
         </li>
-        <li class="mb-2 5">
-          <div class="card__house bg-hospitalGreen bottom text-white">
-            <div class="card__house-inner h-14 flex flex-col items-center justify-items-center p-8">
+        <li class="mb-10px">
+          <div class="card__house bg-hospitalGreen bottom text-white" style="--triangle: 33px">
+            <div class="card__house-inner flex flex-col items-center justify-items-center p-8 pb-4">
               <div class="text-xl font-bold">
                 과장
               </div>
             </div>
           </div>
         </li>
-        <li class="mb-2 5">
-          <div class="card__house bg-mistyLawn bottom mb-2.5">
-            <div class="card__house-inner h-14 flex flex-col items-center justify-items-center p-8">
+        <li class="mb-10px">
+          <div class="card__house bg-mistyLawn bottom mb-2.5" style="--triangle: 33px">
+            <div class="card__house-inner flex flex-col items-center justify-items-center p-8 pb-4">
               <div class="text-xl font-normal">
                 대리
               </div>
             </div>
           </div>
         </li>
-        <li class="mb-2 5">
+        <li class="mb-10px">
           <div class="flex flex-col items-center justify-center p-8 bg-mistyLawn h-20">
             <div class="text-xl font-normal">
               사원
@@ -63,34 +63,34 @@
         <span class="font-bold text-2xl">생산직</span>
       </div>
       <ul>
-        <li class="mb-2 5">
-          <div class="card__house bg-bermudagrass bottom text-white">
-            <div class="card__house-inner h-14 flex flex-col items-center justify-items-center p-8">
+        <li class="mb-10px">
+          <div class="card__house bg-bermudagrass bottom text-white" style="--triangle: 33px">
+            <div class="card__house-inner flex flex-col items-center justify-items-center p-8 pb-4">
               <div class="text-xl font-bold">
                 기장
               </div>
             </div>
           </div>
         </li>
-        <li class="mb-2 5">
-          <div class="card__house bg-hospitalGreen bottom text-white">
-            <div class="card__house-inner h-14 flex flex-col items-center justify-items-center p-8">
+        <li class="mb-10px">
+          <div class="card__house bg-hospitalGreen bottom text-white" style="--triangle: 33px">
+            <div class="card__house-inner flex flex-col items-center justify-items-center p-8 pb-4">
               <div class="text-xl font-bold">
                 계장
               </div>
             </div>
           </div>
         </li>
-        <li class="mb-2 5">
-          <div class="card__house bg-mistyLawn bottom mb-2.5">
-            <div class="card__house-inner h-14 flex flex-col items-center justify-items-center p-8">
+        <li class="mb-10px">
+          <div class="card__house bg-mistyLawn bottom mb-2.5" style="--triangle: 33px">
+            <div class="card__house-inner flex flex-col items-center justify-items-center p-8 pb-4">
               <div class="text-xl font-normal">
                 주임
               </div>
             </div>
           </div>
         </li>
-        <li class="mb-2 5">
+        <li class="mb-10px">
           <div class="flex flex-col items-center justify-center p-8 bg-mistyLawn h-20">
             <div class="text-xl font-normal">
               사원
