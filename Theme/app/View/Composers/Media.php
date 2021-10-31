@@ -26,6 +26,7 @@ class media extends Composer
             'outlink' => $this->getOutlink(),
             'attechedFiles' => $this->getAttechedFiles(),
             'categories' => $this->categories(),
+            'tags' => Blog::getTags(),
         ];
     }
 
