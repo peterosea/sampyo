@@ -3,6 +3,16 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.8.0] 2021-10-31
+
+### Added
+
+- traefik domain service (https)
+
+### Changed
+
+- relevanssi search Highlight 구분 방법 변경
+
 ## [v1.7.1] 2021-10-30, 2021-10-31
 
 ### Changed
