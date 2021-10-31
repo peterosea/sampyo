@@ -22,7 +22,6 @@ import home from './routes/home';
 import business from './routes/business';
 import readyMix from './routes/readyMix';
 import csr from './routes/csr';
-import phcPile from './routes/phcPile';
 import mindset from './routes/mindset';
 import evaluation from './routes/evaluation';
 import talentDev from './routes/talentDev';
@@ -37,7 +36,6 @@ const routes = new Router({
   sampyoTechCenter: readyMix,
   blueCon: readyMix,
   csr,
-  phcPile,
   mindset,
   evaluation,
   talentDev,

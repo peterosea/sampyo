@@ -1,10 +1,13 @@
 &__house {
   $p: &;
 
-  clip-path: polygon(100% 100%, 50% 100%, 0% 100%, 0% 33%, 50% 0%, 100% 33%);
+  --triangle: 100px;
+
+  clip-path: polygon(100% 100%, 0% 100%, 0% var(--triangle), 50% 0%, 100% var(--triangle));
   overflow: hidden;
 
   @media (max-width: theme('screens.sm')) {
+    --triangle: 50px;
     &.max\:sm\:rootless {
       clip-path: none !important;
       #{$p}-inner {
@@ -15,11 +18,16 @@
 
   // bottom
   @mixin bottom {
-    clip-path: polygon(100% 75%, 50% 100%, 0% 75%, 0% 25%, 0 0%, 100% 0);
+    --triangle: 48px;
+    @media (min-width: theme('screens.sm')) {
+      --triangle: 80px;
+    }
+    
+    clip-path: polygon(100% calc(100% - var(--triangle)), 50% 100%, 0% calc(100% - var(--triangle)), 0% 25%, 0 0%, 100% 0);
 
     #{$p}-inner:not([class*='mb-']) {
       margin-top: 0;
-      margin-bottom: 2rem;
+      margin-bottom: var(--triangle);
     }
   }
 
@@ -51,18 +59,13 @@
     }
   }
 
-  @media (max-width: theme('screens.sm')) {
-    &.max\:sm\:bottom-1\/2 {
-      clip-path: polygon(100% 85%, 50% 100%, 0% 85%, 0% 25%, 0 0%, 100% 0);
-    }
-  }
-
   @mixin right {
-    clip-path: polygon(0 0, 84% 0, 100% 50%, 84% 100%, 0 100%);
+    --triangle: 80px;
+    clip-path: polygon(0 0, calc(100% - var(--triangle)) 0, 100% 50%, calc(100% - var(--triangle)) 100%, 0 100%);
 
     #{$p}-inner {
       margin-top: 0;
-      margin-right: calc(16% / 2);
+      margin-right: var(--triangle);
     }
   }
 
@@ -82,23 +85,13 @@
     }
   }
 
-  &.half {
-    clip-path: polygon(
-      100% 100%,
-      50% 100%,
-      0% 100%,
-      0% 16.5%,
-      50% 0%,
-      100% 16.5%
-    );
-
-    #{$p}-inner {
-      margin-top: 3rem;
-    }
-  }
-
   &-root {
+    --triangle: 50px;
+    @media (min-width: theme('screens.sm')) {
+      --triangle: 100px;
+    }
     position: relative;
+
 
     &[data-label]::after {
       content: attr(data-label);
@@ -122,13 +115,7 @@
         bottom: 0;
         width: 100vw;
         font-size: 2.5rem;
-        height: calc(100% - 33%);
-      }
-    }
-
-    &[data-label].half::after {
-      @media (min-width: theme('screens.sm')) {
-        height: calc(100% - 16.5%);
+        height: calc(100% - var(--triangle));
       }
     }
 
@@ -140,7 +127,7 @@
   }
 
   &-inner {
-    margin-top: 6rem;
+    margin-top: var(--triangle);
   }
 
   &-banner {
