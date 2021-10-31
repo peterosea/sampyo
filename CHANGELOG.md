@@ -3,6 +3,12 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.8.3] 2021-10-31
+
+### Added
+
+- Blog, Media 포스트타입의 각각 개별 tag taxonomy 추가
+
 ## [v1.8.2] 2021-10-31
 
 ### Fixed
