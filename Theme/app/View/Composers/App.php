@@ -29,6 +29,7 @@ class App extends Composer
         return [
             'siteName' => $this->siteName(),
             'siteLogo' => $this->siteLogo(),
+            'siteLogoWhite' => $this->siteLogo(true),
             'siteSubMenu' => $this->siteSubMenu(),
             'recruiter' => $this->recruiter,
             'asf' => $this->asf,
@@ -45,8 +46,11 @@ class App extends Composer
         return get_bloginfo('name', 'display');
     }
 
-    public function siteLogo()
+    public function siteLogo($arg = false)
     {
+        if ($arg) {
+            return get_theme_file_uri('resources/images/logo-white.svg');
+        }
         return get_theme_file_uri('resources/images/logo.svg');
     }
 

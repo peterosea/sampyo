@@ -23,6 +23,10 @@
   a.menu-link.sub-menu-link:hover {
     color: var(--atmosphere);
   }
+  
+  .sub-menu-item {
+    color: var(--black-out);
+  }
 
   &-wrap {
     &.active {

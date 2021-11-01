@@ -5,4 +5,19 @@
   @import 'section3';
   @import 'section4';
   @import 'section5';
+
+  .logoWhite {
+    display: block;
+  }
+  .logoOrigin {
+    display: none;
+  }
+  .shrink {
+    .logoOrigin {
+      display: block;
+    }
+    .logoWhite {
+      display: none;
+    }
+  }
 }
