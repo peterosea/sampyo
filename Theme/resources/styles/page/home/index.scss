@@ -12,6 +12,14 @@
   .logoOrigin {
     display: none;
   }
+  .header-global:hover {
+    .logoOrigin {
+      display: block;
+    }
+    .logoWhite {
+      display: none;
+    }
+  }
   .shrink {
     .logoOrigin {
       display: block;
