@@ -1,5 +1,13 @@
-name: 🙆‍♂️ 수동 static & build code deploy
+name: 🚛 매뉴얼 배포
 on:
+  release:
+    types: [published]
+    paths:
+      - "Theme/**/*"
+  push:
+    branches: [main]
+    paths:
+      - "Theme/**/*"
   workflow_dispatch:
 
 jobs:
