@@ -207,5 +207,40 @@
       </div>
     </div>
   </section>
+  <section class="mb-70px sm:mb-32">
+    <div class="coverbox-full-fixedHeight right max:sm:py-30px sm:pt-24" style="--h: 750px">
+      <div class="page__level-title mb-10">
+        항만하역사업
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-70px mb-30px sm:mb-80px">
+        <div class="prose">
+          <p>
+            당사는 수출입 산업을 지원하는 물류의 최첨병으로 항만하역장비의 대형화와 기계화의 선두주자이며, 첨단장비와 숙련된 기술 축적으로 전문 항만하역업체로서의 독보적인 위치를 차지하고 있습니다.
+          </p>
+        </div>
+        <div class="prose">
+          <p>
+            하역사업부는 포항신항 8부두에 3만톤급 2선석, 1만톤급 1선석을 운영하며 연간 200만톤 이상의 하역 처리 능력으로 포항 철강공단 수출입 화물의 원활한 처리를 담당하고 있으며, 평택·당진항만에 3만톤급 1선석을 운영, 연간 130만톤의 규모의 하역 처리 능력을 보유하고 있습니다. 
+          </p>
+        </div>
+      </div>
+      <div class="mb-50px">
+        <div class="text-20px sm:text-2xl mb-20px font-bold">
+          주요 취급 화물
+        </div>
+        <div class="prose">
+          <p>
+            철 스크랩, STS 스크랩, Pig Iron, 부원료(Sli-Mn, Fe-Si 등), 반제품(Billet 등), 철제품(H빔, Sheet File, 철근, Angle, Rail 등)
+          </p>
+        </div>
+      </div>
+      <div class="coverbox-label">
+        @include('partials.img', ['ex' => 'jpg', 'name' => 'business-recycling-10'])
+        <span class="label text-white">
+          포항·평택항 하역 장비
+        </span>
+      </div>
+    </div>
+  </section>
 </div>
 </main>

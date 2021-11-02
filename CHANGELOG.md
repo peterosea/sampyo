@@ -3,6 +3,13 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.8.6] 2021-11-02
+
+### Changed
+
+- 삼표그룹 연혁 디자인 변경 (peterosea/sampyo#46)
+- 순환자원 내용추가 (peterosea/sampyo#47)
+
 ## [v1.8.5] 2021-11-01
 
 ### Fixed

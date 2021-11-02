@@ -8,105 +8,82 @@
       삼표는 지금보다 더 나은 미래를 현실로 만들기 위해 지난 반세기동안 한결같은 마음으로 노력해오고 있습니다.
     </p>
   </div>
-  <div class="flex max:sm:flex-wrap sm:-mx-6 mb-32 relative pt-10px sm:pt-24">
-    <div class="w-full sm:w-1/2 sm:px-6 sm:absolute sm:left-0 sm:top-0 max:sm:mb-30px">
-      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-1'])
-    </div>
-    <div class="max:sm:hidden w-1/3 px-6"></div>
-    <div class="w-full sm:w-2/3 sm:px-6 relative z-10 sm:py-12 sm:pl-16 bg-white">
-      <div class="historybox">
-        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
-            2020’s
-          </span>
-        </div>
-        <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
-          @foreach ($history['2020'] as $item)
-            <div class="font-bold text-lg">{!! $item['date'] !!}</div>
-            <p class="col-span-2">
-              {!! $item['title'] !!}
-            </p>
-          @endforeach
-        </div>
+  <div class="grid grid-cols-1 md:grid-cols-l1-h-left lg:grid-cols-l2-h-left mb-32 pt-10px gap-x-36px lg:gap-x-72px gap-y-30px">
+    @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-1', 'class' => 'w-full'])
+    <div class="historybox">
+      <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+        <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
+          2020’s
+        </span>
+      </div>
+      <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
+        @foreach ($history['2020'] as $item)
+          <div class="font-bold text-lg">{!! $item['date'] !!}</div>
+          <p class="col-span-2">
+            {!! $item['title'] !!}
+          </p>
+        @endforeach
       </div>
     </div>
   </div>
-  <div class="flex max:sm:flex-wrap sm:-mx-6 mb-32 relative pt-10px sm:pt-24">
-    <div class="w-full sm:w-1/2 sm:px-6 sm:absolute sm:right-0 sm:top-0 max:sm:mb-30px">
-      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-2'])
-    </div>
-    <div class="w-full sm:w-2/3 sm:px-6 relative z-10 sm:py-12 sm:pl-16 bg-white">
-      <div class="historybox">
-        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
-            2010’s
-          </span>
-        </div>
-        <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
-          @foreach ($history['2010'] as $item)
-            <div class="font-bold text-lg">{!! $item['date'] !!}</div>
-            <p class="col-span-2">
-              {!! $item['title'] !!}
-            </p>
-          @endforeach
-        </div>
+  <div class="grid grid-cols-1 md:grid-cols-l1-h-right lg:grid-cols-l2-h-right mb-32 pt-10px gap-x-36px lg:gap-x-72px gap-y-30px">
+    <div class="historybox order-1">
+      <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+        <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
+          2010’s
+        </span>
+      </div>
+      <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
+        @foreach ($history['2010'] as $item)
+          <div class="font-bold text-lg">{!! $item['date'] !!}</div>
+          <p class="col-span-2">
+            {!! $item['title'] !!}
+          </p>
+        @endforeach
       </div>
     </div>
-    <div class="max:sm:hidden w-1/3 px-6"></div>
+    @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-2', 'class' => 'w-full order-0 md:order-2'])
   </div>
-  <div class="flex max:sm:flex-wrap sm:-mx-6 mb-32 relative pt-10px sm:pt-24">
-    <div class="w-full sm:w-1/2 sm:px-6 sm:absolute sm:left-0 sm:top-0 max:sm:mb-30px">
-      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-3'])
-    </div>
-    <div class="max:sm:hidden w-1/3 px-6"></div>
-    <div class="w-full sm:w-2/3 sm:px-6 sm:relative sm:z-10 sm:py-12 sm:pl-16 bg-white">
-      <div class="historybox">
-        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
-            2000’s
-          </span>
-        </div>
-        <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
-          @foreach ($history['2000'] as $item)
-            <div class="font-bold text-lg">{!! $item['date'] !!}</div>
-            <p class="col-span-2">
-              {!! $item['title'] !!}
-            </p>
-          @endforeach
-        </div>
+  <div class="grid grid-cols-1 md:grid-cols-l1-h-left lg:grid-cols-l2-h-left mb-32 pt-10px gap-x-36px lg:gap-x-72px gap-y-30px">
+    @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-3', 'class' => 'w-full'])
+    <div class="historybox">
+      <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+        <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
+          2000’s
+        </span>
+      </div>
+      <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
+        @foreach ($history['2000'] as $item)
+          <div class="font-bold text-lg">{!! $item['date'] !!}</div>
+          <p class="col-span-2">
+            {!! $item['title'] !!}
+          </p>
+        @endforeach
       </div>
     </div>
   </div>
-  <div class="flex max:sm:flex-wrap sm:-mx-6 mb-32 relative pt-10px sm:pt-24">
-    <div class="w-full sm:w-1/2 sm:px-6 sm:absolute sm:right-0 sm:top-0 max:sm:mb-30px">
-      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-4'])
-    </div>
-    <div class="w-full sm:w-2/3 sm:px-6 sm:relative sm:z-10 sm:py-12 sm:pr-16 bg-white flex flex-col gap-y-24">
-      <div class="historybox">
-        <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
-          <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
-            1990’s
-          </span>
-        </div>
-        <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
-          @foreach ($history['1990'] as $item)
-            <div class="font-bold text-lg">{!! $item['date'] !!}</div>
-            <p class="col-span-2">
-              {!! $item['title'] !!}
-            </p>
-          @endforeach
-        </div>
+  <div class="grid grid-cols-1 md:grid-cols-l1-h-right lg:grid-cols-l2-h-right mb-32 pt-10px gap-x-36px lg:gap-x-72px gap-y-30px">
+    <div class="historybox order-1">
+      <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
+        <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
+          1990’s
+        </span>
+      </div>
+      <div class="grid grid-cols-3 gap-x-2 sm:gap-x-7 gap-y-4">
+        @foreach ($history['1990'] as $item)
+          <div class="font-bold text-lg">{!! $item['date'] !!}</div>
+          <p class="col-span-2">
+            {!! $item['title'] !!}
+          </p>
+        @endforeach
       </div>
     </div>
-    <div class="max:sm:hidden w-1/3 px-6"></div>
+    @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-4', 'class' => 'w-full order-0 md:order-2'])
   </div>
-  <div class="flex max:sm:flex-wrap sm:-mx-6 mb-32 relative pt-10px sm:pt-24">
-    <div class="w-full sm:w-1/2 sm:px-6 sm:absolute sm:left-0 sm:top-0 max:sm:">
-      @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-5'])
-    </div>
-    <div class="max:sm:hidden w-1/3 px-6"></div>
-    <div class="w-full sm:w-2/3 sm:px-6 sm:relative sm:z-10 sm:py-12 sm:pl-16 bg-white flex flex-col gap-y-30px sm:gap-y-24">
-      <div class="historybox">
+  <div class="grid grid-cols-1 md:grid-cols-l1-h-left lg:grid-cols-l2-h-left mb-32 pt-10px gap-x-36px lg:gap-x-72px gap-y-30px">
+    @include('partials.img', ['ex' => 'jpg', 'name' => 'sampyo-group-history-5'])
+    <div>
+      <div class="historybox mb-30px sm:mb-32">
         <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
           <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
             1980’s
@@ -121,7 +98,7 @@
           @endforeach
         </div>
       </div>
-      <div class="historybox">
+      <div class="historybox mb-30px sm:mb-32">
         <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
           <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
             1970’s
@@ -136,7 +113,7 @@
           @endforeach
         </div>
       </div>
-      <div class="historybox">
+      <div class="historybox mb-30px sm:mb-32">
         <div class="historybox__title font-bold text-40px sm:text-4xl mb-12">
           <span class="pointUnderLine " style="--bs: var(--RGB-atmosphere); --h: 0.4em">
             1960’s
