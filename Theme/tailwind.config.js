@@ -116,6 +116,12 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      gridTemplateColumns: {
+        'l1-h-left': '300px minmax(0, 1fr)',
+        'l1-h-right': 'minmax(0, 1fr) 300px',
+        'l2-h-left': '443px minmax(0, 1fr)',
+        'l2-h-right': 'minmax(0, 1fr) 443px',
+      },
     },
   },
   variants: {
