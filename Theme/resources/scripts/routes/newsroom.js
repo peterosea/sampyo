@@ -6,6 +6,9 @@ export default {
     new Swiper('.newsroom__blog-body', {
       slidesPerView: 1,
       spaceBetween: 20,
+      autoplay: {
+        delay: 5000,
+      },
       navigation: {
         nextEl: '.newsroom__blog .btn-arrow.next',
         prevEl: '.newsroom__blog .btn-arrow.prev',
@@ -22,13 +25,16 @@ export default {
       },
     });
 
-    // newsroom pin blog
+    // newsroom pin media
     new Swiper('.newsroom__media-swiper', {
       loop: true,
       preloadImages: true,
       updateOnImagesReady: true,
       touchEventsTarget: 'wrapper',
       effect: 'fade',
+      autoplay: {
+        delay: 5000,
+      },
       fadeEffect: {
         crossFade: true,
       },
