@@ -67,7 +67,7 @@
     사회공헌 활동
   </div>
   <div class="text-16px sm:text-2xl font-black underline power mb-7">인재 육성</div>
-  <div class="grid grid-cols-1 sm:grid-cols-2 mb-20px sm:mb-14 gap-y-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 mb-20px sm:mb-14 gap-y-4 gap-x-12">
     <div class="prose">
       <p>
         정인욱 학술장학재단은 삼표의 모기업인 강원산업그룹 창업주 정인욱 명예회장의  철학 - ‘기업 이윤의 사회 환원과 사회에 필요한 인재를 발굴, 육성하는 것이 기업의 사회적 책임이다’ – 을 실천하기 위해 1993년 설립되었습니다.
