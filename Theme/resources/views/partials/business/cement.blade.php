@@ -45,7 +45,7 @@
   <div class="page__level-title mb-30px sm:mb-11">
     지속가능한 미래를 위한 기술 개발
   </div>
-  <div class="grid grid-cols-1 sm:grid-cols-2 mb-30px sm:mb-20">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 mb-30px sm:mb-20">
     <div>
       <p>
         삼표시멘트 기술연구소는 시멘트 공정개선 및 생산기술 개발, 특수시멘트와 특수콘크리트 등의 차세대 건설재료 개발, 각종 고기능·고성능 신소재의 개발에 이르기까지 종합적인 연구개발 활동을 추진하여 시멘트 산업의 기술을 선도하였고, 향후 국내 건자재 분야의 선진화를 위해 신기술의 실용화에 박차를 가하고 있습니다.
