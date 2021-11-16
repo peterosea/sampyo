@@ -5,7 +5,7 @@ on:
     paths:
       - "Theme/**/*"
   push:
-    branches: [main]
+    branches: [main, develop]
     paths:
       - "Theme/**/*"
   workflow_dispatch:
@@ -55,11 +55,11 @@ jobs:
         if: ${{steps.yarn-cache.outputs.cache-hit}} != 'true'
         working-directory: ${{ env.working-directory }}
         run: |
-          cd Theme
+          cd ${{ secrets.SRC }}
           yarn install
       - name: 🔨 yarn install & build
         run: |
-          cd Theme
+          cd ${{ secrets.SRC }}
           yarn build:production
 
       - name: 📂 Sync files to Server
@@ -67,8 +67,8 @@ jobs:
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOYSERVER_KEY }}
           SERVER_PORT: ${{ secrets.DEPLOYSERVER_RSYNC_PORT }}
-          FOLDER: "./Theme/public"
-          ARGS: "-rltgoDzvO --ignore-times"
           SERVER_IP: ${{ secrets.DEPLOYSERVER_HOST }}
           USERNAME: ${{ secrets.DEPLOYSERVER_USERNAME }}
-          SERVER_DESTINATION: "/root/www/Theme"
+          FOLDER: "./${{ secrets.SRC }}/public"
+          ARGS: "-rltgoDzvO --ignore-times"
+          SERVER_DESTINATION: "${{ secrets.PROJECT_DIR }}/${{ secrets.SRC }}"
