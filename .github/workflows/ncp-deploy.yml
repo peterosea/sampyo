@@ -12,6 +12,7 @@ on:
 
 jobs:
   source:
+    if: ${{ github.event.repository.owner.name == 'peterosea' }}
     runs-on: ubuntu-latest
     name: 📮 Github 소스코드로 업데이트 `git pull origin main`
     steps:
@@ -23,13 +24,14 @@ jobs:
           username: ${{ secrets.DEPLOYSERVER_USERNAME }}
           port: ${{ secrets.DEPLOYSERVER_PORT }}
           script: |
-            cd www
+            cd ${{ secrets.PROJECT_DIR }}
             git fetch origin
             git checkout main
             git branch | grep 'release/*' | xargs git branch -D
             git pull origin main
 
   build:
+    if: ${{ github.event.repository.owner.name == 'peterosea' }}
     runs-on: ubuntu-latest
     name: 🗳 Theme source build & rsync
     steps:
