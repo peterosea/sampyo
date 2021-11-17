@@ -7,3 +7,5 @@ backup
 .wordpress
 .env
 mysql
+wp-content/**/*
+!wp-content/.gitkeep

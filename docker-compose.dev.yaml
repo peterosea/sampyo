@@ -1,28 +1,49 @@
-version: "3.8"
-
+version: '3.8'
+  
 services:
-  sampyo:
+  wordpress:
     env_file:
       - ./.env
-    container_name: WP__${PROJECT_NAME}
-    # development image
-    image: ghcr.io/hansanghyeon/wordpress-php8.0-docker-xdebug3.0:amd64
-    restart: always
-    ports:
-      - ${PROJECT_PORT}:80
+    image: ghcr.io/hansanghyeon/wordpress-redis:php8.0-apache-redis
     environment:
-      WORDPRESS_DB_HOST: workdb:3306
+      WORDPRESS_DB_HOST: DB_workdb:3306
       WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
       WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
       WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
+      WORDPRESS_CONFIG_EXTRA: |
+        /* Redis */
+        define('WP_REDIS_HOST', getenv_docker('WORDPRESS_REDIS_HOST', 'WORK-sampyo_redis'));
+        define('WP_REDIS_PORT', getenv_docker('WORDPRESS_REDIS_PORT', 6379));
+      #   define( 'WP_ENVIRONMENT_TYPE', 'development' ); // or 'development'
+      #   define( 'NIUI_HOST', 'https://tbstory.peterosea.com');
     volumes:
-      - ./.wordpress:/var/www/html
+      - wordpress:/var/www/html
+      - ./wp-content:/var/www/html/wp-content
       - ./Theme:/var/www/html/wp-content/themes/sage
-      - ./backup:/var/www/html/wp-content/ai1wm-backups
-    external_links:
-      - DB__workwp:workdb
+    deploy:
+      placement:
+        constraints:
+          - node.hostname == ${HOSTNAME}
+      labels:
+        - traefik.enable=true
+        - traefik.http.routers.work-202107__${PROJECT_NAME}.entrypoints=websecure
+        - traefik.http.routers.work-202107__${PROJECT_NAME}.rule=Host(`${PROJECT_NAME}.demo.beeclover.pro`)
+        - traefik.http.routers.work-202107__${PROJECT_NAME}.tls.certresolver=leresolver
+        - traefik.http.services.work-202107__${PROJECT_NAME}.loadbalancer.server.port=80
+  redis:
+    image: redis:latest
+    volumes:
+      - redis:/data
+    deploy:
+      placement:
+        constraints:
+          - node.hostname == ${HOSTNAME}
 
+########################### NETWORKS
 networks:
   default:
     external:
-      name: db_work
+      name: DB_work
+volumes:
+  wordpress:
+  redis:
