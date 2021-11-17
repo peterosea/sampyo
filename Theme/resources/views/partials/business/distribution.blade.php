@@ -159,17 +159,27 @@
       해상 및 철도 운송
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-50px gap-y-30px mb-30px sm:mb-70px">
-      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-distribution-9', 'class' => 'order-1 sm:order-none'])
-      @include('partials.img', ['ex' => 'jpg', 'name' => 'business-distribution-10', 'class' => 'order-3 sm:order-none'])
-      <div class="prose order-2 sm:order-none">
-        <p>
-          해안지역에 생산공장을 운영하고 있는 삼표시멘트는 전용선박 11척, 일반 화물선박 3척을 활용하여 국내 시멘트 해상 운송 시장을 선도하고 있습니다. 또한, 제철소에서 생산되는 슬래그 등을 선박을 이용해 전국에 신속하게 공급하며, 건설기초재료인 바닷모래를 채취해 수도권에 안정적인 모래 공급을 하고 있습니다.
-        </p>
+      <div>
+        <h3 class="underline power mb-30px font-bold text-24px">
+          해상운송/하역 부문
+        </h3>
+        @include('partials.img', ['ex' => 'jpg', 'name' => 'business-distribution-9', 'class' => 'mb-30px'])
+        <div class="prose">
+          <p>
+            해안지역에 생산공장을 운영하고 있는 삼표시멘트는 전용선박 11척, 일반 화물선박 3척을 활용하여 국내 시멘트 해상 운송 시장을 선도하고 있습니다. 또한, 제철소에서 생산되는 슬래그 등을 선박을 이용해 전국에 신속하게 공급하며, 건설기초재료인 바닷모래를 채취해 수도권에 안정적인 모래 공급을 하고 있습니다.
+          </p>
+        </div>
       </div>
-      <div class="prose order-4 sm:order-none">
-        <p>
-          당사는 230량의 시멘트 화차와 기관차 2대를 보유하고 있으며, 철도를 활용하여 내륙 공장인 부곡, 대전, 도안으로 시멘트를 수송하고 있습니다. 친환경 수단이면서 적기에 납품이 가능한 철도 운송은 삼표시멘트의 중요한 운송수단으로 자리 잡고 있습니다.
-        </p>
+      <div>
+        <h3 class="underline power mb-30px font-bold text-24px">
+          철도 운송 부문
+        </h3>
+        @include('partials.img', ['ex' => 'jpg', 'name' => 'business-distribution-10', 'class' => 'mb-30px'])
+        <div class="prose">
+          <p>
+            당사는 230량의 시멘트 화차와 기관차 2대를 보유하고 있으며, 철도를 활용하여 내륙 공장인 부곡, 대전, 도안으로 시멘트를 수송하고 있습니다. 친환경 수단이면서 적기에 납품이 가능한 철도 운송은 삼표시멘트의 중요한 운송수단으로 자리 잡고 있습니다.
+          </p>
+        </div>
       </div>
     </div>
   </section>
