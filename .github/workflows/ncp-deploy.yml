@@ -5,14 +5,13 @@ on:
     paths:
       - "Theme/**/*"
   push:
-    branches: [main, develop]
+    branches: [main]
     paths:
       - "Theme/**/*"
   workflow_dispatch:
 
 jobs:
   source:
-    if: ${{ github.event.repository.owner.name == 'peterosea' }}
     runs-on: ubuntu-latest
     name: 📮 Github 소스코드로 업데이트 `git pull origin main`
     steps:
@@ -31,7 +30,6 @@ jobs:
             git pull origin main
 
   build:
-    if: ${{ github.event.repository.owner.name == 'peterosea' }}
     runs-on: ubuntu-latest
     name: 🗳 Theme source build & rsync
     steps:
