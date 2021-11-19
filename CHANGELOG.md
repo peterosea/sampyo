@@ -3,6 +3,13 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.8.14] 2021-11-19
+
+### Changed
+
+- live 서버의 docker-compose 맞춤
+  - Ubuntu 18.04LTS에서 adminer가 오류를 일으킴
+
 ## [v1.8.13] 2021-11-17
 
 ### Changed
