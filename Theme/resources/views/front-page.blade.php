@@ -8,7 +8,7 @@
         @foreach ($heroSlide as $item)
           <div class="swiper-slide">
             <div class="hero-img-wrap">
-              <a href="{!! $item->guid !!}" class="hero-img-readmore">
+              <a href="{!! get_the_permalink($item->ID) !!}" class="hero-img-readmore">
                 @include('partials.img', ['ex' => 'png', 'name' => 'readmore', 'class' => 'hidden sm:block'])
                 @include('partials.img', ['ex' => 'png', 'name' => 'readmore-mobile', 'class' => 'block sm:hidden'])
               </a>
