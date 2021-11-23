@@ -223,7 +223,7 @@
           <div class="swiper-wrapper">
             @foreach ($notice_posts as $post)
               <div class="newsroom__newsletter-notice-item swiper-slide max:sm:flex-col max:sm:items-start">
-                <a href="{!! $post->guid !!}" class="newsroom__newsletter-notice-label">
+                <a href="{!! get_the_permalink($post->ID) !!}" class="newsroom__newsletter-notice-label">
                   <div class="icon-wrap max:sm:flex-col max:sm:items-start">
                     <div class="icon-notice"></div>
                     <div class="icon-label">{!! $post->post_title !!}</div>

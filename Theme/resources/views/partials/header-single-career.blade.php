@@ -97,7 +97,7 @@
             <ul class="items-block">
               @foreach ($queriedCat as $item)
                 <li class="items-block-item">
-                  <a href="{!! $item->guid !!}" @if ($item->ID === get_the_ID()) class="current" @endif>{!! $item->post_title !!}</a>
+                  <a href="{!! get_the_permalink($item->ID) !!}" @if ($item->ID === get_the_ID()) class="current" @endif>{!! $item->post_title !!}</a>
                 </li>
               @endforeach
             </ul>
