@@ -7,7 +7,7 @@
       <div class="prose mb-40px sm:mb-24 pb-1">
         <p>
           삼표는 2009년 국내 최초 대구경 생산 설비라인 구축하여 국내 주요 현장에 PHC 파일(Pile)을 공급하고 있습니다. 2011년엔 국내 최초로 초고강도(110~130MPa) PHC 파일을 개발하여 상용화하였으며, 2014년 이산화탄소 배출량을 저감한 친환경 파일 제품인 자원순환형 파일(Green Pile)을 개발하여 생산하고 있습니다. 
-또한, 2020년 PHC 탑타운공법용 파일을 개발하여 현장의 슬림화, 공기단축, 공사비 절감을 위해 노력하고 있습니다.
+또한, 2020년 PHC 탑다운공법용 파일을 개발하여 현장의 슬림화, 공기단축, 공사비 절감을 위해 노력하고 있습니다.
         </p>
       </div>
       <div class="coverbox-full-fixedHeight right py-30px sm:pt-28" style="--h: 400px">
@@ -50,13 +50,13 @@
               </div>
             </div>
             <div>
-              <div class="grid bg-white gap-y-px">
-                <div class="bg-hospitalGreen py-3 h-36 flex items-center justify-center">원스톱 토탈 솔루션 제공</div>
-                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center">고강도파일</div>
-                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center">초고강도파일</div>
-                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center">대구경파일</div>
-                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center">초고강도 대구경파일</div>
-                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center">PHC탑다운용 파일</div>
+              <div class="grid bg-white gap-y-px font-bold" style="color: #2d7232">
+                <div class="bg-hospitalGreen py-3 h-36 flex items-center justify-center text-18px">원스톱 토탈 솔루션 제공</div>
+                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center text-15px">고강도파일</div>
+                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center text-15px">초고강도파일</div>
+                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center text-15px">대구경파일</div>
+                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center text-15px">초고강도 대구경파일</div>
+                <div class="bg-kiwiSqueeze py-3 h-12 flex items-center justify-center text-15px">PHC탑다운용 파일</div>
               </div>
             </div>
           </div>

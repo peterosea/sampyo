@@ -7,10 +7,9 @@
     <input
       type="search"
       class="w-full text-20px sm:text-2xl p-20px sm:px-10 sm:py-7 border-none bg-transparent focus:ring-0 placeholder-current placeholder-opacity-50 font-light"
-      placeholder="{!! esc_attr_x('Search &hellip;', 'placeholder', 'sage') !!}"
+      placeholder="{!! esc_attr_x('뉴스룸 검색', 'placeholder', 'sage') !!}"
       value="{{ get_search_query() }}"
       name="s"
-      placeholder="검색어를 입력하세요"
     >
 
     <div class="absolute inset-y-0 right-0 pr-20px sm:pr-9 flex items-center z-20 gap-x-14px sm:gap-x-10">
@@ -40,18 +39,6 @@
                 />
             </g>
           </g>
-        </svg>
-      </button>
-      <button @click.prevent="pop_search = false" class="w-14px sm:w-28px h-14px sm:h-28px border-none focus:ring-0 outline-none focus:outline-none" >
-        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
-          <path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717
-            L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859
-            c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287
-            l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285
-            L284.286,256.002z"
-            fill="currentColor"
-            />
         </svg>
       </button>
     </div>
