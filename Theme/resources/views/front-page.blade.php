@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="section hero">
-  <div class="xl:container mx-auto px-0">
+  <div class="mx-auto px-0">
     <div class="swiper-container hero-slide">
       <div class="swiper-wrapper">
         @foreach ($heroSlide as $item)
