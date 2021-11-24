@@ -3,6 +3,15 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.8.21] 2021-11-24
+
+### Changed
+
+- beeclover/sampyo#197
+  - 개인정보 처리방침
+  - 뉴스레터 개인정보 처리방침 팝업
+
+
 ## [v1.8.20] 2021-11-24
 
 - 물류 철도이미지 변경 (beeclover/sampyo#195)
