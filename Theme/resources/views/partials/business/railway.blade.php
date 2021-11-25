@@ -13,10 +13,9 @@
       </div>
       <div class="prose">
         <p>
-          분기기 등 철도궤도용품 제작에서 시작한 삼표레일웨이는 현재 철도궤도시공, PST(Precast Slab Track) 패널 제작 및 시공, 레일연마, 시설물 유지보수사업 등 철도궤도부문 전 분야를 아우르는 종합 철도 엔지니어링 기업으로 
-          성장하였습니다.<br/>
-          앞으로도 지금까지의 성공에 안주하지 않고, 철저한 품질관리/차별화된 
-          고객 서비스/과감한 기술투자 그리고 적극적인 시장 개척을 통해 글로벌 기업으로 성장하겠습니다.
+          분기기 등 철도궤도용품 제작에서 시작한 삼표레일웨이는 현재 철도궤도시공, PST(Precast Slab Track) 패널 제작 및 시공, 레일연마, 시설물 유지보수사업 등 철도궤도부문 전 분야를 아우르는 종합 철도 엔지니어링 기업이 되었습니다.
+          <br/>
+          앞으로도 지금까지의 성공에 안주하지 않고, 철저한 품질관리/차별화된 고객 서비스/과감한 기술투자 그리고 적극적인 시장 개척을 통해 글로벌 기업으로 성장하겠습니다.
         </p>
       </div>
       <div class="coverbox-label sm:mb-12">
@@ -28,8 +27,7 @@
       <div class="coverbox-label sm:mb-12">
         @include('partials.img', ['ex' => 'jpg', 'name' => 'business-railway-1'])
         <span class="label text-white">
-          국내 최초 개발<br/>
-          사전제작형 콘크리트 슬리브 궤도(PSTS)공법
+          국내 최초 ‘사전제작형 콘크리트 슬래브궤도 시스템(PSTS)’ 공법 개발
         </span>
       </div>
     </div>
@@ -67,7 +65,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-30px sm:gap-y-16 mb-30px sm:mb-16">
       <div class="prose">
         <p>
-          삼표레일웨이는 10여년간의 노력과 투자로 콘크리트 슬래브 패널을 공장에서 사전제작하여 현장에서 시공하는 조립식 콘크리트 궤도 구조인 PSTS(Precast Slab Track System)는를 상용화했습니다. 이는 현장상황에 따라 균일한 품질확보가 어려운 현장타설 콘크리트 궤도의 단점을 극복한 것으로 국내 궤도시공 기술의 패러다임을 바꾸었습니다.
+          삼표레일웨이는 10여년간의 노력과 투자로 콘크리트 슬래브 패널을 공장에서 사전제작하여 현장에서 시공하는 조립식 콘크리트 궤도 구조인 PSTS(Precast Slab Track System)를 상용화했습니다. 이는 현장상황에 따라 균일한 품질확보가 어려운 현장타설 콘크리트 궤도의 단점을 극복한 것으로 국내 궤도시공 기술의 패러다임을 바꾸었습니다.
         </p>
       </div>
       <div class="prose">
@@ -80,7 +78,7 @@
       <div class="coverbox-label">
         @include('partials.img', ['ex' => 'jpg', 'name' => 'business-railway-3'])
         <span class="label text-white">
-          사전 제작형 콘크리트 슬리브 궤도(PSTS)
+          사전 제작형 콘크리트 슬래브 궤도 시스템(PSTS)
         </span>
       </div>
       @include('partials.img', ['ex' => 'jpg', 'name' => 'business-railway-4'])
