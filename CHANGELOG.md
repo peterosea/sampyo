@@ -3,6 +3,16 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.9.3] 2021-11-25
+
+### Changed
+
+- traefik log ignore
+
+### Added
+
+- 삼표 사이버감사실 proxy 추가
+
 ## [v1.9.2] 2021-11-25
 
 ### Fixed

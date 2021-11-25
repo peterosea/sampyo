@@ -1,0 +1,16 @@
+http:
+  routers:
+    cyberreport:
+      entryPoints:
+        - websecure
+      service: cyberreport
+      rule: Host(`www.sampyo.co.kr`) && PathPrefix(`/pages/03management`) || Host(`www.sampyo.co.kr`) && PathPrefix(`/common`)
+      tls:
+        certResolver: leresolver
+
+  services:
+    cyberreport:
+      loadBalancer:
+        servers:
+          - url: http://1.235.185.22
+        passHostHeader: true
