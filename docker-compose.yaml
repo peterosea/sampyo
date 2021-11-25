@@ -80,6 +80,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./traefik/rules:/rules
       - ./traefik/acme:/acme
+      - ./traefik/log:/log
       - ./traefik/traefik.yaml:/etc/traefik/traefik.yaml
       - ./traefik/users:/etc/traefik/users
     labels:
