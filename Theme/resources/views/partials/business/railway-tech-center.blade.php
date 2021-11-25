@@ -214,12 +214,6 @@
     <div class="page__level-title mb-10">
       신기술 및 인증
     </div>
-    <div class="py-30px sm:py-28 px-30px sm:px-16 coverbox-bg relative mb-30px sm:mb-16" style="--bg-image: url({{ get_theme_file_uri('resources/images/business-'. get_post()->post_name .'-16@3x.jpg') }})">
-      <div class="text-white text-24px sm:text-4xl relative z-10 font-black">
-        국내 최초 ‘고속철도 분기기’ 개발 및<br class="hidden sm:block" /> 
-        세계일류상품 선정
-      </div>
-    </div>
     <div class="mb-10 text-xl">
       콘크리트궤도용 열차선로 전환장치(분기기)에 적용되는 2중 탄성체결장치의 강성을 탄성패드의 접촉면적으로 조절하는 기술 (2010)
     </div>
