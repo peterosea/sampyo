@@ -20,6 +20,8 @@
       pop_search: false, 
       footerShown: false, 
       famMenuOpen: false, 
+      cybernotiModal: false, 
+      drawerMenu: false
     }"
     :class="{'relative': footerShown}"
     x-effect="bodyScrollLock(m_menu || menuHover || pop_search)"
