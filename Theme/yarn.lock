@@ -5,10 +5,10 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@alpinejs/intersect@npm:^3.4.1":
-  version: 3.4.1
-  resolution: "@alpinejs/intersect@npm:3.4.1"
-  checksum: f0ec5ed5b0b66ef8b4915c48b94cdfaef6c094423518631ea6d53f040546ec3dbd1ad33c839036b23874ca62fb89f4f4fa022cd8496fb8326f4c6afd4e364b2f
+"@alpinejs/intersect@npm:^3.5.2":
+  version: 3.5.2
+  resolution: "@alpinejs/intersect@npm:3.5.2"
+  checksum: a0138c012741d3e87f878af1dff1a354008c53f33fb49fa14d0ef8172dbea366c42f36198f02f05c8afe0a7c9cb4b2b852f921169306f25c59543baac6535593
   languageName: node
   linkType: hard
 
@@ -1794,19 +1794,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/reactivity@npm:^3.0.2":
-  version: 3.2.2
-  resolution: "@vue/reactivity@npm:3.2.2"
+"@vue/reactivity@npm:~3.1.1":
+  version: 3.1.5
+  resolution: "@vue/reactivity@npm:3.1.5"
   dependencies:
-    "@vue/shared": 3.2.2
-  checksum: 437c0c024d6fbb468c5072b7f403dc5da3c6da8b320d59b94a144a78d44492e899bc35ece58c17c7aefb99f09341d6f8f931ad2bb5c8ec0f24b565ce1a5d82b0
+    "@vue/shared": 3.1.5
+  checksum: b7dfcaa30aacd658502ce9373d4343d3607486796fbaae28d4ac4ab955cec766c8c6a34cb422965b21154b6319e467c54259cd6da2d9b2687501cd9e36f4197c
   languageName: node
   linkType: hard
 
-"@vue/shared@npm:3.2.2":
-  version: 3.2.2
-  resolution: "@vue/shared@npm:3.2.2"
-  checksum: 1cebea160e76fbe72418b7d44bc9cd1fc210bd4c6c1cb2b41836737a016b692e2666745f2662182edd53c8b9b88769318ae120dd6ef62bfbabed30848e30c5b5
+"@vue/shared@npm:3.1.5":
+  version: 3.1.5
+  resolution: "@vue/shared@npm:3.1.5"
+  checksum: a34b942e1aeed5d2b0fe887d0804061d2e799ef9a0d641aaae368c6fa9e2bf311e415f02883f26963bd35d90cac165433cfe74360f7ee88304fccaa144422d83
   languageName: node
   linkType: hard
 
@@ -2226,12 +2226,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"alpinejs@npm:^3.2.3":
-  version: 3.2.3
-  resolution: "alpinejs@npm:3.2.3"
+"alpinejs@npm:^3.5.2":
+  version: 3.5.2
+  resolution: "alpinejs@npm:3.5.2"
   dependencies:
-    "@vue/reactivity": ^3.0.2
-  checksum: 4f85bc8fccebafc75ec31c35970f0feb4ea42c86ad88f6267d7225014e569e587d3cd6dacf47a1342d48746f1ce4c55831831b486a7fa65f2b096ae79b261ce0
+    "@vue/reactivity": ~3.1.1
+  checksum: 85f5198c23c8a8a1fd97abf86079d5b60d5303408897a80b9d3700a11e4c621fe151613d07f3d6cd103fda11ba5e8b9f028d7b142dec7d5cb82c11d3bb7a0a8e
   languageName: node
   linkType: hard
 
@@ -4452,12 +4452,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dom7@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "dom7@npm:3.0.0"
+"dom7@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "dom7@npm:4.0.1"
   dependencies:
-    ssr-window: ^3.0.0-alpha.1
-  checksum: 5a1b8979ed35afb9cc6714ff048ce4599a24fd8a11069bb52a61ccae1bdc0716c2bd6b07c4338856d5664d984c0bee9f6b7616a01ffa09daaebfe02fee016e66
+    ssr-window: ^4.0.0
+  checksum: 5572cb46f25e447f3ad0bbedccb73c1a381459fab30aa3688579f52601fdc9d1c0f6b06ea84dff1aecb5f550c435f904f6b3649625cee2f141daf811f960803a
   languageName: node
   linkType: hard
 
@@ -5773,10 +5773,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gsap@npm:^3.7.1":
-  version: 3.7.1
-  resolution: "gsap@npm:3.7.1"
-  checksum: 814777067069a85b22acf3299751407c686d538ee38f993d7d537f7b01f351f442f980923c8a126cb2fb88d991d8a998932baa23fb612da98f07811f746a7809
+"gsap@npm:^3.8.0":
+  version: 3.8.0
+  resolution: "gsap@npm:3.8.0"
+  checksum: db7ca05441138e082cafb78b3fae981e2c5bd02dfa7caebd78e0a195f924822718e69475642ada42bebab6a17327acfb64b11dbeca5e955851dc2ff4896d1a8b
   languageName: node
   linkType: hard
 
@@ -10179,7 +10179,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@alpinejs/intersect": ^3.4.1
+    "@alpinejs/intersect": ^3.5.2
     "@tailwindcss/aspect-ratio": ^0.2.1
     "@tailwindcss/forms": ^0.3.3
     "@tailwindcss/typography": ^0.4.1
@@ -10187,7 +10187,7 @@ __metadata:
     "@wordpress/babel-preset-default": ^6.1.0
     "@wordpress/browserslist-config": ^4.0.0
     "@wordpress/dependency-extraction-webpack-plugin": ^3.1.3
-    alpinejs: ^3.2.3
+    alpinejs: ^3.5.2
     autoprefixer: ^10.3.7
     babel-eslint: ^10.1.0
     body-scroll-lock: ^4.0.0-beta.0
@@ -10195,7 +10195,7 @@ __metadata:
     browser-sync-webpack-plugin: ^2.3.0
     eslint: ^7.27.0
     eslint-plugin-import: ^2.23.3
-    gsap: ^3.7.1
+    gsap: ^3.8.0
     headroom.js: ^0.12.0
     import-glob: ^1.5.0
     laravel-mix: ^6.0.19
@@ -10206,7 +10206,7 @@ __metadata:
     scrollreveal: ^4.0.9
     stylelint: ^13.13.1
     stylelint-config-standard: ^22.0.0
-    swiper: ^6.8.1
+    swiper: ^7.3.1
     tailwindcss: ^2.1.2
   peerDependencies:
     jquery: ^3.5.1
@@ -10915,10 +10915,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ssr-window@npm:^3.0.0, ssr-window@npm:^3.0.0-alpha.1":
-  version: 3.0.0
-  resolution: "ssr-window@npm:3.0.0"
-  checksum: e619db7437874c89d2f4cea94ca8cbdfb4eed9f20d86fa193c29a17829c26d7ceefae344ac1699cc24ebb8d397fd0937a1043b5177a140c2504c9fda58bb5652
+"ssr-window@npm:^4.0.0, ssr-window@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "ssr-window@npm:4.0.1"
+  checksum: 177baff9535131ab8673d3a63f86e16d1890ea845c89d31cfa71e3a9e89dccf46a7f6a031c31db520f78441155b64d6e2f3c07717ab442ab9e9f7027b9171786
   languageName: node
   linkType: hard
 
@@ -11311,13 +11311,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swiper@npm:^6.8.1":
-  version: 6.8.1
-  resolution: "swiper@npm:6.8.1"
+"swiper@npm:^7.3.1":
+  version: 7.3.1
+  resolution: "swiper@npm:7.3.1"
   dependencies:
-    dom7: ^3.0.0
-    ssr-window: ^3.0.0
-  checksum: 0f02bc2dff9c585998e361eec332a17a9d4ce08345fa30c486189f5788d19318dabe10a72015890ada54b74b8c066ee1ba0d06cc831b6171b49016373e4d828f
+    dom7: ^4.0.1
+    ssr-window: ^4.0.1
+  checksum: ea024f395fdc3bdbeaa00b30a601cccafcdc5b4dddbc999b64cf0bf0c5a29ac68c03434f58a8193328960c82f7b8b8a4b14a9779027ee196ca9c5efc2a16e9c7
   languageName: node
   linkType: hard
 
