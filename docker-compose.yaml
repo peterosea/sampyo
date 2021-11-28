@@ -19,7 +19,7 @@ services:
     volumes:
       - wordpress:/var/www/html
       - ./wp-content:/var/www/html/wp-content
-      - ./Theme:/var/www/html/wp-content/themes/sage
+      - ./src:/var/www/html/wp-content/themes/sage
     labels:
       - traefik.enable=true
       ## HTTP Routers
