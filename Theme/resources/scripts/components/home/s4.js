@@ -10,7 +10,12 @@ function s4() {
   targetS4.querySelectorAll('#cardWrap').forEach((e) => {
     e.classList.add('swiper-slide');
     e.classList.remove('w-1/3');
-    // e.removeAttribute('data-scrollreveal');
+    const sal = e.querySelector('[data-sal]');
+    if (sal) {
+      sal.removeAttribute('data-sal');
+      sal.removeAttribute('data-sal-delay');
+      sal.removeAttribute('style');
+    }
   });
 
   new Swiper(targetS4, {

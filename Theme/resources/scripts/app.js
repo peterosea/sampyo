@@ -9,6 +9,8 @@ import SwiperCore, {
   Autoplay,
   Controller,
 } from 'swiper/core';
+import sal from 'sal.js';
+import 'sal.js/dist/sal.css';
 
 Alpine.plugin(intersect);
 SwiperCore.use([Navigation, Pagination, EffectFade, Autoplay, Controller]);
@@ -44,4 +46,5 @@ const routes = new Router({
 jQuery(document).ready(() => {
   routes.loadEvents();
   Alpine.start();
+  sal();
 });
