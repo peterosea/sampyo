@@ -2,9 +2,6 @@ import 'jquery';
 import Alpine from 'alpinejs';
 import { gsap, ScrollTrigger } from 'gsap/all';
 import intersect from '@alpinejs/intersect';
-
-Alpine.plugin(intersect);
-
 import SwiperCore, {
   Navigation,
   Pagination,
@@ -12,7 +9,8 @@ import SwiperCore, {
   Autoplay,
   Controller,
 } from 'swiper/core';
-import 'swiper/css/bundle';
+
+Alpine.plugin(intersect);
 SwiperCore.use([Navigation, Pagination, EffectFade, Autoplay, Controller]);
 gsap.registerPlugin(ScrollTrigger);
 

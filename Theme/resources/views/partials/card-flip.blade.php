@@ -1,4 +1,4 @@
-<div class="card-flip swiper-slide" data-scrollreveal>
+<div class="card-flip swiper-slide" data-aos="fade-up">
   <div class="card-flip-area">
     <div class="card-flip-front">
       <div class="card-flip-title">{!! $cat->name !!}</div>

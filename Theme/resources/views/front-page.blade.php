@@ -201,7 +201,7 @@
           <div id="cardWrap" class="w-1/3 flex justify-center">
             @php($post = array_shift($sustainability))
             <div class="card__s1">
-              <div data-scrollreveal class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/53.svg') }}"></div>
+              <div data-aos="fade-up" class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/53.svg') }}"></div>
               <div class="card__s1-body">
                 <div class="card__s1-title">{!! $post->post_title !!}</div>
                 <div class="card__s1-content">
@@ -226,7 +226,7 @@
           <div id="cardWrap" class="w-1/3 flex justify-center">
             @php($post = array_shift($sustainability))
             <div class="card__s1">
-              <div data-scrollreveal class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/57.svg') }}"></div>
+              <div data-aos="fade-up" class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/57.svg') }}"></div>
               <div class="card__s1-body">
                 <div class="card__s1-title">{!! $post->post_title !!}</div>
                 <div class="card__s1-content">
@@ -251,7 +251,7 @@
           <div id="cardWrap" class="w-1/3 flex justify-center">
             @php($post = array_shift($sustainability))
             <div class="card__s1">
-              <div data-scrollreveal data-sr-delay="300" class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/56.svg') }}"></div>
+              <div data-aos="fade-up" data-aos-duration="300" class="card__s1-thumbnail"><img src="{{ get_theme_file_uri('resources/images/56.svg') }}"></div>
               <div class="card__s1-body">
                 <div class="card__s1-title">{!! $post->post_title !!}</div>
                 <div class="card__s1-content">
@@ -285,7 +285,7 @@
     <div class="container mx-auto flex flex-wrap lg:block lg:mb-[150px]">
       <ul id="originalS4" class="home__s4-container hidden lg:flex relative z-10">
         @foreach ($career as $item)
-          <li data-scrollreveal id="cardWrap" class="w-1/3">
+          <li data-aos="fade-up" id="cardWrap" class="w-1/3">
             <a href="{!! $item->permalink !!}">
               <div class="card__s2">
                 <div class="card__s2-header">

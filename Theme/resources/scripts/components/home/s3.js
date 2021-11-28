@@ -10,7 +10,7 @@ function s3() {
   targetS3.querySelectorAll('#cardWrap').forEach((e) => {
     e.classList.add('swiper-slide');
     e.classList.remove('w-1/3');
-    e.querySelector('[data-scrollreveal]').removeAttribute('data-scrollreveal');
+    // e.querySelector('[data-scrollreveal]').removeAttribute('data-scrollreveal');
   });
 
   new Swiper('#swipercontainerS3', {
