@@ -1,4 +1,4 @@
-<div class="card-flip swiper-slide" data-aos="fade-up">
+<div class="card-flip swiper-slide" data-sal="slide-up" data-sal-delay="300" style="--sal-duration: 0.8s;">
   <div class="card-flip-area">
     <div class="card-flip-front">
       <div class="card-flip-title">{!! $cat->name !!}</div>
