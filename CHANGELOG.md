@@ -3,6 +3,12 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.10.0] 2021-11-26
+
+### Changed
+
+- JIT 모드 활성화 beeclover/sampyo#200
+
 ## [v1.9.6] 2021-11-26
 
 - 사이버감사실 스크롤 auto

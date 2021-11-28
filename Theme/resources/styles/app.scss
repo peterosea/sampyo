@@ -1,5 +1,4 @@
-@import 'tailwindcss/base';
-@import '~swiper/swiper-bundle.min.css';
+@tailwind base;
 
 @import 'functions/*';
 @import 'common/var';
@@ -26,5 +25,6 @@
 @import 'page/sampyo-group';
 @import 'page/search';
 
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
