@@ -10,7 +10,7 @@ function s4() {
   targetS4.querySelectorAll('#cardWrap').forEach((e) => {
     e.classList.add('swiper-slide');
     e.classList.remove('w-1/3');
-    e.removeAttribute('data-scrollreveal');
+    // e.removeAttribute('data-scrollreveal');
   });
 
   new Swiper(targetS4, {

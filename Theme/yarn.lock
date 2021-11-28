@@ -6691,22 +6691,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-dom-node-list@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "is-dom-node-list@npm:1.2.1"
-  dependencies:
-    is-dom-node: ^1.0.4
-  checksum: ce674ec53526afe7c071f134c92bd7ec98b944e4459ae82e77ba436d2e08b221aed53d8e32ce7a6c955f9aa2cf49ad619cc1b8a0a3bb996530841e8221729303
-  languageName: node
-  linkType: hard
-
-"is-dom-node@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "is-dom-node@npm:1.0.4"
-  checksum: ba6e025076ca1bbe88fdf61a9beff69a769390e5f15c426edfa24acc6e129a05a8333cfa8fa587b07f8f0ca4096780f37e10391bf89aeeaafcd63be31564a496
-  languageName: node
-  linkType: hard
-
 "is-dotfile@npm:^1.0.0":
   version: 1.0.3
   resolution: "is-dotfile@npm:1.0.3"
@@ -7960,13 +7944,6 @@ __metadata:
   dependencies:
     yallist: ^4.0.0
   checksum: 8b410b9a5bd99ceb9d63c895891d1c30511791fdc7b717da4cf9403ca2419bc57af63b8485ffdaa421ef6cff56f63ae0b2f5135f8df502d21296e8c91460ebf9
-  languageName: node
-  linkType: hard
-
-"miniraf@npm:1.0.0":
-  version: 1.0.0
-  resolution: "miniraf@npm:1.0.0"
-  checksum: b39b78165da8772ab8437c53be3e1f7782f48ed821e9e51d620b10fbaab66805b2b3ae848373024cf0dfe0266a1e62fd7d8a105e4dc6d28b21d10777ddf3eb43
   languageName: node
   linkType: hard
 
@@ -9989,13 +9966,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rematrix@npm:0.3.0":
-  version: 0.3.0
-  resolution: "rematrix@npm:0.3.0"
-  checksum: f3e8dc254e10f8cd950d0b7d6677b042644428be4ab8a940ecaf7237fbd33fc6d1e1af79fa4b6b073fe71d1e91b8df48b67d39cb0cf5a7cc1d39ee318cad5e42
-  languageName: node
-  linkType: hard
-
 "remove-trailing-separator@npm:^1.0.1":
   version: 1.1.0
   resolution: "remove-trailing-separator@npm:1.1.0"
@@ -10203,7 +10173,6 @@ __metadata:
     postcss: ^8.3.0
     sass: ^1.34.0
     sass-loader: 11.1.1
-    scrollreveal: ^4.0.9
     stylelint: ^13.13.1
     stylelint-config-standard: ^22.0.0
     swiper: ^7.3.1
@@ -10337,17 +10306,6 @@ __metadata:
     ajv: ^6.12.5
     ajv-keywords: ^3.5.2
   checksum: 56dc93b4f6abe91aa2b76b2c656610cc6d491297f4e6866340bc7b6b226b521a2969ab2498cd9e6c59eda670b730a9c8695404ca56c08643c3b95c5e174588c8
-  languageName: node
-  linkType: hard
-
-"scrollreveal@npm:^4.0.9":
-  version: 4.0.9
-  resolution: "scrollreveal@npm:4.0.9"
-  dependencies:
-    miniraf: 1.0.0
-    rematrix: 0.3.0
-    tealight: 0.3.6
-  checksum: 970f07b2e89d2c528df2836845622bd3d02aa085aa87612faa055f072cd7668c5e70627cff001bd6fb169ea1aade7f6d07d255e4488818a90b92c8127d8c3fdb
   languageName: node
   linkType: hard
 
@@ -11401,16 +11359,6 @@ __metadata:
     mkdirp: ^1.0.3
     yallist: ^4.0.0
   checksum: a04c07bb9e2d8f46776517d4618f2406fb977a74d914ad98b264fc3db0fe8224da5bec11e5f8902c5b9bcb8ace22d95fbe3c7b36b8593b7dfc8391a25898f32f
-  languageName: node
-  linkType: hard
-
-"tealight@npm:0.3.6":
-  version: 0.3.6
-  resolution: "tealight@npm:0.3.6"
-  dependencies:
-    is-dom-node: ^1.0.4
-    is-dom-node-list: ^1.2.1
-  checksum: f9262f9762b864267d52aab25c19a2f20cf438e08f11b79472fe258f19dea3e095c48c62116a39348ec69f82eae8d6bfcded84c0e188dd81020fcaf3d1657195
   languageName: node
   linkType: hard
 
