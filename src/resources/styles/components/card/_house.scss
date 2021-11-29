@@ -15,7 +15,7 @@
   @media (max-width: theme('screens.sm')) {
     --triangle: 50px;
 
-    &.max\:sm\:rootless {
+    &.m_sm\:rootless {
       clip-path: none !important;
       #{$p}-inner {
         margin-top: 0 !important;
@@ -63,13 +63,13 @@
   }
 
   @media (max-width: theme('screens.sm')) {
-    &.max\:sm\:bottom {
+    &.m_sm\:bottom {
       @include bottom;
     }
   }
 
   @media (max-width: theme('screens.lg')) {
-    &.max\:lg\:bottom {
+    &.m_lg\:bottom {
       @include bottom;
     }
   }
