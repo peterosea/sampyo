@@ -5,6 +5,14 @@
 
 ## [v1.13.0] 2021-11-28
 
+- beeclover/sampyo#202
+
+### Changed
+
+- composer update
+
+## [v1.13.0] 2021-11-28
+
 ### Changed
 
 - 테마 소스파일 이름 변경
