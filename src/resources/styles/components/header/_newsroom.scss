@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: calc(var(--header-height) + var(--bar-global-height, 0));
+    height: var(--header-height);
     margin-top: var(--bar-global-height);
     position: relative;
   }
