@@ -169,7 +169,7 @@ EOD;
         $attributes .= ! empty($item->url)        ? ' href="'   . esc_attr($item->url) .'"' : '';
         $attributes .= ' class="menu-link ' . ($depth > 0 ? 'sub-menu-link' : 'main-menu-link') . '"';
 
-        if ($depth === 0) {
+        if ($depth === 0 && strpos($class_names, 'children')) {
             $attributes .= <<<EOD
               @click.prevent="selected === $item->ID ? selected = 0 : selected = $item->ID" :class="{'active': selected === $item->ID}"
 EOD;
