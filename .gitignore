@@ -11,4 +11,3 @@ backup
 mysql
 wp-content/**/*
 !wp-content/.gitkeep
-config
