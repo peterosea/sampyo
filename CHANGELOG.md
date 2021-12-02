@@ -3,6 +3,16 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.13.7] 2021-12-02
+
+### Added
+
+- seo config 추가
+
+### Changed
+
+- 배너 링크 옵션필드로 변경
+
 ## [v1.13.6] 2021-12-01
 
 ### Changed
