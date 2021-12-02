@@ -325,7 +325,7 @@
     </div>
     <div class="container mx-auto mt-14 m_sm:px-0">
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
-        <a href="https://smart.sampyo.co.kr/main/group/introduction" target="_blank" rel="noopener noreferrer">
+        <a href="{!! get_field('info_01', 'option') !!}" target="_blank" rel="noopener noreferrer">
           <div class="card__s3 m_sm:py-[54px] m_sm:px-[30px] h-full">
             <div class="card__s3-body">
               <div class="card__s3-title text-2xl sm:text-[32px]">사업장 정보</div>
@@ -336,7 +336,7 @@
             </div>
           </div>
         </a>
-        <a href="https://smart.sampyo.co.kr/" target="_blank" rel="noopener noreferrer">
+        <a href="{!! get_field('info_02', 'option') !!}" target="_blank" rel="noopener noreferrer">
           <div class="card__s3 m_sm:py-[54px] m_sm:px-[30px] h-full">
             <div class="card__s3-body">
               <div class="card__s3-title text-2xl sm:text-[32px]">스마트오더</div>
