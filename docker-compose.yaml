@@ -5,7 +5,7 @@ services:
     env_file:
       - ./.env
     container_name: WP__${PROJECT_NAME}
-    image: ghcr.io/hansanghyeon/wordpress-redis:php8.0-apache-redis
+    image: ghcr.io/hansanghyeon/wordpress-redis
     restart: always
     environment:
       WORDPRESS_DB_HOST: db
@@ -20,6 +20,7 @@ services:
       - wordpress:/var/www/html
       - ./wp-content:/var/www/html/wp-content
       - ./src:/var/www/html/wp-content/themes/sage
+      - ./config/seo/naver441aa518f2e7c0fe40520e8943e8472b.html:/var/www/html/naver441aa518f2e7c0fe40520e8943e8472b.html
     labels:
       - traefik.enable=true
       ## HTTP Routers
@@ -78,11 +79,11 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - ./traefik/rules:/rules
-      - ./traefik/acme:/acme
-      - ./traefik/log:/log
-      - ./traefik/traefik.yaml:/etc/traefik/traefik.yaml
-      - ./traefik/users:/etc/traefik/users
+      - ./config/traefik/rules:/rules
+      - ./config/traefik/acme:/acme
+      - ./config/traefik/log:/log
+      - ./config/traefik/traefik.yaml:/etc/traefik/traefik.yaml
+      - ./config/traefik/users:/etc/traefik/users
     labels:
       - traefik.enable=true
       ## HTTP Routers
