@@ -7,8 +7,8 @@
 >
   <div class="header-global-inner">
     <a class="header-global-logo" href="{{ home_url('/') }}">
-      <img src="{!! $siteLogo !!}" alt="{{ $siteName }}" class="logoOrigin m_sm:max-h-[18px]" />
-      <img src="{!! $siteLogoWhite !!}" alt="{{ $siteName }}" class="logoWhite hidden m_sm:max-h-[18px]" />
+      <img src="{!! $siteLogo !!}" alt="{{ $siteName }}" class="logoOrigin m_sm:max-h-[18px] h-[24px]" />
+      <img src="{!! $siteLogoWhite !!}" alt="{{ $siteName }}" class="logoWhite hidden m_sm:max-h-[18px] h-[24px]" />
     </a>
     @if (has_nav_menu('primary_navigation'))
       <div
