@@ -28,6 +28,7 @@ class Archive extends Composer
         return [
             'title' => $this->title(),
             'description' => $this->description(),
+            'path' => $this->currentPagePath(),
         ];
     }
 
@@ -49,5 +50,14 @@ class Archive extends Composer
             return $post_type_data->description;
         }
         return get_the_archive_description();
+    }
+
+    public function currentPagePath()
+    {
+      if (!is_wp_error(get_post_type())) {
+        return get_post_type();
+      }
+      global $wp;
+      return $wp->request;
     }
 }
