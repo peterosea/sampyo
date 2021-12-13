@@ -1,0 +1,4 @@
+acme/**/*
+!acme/.gitkeep
+log/**/*
+!log/.gitkeep

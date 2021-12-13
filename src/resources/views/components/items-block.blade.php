@@ -1,5 +1,5 @@
 <ul class="items-block">
-  @if (!empty($terms))
+  @if (!empty($terms) && !is_wp_error($terms))
     @foreach ($terms as $term)
         <li class="items-block-item">
           @php($class = in_array($term->term_id, $current) ? 'current ' : '')
