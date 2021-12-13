@@ -1,8 +1,10 @@
 <ul class="items-block">
-  @foreach ($terms as $term)
-      <li class="items-block-item">
-        @php($class = in_array($term->term_id, $current) ? 'current ' : '')
-        <a href="{!! $link !!}{{ $term->slug }}" class="{!! $class !!}">{{ $term->name }}</a>
-      </li>
-  @endforeach
+  @if (!empty($terms))
+    @foreach ($terms as $term)
+        <li class="items-block-item">
+          @php($class = in_array($term->term_id, $current) ? 'current ' : '')
+          <a href="{!! get_term_link($term) !!}" class="{!! $class !!}">{{ $term->name }}</a>
+        </li>
+    @endforeach
+  @endif
 </ul>

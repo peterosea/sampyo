@@ -8,7 +8,7 @@
         <ul class="card-def-cat">
           @foreach ($categories as $item)
             <li class="card-def-cat-item">
-              <a href="/blog/{{ $item->slug }}">
+              <a href="{!! get_term_link($item) !!}">
                 <span>{{ $item->name }}</span>
               </a>
             </li>
