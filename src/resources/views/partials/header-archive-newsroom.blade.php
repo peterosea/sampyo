@@ -3,7 +3,7 @@
     <header class="header-archive">
       <div class="container xl:max-w-screen-xl mx-auto m_labtop:px-0 m_labtop:mb-[70px]">
         <div class="header-archive-imgRow">
-          @include('partials.img', ['ex' => 'jpg', 'name' => 'header-'.get_post_type(), 'class' => 'header-archive-img'])
+          @include('partials.img', ['ex' => 'jpg', 'name' => 'header-'.$path, 'class' => 'header-archive-img'])
         </div>
         <div class="header-archive-content m_labtop:px-8 m_labtop:w-full">
           <div x-data="select({label: '{!! $fixedMenuLabel !!}', selected: {!! $selected !!}})" class="w-full relative mb-[30px] labtop:hidden flex">
@@ -76,7 +76,7 @@
           <h1 class="header-archive-title text-[36px] sm:text-[70px] mb-[5px] sm:mb-[18px]">@if (is_archive()) {!! $title !!} @else {!! $title !!} @endif</h1>
           <span class="header-archive-description">{!! $description !!}</span>
         </div>
-        @if (get_post_type() !== 'notice-board')
+        @if ($path !== 'notice-board' || get_post_type() !== 'notice-board')
           <div class="header-archive-nav m_labtop:overflow-x-scroll overflow-hidden m_labtop:whitespace-nowrap" no-scrollbar>
             <x-Items label="{!! $category_label !!}" type="block" />
           </div>
