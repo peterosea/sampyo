@@ -46,5 +46,12 @@ const routes = new Router({
 jQuery(document).ready(() => {
   routes.loadEvents();
   Alpine.start();
-  sal();
+  const scrollAnimations = sal();
+  if (matchMedia('screen and (min-width: 1024px)').matches) {
+    // 1024px 이상에서 사용할 JavaScript
+    scrollAnimations.enable();
+  } else {
+    // 1024px 미만에서 사용할 JavaScript
+    scrollAnimations.disable();
+  }
 });

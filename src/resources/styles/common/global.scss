@@ -15,7 +15,7 @@ body {
     word-break: keep-all;
   }
 
-  #app {
+  &:not(.home) #app {
     min-height: 100vh;
     @media (min-width: theme('screens.lg')) {
       @apply grid grid-rows-[1fr,auto];
