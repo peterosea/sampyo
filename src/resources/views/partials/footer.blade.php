@@ -104,16 +104,3 @@
   </div>
   
 </footer>
-<button id="scrollTop" 
-  class="
-    m_sm:hidden sm:flex
-    fixed m_xxl:right-0 xxl:left-1/2
-    w-[90px] h-[90px] bg-blackout text-white flex-col items-center justify-center
-  "
-  :class="{'absolute bottom-72': footerShown, 'bottom-0 xxl:bottom-10': !footerShown, '-z-10': famMenuOpen, 'z-50': !famMenuOpen}"
->
-  <svg xmlns="http://www.w3.org/2000/svg" width="15.556" height="15.556" viewBox="0 0 15.556 15.556">
-    <path d="M0 10h10V0" transform="rotate(-135 7.11 6.167)" style="fill:none;stroke:#fff;stroke-width:2px"/>
-  </svg>
-  <span class="text-[20px] font-black">TOP</span>
-</button>
