@@ -20,10 +20,12 @@ services:
       - wordpress:/var/www/html
       - ./wp-content:/var/www/html/wp-content
       - ./src:/var/www/html/wp-content/themes/sage
+      - ./config/.htaccess:/var/www/html/.htaccess
     labels:
       - traefik.enable=true
       ## HTTP Routers
-      - traefik.http.routers.svc__sampyo.rule=Host(`${PROJECT_NAME}.co.kr`, `www.${PROJECT_NAME}.co.kr`)
+      - traefik.http.routers.svc__sampyo.rule=Host(`${PROJECT_NAME}.co.kr`,
+        `www.${PROJECT_NAME}.co.kr`)
       - traefik.http.routers.svc__sampyo.entrypoints=web
       - traefik.http.routers.svc__sampyo.entrypoints=websecure
       - traefik.http.routers.svc__sampyo.tls.certresolver=leresolver
@@ -94,5 +96,5 @@ services:
       - traefik.http.services.svc__traefik.loadbalancer.server.port=8080
 
 volumes:
-  wordpress:
-  redis:
+  wordpress: null
+  redis: null
