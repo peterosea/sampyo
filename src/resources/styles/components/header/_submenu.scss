@@ -287,6 +287,8 @@
   }
 
   .no-subnav {
-    display: none;
+    @media (min-width: theme('screens.lg')) {
+      display: none;
+    }
   }
 }
