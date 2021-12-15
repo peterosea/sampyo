@@ -33,22 +33,21 @@
     자원의 순환을 통해 새로운 가치를 계속 창출함으로써 지속 가능한 세상의 실현을 앞당깁니다
   </h2>
   <img
-    class="mx-auto hidden sm:block max-w-full"
+    class="mx-auto hidden sm:block xl:max-w-[980px]"
     src="{{ get_theme_file_uri('resources/images/sampyo-group-business-1.png') }}"
-    alt=""
-    usemap="#image-map"ㅁ
+    usemap="#image-map"
   >
   <map name="image-map">
-    <area alt="시멘트" title="시멘트" href="{!! get_the_permalink(166) !!}" coords="110,297,171,320" shape="rect">
-    <area alt="골재" title="골재" href="{!! get_the_permalink(163) !!}" coords="111,324,165,348" shape="0">
-    <area alt="분체" title="분체" href="{!! get_the_permalink(165) !!}" coords="112,357,164,379" shape="0">
-    <area alt="몰탈" title="몰탈" href="{!! get_the_permalink(164) !!}" coords="117,385,159,413" shape="0">
-    <area alt="레미콘" title="레미콘" href="{!! get_the_permalink(176) !!}" coords="360,293,427,318" shape="0">
-    <area alt="프리캐스트" title="프리캐스트" href="{!! get_the_permalink(178) !!}" coords="353,326,444,348" shape="0">
-    <area alt="파일" title="파일" href="{!! get_the_permalink(340) !!}" coords="369,355,420,381" shape="0">
-    <area alt="철도" title="철도" href="{!! get_the_permalink(181) !!}" coords="633,293,676,319" shape="0">
-    <area alt="물류" title="물류" href="{!! get_the_permalink(180) !!}" coords="633,325,674,351" shape="0">
-    <area alt="환경자원" title="환경자원" href="{!! get_the_permalink(174) !!}" coords="874,291,957,322" shape="0">
+    <area alt="시멘트" title="시멘트" href="{!! get_the_permalink(166) !!}" coords="89,302,170,275" shape="rect">
+    <area alt="골재" title="골재" href="{!! get_the_permalink(163) !!}" coords="93,331,172,305" shape="0">
+    <area alt="분체" title="분체" href="{!! get_the_permalink(165) !!}" coords="91,361,171,335" shape="0">
+    <area alt="몰탈" title="몰탈" href="{!! get_the_permalink(164) !!}" coords="99,386,173,361" shape="0">
+    <area alt="레미콘" title="레미콘" href="{!! get_the_permalink(176) !!}" coords="329,299,412,278" shape="0">
+    <area alt="프리캐스트" title="프리캐스트" href="{!! get_the_permalink(178) !!}" coords="285,333,458,308" shape="0">
+    <area alt="파일" title="파일" href="{!! get_the_permalink(340) !!}" coords="315,361,423,334" shape="0">
+    <area alt="철도" title="철도" href="{!! get_the_permalink(181) !!}" coords="580,304,645,280" shape="0">
+    <area alt="물류" title="물류" href="{!! get_the_permalink(180) !!}" coords="580,329,652,307" shape="0">
+    <area alt="환경자원" title="환경자원" href="{!! get_the_permalink(174) !!}" coords="800,300,898,275" shape="0">
   </map>
   @include('partials.img', ['ex' => 'png', 'name' => 'sampyo-group-business-2', 'class' => 'mx-auto block sm:hidden mb-12'])
 </div>
