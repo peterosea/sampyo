@@ -3,6 +3,12 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.13.18] 2021-12-15
+
+### Fixed
+
+- `post_max_size`에 대한 설정이 `upload_max_filesize`보다 작기 때문에 파일을 업로드하려고 할 때 몇 가지 문제가 발생할 수 있습니다.
+
 ## [v1.13.17] 2021-12-15
 
 ### Added
