@@ -5,12 +5,7 @@
         @include('partials.list-sns')
       </div>
       <div class="flex">
-        <button @click="cybernotiModal = !cybernotiModal"
-            @keydown.escape="cybernotiModal = false"
-            class="mr-12 text-white focus:ring-0 outline-none focus:outline-none">
-        사이버감사실
-      </button>
-      {!! wp_nav_menu(['menu' => 'footer', 'menu_class' => 'footer-global-nav flex flex-wrap gap-x-6 sm:gap-x-12 gap-y-4', 'echo' => false]) !!}
+        {!! wp_nav_menu(['menu' => 'footer', 'menu_class' => 'footer-global-nav flex flex-wrap gap-x-6 sm:gap-x-12 gap-y-4', 'echo' => false]) !!}
       </div>
     </div>
     <div class="w-full sm:w-auto order-1 sm:order-2">
