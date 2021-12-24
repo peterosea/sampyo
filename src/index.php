@@ -21,7 +21,6 @@
       pop_search: false, 
       footerShown: false, 
       famMenuOpen: false, 
-      cybernotiModal: false, 
       drawerMenu: false
     }"
     :class="{'relative': footerShown}"
