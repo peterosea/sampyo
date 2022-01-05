@@ -1,4 +1,4 @@
-<ul class="flex gap-6 footer-global-sns">
+<ul class="inline-flex gap-6 footer-global-sns items-center">
   <li>
     <a href="https://www.facebook.com/sampyogroup" target="_blank" rel="noopener noreferrer">
       <div class="icon-wrap">
@@ -20,7 +20,7 @@
       </div>
     </a>
   </li>
-  <li>
+  <li class="hidden lg:block">
     <a href="https://blog.naver.com/sampyopr" target="_blank" rel="noopener noreferrer">
       <div class="icon-wrap">
         <div class="icon-naverBlog"></div>
