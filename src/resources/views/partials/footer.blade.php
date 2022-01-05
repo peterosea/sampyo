@@ -1,16 +1,16 @@
-<footer id="global" class="footer-global sm:px-12 sm:py-14 bg-blackout text-white" x-data="{pop_newsletter: false}" x-intersect:enter="footerShown = true" x-intersect:leave="footerShown = false">
-  <div class="flex flex-wrap justify-between sm:mb-6 mb-[30px] gap-y-[14px]">
-    <div class="w-full sm:w-auto order-2 px-8 pt-8 sm:p-0 sm:order-1">
-      <div class="block sm:hidden mb-[21px]">
-        @include('partials.list-sns')
-      </div>
-      <div class="flex">
-        {!! wp_nav_menu(['menu' => 'footer', 'menu_class' => 'footer-global-nav flex flex-wrap gap-x-6 sm:gap-x-12 gap-y-4', 'echo' => false]) !!}
-      </div>
+<footer id="global" class="footer-global lg:px-12 lg:py-14 bg-blackout text-white" x-data="{pop_newsletter: false}" x-intersect:enter="footerShown = true" x-intersect:leave="footerShown = false">
+  <div class="grid lg:grid-rows-[auto,auto] grid-cols-[1fr,1px,1fr] lg:grid-cols-[150px,auto,auto] lg:gap-x-[88px] lg:gap-y-[24px]">
+    <div class="lg:row-span-2 relative flex items-center m_lg:order-5 m_lg:col-span-3 m_lg:mb-[35px] px-8 lg:p-0">
+      <a href="/">
+        @include('partials.img', ['ex' => 'svg', 'name' => 'footer-logo'])
+      </a>
+      <div class="hidden lg:block h-full w-px bg-dugong absolute right-[-44px] top-1/2 transform -translate-y-1/2"></div>
     </div>
-    <div class="w-full sm:w-auto order-1 sm:order-2">
-      <div class="grid grid-cols-1 sm:flex gap-px sm:gap-10 h-[60px] sm:h-auto bg-white bg-opacity-20 pb-px sm:pb-0 sm:bg-transparent">
-        {{-- <button class="w-full h-full flex items-center justify-center sm:inline bg-blackout whitespace-nowrap focus:outline-none" x-on:click.prevent="pop_newsletter = true">뉴스레터 구독신청</button> --}}
+    <div class="flex m_lg:order-6 m_lg:col-span-3 m_lg:mb-[25px] px-8 lg:p-0">
+      {!! wp_nav_menu(['menu' => 'footer', 'menu_class' => 'footer-global-nav flex flex-wrap gap-x-6 sm:gap-x-12 gap-y-4', 'echo' => false]) !!}
+    </div>
+    <div class="m_lg:order-3 self-center">
+      <div class="grid grid-cols-1 sm:flex gap-px sm:gap-10 h-[60px] sm:h-auto pb-px sm:pb-0 sm:bg-transparent">
         <div x-show="pop_newsletter"
             x-cloak
             x-transition:enter="transition ease-out duration-300"
@@ -39,10 +39,10 @@
                 <x-Newsletter border="false" title="뉴스레터 구독신청" />
             </div>
         </div>
-        <div class="relative sm:inline-block text-left w-full h-full flex items-center justify-center bg-blackout">
+        <div class="relative sm:inline-block text-left w-full h-full flex items-center md:vsitems-end justify-center bg-blackout">
           <div>
             <button  @click="onButtonClick()" @keyup.space.prevent="onButtonEnter()" @keydown.enter.prevent="onButtonEnter()" aria-expanded="true" aria-haspopup="true" x-bind:aria-expanded="open.toString()" @keydown.arrow-up.prevent="onArrowUp()" @keydown.arrow-down.prevent="onArrowDown()">
-            <button @click="famMenuOpen = !famMenuOpen" type="button" class="inline-flex justify-center w-full font-black items-center" id="menu-button" aria-expanded="true" aria-haspopup="true" style="outline: none !important">
+            <button @click="famMenuOpen = !famMenuOpen" type="button" class="inline-flex justify-center lg:justify-end w-full font-black items-center" id="menu-button" aria-expanded="true" aria-haspopup="true" style="outline: none !important">
               FAMILY SITE
               <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -82,22 +82,20 @@
             </div>
           </div>
         </div>
-        
       </div>
     </div>
-  </div>
-  <div class="flex items-center justify-between flex-wrap gap-y-[14px]">
-    <div class="w-full sm:w-auto px-8 pb-8 sm:p-0">
+    <div class="w-full sm:w-auto px-8 pb-8 lg:p-0 m_lg:order-last m_lg:col-span-3">
       {!! wp_nav_menu(['menu' => 'footer sub', 'menu_class' => 'footer-global-navSub flex-wrap gap-y-1', 'echo' => false]) !!}
       <div class="footer-global-copylight">
         © 2021 SAMPYO GROUP.  All Rights Reserved.
       </div>
     </div>
-    <div class="w-full sm:w-auto hidden sm:block">
+    <div class="justify-center lg:justify-end lg:items-end flex m_lg:order-1 m_lg:px-[30px] w-full m_lg:py-[16px]">
       @include('partials.list-sns')
     </div>
+    <div class="lg:hidden col-span-3 h-px bg-white bg-opacity-20 order-4 mb-[35px]"></div>
+    <div class="lg:hidden h-full w-px bg-white bg-opacity-20 order-2"></div>
   </div>
-  
 </footer>
 <button id="scrollTop" 
   class="
