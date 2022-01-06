@@ -1,6 +1,6 @@
 <footer id="global" class="footer-global lg:px-12 lg:py-14 bg-blackout text-white" x-data="{pop_newsletter: false}" x-intersect:enter="footerShown = true" x-intersect:leave="footerShown = false">
   <div class="grid lg:grid-rows-[auto,auto] grid-cols-[1fr,1px,1fr] lg:grid-cols-[150px,auto,auto] lg:gap-x-[88px] lg:gap-y-[24px]">
-    <div class="lg:row-span-2 relative flex items-center m_lg:order-5 m_lg:col-span-3 m_lg:mb-[35px] px-8 lg:p-0">
+    <div class="lg:row-span-2 relative flex m_lg:order-5 m_lg:col-span-3 m_lg:mb-[35px] px-8 lg:p-0">
       <a href="/">
         @include('partials.img', ['ex' => 'svg', 'name' => 'footer-logo'])
       </a>
