@@ -3,6 +3,12 @@
 이 프로젝트에서 주목할만한 모든 변경 사항이이 파일에 문서화됩니다.
 [Keep a Changelog](https://keepachangelog.com/ko/1.0.0/)의 형식을 기본으로 구성됩니다.
 
+## [v1.13.28] 2022-01-10
+
+### Changed
+
+- [연혁 내용수정 · Issue #204 · beeclover/sampyo](https://github.com/beeclover/sampyo/issues/204)
+
 ## [v1.13.27] 2022-01-06
 
 ### Chagned
