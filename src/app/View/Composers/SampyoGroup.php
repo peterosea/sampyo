@@ -139,10 +139,6 @@ class SampyoGroup extends Composer
                     "date" => "2000 . 11",
                     "title" => "철도기술연구소 설립"
                 ),
-                array(
-                    "date" => "2000 . 03",
-                    "title" => "삼표산업㈜, 정도원 대표이사 취임"
-                ),
             ],
             "1990" => [
                 array(
