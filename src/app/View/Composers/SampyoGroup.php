@@ -133,7 +133,7 @@ class SampyoGroup extends Composer
                 ),
                 array(
                     "date" => "2000 . 12",
-                    "title" => "삼표정보시스템㈜ 설립 (現 ㈜삼표 DI사업부문)"
+                    "title" => "삼표정보시스템㈜ 설립 (現 ㈜삼표 DI부문)"
                 ),
                 array(
                     "date" => "2000 . 11",
