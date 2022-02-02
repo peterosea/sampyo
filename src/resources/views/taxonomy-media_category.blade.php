@@ -7,7 +7,7 @@
     <div class="container xl:max-w-screen-xl mx-auto">
       @if (!have_posts())
         <div class="alert alert-warning">
-          {{ __('Sorry, no results were found.', 'sage') }}
+          {{ __('죄송합니다. 검색된 결과가 없습니다.', 'sage') }}
         </div>
       @endif
       <ul class="post-wrap">

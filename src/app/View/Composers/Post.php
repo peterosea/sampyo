@@ -52,7 +52,7 @@ class Post extends Composer
                 return get_the_title($home);
             }
 
-            return __('Latest Posts', 'sage');
+            return __('최근 게시물', 'sage');
         }
 
         if (is_archive()) {
@@ -62,24 +62,24 @@ class Post extends Composer
         if (is_search()) {
             return sprintf(
                 /* translators: %s is replaced with the search query */
-                __('Search Results for %s', 'sage'),
+                __('%s에 대한 검색 결과', 'sage'),
                 get_search_query()
             );
         }
 
         if (is_404()) {
-            return __('Not Found', 'sage');
+            return __('찾을 수 없음', 'sage');
         }
 
         return get_the_title();
     }
-    
+
     public function thumbnail()
     {
         $post_id = get_the_ID();
-        return !empty($thmbnail = get_the_post_thumbnail($post_id, 'post-thumbnail', array( 'class' => 'header-archive-img'))) ? $thmbnail : '';
+        return !empty($thmbnail = get_the_post_thumbnail($post_id, 'post-thumbnail', array('class' => 'header-archive-img'))) ? $thmbnail : '';
     }
-    
+
     public function permalink()
     {
         return get_permalink();
