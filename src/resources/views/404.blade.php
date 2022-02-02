@@ -6,7 +6,7 @@
     <div class="container xl:max-w-screen-xl mx-auto">
     @if (! have_posts())
       <x-alert type="warning">
-        {!! __('Sorry, but the page you are trying to view does not exist.', 'sage') !!}
+        {!! __('죄송합니다. 보려는 페이지가 존재하지 않습니다.', 'sage') !!}
       </x-alert>
 
       {!! get_search_form(false) !!}

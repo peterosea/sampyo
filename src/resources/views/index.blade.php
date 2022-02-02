@@ -5,7 +5,7 @@
 
   @if (! have_posts())
     <x-alert type="warning">
-      {!! __('Sorry, no results were found.', 'sage') !!}
+      {!! __('죄송합니다. 검색된 결과가 없습니다.', 'sage') !!}
     </x-alert>
 
     {!! get_search_form(false) !!}

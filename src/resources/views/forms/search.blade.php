@@ -1,7 +1,7 @@
 <form role="search" method="get" class="search-form w-full flex" action="{{ home_url('/') }}">
   <div class="w-full relative" >
     <span class="sr-only">
-      {{ _x('Search for:', 'label', 'sage') }}
+      {{ _x('검색:', 'label', 'sage') }}
     </span>
 
     <input
