@@ -58,10 +58,8 @@ class Modal extends Composer
             $post->content = $popup_content;
         }
 
-        $post->isTimer = false;
+        $post->visibility = true;
         if (get_field('timer_check', $post->ID)) {
-            $post->isTimer = true;
-
             $date_start = get_field('timer_start', $post->ID);
             $timer_end = get_field('timer_end', $post->ID);
 
@@ -71,8 +69,6 @@ class Modal extends Composer
 
             $post->visibility = $check;
         }
-
-
 
         $this->popup = $post;
     }
