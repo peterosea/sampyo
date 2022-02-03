@@ -1,3 +1,5 @@
+import Cookies from 'js-cookie';
+
 import header from '../components/header';
 import shrink from '../components/shrink';
 import footer from '../components/footer';
@@ -12,6 +14,7 @@ export default {
     this.containerInit();
     window.select = select;
     window.bodyScrollLock = bodyScrollLock;
+    window.Cookies = Cookies;
   },
   finalize() {},
 };
