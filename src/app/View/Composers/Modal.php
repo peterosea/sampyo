@@ -25,28 +25,29 @@ class Modal extends Composer
     public function override()
     {
         return [
-            'popup' => $this->popup,
+            'popups' => $this->popups,
+            'isPopupShowState' => $this->isPopupShowState,
+            'popupForceClose' => $this->popupForceClose,
         ];
     }
+
+    public $isPopupShowState;
+    public $popupForceClose;
 
     public function __construct()
     {
         $this->getPopup();
+
+        if (empty($this->popups)) return;
+        $this->getPopupIdList();
+        $this->isPopupShowState = implode(' || ', $this->popupIdList);
+        $this->popupForceClose = ' || ' . implode(' || ', array_map(function ($popupId) {
+            return '$event.target === document.querySelector(\'#' . $popupId . '\')';
+        }, $this->popupIdList));
     }
 
-    public $popup;
-
-    public function getPopup()
+    public function setPopup($post)
     {
-        $post = get_posts(array(
-            'post_type' => 'popup',
-            'post_status' => 'publish',
-            'numberposts' => 1,
-        ));
-        if (empty($post)) return;
-
-        $post = $post[0];
-
         $howtoinput = get_field('howtoinput', $post->ID);
         $post->isImage = false;
         if ($howtoinput == "image") {
@@ -69,7 +70,35 @@ class Modal extends Composer
 
             $post->visibility = $check;
         }
+        return $post;
+    }
 
-        $this->popup = $post;
+    public $popups;
+
+    public function getPopup()
+    {
+        $posts = get_posts(array(
+            'post_type' => 'popup',
+            'post_status' => 'publish',
+            'numberposts' => 3,
+        ));
+        if (empty($posts)) return;
+
+        $posts = array_map(function ($post) {
+            $post = $this->setPopup($post);
+            return $post;
+        }, $posts);
+
+        $this->popups = $posts;
+    }
+
+    public $popupIdList;
+    public function getPopupIdList()
+    {
+        $popupIdList = [];
+        foreach ($this->popups as $popup) {
+            array_push($popupIdList, 'popup_' . $popup->ID);
+        }
+        $this->popupIdList = $popupIdList;
     }
 }
