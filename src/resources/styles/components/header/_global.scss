@@ -125,7 +125,7 @@
     }
   }
   // 작업테스트용으로 사용
-  div.only_admin.lang_selector {
+  aside.country-selector {
     display: none;
   }
 
@@ -145,7 +145,7 @@
   @import "submenu";
 }
 body.admin-bar .header-global {
-  div.only_admin {
+  aside.country-selector {
     display: flex;
   }
 }
