@@ -4,18 +4,17 @@
       @media (min-width: theme("screens.lg")) {
         @apply text-white;
       }
-      .lang_selector {
-        a {
-          color: #fff;
-        }
-      }
       &-search {
         color: #fff;
       }
     }
   }
+  body.admin-bar .header-global {
+    aside.country-selector {
+      display: flex;
+    }
+  }
 }
-
 &-global {
   $p: &;
 
@@ -116,17 +115,30 @@
   }
 
   // 언어선택 메뉴
-  .lang_selector {
-    display: flex;
-    margin-right: 20px;
-    a {
-      font-size: 16px;
-      color: var(--black-out);
-    }
-  }
-  // 작업테스트용으로 사용
   aside.country-selector {
     display: none;
+    // display: flex;
+    margin-right: 20px;
+    background-color: transparent;
+    &.weglot-dropdown {
+      input:checked ~ ul {
+        background: transparent;
+        border: none;
+      }
+      ul {
+        display: flex;
+      }
+      .wgcurrent {
+        border: none;
+      }
+      .wgcurrent:after {
+        background: url(resources/images/ic_arrow.png) no-repeat;
+      }
+    }
+    .weglot-lang,
+    .weglot-language > a {
+      color: #fff;
+    }
   }
 
   &-search {
@@ -143,9 +155,4 @@
   }
 
   @import "submenu";
-}
-body.admin-bar .header-global {
-  aside.country-selector {
-    display: flex;
-  }
 }
