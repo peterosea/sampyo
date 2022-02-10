@@ -30,6 +30,9 @@
     @endif
     <div class="header-global-search flex items-center">
       <div id="weglot_here" class="lang_selector only_admin"></div>
+      @php
+      echo do_shortcode('[weglot_switcher]');
+      @endphp
       <button x-on:click.prevent="pop_search = true" class="focus:outline-none">
           <svg viewBox="0 0 56.966 56.966" class="w-[25px] m_sm:w-[18px]">
             <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
