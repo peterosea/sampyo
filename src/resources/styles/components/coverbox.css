@@ -1,0 +1,116 @@
+.coverbox-full, .coverbox-full-fixedHeight {
+  position: relative;
+}
+.coverbox-full > *, .coverbox-full-fixedHeight > * {
+  position: relative;
+  z-index: 2;
+}
+.coverbox-full::before, .coverbox-full-fixedHeight::before {
+  content: "";
+  display: block;
+  width: 200vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: var(--lighthouse);
+}
+@media (max-width: theme("screens.sm")) {
+  .coverbox-full.left::before, .left.coverbox-full-fixedHeight::before, .coverbox-full.right::before, .right.coverbox-full-fixedHeight::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (min-width: theme("screens.sm")) {
+  .coverbox-full.left::before, .left.coverbox-full-fixedHeight::before {
+    right: 0;
+    transform: translateX(100px);
+  }
+  .coverbox-full.right::before, .right.coverbox-full-fixedHeight::before {
+    left: 0;
+    transform: translateX(-100px);
+  }
+}
+@media (min-width: theme("screens.sm")) {
+  .coverbox-full.nonOverWidth::before, .nonOverWidth.coverbox-full-fixedHeight::before {
+    transform: none;
+  }
+}
+.coverbox-full.bg::before, .bg.coverbox-full-fixedHeight::before {
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-width: theme("screens.sm")) {
+  .coverbox-full.bg::before, .bg.coverbox-full-fixedHeight::before {
+    background-size: 100%;
+  }
+}
+@media (min-width: theme("screens.sm")) {
+  .coverbox-full-fixedHeight::before {
+    height: var(--h, 402px);
+  }
+}
+@media (max-width: theme("screens.sm")) {
+  .coverbox-full-fixedHeight.left::before, .coverbox-full-fixedHeight.right::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (min-width: theme("screens.sm")) {
+  .coverbox-full-fixedHeight.left::before {
+    right: 0;
+    transform: translateX(100px);
+  }
+  .coverbox-full-fixedHeight.right::before {
+    left: 0;
+    transform: translateX(-100px);
+  }
+}
+.coverbox-full-fixedHeight.bottom::before {
+  top: auto;
+  bottom: 0;
+}
+.coverbox-label {
+  position: relative;
+}
+.coverbox-label img {
+  width: 100%;
+}
+.coverbox-label .label {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 16px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  text-align: center;
+  min-height: 46px;
+}
+@media (min-width: theme("screens.sm")) {
+  .coverbox-label .label {
+    min-height: 70px;
+    padding: 20px 12px;
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: theme("screens.sm")) {
+  .coverbox-label .label.nonFixed {
+    position: relative;
+  }
+}
+.coverbox-label-ab {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+.coverbox-bg {
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

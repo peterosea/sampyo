@@ -1,13 +1,28 @@
 @at-root {
   body.home {
     .header-global {
-      @media (min-width: theme('screens.lg')) {
+      @media (min-width: theme("screens.lg")) {
         @apply text-white;
       }
-
+      .lang_selector {
+        a {
+          color: #fff;
+        }
+      }
       &-search {
         color: #fff;
       }
+    }
+  }
+
+  // 작업테스트용으로 사용
+  div.only_admin {
+    display: none;
+  }
+
+  body.admin-bar {
+    div.only_admin {
+      display: flex;
     }
   }
 }
@@ -18,7 +33,7 @@
   --px: 20px;
   --background-color: transparent;
 
-  @media (min-width: theme('screens.sm')) {
+  @media (min-width: theme("screens.sm")) {
     --px: 40px;
   }
 
@@ -33,7 +48,7 @@
       color: var(--black-out);
 
       &::after {
-        content: '';
+        content: "";
         display: block;
         position: absolute;
         top: 0;
@@ -58,7 +73,7 @@
   }
 
   &.menu-open::after {
-    content: '';
+    content: "";
     position: fixed;
     display: block;
     width: 100vw;
@@ -76,7 +91,7 @@
     top: 50%;
     transform: translateY(-50%);
 
-    @media (max-width: theme('screens.sm')) {
+    @media (max-width: theme("screens.sm")) {
       left: 2rem;
     }
   }
@@ -96,7 +111,7 @@
   &-menu {
     height: 100%;
 
-    @media (min-width: theme('screens.lg')) {
+    @media (min-width: theme("screens.lg")) {
       &:hover #{$p}-subnav-wrap {
         transform: translateY(0);
       }
@@ -109,6 +124,16 @@
     position: relative;
     z-index: 2;
     height: 100%;
+  }
+
+  // 언어선택 메뉴
+  .lang_selector {
+    display: flex;
+    margin-right: 20px;
+    a {
+      font-size: 16px;
+      color: var(--black-out);
+    }
   }
 
   &-search {
@@ -124,5 +149,5 @@
     }
   }
 
-  @import 'submenu';
+  @import "submenu";
 }

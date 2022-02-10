@@ -1,0 +1,43 @@
+:root {
+  /* stylelint-disable */
+  --absolute-margin-left: 0px;
+  /* stylelint-enable */
+}
+@media (min-width: theme("screens.labtop")) {
+  :root {
+    --absolute-margin-left: 125px;
+  }
+}
+
+.page__layout {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow-x: hidden;
+  font-weight: 300;
+}
+@media (min-width: theme("screens.sm")) {
+  .page__layout {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: theme("screens.lg")) {
+  .page__layout .container.xl\:max-w-screen-xl {
+    transform: translateX(var(--absolute-margin-left));
+  }
+}
+.page__level-title {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.8px;
+  line-height: 1.5;
+}
+@media (min-width: theme("screens.sm")) {
+  .page__level-title {
+    font-size: 2.5rem;
+  }
+}
+.page__level-description {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
