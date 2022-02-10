@@ -29,7 +29,6 @@
       </div>
     @endif
     <div class="header-global-search flex items-center">
-      <div id="weglot_here" class="lang_selector only_admin"></div>
       @php
       echo do_shortcode('[weglot_switcher]');
       @endphp
