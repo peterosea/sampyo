@@ -64,6 +64,12 @@
   &:hover {
     --background-color: #fff;
     @include dark;
+    aside.country-selector {
+      .weglot-lang,
+      .weglot-language > a {
+        color: #fff;
+      }
+    }
   }
 
   &.menu-open::after {
