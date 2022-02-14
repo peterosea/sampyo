@@ -1,0 +1,86 @@
+@media (max-width: theme("screens.sm")) {
+  body,
+html {
+    font-size: 14px;
+  }
+}
+
+body {
+  @apply font-sans;
+}
+body.overflow-hidden {
+  touch-action: none;
+}
+body * {
+  word-break: keep-all;
+}
+body:not(.home) #app {
+  min-height: 100vh;
+}
+@media (min-width: theme("screens.lg")) {
+  body:not(.home) #app {
+    @apply grid grid-rows-[1fr,auto];
+  }
+}
+
+[x-cloak] {
+  display: none !important;
+}
+
+[no-scrollbar]::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --container-px: 2rem;
+  --container-width: 100%;
+}
+@media (min-width: theme("screens.lg")) {
+  :root {
+    --container-px: 4rem;
+  }
+}
+@media (min-width: theme("screens.xl")) {
+  :root {
+    --container-px: 5rem;
+  }
+}
+@media (min-width: theme("screens.xxl")) {
+  :root {
+    --container-px: 7.1875rem;
+  }
+}
+@media (min-width: theme("screens.sm")) {
+  :root {
+    --container-width: 640px;
+  }
+}
+@media (min-width: theme("screens.md")) {
+  :root {
+    --container-width: 768px;
+  }
+}
+@media (min-width: theme("screens.lg")) {
+  :root {
+    --container-width: 1024px;
+  }
+}
+@media (min-width: theme("screens.xl")) {
+  :root {
+    --container-width: 1280px;
+  }
+}
+@media (min-width: theme("screens.labtop")) {
+  :root {
+    --container-width: 1440px;
+  }
+}
+@media (min-width: theme("screens.xxl")) {
+  :root {
+    --container-width: 1536px;
+  }
+}
+
+:not([data-sr-visible])[data-scrollreveal] {
+  visibility: hidden;
+}
