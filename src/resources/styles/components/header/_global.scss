@@ -128,8 +128,8 @@
 
   // 언어선택 메뉴
   aside.country-selector {
-    display: none;
-    // display: flex;
+    // display: none;
+    display: flex;
     margin-right: 30px;
     background-color: transparent;
     > ul {
